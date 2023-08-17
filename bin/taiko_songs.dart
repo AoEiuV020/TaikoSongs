@@ -3,8 +3,8 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:html/parser.dart';
 import 'package:path/path.dart' as path;
+import 'package:taiko_songs/src/parser/song_parser.dart';
 
 Future<void> main(List<String> arguments) async {
   var url =
@@ -25,34 +25,13 @@ Future<void> main(List<String> arguments) async {
     print('read html');
     body = await htmlFile.readAsString();
   }
-  var root = parse(body);
-  var tableList = root.querySelectorAll('table');
+  var parser = SongParser();
+  var songList = parser.parseSongList(body);
   var write = songFile.openWrite();
-  for (var table in tableList) {
-    var thead = table.querySelector('thead');
-    if (thead == null) {
-      continue;
-    }
-    bool skip = true;
-    for (var td in thead.querySelectorAll('tr > td')) {
-      if (td.text.trim() == '曲名') {
-        skip = false;
-      }
-    }
-    if (skip) {
-      continue;
-    }
-    var songList = table.querySelectorAll(
-        'tbody > tr > td:nth-child(2)');
-    for (var element in songList) {
-      var nameElement = element.querySelector('strong');
-      if (nameElement == null) {
-        continue;
-      }
-      var name = nameElement.text;
-      print(name);
-      write.writeln(name);
-    }
-  }
+  await songList.forEach((it) {
+    var name = it.name;
+    print(name);
+    write.writeln(name);
+  });
   await write.close();
 }
