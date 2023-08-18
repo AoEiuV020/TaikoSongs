@@ -20,14 +20,14 @@ class AndCalculator<T> extends Calculator<T> {
   }
 }
 
-class SongCalculator extends Calculator<Song> {
+class SongCalculator extends Calculator<SongItem> {
   final CalcAction action;
-  final Stream<Song> target;
+  final Stream<SongItem> target;
 
   SongCalculator(this.action, this.target);
 
   @override
-  Stream<Song> calc(Stream<Song> source) {
+  Stream<SongItem> calc(Stream<SongItem> source) {
     switch (action) {
       case CalcAction.plus:
         return plus(source);
@@ -36,22 +36,22 @@ class SongCalculator extends Calculator<Song> {
     }
   }
 
-  Stream<Song> plus(Stream<Song> source) async* {
-    Set<Song> exists = {};
-    await for (Song song in source) {
+  Stream<SongItem> plus(Stream<SongItem> source) async* {
+    Set<SongItem> exists = {};
+    await for (SongItem song in source) {
       exists.add(song);
       yield song;
     }
-    await for (Song song in target) {
+    await for (SongItem song in target) {
       if (exists.add(song)) {
         yield song;
       }
     }
   }
 
-  Stream<Song> minus(Stream<Song> source) async* {
+  Stream<SongItem> minus(Stream<SongItem> source) async* {
     var toRemoveSet = await target.toSet();
-    await for (Song song in source) {
+    await for (SongItem song in source) {
       if (!toRemoveSet.contains(song)) {
         yield song;
       }
