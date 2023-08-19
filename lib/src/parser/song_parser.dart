@@ -90,7 +90,7 @@ class SongParser {
               .map((event) => DifficultyItem(
                   DifficultyType.easy, event.item2, false, event.item1))
               .toList();
-          var song = SongItem(name, "", bpm, difficultyList);
+          var song = SongItem(name, "", "", bpm, difficultyList);
           yield song;
         }
       }

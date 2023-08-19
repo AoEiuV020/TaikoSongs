@@ -2,11 +2,12 @@ import 'difficulty.dart';
 
 class SongItem {
   final String name;
+  final String subtitle;
   final String category;
   final String bpm;
   final List<DifficultyItem> difficultyList;
 
-  SongItem(this.name, this.category, this.bpm, this.difficultyList);
+  SongItem(this.name, this.subtitle, this.category, this.bpm, this.difficultyList);
 
   @override
   bool operator ==(Object other) =>
