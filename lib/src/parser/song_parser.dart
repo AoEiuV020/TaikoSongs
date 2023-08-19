@@ -90,8 +90,10 @@ class SongParser {
             }
             var levelText = text.substring(2);
             var level = int.parse(levelText);
+            var span = td.querySelector('span');
+            var hasBranch = span != null && span.text == "譜面分岐";
             var url = a.attributes['href']!;
-            var difficulty = DifficultyItem(type, level, false, url);
+            var difficulty = DifficultyItem(type, level, hasBranch, url);
             difficultyList.add(difficulty);
           }
           var song = SongItem(name, "", "", bpm, difficultyList);
