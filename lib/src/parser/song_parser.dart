@@ -85,7 +85,7 @@ class SongParser {
               .where((event) {
                 return event.item2.startsWith('★×');
               })
-              .map((event) => event.withItem2(event.item2.substring(2, 3)))
+              .map((event) => event.withItem2(event.item2.substring(2)))
               .map((event) => Tuple2(event.item1, int.parse(event.item2)))
               .map((event) => DifficultyItem(
                   DifficultyType.easy, event.item2, false, event.item1))
