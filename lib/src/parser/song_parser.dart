@@ -10,6 +10,7 @@ class SongParser {
       if (div.className.trim() == 'navfold-container clearfix') {
         continue;
       }
+      var category = "";
       var tableList = div.querySelectorAll('table');
       for (var table in tableList) {
         var thead = table.querySelector('thead');
@@ -29,7 +30,11 @@ class SongParser {
         ];
         Map<String, int> indexMap = {};
         (1, 2, 3);
+        var mayBeCategory = "";
         for (var tr in headTrList) {
+          if (tr.children.length == 1) {
+            mayBeCategory = tr.text;
+          }
           for (var (i, td) in tr.children.indexed) {
             var text = td.text
                 .trim()
@@ -56,6 +61,7 @@ class SongParser {
         if (columnCount == -1) {
           continue;
         }
+        category = mayBeCategory;
         var songList = table.querySelectorAll('tbody > tr');
         for (var tr in songList) {
           if (tr.children.length < columnCount) {
@@ -99,7 +105,7 @@ class SongParser {
             var difficulty = DifficultyItem(type, level, hasBranch, url);
             difficultyList.add(difficulty);
           }
-          var song = SongItem(name, subtitle, "", bpm, difficultyList);
+          var song = SongItem(name, subtitle, category, bpm, difficultyList);
           yield song;
         }
       }
