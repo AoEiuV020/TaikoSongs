@@ -61,7 +61,10 @@ class SongParser {
           if (tr.children.length < columnCount) {
             continue;
           }
-          var name = tr.children[indexMap[titleList[0]]!].children[0].text;
+          var nameTd = tr.children[indexMap[titleList[0]]!];
+          var name = nameTd.children[0].text.trim();
+          var subtitleSpan = nameTd.querySelector('span');
+          var subtitle = subtitleSpan?.text.trim() ?? "";
           var bpm = tr.children[indexMap[titleList[1]]!].text;
           for (int i = 2; i < titleList.length; i++) {
             var index = indexMap[titleList[i]];
@@ -96,7 +99,7 @@ class SongParser {
             var difficulty = DifficultyItem(type, level, hasBranch, url);
             difficultyList.add(difficulty);
           }
-          var song = SongItem(name, "", "", bpm, difficultyList);
+          var song = SongItem(name, subtitle, "", bpm, difficultyList);
           yield song;
         }
       }

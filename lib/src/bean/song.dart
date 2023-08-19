@@ -10,6 +10,11 @@ class SongItem {
   SongItem(this.name, this.subtitle, this.category, this.bpm, this.difficultyList);
 
   @override
+  String toString() {
+    return '$name, subtitle: $subtitle, category: $category, bpm: $bpm, difficultyList: $difficultyList';
+  }
+
+  @override
   bool operator ==(Object other) =>
       identical(this, other) ||
       other is SongItem &&

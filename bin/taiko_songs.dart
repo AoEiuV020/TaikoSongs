@@ -30,7 +30,7 @@ Future<void> main(List<String> arguments) async {
   var write = songFile.openWrite();
   int index = 0;
   await songList.forEach((it) {
-    print("${++index} ${it.name} ${it.bpm} ${it.difficultyList}");
+    print("${++index} ${it}");
     write.writeln(it.name);
   });
   await write.close();
