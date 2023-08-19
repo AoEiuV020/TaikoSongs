@@ -65,6 +65,9 @@ class SongParser {
         var songList = table.querySelectorAll('tbody > tr');
         for (var tr in songList) {
           if (tr.children.length < columnCount) {
+            if (tr.children.length == 1) {
+              category = tr.text;
+            }
             continue;
           }
           var nameTd = tr.children[indexMap[titleList[0]]!];
