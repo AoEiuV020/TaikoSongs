@@ -1,7 +1,6 @@
 import 'package:html/parser.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/song.dart';
-import 'package:tuple/tuple.dart';
 
 class SongParser {
   Stream<SongItem> parseSongList(String doc) async* {
@@ -70,26 +69,31 @@ class SongParser {
               continue;
             }
           }
-          var difficultyList = await Stream.fromIterable(titleList.sublist(2))
-              .map((event) => indexMap[event])
-              .where((event) => event != null)
-              .map((event) => event!)
-              .where((event) {
-                return tr.children.length > event;
-              })
-              .map((event) => tr.children[event])
-              .map((event) => event.querySelector('a'))
-              .where((event) => event != null)
-              .map((event) => event!)
-              .map((event) => Tuple2(event.attributes['href']!, event.text))
-              .where((event) {
-                return event.item2.startsWith('★×');
-              })
-              .map((event) => event.withItem2(event.item2.substring(2)))
-              .map((event) => Tuple2(event.item1, int.parse(event.item2)))
-              .map((event) => DifficultyItem(
-                  DifficultyType.easy, event.item2, false, event.item1))
-              .toList();
+          List<DifficultyItem> difficultyList = [];
+          for (var (i, title) in titleList.sublist(2).indexed) {
+            var type = DifficultyType.values[i];
+            var tdIndex = indexMap[title];
+            if (tdIndex == null) {
+              continue;
+            }
+            if (tr.children.length <= tdIndex) {
+              continue;
+            }
+            var td = tr.children[tdIndex];
+            var a = td.querySelector('a');
+            if (a == null) {
+              continue;
+            }
+            var text = a.text;
+            if (!text.startsWith('★×')) {
+              continue;
+            }
+            var levelText = text.substring(2);
+            var level = int.parse(levelText);
+            var url = a.attributes['href']!;
+            var difficulty = DifficultyItem(type, level, false, url);
+            difficultyList.add(difficulty);
+          }
           var song = SongItem(name, "", "", bpm, difficultyList);
           yield song;
         }

@@ -8,8 +8,16 @@ class DifficultyItem {
 
   @override
   String toString() {
-    return '★×$level';
+    return '${difficultyTypeStringMap[type]}★×$level';
   }
+
+  static final Map<DifficultyType, String> difficultyTypeStringMap = {
+    DifficultyType.easy: "梅",
+    DifficultyType.normal: "竹",
+    DifficultyType.hard: "松",
+    DifficultyType.oni: "鬼",
+    DifficultyType.uraOni: "里鬼",
+  };
 }
 
 class Difficulty {

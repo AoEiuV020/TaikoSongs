@@ -17,7 +17,6 @@ dependencies:
     sdk: flutter
   html: ^0.15.4
   path: ^1.8.3
-  tuple: ^2.0.2
 
 dev_dependencies:
   flutter_test:
