@@ -1,9 +1,10 @@
 import 'package:html/parser.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/song.dart';
+import 'package:taiko_songs/src/parser/base.dart';
 
-class SongParser {
-  Stream<SongItem> parseSongList(String doc) async* {
+class SongParser extends Parser {
+  Stream<SongItem> parseList(String doc) async* {
     var root = parse(doc);
     var divList = root.querySelectorAll('#content > div');
     for (var div in divList) {
