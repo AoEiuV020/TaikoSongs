@@ -7,8 +7,10 @@ import 'package:logging/logging.dart';
 import 'package:path/path.dart' as path;
 
 class HtmlCache {
-  var logger = Logger('HtmlCache');
-  var folder = Directory(path.join(Directory.systemTemp.path, 'taiko_songs'));
+  final logger = Logger('HtmlCache');
+  final Directory folder;
+
+  HtmlCache(this.folder);
 
   Future<String> request(String url) async {
     await folder.create();
