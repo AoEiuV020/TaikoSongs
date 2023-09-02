@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:logging/logging.dart';
 import 'package:path/path.dart' as path;
+import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/db/data.dart';
 
@@ -26,7 +27,15 @@ class SampleItemDetailsView extends StatelessWidget {
           future: DataSource(Directory(
                   path.join(Directory.systemTemp.path, 'taiko_songs')))
               .getSongList(releaseItem)
-              .toList(),
+              .where((event) =>
+                  event.getLevelTypeDifficulty(DifficultyType.uraOni) > 0)
+              .toList()
+              .then((value) => value
+                ..sort(
+                  (a, b) =>
+                      a.getLevelTypeDifficulty(DifficultyType.uraOni) -
+                      b.getLevelTypeDifficulty(DifficultyType.uraOni),
+                )),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
@@ -43,7 +52,8 @@ class SampleItemDetailsView extends StatelessWidget {
                 final item = items[index];
 
                 return ListTile(
-                    title: Text(item.name),
+                    title: Text(
+                        "${item.name}\t ${item.category}\t ${item.bpm}\t ${item.difficultyList}"),
                     leading: const CircleAvatar(
                       // Display the Flutter Logo image asset.
                       foregroundImage:
