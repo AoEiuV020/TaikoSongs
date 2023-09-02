@@ -15,7 +15,7 @@ class SampleItemListView extends StatelessWidget {
   });
 
   static const routeName = '/';
-  final logger = Logger('DataSource');
+  final logger = Logger('SampleItemListView');
 
   @override
   Widget build(BuildContext context) {
@@ -56,10 +56,7 @@ class SampleItemListView extends StatelessWidget {
             }
             var items = snapshot.requireData;
             return ListView.builder(
-              // Providing a restorationId allows the ListView to restore the
-              // scroll position when a user leaves and returns to the app after it
-              // has been killed while running in the background.
-              restorationId: 'sampleItemListView',
+              restorationId: 'releaseList',
               itemCount: items.length,
               itemBuilder: (BuildContext context, int index) {
                 final item = items[index];
@@ -75,9 +72,10 @@ class SampleItemListView extends StatelessWidget {
                       // Navigate to the details page. If the user leaves and returns to
                       // the app after it has been killed while running in the
                       // background, the navigation stack is restored.
-                      Navigator.restorablePushNamed(
+                      Navigator.pushNamed(
                         context,
                         SampleItemDetailsView.routeName,
+                        arguments: item,
                       );
                     });
               },

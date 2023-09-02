@@ -1,4 +1,4 @@
-import 'song.dart';
+
 
 class ReleaseItem {
   final String name;
@@ -11,11 +11,4 @@ class ReleaseItem {
     var name = uri.pathSegments.last;
     return ReleaseItem(name, url);
   }
-}
-
-class Release {
-  final String name;
-  final List<SongItem> songList;
-
-  Release(this.name, this.songList);
 }
