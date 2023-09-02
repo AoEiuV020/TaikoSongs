@@ -12,10 +12,21 @@ import 'package:taiko_songs/src/parser/difficulty_parser.dart';
 import 'package:taiko_songs/src/parser/song_parser.dart';
 
 class DataSource {
+  static DataSource? _instance;
+
+  DataSource._internal(this.folder);
+
+  factory DataSource() {
+    if (_instance == null) {
+      var folder =
+          Directory(path.join(Directory.systemTemp.path, 'taiko_songs'));
+      _instance = DataSource._internal(folder);
+    }
+    return _instance!;
+  }
+
   final Directory folder;
   final logger = Logger('DataSource');
-
-  DataSource(this.folder);
 
   Stream<ReleaseItem> getReleaseList() async* {
     var collection = CollectionItem();

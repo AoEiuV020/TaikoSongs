@@ -1,8 +1,5 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-import 'package:path/path.dart' as path;
 import 'package:taiko_songs/src/db/data.dart';
 
 import '../settings/settings_view.dart';
@@ -35,10 +32,7 @@ class ReleaseListView extends StatelessWidget {
       ),
 
       body: FutureBuilder(
-          future: DataSource(Directory(
-                  path.join(Directory.systemTemp.path, 'taiko_songs')))
-              .getReleaseList()
-              .toList(),
+          future: DataSource().getReleaseList().toList(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();

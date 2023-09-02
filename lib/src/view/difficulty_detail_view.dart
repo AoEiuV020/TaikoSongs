@@ -1,8 +1,5 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-import 'package:path/path.dart' as path;
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/db/data.dart';
 
@@ -21,9 +18,7 @@ class DifficultyDetailView extends StatelessWidget {
         title: const Text('Item Details'),
       ),
       body: FutureBuilder(
-          future: DataSource(Directory(
-                  path.join(Directory.systemTemp.path, 'taiko_songs')))
-              .getDifficulty(difficultyItem),
+          future: DataSource().getDifficulty(difficultyItem),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
