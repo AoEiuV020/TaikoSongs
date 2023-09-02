@@ -3,10 +3,12 @@ import 'dart:io';
 import 'package:logging/logging.dart';
 import 'package:path/path.dart' as path;
 import 'package:taiko_songs/src/bean/collection.dart';
+import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/cache/html_cache.dart';
 import 'package:taiko_songs/src/parser/collection_parser.dart';
+import 'package:taiko_songs/src/parser/difficulty_parser.dart';
 import 'package:taiko_songs/src/parser/song_parser.dart';
 
 class DataSource {
@@ -25,7 +27,13 @@ class DataSource {
   Stream<SongItem> getSongList(ReleaseItem release) async* {
     var body = await HtmlCache(await getCacheFolder(release.name))
         .request(release.url);
-    yield* SongParser().parseList(body);
+    yield* SongParser().parseList(release.url, body);
+  }
+
+  Future<Difficulty> getDifficulty(DifficultyItem difficultyItem) async {
+    var body = await HtmlCache(await getCacheFolder('song'))
+        .request(difficultyItem.url);
+    return await DifficultyParser().parseData(difficultyItem.url, body);
   }
 
   Future<Directory> getCacheFolder(String name) async {

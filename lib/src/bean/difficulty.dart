@@ -23,10 +23,10 @@ class DifficultyItem {
 class Difficulty {
   final int level;
   final int maxCombo;
-  final String explan;
+  final String explain;
   final String chartImageUrl;
 
-  Difficulty(this.level, this.maxCombo, this.explan, this.chartImageUrl);
+  Difficulty(this.level, this.maxCombo, this.explain, this.chartImageUrl);
 }
 
 enum DifficultyType {

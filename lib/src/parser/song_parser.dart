@@ -4,7 +4,7 @@ import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/parser/base.dart';
 
 class SongParser extends Parser {
-  Stream<SongItem> parseList(String doc) async* {
+  Stream<SongItem> parseList(String baseUrl, String doc) async* {
     var root = parse(doc);
     var divList = root.querySelectorAll('#content > div');
     for (var div in divList) {
@@ -105,7 +105,7 @@ class SongParser extends Parser {
             var level = int.parse(levelText);
             var span = td.querySelector('span');
             var hasBranch = span != null && span.text == "譜面分岐";
-            var url = a.attributes['href']!;
+            var url = getAbsHref(baseUrl, a);
             var difficulty = DifficultyItem(type, level, hasBranch, url);
             difficultyMap[type] = difficulty;
           }

@@ -5,6 +5,10 @@ abstract class Parser {
     return e.attributes['href'] ?? '';
   }
 
+  String getSrc(Element e) {
+    return e.attributes['src'] ?? '';
+  }
+
   String getAbsHref(String baseUrl, Element e) {
     var relativeLink = getHref(e);
     if (relativeLink.isEmpty) {

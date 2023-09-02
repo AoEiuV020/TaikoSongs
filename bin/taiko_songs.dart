@@ -1,6 +1,7 @@
 // ignore_for_file: avoid_print
 
 import 'dart:io';
+import 'dart:math';
 
 import 'package:logging/logging.dart';
 import 'package:path/path.dart' as path;
@@ -18,9 +19,10 @@ Future<void> main(List<String> arguments) async {
   var list = data.getReleaseList();
   var release =
       await list.firstWhere((element) => element.name == '太鼓ミュージックパス');
-  var songList = data.getSongList(release);
-  int index = 0;
-  await songList.forEach((it) {
-    logger.info("${++index} ${it.toString()}");
-  });
+  var songList = await data.getSongList(release).toList();
+  var song = songList[Random().nextInt(songList.length)];
+  var difficultyItem = song.difficultyMap.values.toList().last;
+  var difficulty = await data.getDifficulty(difficultyItem);
+  print("${song.name}, $difficultyItem");
+  print(difficulty.chartImageUrl);
 }
