@@ -53,7 +53,7 @@ class SampleItemDetailsView extends StatelessWidget {
 
                 return ListTile(
                     title: Text(
-                        "${item.name}\t ${item.category}\t ${item.bpm}\t ${item.difficultyList}"),
+                        "${item.name}\t ${item.category}\t ${item.bpm}\t ${item.difficultyMap.values}"),
                     leading: const CircleAvatar(
                       // Display the Flutter Logo image asset.
                       foregroundImage:

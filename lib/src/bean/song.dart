@@ -1,5 +1,3 @@
-import 'package:collection/collection.dart';
-
 import 'difficulty.dart';
 
 class SongItem {
@@ -7,21 +5,18 @@ class SongItem {
   final String subtitle;
   final String category;
   final String bpm;
-  final List<DifficultyItem> difficultyList;
+  final Map<DifficultyType, DifficultyItem> difficultyMap;
 
   SongItem(
-      this.name, this.subtitle, this.category, this.bpm, this.difficultyList);
+      this.name, this.subtitle, this.category, this.bpm, this.difficultyMap);
 
   @override
   String toString() {
-    return '$name, subtitle: $subtitle, category: $category, bpm: $bpm, difficultyList: $difficultyList';
+    return '$name, subtitle: $subtitle, category: $category, bpm: $bpm, difficulty: ${difficultyMap.values}';
   }
 
   int getLevelTypeDifficulty(DifficultyType type) {
-    return difficultyList
-            .firstWhereOrNull((element) => element.type == type)
-            ?.level ??
-        0;
+    return difficultyMap[type]?.level ?? 0;
   }
 
   @override

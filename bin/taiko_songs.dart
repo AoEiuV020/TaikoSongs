@@ -16,12 +16,11 @@ Future<void> main(List<String> arguments) async {
   var folder = Directory(path.join(Directory.systemTemp.path, 'taiko_songs'));
   var data = DataSource(folder);
   var list = data.getReleaseList();
-  var file = File(path.join(folder.path, 'collection.txt'));
-  var write = file.openWrite();
+  var release =
+      await list.firstWhere((element) => element.name == '太鼓ミュージックパス');
+  var songList = data.getSongList(release);
   int index = 0;
-  await list.forEach((it) {
-    logger.info("${++index} ${it.name} ${it.url}");
-    write.writeln(it.name);
+  await songList.forEach((it) {
+    logger.info("${++index} ${it.toString()}");
   });
-  await write.close();
 }

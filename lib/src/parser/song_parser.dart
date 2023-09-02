@@ -82,7 +82,7 @@ class SongParser extends Parser {
               continue;
             }
           }
-          List<DifficultyItem> difficultyList = [];
+          Map<DifficultyType, DifficultyItem> difficultyMap = {};
           for (var (i, title) in titleList.sublist(2).indexed) {
             var type = DifficultyType.values[i];
             var tdIndex = indexMap[title];
@@ -107,9 +107,9 @@ class SongParser extends Parser {
             var hasBranch = span != null && span.text == "譜面分岐";
             var url = a.attributes['href']!;
             var difficulty = DifficultyItem(type, level, hasBranch, url);
-            difficultyList.add(difficulty);
+            difficultyMap[type] = difficulty;
           }
-          var song = SongItem(name, subtitle, category, bpm, difficultyList);
+          var song = SongItem(name, subtitle, category, bpm, difficultyMap);
           yield song;
         }
       }
