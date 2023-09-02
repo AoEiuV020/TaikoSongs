@@ -21,7 +21,7 @@ Future<void> main(List<String> arguments) async {
       await list.firstWhere((element) => element.name == '太鼓ミュージックパス');
   var songList = await data.getSongList(release).toList();
   var song = songList[Random().nextInt(songList.length)];
-  var difficultyItem = song.difficultyMap.values.toList().last;
+  var difficultyItem = song.difficultyMap.values.last;
   var difficulty = await data.getDifficulty(difficultyItem);
   print("${song.name}, $difficultyItem");
   print(difficulty.chartImageUrl);

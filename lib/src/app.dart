@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 
-import 'sample_feature/sample_item_details_view.dart';
-import 'sample_feature/sample_item_list_view.dart';
 import 'settings/settings_controller.dart';
 import 'settings/settings_view.dart';
+import 'view/difficulty_detail_view.dart';
+import 'view/release_list_view.dart';
+import 'view/song_list_view.dart';
 
 /// The Widget that configures your application.
 class MyApp extends StatelessWidget {
@@ -73,14 +75,17 @@ class MyApp extends StatelessWidget {
                 switch (routeSettings.name) {
                   case SettingsView.routeName:
                     return SettingsView(controller: settingsController);
-                  case SampleItemDetailsView.routeName:
-                    ReleaseItem item = routeSettings.arguments as ReleaseItem;
-                    return SampleItemDetailsView(
-                      releaseItem: item,
+                  case SongListView.routeName:
+                    return SongListView(
+                      releaseItem: routeSettings.arguments as ReleaseItem,
                     );
-                  case SampleItemListView.routeName:
+                  case DifficultyDetailView.routeName:
+                    return DifficultyDetailView(
+                      difficultyItem: routeSettings.arguments as DifficultyItem,
+                    );
+                  case ReleaseListView.routeName:
                   default:
-                    return SampleItemListView();
+                    return ReleaseListView();
                 }
               },
             );

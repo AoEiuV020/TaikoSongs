@@ -1,21 +1,20 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:logging/logging.dart';
 import 'package:path/path.dart' as path;
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/db/data.dart';
+import 'package:taiko_songs/src/view/difficulty_detail_view.dart';
 
-/// Displays detailed information about a SampleItem.
-class SampleItemDetailsView extends StatelessWidget {
-  SampleItemDetailsView({super.key, required this.releaseItem});
+class SongListView extends StatelessWidget {
+  SongListView({super.key, required this.releaseItem});
 
-  static const routeName = '/sample_item';
+  static const routeName = '/song_list';
 
   final ReleaseItem releaseItem;
-  final logger = Logger('SampleItemDetailsView');
+  final logger = Logger('SongListView');
 
   @override
   Widget build(BuildContext context) {
@@ -55,12 +54,15 @@ class SampleItemDetailsView extends StatelessWidget {
                     title: Text(
                         "${item.name}\t ${item.category}\t ${item.bpm}\t ${item.difficultyMap.values}"),
                     leading: const CircleAvatar(
-                      // Display the Flutter Logo image asset.
                       foregroundImage:
                           AssetImage('assets/images/flutter_logo.png'),
                     ),
                     onTap: () {
-                      EasyLoading.showToast(item.subtitle);
+                      Navigator.pushNamed(
+                        context,
+                        DifficultyDetailView.routeName,
+                        arguments: item.difficultyMap.values.last,
+                      );
                     });
               },
             );
