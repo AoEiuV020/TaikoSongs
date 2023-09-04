@@ -1,3 +1,5 @@
+import 'package:taiko_songs/src/parser/table.dart';
+
 class DifficultyItem {
   final DifficultyType type;
   final int level;
@@ -21,12 +23,14 @@ class DifficultyItem {
 }
 
 class Difficulty {
+  final Table table;
   final int level;
   final int maxCombo;
   final String explain;
   final String chartImageUrl;
 
-  Difficulty(this.level, this.maxCombo, this.explain, this.chartImageUrl);
+  Difficulty(
+      this.table, this.level, this.maxCombo, this.explain, this.chartImageUrl);
 }
 
 enum DifficultyType {
