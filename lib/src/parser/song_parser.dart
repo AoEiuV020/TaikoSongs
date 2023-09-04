@@ -11,88 +11,40 @@ class SongParser extends Parser {
       if (div.className.trim() == 'navfold-container clearfix') {
         continue;
       }
-      var category = "";
-      var tableList = div.querySelectorAll('table');
+      var tableList =
+          div.querySelectorAll('table').map((e) => parseTable(e)).toList();
       for (var table in tableList) {
-        var thead = table.querySelector('thead');
-        if (thead == null) {
+        var headCellList = table.head?.content;
+        if (headCellList == null) {
           continue;
         }
-        var headTrList = thead.children;
-        int columnCount = -1;
-        List<String> titleList = [
-          '曲名',
-          'BPM',
-          'かんたん',
-          'ふつう',
-          'むずかしい',
-          'おに',
-          'おに(裏)'
-        ];
-        Map<String, int> indexMap = {};
-        (1, 2, 3);
-        var mayBeCategory = "";
-        for (var tr in headTrList) {
-          if (tr.children.length == 1) {
-            mayBeCategory = tr.text;
-          }
-          for (var (i, td) in tr.children.indexed) {
-            var text = td.text
-                .trim()
-                .replaceAll(' ', '')
-                .replaceAll(' ', '')
-                .replaceAll('*1', '');
-            var titleIndex = titleList.indexOf(text);
-            if (titleIndex == -1) {
-              continue;
-            }
-            indexMap[text] = i;
-          }
-          bool skip = false;
-          for (var titleIndex in [0, 1]) {
-            if (indexMap[titleList[titleIndex]] == null) {
-              skip = true;
-            }
-          }
-          if (skip) {
+        var bpmIndex = -1;
+        for (var i = 0; i < headCellList.length; i++) {
+          if (i - 1 < 0 || i + 4 >= headCellList.length) {
+            // BPM前面是曲名， 后面是至少四个难度,
             continue;
           }
-          columnCount = indexMap.length;
+          var cell = headCellList[i];
+          if (cell.text.startsWith("BPM")) {
+            bpmIndex = i;
+            break;
+          }
         }
-        if (columnCount == -1) {
+        if (bpmIndex == -1) {
           continue;
         }
-        category = mayBeCategory;
-        var songList = table.querySelectorAll('tbody > tr');
-        for (var tr in songList) {
-          if (tr.children.length < columnCount) {
-            if (tr.children.length == 1) {
-              category = tr.text;
-            }
-            continue;
-          }
-          var nameTd = tr.children[indexMap[titleList[0]]!];
+        yield* Stream.fromIterable(table.data).map((data) {
+          var category = data.title.text;
+          var nameTd = data.getByIndex(bpmIndex - 1).ele;
           var name = nameTd.children[0].text.trim();
           var subtitleSpan = nameTd.querySelector('span');
           var subtitle = subtitleSpan?.text.trim() ?? "";
-          var bpm = tr.children[indexMap[titleList[1]]!].text;
-          for (int i = 2; i < titleList.length; i++) {
-            var index = indexMap[titleList[i]];
-            if (index == null) {
-              continue;
-            }
-          }
+          var bpm = data.getByIndex(bpmIndex).text;
           Map<DifficultyType, DifficultyItem> difficultyMap = {};
-          for (var (i, title) in titleList.sublist(2).indexed) {
+          for (var (i, cell)
+              in data.row.content.sublist(bpmIndex + 1).indexed) {
             var type = DifficultyType.values[i];
-            var tdIndex = indexMap[title];
-            if (tdIndex == null) {
-              continue;
-            }
-            if (tr.children.length <= tdIndex) {
-              continue;
-            }
-            var td = tr.children[tdIndex];
+            var td = cell.ele;
             var a = td.querySelector('a');
             if (a == null) {
               continue;
@@ -110,8 +62,8 @@ class SongParser extends Parser {
             difficultyMap[type] = difficulty;
           }
           var song = SongItem(name, subtitle, category, bpm, difficultyMap);
-          yield song;
-        }
+          return song;
+        });
       }
     }
   }

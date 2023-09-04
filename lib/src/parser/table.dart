@@ -3,7 +3,7 @@ import 'package:html/dom.dart';
 
 class Table {
   final List<TableRow> content;
-  late TableRow head = content.firstWhere((row) => !row.fullRow);
+  late TableRow? head = content.firstWhereOrNull((row) => !row.fullRow);
   late List<TableData> data = _dataInit();
 
   Table(this.content);
@@ -59,6 +59,10 @@ class Table {
 
   List<TableData> _dataInit() {
     final List<TableData> list = [];
+    TableRow? head = this.head;
+    if (head == null) {
+      return list;
+    }
     late TableCell title;
     for (int i = 0; i < content.length; i++) {
       var row = content[i];
@@ -90,8 +94,12 @@ class TableData {
 
   TableData(this.title, this.row, this.indexMap);
 
-  TableCell get(String key) {
+  TableCell getByName(String key) {
     return row.content[indexMap[key]!];
+  }
+
+  TableCell getByIndex(int index) {
+    return row.content[index];
   }
 }
 
@@ -119,8 +127,8 @@ class TableRow {
 class TableCell {
   final int colSpan;
   final int rowSpan;
-  final Element td;
-  late String text = td.text.trim().replaceAll(' ', '').replaceAll(' ', '');
+  final Element ele; // td or th,
+  late String text = ele.text.trim().replaceAll(' ', '').replaceAll(' ', '');
 
-  TableCell(this.td, {this.colSpan = 1, this.rowSpan = 1});
+  TableCell(this.ele, {this.colSpan = 1, this.rowSpan = 1});
 }

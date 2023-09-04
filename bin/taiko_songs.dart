@@ -15,14 +15,7 @@ Future<void> main(List<String> arguments) async {
   var release =
       await list.firstWhere((element) => element.name == '太鼓ミュージックパス');
   var songList = await data.getSongList(release).toList();
-  var song = songList[0];
-  var difficultyItem = song.difficultyMap.values.last;
-  var difficulty = await data.getDifficulty(difficultyItem);
-  print("${song.name}, $difficultyItem");
-  print(difficulty.chartImageUrl);
-  var table = difficulty.table;
-  for (var data in table.data) {
-    print("title: ${data.title.text}");
-    print(data.indexMap.map((key, value) => MapEntry(key, data.get(key).text)));
+  for (var song in songList) {
+    print("${song.name}, ${song.difficultyMap.values}");
   }
 }
