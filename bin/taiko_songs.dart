@@ -12,8 +12,8 @@ Future<void> main(List<String> arguments) async {
   });
   var data = DataSource();
   var list = data.getReleaseList();
-  var release =
-      await list.firstWhere((element) => element.name == '太鼓ミュージックパス');
+  var release = await list
+      .firstWhere((element) => element.name == '太鼓の達人 ドコドン！ミステリーアドベンチャー（3DS3）');
   var songList = await data.getSongList(release).toList();
   for (var song in songList) {
     print("${song.name}, ${song.difficultyMap.values}");

@@ -8,6 +8,11 @@ class DifficultyItem {
 
   DifficultyItem(this.type, this.level, this.hasBranch, this.url);
 
+  factory DifficultyItem.uraOni(DifficultyItem item) {
+    return DifficultyItem(
+        DifficultyType.uraOni, item.level, item.hasBranch, item.url);
+  }
+
   @override
   String toString() {
     return '${difficultyTypeStringMap[type]}★×$level${hasBranch ? '※' : ''}';

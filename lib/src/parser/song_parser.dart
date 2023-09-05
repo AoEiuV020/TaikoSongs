@@ -33,7 +33,8 @@ class SongParser extends Parser {
         if (bpmIndex == -1) {
           continue;
         }
-        yield* Stream.fromIterable(table.data).map((data) {
+        SongItem? previous;
+        for (var data in table.data) {
           var category = data.title.text;
           var nameTd = data.getByIndex(bpmIndex - 1).ele;
           var name = nameTd.children[0].text.trim();
@@ -62,8 +63,17 @@ class SongParser extends Parser {
             difficultyMap[type] = difficulty;
           }
           var song = SongItem(name, subtitle, category, bpm, difficultyMap);
-          return song;
-        });
+          if (previous != null) {
+            if (name == previous.name ||
+                (name.startsWith(previous.name) && name.endsWith('(裏)'))) {
+              previous.difficultyMap[DifficultyType.uraOni] =
+                  DifficultyItem.uraOni(difficultyMap[DifficultyType.oni]!);
+              continue;
+            }
+          }
+          previous = song;
+          yield song;
+        }
       }
     }
   }
