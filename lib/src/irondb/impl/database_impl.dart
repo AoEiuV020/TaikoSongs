@@ -3,26 +3,31 @@ import 'dart:io';
 
 import 'package:path/path.dart' as path;
 import 'package:taiko_songs/src/irondb/database.dart';
+import 'package:taiko_songs/src/irondb/impl/serialize_impl.dart';
+
+import '../serialize.dart';
 
 class DatabaseImpl implements Database {
   final Directory folder;
+  final KeySerializer keySerializer;
 
-  DatabaseImpl._(this.folder);
+  DatabaseImpl._(this.folder, this.keySerializer);
 
-  factory DatabaseImpl(String? base) {
+  factory DatabaseImpl(String? base, KeySerializer? keySerializer) {
     base ??= path.join(Directory.systemTemp.path, 'IronDB');
-    return DatabaseImpl._(Directory(base));
+    keySerializer ??= ReplaceFileSeparator();
+    return DatabaseImpl._(Directory(base), keySerializer);
   }
 
   @override
-  Future<Database> sub(String table) async {
+  Database sub(String table) {
     final base = path.join(folder.path, table);
-    return DatabaseImpl(base);
+    return DatabaseImpl(base, keySerializer);
   }
 
   @override
-  Future<T?> read<T>(String key) async {
-    final file = File(path.join(folder.path, key));
+  Future<dynamic> read(String key) async {
+    final file = File(path.join(folder.path, keySerializer.serialize(key)));
     if (!await file.exists()) {
       return null;
     }
@@ -31,9 +36,9 @@ class DatabaseImpl implements Database {
   }
 
   @override
-  Future<void> write<T>(String key, T? value) async {
+  Future<void> write(String key, dynamic value) async {
     await folder.create(recursive: true);
-    final file = File(path.join(folder.path, key));
+    final file = File(path.join(folder.path, keySerializer.serialize(key)));
     await file.writeAsString(jsonEncode(value));
   }
 

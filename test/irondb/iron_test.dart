@@ -8,13 +8,13 @@ void main() {
   Iron.init(base: path.join(Directory.systemTemp.path, 'IronDBTest'));
   group('IronDB', () {
     test('string', () async {
-      final db = await Iron.db.sub('string');
+      final db = Iron.db.sub('string');
       await db.write('key', 'value');
       final value = await db.read('key');
       expect(value, 'value');
     });
     test('num', () async {
-      final db = await Iron.db.sub('num');
+      final db = Iron.db.sub('num');
       await db.write('int', 888);
       await db.write('double', 888.88);
       int vInt = await db.read('int');
@@ -23,10 +23,17 @@ void main() {
       expect(vDouble, 888.88);
     });
     test('list', () async {
-      final db = await Iron.db.sub('list');
+      final db = Iron.db.sub('list');
       await db.write('list', [8, 88, 888]);
       List<int> list = List<int>.from(await db.read('list'));
       expect(list, [8, 88, 888]);
+    });
+    test('KeySerializer', () async {
+      final db = Iron.db.sub('key');
+      const key = r'compileRegex("[/\\:|=?\";\\[\\],^]")';
+      await db.write(key, 'test');
+      final value = await db.read(key);
+      expect(value, 'test');
     });
   });
 }

@@ -1,8 +1,9 @@
-import 'package:taiko_songs/src/irondb/database.dart';
-import 'package:taiko_songs/src/irondb/impl/iron_impl.dart';
+import 'database.dart';
+import 'impl/iron_impl.dart';
+import 'serialize.dart';
 
 abstract interface class IronInterface {
-  void init({String? base});
+  void init({String? base, KeySerializer? keySerializer});
 
   Database get db;
 }
