@@ -1,16 +1,17 @@
 import 'package:taiko_songs/src/parser/table.dart';
 
 class DifficultyItem {
+  final String name;
   final DifficultyType type;
   final int level;
   final bool hasBranch;
   final String url;
 
-  DifficultyItem(this.type, this.level, this.hasBranch, this.url);
+  DifficultyItem(this.name, this.type, this.level, this.hasBranch, this.url);
 
   factory DifficultyItem.uraOni(DifficultyItem item) {
     return DifficultyItem(
-        DifficultyType.uraOni, item.level, item.hasBranch, item.url);
+        item.name, DifficultyType.uraOni, item.level, item.hasBranch, item.url);
   }
 
   @override

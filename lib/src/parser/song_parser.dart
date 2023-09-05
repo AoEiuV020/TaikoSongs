@@ -59,7 +59,7 @@ class SongParser extends Parser {
             var span = td.querySelector('span');
             var hasBranch = span != null && span.text == "譜面分岐";
             var url = getAbsHref(baseUrl, a);
-            var difficulty = DifficultyItem(type, level, hasBranch, url);
+            var difficulty = DifficultyItem(name, type, level, hasBranch, url);
             difficultyMap[type] = difficulty;
           }
           var song = SongItem(name, subtitle, category, bpm, difficultyMap);
