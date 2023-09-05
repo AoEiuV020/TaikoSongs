@@ -22,14 +22,12 @@ class SongListView extends StatelessWidget {
       body: FutureBuilder(
           future: DataSource()
               .getSongList(releaseItem)
-              .where((event) =>
-                  event.getLevelTypeDifficulty(DifficultyType.uraOni) > 0)
               .toList()
               .then((value) => value
                 ..sort(
                   (a, b) =>
-                      a.getLevelTypeDifficulty(DifficultyType.uraOni) -
-                      b.getLevelTypeDifficulty(DifficultyType.uraOni),
+                      a.getLevelTypeDifficulty(DifficultyType.oni) -
+                      b.getLevelTypeDifficulty(DifficultyType.oni),
                 )),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
