@@ -9,9 +9,33 @@ void main() {
   group('IronDB', () {
     test('string', () async {
       final db = Iron.db.sub('string');
-      await db.write('key', 'value');
-      final value = await db.read('key');
+      String? value = 'value';
+      // 这里参数可空非空里面都能识别到String,
+      await db.write('key', value);
+      // 这里必须指定<String>，巨坑，
+      value = await db.read<String>('key');
       expect(value, 'value');
+
+      String? value2 = await db.read('key');
+      expect(value2, 'value');
+
+      String value3 = 'value';
+      // 这里参数可空非空里面都能识别到String,
+      await db.write('key', value3);
+      value3 = (await db.read<String>('key'))!;
+      expect(value3, 'value');
+
+      dynamic dValue = 'dValue';
+      // 这里dynamic传入不会被识别到String,
+      await db.write('dKey', dValue);
+      // 这里必须是可空的String?里面才能识别到String,
+      String? sValue = await db.read('dKey');
+      expect(sValue, '"dValue"');
+      String nValue = await db.read('dKey');
+      expect(nValue, 'dValue');
+
+      final sValue2 = await db.read<String>('dKey');
+      expect(sValue2, '"dValue"');
     });
     test('num', () async {
       final db = Iron.db.sub('num');

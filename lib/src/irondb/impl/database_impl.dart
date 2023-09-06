@@ -26,21 +26,28 @@ class DatabaseImpl extends Database {
   }
 
   @override
-  Future<dynamic> read(String key) async {
+  Future<T?> read<T>(String key) async {
     final file = File(path.join(folder.path, keySerializer.serialize(key)));
     if (!await file.exists()) {
       return null;
+    }
+    if (T == String) {
+      return await file.readAsString() as T;
     }
     final str = await file.readAsString();
     return jsonDecode(str);
   }
 
   @override
-  Future<void> write(String key, dynamic value) async {
+  Future<void> write<T>(String key, T? value) async {
     await folder.create(recursive: true);
     final file = File(path.join(folder.path, keySerializer.serialize(key)));
     if (value == null) {
       await file.delete();
+      return;
+    }
+    if (T == String) {
+      await file.writeAsString(value as String);
       return;
     }
     await file.writeAsString(jsonEncode(value));

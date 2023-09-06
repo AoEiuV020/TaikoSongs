@@ -16,7 +16,7 @@ class HtmlCache {
       Database db, String url, bool refresh, bool cacheOnly) async {
     String? body;
     if (!refresh) {
-      body = await db.readString(url);
+      body = await db.read(url);
     }
     if (body == null || body.isEmpty) {
       if (!refresh && cacheOnly) {
@@ -24,8 +24,9 @@ class HtmlCache {
       }
       logger.info('download html: $url');
       final options = Options();
-      final etag = await db.readString('$url.etag');
+      final String? etag = await db.read('$url.etag');
       if (etag != null && etag.isNotEmpty) {
+        logger.info('etag exists: $etag');
         options.headers = {
           HttpHeaders.ifNoneMatchHeader: etag,
         };
@@ -37,7 +38,7 @@ class HtmlCache {
       if (res.statusCode == 304) {
         if (refresh) {
           logger.info('not modified: $url');
-          body = await db.readString(url);
+          body = await db.read(url);
           return body!;
         }
         throw StateError('cache not found: $url');
@@ -46,10 +47,10 @@ class HtmlCache {
         throw StateError('http failed: ${res.statusCode}-${res.statusMessage}');
       }
       body = res.data!;
-      await db.writeString(url, body);
-      final resEtag = res.headers.value(HttpHeaders.etagHeader);
+      await db.write(url, body);
+      final String? resEtag = res.headers.value(HttpHeaders.etagHeader);
       if (resEtag != null && resEtag.isNotEmpty) {
-        await db.writeString('$url.etag', resEtag);
+        await db.write('$url.etag', resEtag);
       }
     } else {
       logger.info('read cache html: $url');
