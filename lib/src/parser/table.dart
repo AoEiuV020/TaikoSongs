@@ -117,7 +117,8 @@ class TableRow {
     final Map<String, int> map = {};
     for (int i = 0; i < content.length; i++) {
       var headTd = content[i];
-      var name = headTd.text;
+      // 表头可能包含换行和空格，这里这里都是不需要的,
+      var name = headTd.text.replaceAll(' ', '');
       map.putIfAbsent(name, () => i);
     }
     return map;
@@ -128,7 +129,7 @@ class TableCell {
   final int colSpan;
   final int rowSpan;
   final Element ele; // td or th,
-  late String text = ele.text.trim().replaceAll(' ', '').replaceAll(' ', '');
+  late String text = ele.text.trim().replaceAll(' ', ' ');
 
   TableCell(this.ele, {this.colSpan = 1, this.rowSpan = 1});
 }
