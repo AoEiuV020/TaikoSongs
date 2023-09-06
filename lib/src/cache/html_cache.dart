@@ -5,9 +5,16 @@ import 'package:taiko_songs/src/irondb/database.dart';
 class HtmlCache {
   final logger = Logger('HtmlCache');
 
-  Future<String> request(Database db, String url) async {
-    String? body = await db.read(url);
+  Future<String> request(
+      Database db, String url, bool refresh, bool cacheOnly) async {
+    String? body;
+    if (!refresh) {
+      body = await db.read(url);
+    }
     if (body == null || body.isEmpty) {
+      if (!refresh && cacheOnly) {
+        throw StateError("no cache: $url");
+      }
       logger.info('download html: $url');
       var dio = Dio();
       var res = await dio.get(url);

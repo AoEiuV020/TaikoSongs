@@ -24,21 +24,25 @@ class DataSource {
   final HtmlCache htmlCache = HtmlCache();
   final logger = Logger('DataSource');
 
-  Stream<ReleaseItem> getReleaseList() async* {
+  Stream<ReleaseItem> getReleaseList(
+      {bool refresh = false, bool cacheOnly = false}) async* {
     var collection = CollectionItem();
-    var body = await htmlCache.request(db.sub('collection'), collection.url);
+    var body = await htmlCache.request(
+        db.sub('collection'), collection.url, refresh, cacheOnly);
     yield* CollectionParser().parseList(collection.url, body);
   }
 
-  Stream<SongItem> getSongList(ReleaseItem release) async* {
+  Stream<SongItem> getSongList(ReleaseItem release,
+      {bool refresh = false, bool cacheOnly = false}) async* {
     var body = await htmlCache.request(
-        db.sub('release').sub(release.name), release.url);
+        db.sub('release').sub(release.name), release.url, refresh, cacheOnly);
     yield* SongParser().parseList(release.url, body);
   }
 
-  Future<Difficulty> getDifficulty(DifficultyItem difficultyItem) async {
-    var body = await htmlCache.request(
-        db.sub('song').sub(difficultyItem.name), difficultyItem.url);
+  Future<Difficulty> getDifficulty(DifficultyItem difficultyItem,
+      {bool refresh = false, bool cacheOnly = false}) async {
+    var body = await htmlCache.request(db.sub('song').sub(difficultyItem.name),
+        difficultyItem.url, refresh, cacheOnly);
     return await DifficultyParser().parseData(difficultyItem.url, body);
   }
 }
