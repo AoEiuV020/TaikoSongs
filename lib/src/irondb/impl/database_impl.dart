@@ -7,7 +7,7 @@ import 'package:taiko_songs/src/irondb/impl/serialize_impl.dart';
 
 import '../serialize.dart';
 
-class DatabaseImpl implements Database {
+class DatabaseImpl extends Database {
   final Directory folder;
   final KeySerializer keySerializer;
 
@@ -39,6 +39,10 @@ class DatabaseImpl implements Database {
   Future<void> write(String key, dynamic value) async {
     await folder.create(recursive: true);
     final file = File(path.join(folder.path, keySerializer.serialize(key)));
+    if (value == null) {
+      await file.delete();
+      return;
+    }
     await file.writeAsString(jsonEncode(value));
   }
 
