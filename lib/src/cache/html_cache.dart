@@ -4,11 +4,8 @@ import 'package:taiko_songs/src/irondb/database.dart';
 
 class HtmlCache {
   final logger = Logger('HtmlCache');
-  final Database db;
 
-  HtmlCache(this.db);
-
-  Future<String> request(String url) async {
+  Future<String> request(Database db, String url) async {
     String? body = await db.read(url);
     if (body == null || body.isEmpty) {
       logger.info('download html: $url');
@@ -19,6 +16,8 @@ class HtmlCache {
       }
       body = res.data!;
       await db.write(url, body);
+    } else {
+      logger.info('read cache html: $url');
     }
     return body!;
   }

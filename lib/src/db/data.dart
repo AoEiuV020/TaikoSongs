@@ -21,21 +21,24 @@ class DataSource {
   }
 
   final Database db;
+  final HtmlCache htmlCache = HtmlCache();
   final logger = Logger('DataSource');
 
   Stream<ReleaseItem> getReleaseList() async* {
     var collection = CollectionItem();
-    var body = await HtmlCache(db.sub('collection')).request(collection.url);
+    var body = await htmlCache.request(db.sub('collection'), collection.url);
     yield* CollectionParser().parseList(collection.url, body);
   }
 
   Stream<SongItem> getSongList(ReleaseItem release) async* {
-    var body = await HtmlCache(db.sub(release.name)).request(release.url);
+    var body = await htmlCache.request(
+        db.sub('release').sub(release.name), release.url);
     yield* SongParser().parseList(release.url, body);
   }
 
   Future<Difficulty> getDifficulty(DifficultyItem difficultyItem) async {
-    var body = await HtmlCache(db.sub('song')).request(difficultyItem.url);
+    var body = await htmlCache.request(
+        db.sub('song').sub(difficultyItem.name), difficultyItem.url);
     return await DifficultyParser().parseData(difficultyItem.url, body);
   }
 }
