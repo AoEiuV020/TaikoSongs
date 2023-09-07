@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:crypto/crypto.dart';
+
 import '../serialize.dart';
 
 class ReplaceFileSeparator implements KeySerializer {
@@ -9,6 +11,23 @@ class ReplaceFileSeparator implements KeySerializer {
   String serialize(String key) {
     RegExp specialChars = RegExp(r'[/\\:|=?";\[\],^]');
     return key.replaceAll(specialChars, '');
+  }
+}
+
+/// assets不支持汉字等，会自动url编码，导致长度变三倍，
+/// 所以这里判断字节数≥15就使用md5摘要转16进制编码得到32字符，
+class AssetsFilenameSerializer implements KeySerializer {
+  const AssetsFilenameSerializer();
+
+  @override
+  String serialize(String key) {
+    final bytes = utf8.encode(key);
+    if (bytes.length >= 15) {
+      key = md5.convert(bytes).toString();
+    } else {
+      key = Uri.encodeComponent(key);
+    }
+    return key;
   }
 }
 

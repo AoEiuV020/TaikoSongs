@@ -1,31 +1,21 @@
-import 'dart:convert';
-
-import 'package:crypto/crypto.dart';
 import 'package:flutter/services.dart';
 
 import '../database.dart';
 import '../serialize.dart';
+import 'serialize_impl.dart';
 
 /// 针对flutter assets，按assets要求的文件名格式读取，不支持写入，
 /// 重点在于assets不包含子目录，所以sub不能用子目录分级，多级sub改成文件名中多级下划线分割，
 class DatabaseAssets implements Database {
   final String folder;
   final String prefix;
-  final KeySerializer keySerializer;
+  final SubSerializer subSerializer = const AssetsFilenameSerializer();
+  final KeySerializer keySerializer = const AssetsFilenameSerializer();
   final DataSerializer dataSerializer;
 
-  DatabaseAssets(
-      this.folder, this.prefix, this.keySerializer, this.dataSerializer);
+  DatabaseAssets(this.folder, this.prefix, this.dataSerializer);
 
-  /// assets不支持汉字等，会自动url编码，导致长度变三倍，
-  /// 所以这里判断字节数≥15就使用md5摘要转16进制编码得到32字符，
   String resolve(String base, String sub) {
-    final bytes = utf8.encode(sub);
-    if (bytes.length >= 15) {
-      sub = md5.convert(bytes).toString();
-    } else {
-      sub = Uri.encodeComponent(sub);
-    }
     if (base.isEmpty) {
       return sub;
     }
@@ -40,8 +30,8 @@ class DatabaseAssets implements Database {
 
   @override
   Database sub(String table) {
-    return DatabaseAssets(
-        folder, resolve(prefix, table), keySerializer, dataSerializer);
+    table = subSerializer.serialize(table);
+    return DatabaseAssets(folder, resolve(prefix, table), dataSerializer);
   }
 
   @override

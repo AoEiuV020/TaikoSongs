@@ -19,8 +19,7 @@ class IronImpl implements IronInterface {
   @override
   late Database db = _initDatabase();
   @override
-  late Database assetsDB =
-      getDefaultAssetsDatabase(assetsBase, keySerializer, dataSerializer);
+  late Database assetsDB = getDefaultAssetsDatabase(assetsBase, dataSerializer);
 
   @override
   Future<void> init(
