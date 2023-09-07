@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:html/parser.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/song.dart';
@@ -12,7 +14,7 @@ class SongParser extends Parser {
         continue;
       }
       var tableList =
-          div.querySelectorAll('table').map((e) => parseTable(e)).toList();
+      div.querySelectorAll('table').map((e) => parseTable(e)).toList();
       for (var table in tableList) {
         var headCellList = table.head?.content;
         if (headCellList == null) {
@@ -42,8 +44,9 @@ class SongParser extends Parser {
           var subtitle = subtitleSpan?.text.trim() ?? "";
           var bpm = data.getByIndex(bpmIndex).text;
           Map<DifficultyType, DifficultyItem> difficultyMap = {};
-          for (var (i, cell)
-              in data.row.content.sublist(bpmIndex + 1).indexed) {
+          for (var (i, cell) in data.row.content
+              .sublist(bpmIndex + 1, min(bpmIndex + 6, data.row.content.length))
+              .indexed) {
             var type = DifficultyType.values[i];
             var td = cell.ele;
             var a = td.querySelector('a');
