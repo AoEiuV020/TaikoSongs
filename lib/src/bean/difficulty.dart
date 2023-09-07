@@ -29,7 +29,7 @@ class DifficultyItem {
 }
 
 class Difficulty {
-  final Table table;
+  final Table? table;
   final int level;
   final int maxCombo;
   final String explain;
