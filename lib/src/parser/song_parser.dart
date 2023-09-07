@@ -14,7 +14,7 @@ class SongParser extends Parser {
         continue;
       }
       var tableList =
-      div.querySelectorAll('table').map((e) => parseTable(e)).toList();
+          div.querySelectorAll('table').map((e) => parseTable(e)).toList();
       for (var table in tableList) {
         var headCellList = table.head?.content;
         if (headCellList == null) {
@@ -22,8 +22,10 @@ class SongParser extends Parser {
         }
         var bpmIndex = -1;
         for (var i = 0; i < headCellList.length; i++) {
-          if (i - 1 < 0 || i + 4 >= headCellList.length) {
+          if (i - 1 < 0 || i + 2 >= headCellList.length) {
             // BPM前面是曲名， 后面是至少四个难度,
+            // 不过AC1没有魔王，
+            // Beena只有两个难度，
             continue;
           }
           var cell = headCellList[i];
@@ -37,11 +39,25 @@ class SongParser extends Parser {
         }
         SongItem? previous;
         for (var data in table.data) {
-          var category = data.title.text;
-          var nameTd = data.getByIndex(bpmIndex - 1).ele;
-          var name = nameTd.children[0].text.trim();
-          var subtitleSpan = nameTd.querySelector('span');
-          var subtitle = subtitleSpan?.text.trim() ?? "";
+          var category = data.title?.text ?? '';
+          final String name;
+          final String subtitle;
+          if (bpmIndex >= 2 &&
+              headCellList[bpmIndex - 1] == headCellList[bpmIndex - 2]) {
+            var nameTd = data.getByIndex(bpmIndex - 2).ele;
+            name = nameTd.text.trim();
+            var subtitleSpan = data.getByIndex(bpmIndex - 1).ele;
+            subtitle = subtitleSpan.text.trim();
+          } else {
+            var nameTd = data.getByIndex(bpmIndex - 1).ele;
+            if (nameTd.children.length > 1) {
+              name = nameTd.children[0].text.trim();
+            } else {
+              name = nameTd.text.trim();
+            }
+            var subtitleSpan = nameTd.querySelector('span');
+            subtitle = subtitleSpan?.text.trim() ?? "";
+          }
           var bpm = data.getByIndex(bpmIndex).text;
           Map<DifficultyType, DifficultyItem> difficultyMap = {};
           for (var (i, cell) in data.row.content

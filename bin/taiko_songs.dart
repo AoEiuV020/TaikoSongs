@@ -14,9 +14,8 @@ Future<void> main(List<String> arguments) async {
   await Iron.init();
   var data = DataSource();
   var list = data.getReleaseList();
-  var release = await list
-      .firstWhere((element) => element.name == '太鼓の達人 ドコドン！ミステリーアドベンチャー（3DS3）');
-  var songList = await data.getSongList(release).toList();
-  var song = songList[0];
-  print("${song.name}, ${song.difficultyMap.values}");
+  await for (var release in list) {
+    var songList = await data.getSongList(release).toList();
+    logger.info('${release.name} ${songList.length}');
+  }
 }

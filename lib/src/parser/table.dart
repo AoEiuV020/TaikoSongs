@@ -63,7 +63,7 @@ class Table {
     if (head == null) {
       return list;
     }
-    late TableCell title;
+    TableCell? title;
     for (int i = 0; i < content.length; i++) {
       var row = content[i];
       if (row.fullRow) {
@@ -88,7 +88,7 @@ class TableRowSpanCache {
 }
 
 class TableData {
-  final TableCell title;
+  final TableCell? title;
   final TableRow row;
   final Map<String, int> indexMap;
 
