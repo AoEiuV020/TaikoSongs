@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/db/data.dart';
+import 'package:taiko_songs/src/irondb/iron.dart';
 
 import '../settings/settings_view.dart';
 import 'song_list_view.dart';
@@ -30,9 +31,8 @@ class ReleaseListView extends StatelessWidget {
           ),
         ],
       ),
-
       body: FutureBuilder(
-          future: DataSource().getReleaseList().toList(),
+          future: Iron.init(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
@@ -41,28 +41,39 @@ class ReleaseListView extends StatelessWidget {
             } else if (snapshot.hasError) {
               return const Text('Error!');
             }
-            var items = snapshot.requireData;
-            return ListView.builder(
-              restorationId: 'releaseList',
-              itemCount: items.length,
-              itemBuilder: (BuildContext context, int index) {
-                final item = items[index];
+            return FutureBuilder(
+                future: DataSource().getReleaseList().toList(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const CircularProgressIndicator();
+                  } else if (snapshot.connectionState == ConnectionState.done) {
+                    logger.info('done');
+                  } else if (snapshot.hasError) {
+                    return const Text('Error!');
+                  }
+                  var items = snapshot.requireData;
+                  return ListView.builder(
+                    restorationId: 'releaseList',
+                    itemCount: items.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      final item = items[index];
 
-                return ListTile(
-                    title: Text(item.name),
-                    leading: const CircleAvatar(
-                      foregroundImage:
-                          AssetImage('assets/images/flutter_logo.png'),
-                    ),
-                    onTap: () {
-                      Navigator.pushNamed(
-                        context,
-                        SongListView.routeName,
-                        arguments: item,
-                      );
-                    });
-              },
-            );
+                      return ListTile(
+                          title: Text(item.name),
+                          leading: const CircleAvatar(
+                            foregroundImage:
+                                AssetImage('assets/images/flutter_logo.png'),
+                          ),
+                          onTap: () {
+                            Navigator.pushNamed(
+                              context,
+                              SongListView.routeName,
+                              arguments: item,
+                            );
+                          });
+                    },
+                  );
+                });
           }),
     );
   }
