@@ -3,7 +3,10 @@ import 'impl/iron_impl.dart';
 import 'serialize.dart';
 
 abstract interface class IronInterface {
-  void init({String? base, KeySerializer? keySerializer});
+  void init(
+      {String? base,
+      KeySerializer? keySerializer,
+      DataSerializer? dataSerializer});
 
   Database get db;
 }

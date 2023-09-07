@@ -59,14 +59,14 @@ void main() {
         throw StateError('unreachable');
       } catch (e) {
         expect(e.toString(),
-            "type 'List<dynamic>' is not a subtype of type 'List<int>?' in type cast");
+            "type 'List<dynamic>' is not a subtype of type 'List<int>' in type cast");
       }
     });
     test('KeySerializer', () async {
       final db = Iron.db.sub('key');
       const key = r'compileRegex("[/\\:|=?\";\\[\\],^]")';
       await db.write(key, 'test');
-      final value = await db.read(key);
+      final String? value = await db.read(key);
       expect(value, 'test');
     });
   });

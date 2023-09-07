@@ -1,28 +1,26 @@
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:path/path.dart' as path;
-import 'package:taiko_songs/src/irondb/database.dart';
-import 'package:taiko_songs/src/irondb/impl/serialize_impl.dart';
 
+import '../database.dart';
 import '../serialize.dart';
 
 class DatabaseImpl extends Database {
   final Directory folder;
   final KeySerializer keySerializer;
+  final DataSerializer dataSerializer;
 
-  DatabaseImpl._(this.folder, this.keySerializer);
+  DatabaseImpl._(this.folder, this.keySerializer, this.dataSerializer);
 
-  factory DatabaseImpl(String? base, KeySerializer? keySerializer) {
-    base ??= path.join(Directory.systemTemp.path, 'IronDB');
-    keySerializer ??= ReplaceFileSeparator();
-    return DatabaseImpl._(Directory(base), keySerializer);
+  factory DatabaseImpl(
+      String base, KeySerializer keySerializer, DataSerializer dataSerializer) {
+    return DatabaseImpl._(Directory(base), keySerializer, dataSerializer);
   }
 
   @override
   Database sub(String table) {
     final base = path.join(folder.path, table);
-    return DatabaseImpl(base, keySerializer);
+    return DatabaseImpl(base, keySerializer, dataSerializer);
   }
 
   @override
@@ -31,11 +29,8 @@ class DatabaseImpl extends Database {
     if (!await file.exists()) {
       return null;
     }
-    if (T == String) {
-      return await file.readAsString() as T;
-    }
     final str = await file.readAsString();
-    return jsonDecode(str) as T?;
+    return dataSerializer.deserialize<T>(str);
   }
 
   @override
@@ -46,11 +41,7 @@ class DatabaseImpl extends Database {
       await file.delete();
       return;
     }
-    if (T == String) {
-      await file.writeAsString(value as String);
-      return;
-    }
-    await file.writeAsString(jsonEncode(value));
+    await file.writeAsString(dataSerializer.serialize<T>(value));
   }
 
   @override
