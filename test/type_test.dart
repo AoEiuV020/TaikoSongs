@@ -1,5 +1,3 @@
-// ignore_for_file: inference_failure_on_function_invocation
-
 import 'package:flutter_test/flutter_test.dart';
 
 T? read<T>() {

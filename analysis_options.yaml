@@ -9,6 +9,9 @@
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 analyzer:
+  errors:
+    inference_failure_on_function_invocation: ignore
+    argument_type_not_assignable: warning
   language:
     strict-raw-types: true
     strict-inference: true

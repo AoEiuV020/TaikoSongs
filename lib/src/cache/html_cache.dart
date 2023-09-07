@@ -34,7 +34,7 @@ class HtmlCache {
           return status == 200 || status == 304;
         };
       }
-      var res = await dio.get<String>(url, options: options);
+      var res = await dio.get(url, options: options);
       if (res.statusCode == 304) {
         if (refresh) {
           logger.info('not modified: $url');
@@ -46,7 +46,7 @@ class HtmlCache {
       if (res.statusCode != 200) {
         throw StateError('http failed: ${res.statusCode}-${res.statusMessage}');
       }
-      body = res.data!;
+      body = res.data as String;
       await db.write(url, body);
       final String? resEtag = res.headers.value(HttpHeaders.etagHeader);
       if (resEtag != null && resEtag.isNotEmpty) {
