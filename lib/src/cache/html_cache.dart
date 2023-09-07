@@ -34,7 +34,7 @@ class HtmlCache {
           return status == 200 || status == 304;
         };
       }
-      var res = await dio.get(url, options: options);
+      var res = await dio.get<String>(url, options: options);
       if (res.statusCode == 304) {
         if (refresh) {
           logger.info('not modified: $url');
@@ -55,6 +55,6 @@ class HtmlCache {
     } else {
       logger.info('read cache html: $url');
     }
-    return body!;
+    return body;
   }
 }

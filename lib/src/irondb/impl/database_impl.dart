@@ -35,7 +35,7 @@ class DatabaseImpl extends Database {
       return await file.readAsString() as T;
     }
     final str = await file.readAsString();
-    return jsonDecode(str);
+    return jsonDecode(str) as T?;
   }
 
   @override

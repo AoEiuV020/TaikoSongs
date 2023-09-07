@@ -1,3 +1,5 @@
+// ignore_for_file: inference_failure_on_function_invocation
+
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
@@ -31,6 +33,7 @@ void main() {
       // 这里必须是可空的String?里面才能识别到String,
       String? sValue = await db.read('dKey');
       expect(sValue, '"dValue"');
+      // ignore: invalid_assignment
       String nValue = await db.read('dKey');
       expect(nValue, 'dValue');
 
@@ -41,14 +44,17 @@ void main() {
       final db = Iron.db.sub('num');
       await db.write('int', 888);
       await db.write('double', 888.88);
+      // ignore: invalid_assignment
       int vInt = await db.read('int');
       expect(vInt, 888);
+      // ignore: invalid_assignment
       double vDouble = await db.read('double');
       expect(vDouble, 888.88);
     });
     test('list', () async {
       final db = Iron.db.sub('list');
       await db.write('list', [8, 88, 888]);
+      // ignore: argument_type_not_assignable
       List<int> list = List<int>.from(await db.read('list'));
       expect(list, [8, 88, 888]);
     });
