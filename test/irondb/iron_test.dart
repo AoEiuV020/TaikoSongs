@@ -44,11 +44,9 @@ void main() {
       final db = Iron.db.sub('num');
       await db.write('int', 888);
       await db.write('double', 888.88);
-      // ignore: invalid_assignment
-      int vInt = await db.read('int');
+      int? vInt = await db.read('int');
       expect(vInt, 888);
-      // ignore: invalid_assignment
-      double vDouble = await db.read('double');
+      double? vDouble = await db.read('double');
       expect(vDouble, 888.88);
     });
     test('list', () async {
@@ -57,6 +55,14 @@ void main() {
       // ignore: argument_type_not_assignable
       List<int> list = List<int>.from(await db.read('list'));
       expect(list, [8, 88, 888]);
+      try {
+        // ignore: unused_local_variable
+        List<int>? list2 = await db.read('list');
+        throw StateError('unreachable');
+      } catch (e) {
+        expect(e.toString(),
+            "type 'List<dynamic>' is not a subtype of type 'List<int>?' in type cast");
+      }
     });
     test('KeySerializer', () async {
       final db = Iron.db.sub('key');
