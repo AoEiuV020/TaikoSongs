@@ -16,8 +16,8 @@ class DataSource {
   DataSource._internal(this.db);
 
   factory DataSource() {
-    _instance ??= DataSource._internal(
-        Iron.mix([Iron.db, Iron.assetsDB]).sub('DataSource'));
+    _instance ??=
+        DataSource._internal(Iron.mix([Iron.db, Iron.assetsDB]).sub('taiko'));
     return _instance!;
   }
 

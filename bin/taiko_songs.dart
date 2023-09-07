@@ -17,7 +17,6 @@ Future<void> main(List<String> arguments) async {
   var release = await list
       .firstWhere((element) => element.name == '太鼓の達人 ドコドン！ミステリーアドベンチャー（3DS3）');
   var songList = await data.getSongList(release).toList();
-  for (var song in songList) {
-    print("${song.name}, ${song.difficultyMap.values}");
-  }
+  var song = songList[0];
+  print("${song.name}, ${song.difficultyMap.values}");
 }

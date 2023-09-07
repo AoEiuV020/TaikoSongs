@@ -757,7 +757,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
                     <div class="column-left">
                 <div id="menubar">
-                                        <h3 id="h3_content_4_0" >運営からのお知らせ</h3>
+                                        <h3 id="h3_content_2_0" >運営からのお知らせ</h3>
 
 <p><strong>【お知らせ】</strong><br />
 「太鼓の達人 譜面とかWiki*」の副管理人を募集しています。<br />
@@ -779,7 +779,7 @@ URLはこちら↓↓<br />
 <strong><a href="/taiko-fumen/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="プライバシーポリシー" class="rel-wiki-page">プライバシーポリシー</a></strong></p>
 <p><strong><a href="/taiko-fumen/%E8%8D%92%E3%82%89%E3%81%97%E7%AD%89%E3%81%AE%E9%80%9A%E5%A0%B1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="荒らし等の通報について" class="rel-wiki-page">荒らしや迷惑行為の通報</a></strong><br class="spacer"><strong><a href="/taiko-fumen/%E8%8D%92%E3%82%89%E3%81%97%E7%AD%89%E3%81%AE%E9%80%9A%E5%A0%B1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6#edit_restriction" title="荒らし等の通報について" class="rel-wiki-page">規制情報 / 編集できない場合の対処法</a></strong></p>
 
-<form action="/taiko-fumen/?plugin=lookup&refer=%E5%8F%8E%E9%8C%B2%E6%9B%B2%2F%E3%81%8A%E3%81%AB%2F%E9%80%86%E5%8D%A0%E6%88%88" method="post">
+<form action="/taiko-fumen/?plugin=lookup&refer=%E4%BA%BA%E6%B0%97%E3%81%AE1000%E4%BB%B6" method="post">
  <div>
   <input type="hidden" name="inter"  value="サイト内を検索" />
   <label for="_p_lookup_1">サイト内を検索:</label>
@@ -788,7 +788,7 @@ URLはこちら↓↓<br />
  </div>
 </form>
 <p><strong>現在<span class="wikiwiki-online">?</span>人が閲覧中です</strong></p>
-<h2 id="h2_content_4_1" class="heading-after-first">基本情報</h2>
+<h2 id="h2_content_2_1" class="heading-after-first">基本情報</h2>
 <ul class="list1"><li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" title="システム" class="rel-wiki-page">システム</a>
 <ul class="list2"><li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E5%9F%BA%E6%9C%AC%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" title="システム/基本システム" class="rel-wiki-page">基本システム</a></li>
 <li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E9%85%8D%E7%82%B9" title="システム/配点" class="rel-wiki-page">配点</a></li>
@@ -804,7 +804,7 @@ URLはこちら↓↓<br />
 <ul class="list2"><li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/AC%E3%81%AE%E6%AD%B4%E5%8F%B2%28%E6%96%B0%E7%AD%90%E4%BD%932%29" title="システム/ACの歴史(新筐体2)" class="rel-wiki-page">ACの歴史</a></li>
 <li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/CS%E3%81%AE%E6%AD%B4%E5%8F%B2" title="システム/CSの歴史" class="rel-wiki-page">CSの歴史</a></li>
 <li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7" title="システム/キャラクター一覧" class="rel-wiki-page">キャラクター一覧</a></li></ul></li></ul>
-<h2 id="h2_content_4_2" class="heading-after-first">掲示板</h2>
+<h2 id="h2_content_2_2" class="heading-after-first">掲示板</h2>
 <p><a href="/taiko-fumen/%E5%BD%93Wiki%E3%81%A7%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB#comment" title="当Wikiでのルール" class="rel-wiki-page"><strong>コメント時の注意</strong></a></p>
 <ul class="list1"><li><a href="/taiko-fumen/%E9%9B%91%E8%AB%87%E6%89%80" title="雑談所" class="rel-wiki-page">雑談所</a></li>
 <li><a href="/taiko-fumen/%E3%82%A2%E3%83%B3%E3%82%B1%E3%83%BC%E3%83%88%E6%89%80" title="アンケート所" class="rel-wiki-page">アンケート所</a></li>
@@ -812,15 +812,15 @@ URLはこちら↓↓<br />
 <li><a href="/taiko-fumen/%E4%B8%8A%E9%81%94%E6%94%AF%E6%8F%B4%E6%89%80" title="上達支援所" class="rel-wiki-page">上達支援所</a></li>
 <li><a href="/taiko-fumen/%E9%9B%91%E8%AB%87%E6%89%80/%E5%AE%9F%E6%B3%81%E7%94%A8%E3%83%88%E3%83%94%E3%83%83%E3%82%AF" title="雑談所/実況用トピック" class="rel-wiki-page">実況トピック</a></li>
 <li><a href="#boardlatest">新しいコメントを見る</a></li></ul>
-<h2 id="h2_content_4_3" class="heading-after-first"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2" title="収録曲" class="rel-wiki-page">収録曲</a></h2>
-<h3 id="h3_content_4_4" class="heading-after-first"><a href="/taiko-fumen/%E4%BD%9C%E5%93%81" title="作品" class="rel-wiki-page">作品</a></h3>
-<h4 id="h4_content_4_5" class="heading-after-first">現行作品</h4>
+<h2 id="h2_content_2_3" class="heading-after-first"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2" title="収録曲" class="rel-wiki-page">収録曲</a></h2>
+<h3 id="h3_content_2_4" class="heading-after-first"><a href="/taiko-fumen/%E4%BD%9C%E5%93%81" title="作品" class="rel-wiki-page">作品</a></h3>
+<h4 id="h4_content_2_5" class="heading-after-first">現行作品</h4>
 <ul class="list1"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC" title="作品/新AC" class="rel-wiki-page">ニジイロ</a></li>
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS2" title="作品/NS2" class="rel-wiki-page">NS2</a> (<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS2/%E5%A4%AA%E9%BC%93%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%B9" title="作品/NS2/太鼓ミュージックパス" class="rel-wiki-page">サブスク</a>)</li>
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/RC" title="作品/RC" class="rel-wiki-page">RC</a></li>
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PTB" title="作品/PTB" class="rel-wiki-page">PTB</a></li>
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/iOS" title="作品/iOS" class="rel-wiki-page">iOS</a></li></ul>
-<h4 id="h4_content_4_6" class="heading-after-first">アーケード版 (AC16)</h4>
+<h4 id="h4_content_2_6" class="heading-after-first">アーケード版 (AC16)</h4>
 <ul class="list1"><li>日本版
 <ul class="list2"><li>4.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC" title="作品/新AC" class="rel-wiki-page">ニジイロ2023</a><br />
 <span style="font-size:8px">(2023.3.22～)</span></li>
@@ -833,7 +833,7 @@ URLはこちら↓↓<br />
 <li>アジア版
 <ul class="list2"><li>3.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC%E3%82%A2%E3%82%B8%E3%82%A2%E7%89%88" title="作品/新ACアジア版" class="rel-wiki-page">ニジイロ2023</a> ( <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC%E3%82%A2%E3%82%B8%E3%82%A2%E7%89%88%28%E8%8B%B1%E8%AA%9E%29" title="作品/新ACアジア版(英語)" class="rel-wiki-page">ENG</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC%E3%82%A2%E3%82%B8%E3%82%A2%E7%89%88%28%E4%B8%AD%E5%9B%BD%E8%AA%9E%29" title="作品/新ACアジア版(中国語)" class="rel-wiki-page">中文</a> )</li></ul></li>
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A9%E6%9B%B2" title="作品/新AC/サヨナラ曲" class="rel-wiki-page">サヨナラ曲</a></li></ul>
-<h4 id="h4_content_4_7" class="heading-after-first">アーケード版 (AC15)</h4>
+<h4 id="h4_content_2_7" class="heading-after-first">アーケード版 (AC15)</h4>
 <ul class="list1"><li>日本版
 <ul class="list2"><li>11.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3" title="作品/新AC/グリーン" class="rel-wiki-page">グリーン</a></li>
 <li>10.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%96%E3%83%AB%E3%83%BC" title="作品/新AC/ブルー" class="rel-wiki-page">ブルー</a></li>
@@ -848,7 +848,7 @@ URLはこちら↓↓<br />
 <li>1.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/Ver7.03%E3%81%BE%E3%81%A7" title="作品/新AC/Ver7.03まで" class="rel-wiki-page">無印</a></li></ul></li>
 <li>ブラジル版
 <ul class="list2"><li>4.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC%E3%83%96%E3%83%A9%E3%82%B8%E3%83%AB%E7%89%88" title="作品/新ACブラジル版" class="rel-wiki-page">モモイロ</a></li></ul></li></ul>
-<h4 id="h4_content_4_8" class="heading-after-first">アーケード版 (旧筐体)</h4>
+<h4 id="h4_content_2_8" class="heading-after-first">アーケード版 (旧筐体)</h4>
 <ul class="list1"><li><a href="/taiko-fumen/%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E8%A1%A8%E8%A8%98%E4%B8%80%E8%A6%A7#oldac" title="バージョン表記一覧" class="rel-wiki-page">バージョン表記一覧 (旧筐体)</a></li>
 <li>日本版
 <ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC14" title="作品/AC14" class="rel-wiki-page">AC14</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC13" title="作品/AC13" class="rel-wiki-page">AC13</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC12%E5%A2%97%E9%87%8F%E7%89%88" title="作品/AC12増量版" class="rel-wiki-page">AC12増</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC12" title="作品/AC12" class="rel-wiki-page">AC12</a><br />
@@ -857,7 +857,7 @@ URLはこちら↓↓<br />
 <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3" title="作品/AC3" class="rel-wiki-page">AC3</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC2" title="作品/AC2" class="rel-wiki-page">AC2</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC1" title="作品/AC1" class="rel-wiki-page">AC1</a></li></ul></li>
 <li>亜洲版
 <ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC12%E4%BA%9C%E6%B4%B2%E7%89%88" title="作品/AC12亜洲版" class="rel-wiki-page">AC12亜</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC11%E4%BA%9C%E6%B4%B2%E7%89%88" title="作品/AC11亜洲版" class="rel-wiki-page">AC11亜</a></li></ul></li></ul>
-<h4 id="h4_content_4_9" class="heading-after-first">家庭用・スマホなど</h4>
+<h4 id="h4_content_2_9" class="heading-after-first">家庭用・スマホなど</h4>
 <ul class="list1"><li><a href="/taiko-fumen/%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E8%A1%A8%E8%A8%98%E4%B8%80%E8%A6%A7#consumer" title="バージョン表記一覧" class="rel-wiki-page">バージョン表記一覧 (家庭用)</a></li>
 <li>Nintendo Switch
 <ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS2" title="作品/NS2" class="rel-wiki-page">NS2</a> (<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS2/%E5%A4%AA%E9%BC%93%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%B9" title="作品/NS2/太鼓ミュージックパス" class="rel-wiki-page">サブスク</a>) / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS1" title="作品/NS1" class="rel-wiki-page">NS1</a></li>
@@ -889,7 +889,7 @@ URLはこちら↓↓<br />
 <ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Beena" title="作品/Beena" class="rel-wiki-page">Beena</a></li>
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/RT" title="作品/RT" class="rel-wiki-page">RT</a></li>
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E3%82%82%E3%81%B0%E3%81%84%E3%82%8B" title="作品/もばいる" class="rel-wiki-page">もばいる</a></li></ul></li></ul>
-<h3 id="h3_content_4_10" class="heading-after-first">ジャンル別</h3>
+<h3 id="h3_content_2_10" class="heading-after-first">ジャンル別</h3>
 <p><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E5%9F%BA%E6%9C%AC%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0#genre" title="システム/基本システム" class="rel-wiki-page">ジャンル詳細</a></p>
 <ul class="list1"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9D%E3%83%83%E3%83%97%E3%82%B9" title="収録曲/ポップス" class="rel-wiki-page">ポップス</a>
 <ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9D%E3%83%83%E3%83%97%E3%82%B9/%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%88%A5" title="収録曲/ポップス/アーティスト別" class="rel-wiki-page">アーティスト別</a></li>
@@ -911,7 +911,7 @@ URLはこちら↓↓<br />
 <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%8A%E3%83%A0%E3%82%B3%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB" title="収録曲/ナムコオリジナル" class="rel-wiki-page">ナムコオリジナル</a>
 <ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%8A%E3%83%A0%E3%82%B3%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB/%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E6%9B%B2" title="収録曲/ナムコオリジナル/シリーズ曲" class="rel-wiki-page">シリーズ別</a></li></ul></li>
 <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%A9%E3%81%86%E3%82%88%E3%81%86" title="収録曲/どうよう" class="rel-wiki-page">どうよう</a></li></ul>
-<h3 id="h3_content_4_11" class="heading-after-first">コース別難易度別</h3>
+<h3 id="h3_content_2_11" class="heading-after-first">コース別難易度別</h3>
 <ul class="list1"><li>おに
 <ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%9710" title="収録曲/おに/★×10" class="rel-wiki-page">★×10</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%979" title="収録曲/おに/★×9" class="rel-wiki-page">★×9</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%978" title="収録曲/おに/★×8" class="rel-wiki-page">★×8</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%977" title="収録曲/おに/★×7" class="rel-wiki-page">★×7</a><br />
 <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%976" title="収録曲/おに/★×6" class="rel-wiki-page">★×6</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%975" title="収録曲/おに/★×5" class="rel-wiki-page">★×5</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%971%EF%BD%9E4" title="収録曲/おに/★×1～4" class="rel-wiki-page">★×1～4</a></li></ul></li>
@@ -929,7 +929,7 @@ URLはこちら↓↓<br />
 <li>むずかしい : <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84" title="収録曲/コンボ数順/むずかしい" class="rel-wiki-page">500以上</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84%28500%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/むずかしい(500コンボ未満)" class="rel-wiki-page">500未満</a></li>
 <li>ふつう : <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%B5%E3%81%A4%E3%81%86" title="収録曲/コンボ数順/ふつう" class="rel-wiki-page">300以上</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%B5%E3%81%A4%E3%81%86%28300%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/ふつう(300コンボ未満)" class="rel-wiki-page">300未満</a></li>
 <li>かんたん : <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93" title="収録曲/コンボ数順/かんたん" class="rel-wiki-page">200以上</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%28200%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/かんたん(200コンボ未満)" class="rel-wiki-page">200未満</a></li></ul></li></ul>
-<h3 id="h3_content_4_12" class="heading-after-first">クリア難易度順 (新筐体)</h3>
+<h3 id="h3_content_2_12" class="heading-after-first">クリア難易度順 (新筐体)</h3>
 <p>議論状況は<a href="https://wikiwiki.jp/taiko-giron/FrontPage" title="議論:FrontPage"  rel="nofollow"><ins><strong>こちら</strong></ins></a>参照 (<strong>別のWikiです</strong>)</p>
 <ul class="list1"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86" title="収録曲/難易度順" class="rel-wiki-page">難易度順について</a> (AC15時点のページもこちら)</li>
 <li>おに
@@ -937,7 +937,7 @@ URLはこちら↓↓<br />
 <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%976" title="収録曲/難易度順/AC16/おに/★×6" class="rel-wiki-page">★×6</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%975" title="収録曲/難易度順/AC16/おに/★×5" class="rel-wiki-page">★×5</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%971%EF%BD%9E4" title="収録曲/難易度順/AC16/おに/★×1～4" class="rel-wiki-page">★×1～4</a></li></ul></li>
 <li>むずかしい
 <ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%978" title="収録曲/難易度順/AC16/むずかしい/★×8" class="rel-wiki-page">★×8</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%977" title="収録曲/難易度順/AC16/むずかしい/★×7" class="rel-wiki-page">★×7</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%976" title="収録曲/難易度順/AC16/むずかしい/★×6" class="rel-wiki-page">★×6</a></li></ul></li></ul>
-<h3 id="h3_content_4_13" class="heading-after-first">その他</h3>
+<h3 id="h3_content_2_13" class="heading-after-first">その他</h3>
 <ul class="list1"><li>初出順
 <ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E5%88%9D%E5%87%BA%E9%A0%86" title="収録曲/初出順" class="rel-wiki-page">旧筐体まで</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E5%88%9D%E5%87%BA%E9%A0%86/%E6%96%B0%E7%AD%90%E4%BD%93%E4%BB%A5%E9%99%8D" title="収録曲/初出順/新筐体以降" class="rel-wiki-page">新筐体グリーンまで</a><br />
 <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E5%88%9D%E5%87%BA%E9%A0%86/%E6%96%B0%E7%AD%90%E4%BD%932%E4%BB%A5%E9%99%8D" title="収録曲/初出順/新筐体2以降" class="rel-wiki-page">新筐体ニジイロ以降</a></li></ul></li>
@@ -954,7 +954,7 @@ URLはこちら↓↓<br />
 <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E7%89%B9%E5%BE%B4%E7%9A%84%E3%81%AA%E8%AD%9C%E9%9D%A2" title="収録曲/特徴的な譜面" class="rel-wiki-page">特徴的な譜面</a></li>
 <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E7%B2%BE%E5%BA%A6%E6%9B%B2" title="収録曲/精度曲" class="rel-wiki-page">精度曲一覧</a></li>
 <li><a href="/taiko-fumen/%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF/%E3%82%AA%E3%82%B9%E3%82%B9%E3%83%A1%E7%B7%B4%E7%BF%92%E6%9B%B2%E4%B8%80%E8%A6%A7%E8%A1%A8" title="テクニック/オススメ練習曲一覧表" class="rel-wiki-page">オススメ練習曲一覧</a></li></ul>
-<h2 id="h2_content_4_14" class="heading-after-first">AC関連情報</h2>
+<h2 id="h2_content_2_14" class="heading-after-first">AC関連情報</h2>
 <ul class="list1"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E5%B1%A5%E6%AD%B4" title="作品/新AC/アップデート履歴" class="rel-wiki-page">アップデート情報</a></li>
 <li><a href="/taiko-fumen/%E6%AE%B5%E4%BD%8D%E9%81%93%E5%A0%B4" title="段位道場" class="rel-wiki-page">段位道場</a>
 <ul class="list2"><li><a href="/taiko-fumen/%E6%AE%B5%E4%BD%8D%E9%81%93%E5%A0%B4/%E9%81%8E%E5%8E%BB%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3" title="段位道場/過去バージョン" class="rel-wiki-page">過去の段位道場</a></li>
@@ -969,7 +969,7 @@ URLはこちら↓↓<br />
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/AI%E3%83%90%E3%83%88%E3%83%AB%E6%BC%94%E5%A5%8F" title="作品/新AC/AIバトル演奏" class="rel-wiki-page">AIバトル演奏</a></li>
 <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/song_no" title="収録曲/song_no" class="rel-wiki-page">song_no</a></li>
 <li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E8%A4%87%E6%95%B0%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB" title="作品/新AC/複数ジャンル" class="rel-wiki-page">複数ジャンル</a></li></ul>
-<h2 id="h2_content_4_15" class="heading-after-first"><a href="/taiko-fumen/%E3%83%AA%E3%83%B3%E3%82%AF" title="リンク" class="rel-wiki-page">関連リンク</a></h2>
+<h2 id="h2_content_2_15" class="heading-after-first"><a href="/taiko-fumen/%E3%83%AA%E3%83%B3%E3%82%AF" title="リンク" class="rel-wiki-page">関連リンク</a></h2>
 <ul class="list1"><li><a href="https://taiko-ch.net/index.php"  rel="nofollow">太鼓の達人 ポータルサイト</a>
 <ul class="list2"><li><a href="https://taiko.namco-ch.net/taiko/"  rel="nofollow">公式サイト (ゲームセンター版)</a></li></ul></li>
 <li><a href="https://taiko-ch.net/blog/"  rel="nofollow">公式ブログ</a></li>
@@ -986,7 +986,7 @@ URLはこちら↓↓<br />
 <ul class="list2"><li><a href="https://w.atwiki.jp/q-taiko/"  rel="nofollow">旧筐体設置店舗情報（外部Wiki）</a></li></ul></li>
 <li><a href="https://web.archive.org/web/20170707175213/http://taikoblog.namco-ch.net/"  rel="nofollow">開発日記 (旧公式ブログ)</a> (アーカイブ)</li></ul>
 
-<h2 id="h2_content_6_0" ><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86" title="Wiki編集" class="rel-wiki-page">Wiki編集</a>  <a class="anchor_super" name ="edit"></a></h2>
+<h2 id="h2_content_4_0" ><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86" title="Wiki編集" class="rel-wiki-page">Wiki編集</a>  <a class="anchor_super" name ="edit"></a></h2>
 <ul class="list1"><li><a href="/taiko-fumen/%E6%95%B4%E5%BD%A2%E3%83%AB%E3%83%BC%E3%83%AB" title="整形ルール" class="rel-wiki-page">テキスト整形のルール</a></li>
 <li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E8%AD%9C%E9%9D%A2%E3%83%9A%E3%83%BC%E3%82%B8%E4%BD%9C%E6%88%90" title="Wiki編集/譜面ページ作成" class="rel-wiki-page">譜面ページ作成について</a>
 <ul class="list2"><li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E8%AD%9C%E9%9D%A2%E4%BD%9C%E6%88%90%E3%82%BD%E3%83%95%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="Wiki編集/譜面作成ソフトについて" class="rel-wiki-page">譜面作成ソフト</a></li>
@@ -998,13 +998,13 @@ URLはこちら↓↓<br />
 <hr class="full_hr" />
 <ul class="list1"><li><a href="/taiko-fumen/%E4%BC%9A%E8%AD%B0%E5%AE%A4" title="会議室" class="rel-wiki-page">会議室</a></li>
 <li><a href="/taiko-fumen/%E7%AE%A1%E7%90%86%E4%BA%BA%E3%81%B8%E3%81%AE%E9%80%A3%E7%B5%A1" title="管理人への連絡" class="rel-wiki-page">管理人への連絡</a></li></ul>
-<h3 id="h3_content_6_1" class="heading-after-first">更新履歴  <a class="anchor_super" name ="latest"></a></h3>
+<h3 id="h3_content_4_1" class="heading-after-first">更新履歴  <a class="anchor_super" name ="latest"></a></h3>
 <h5>最新の25件</h5>
 <div><strong>2023-09-07</strong>
 <ul class="recent_list">
- <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E9%80%86%E5%8D%A0%E6%88%88" title="コメント/収録曲/おに/逆占戈" class="rel-wiki-page">コメント/収録曲/おに/逆占戈</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%9C%88%E3%81%A8%E5%A4%AA%E9%99%BD" title="コメント/収録曲/おに/月と太陽" class="rel-wiki-page">コメント/収録曲/おに/月と太陽</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E8%A9%A9%E8%AC%B3%E5%85%8E%E6%8F%BA%E8%95%A9%E5%85%8E" title="コメント/収録曲/むずかしい/詩謳兎揺蕩兎" class="rel-wiki-page">コメント/収録曲/むずかしい/詩謳兎揺蕩兎</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2%E3%83%BB%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%BC" title="収録曲/おに/ナイトメア・サバイバー" class="rel-wiki-page">収録曲/おに/ナイトメア・サバイバー</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E6%98%A5%E9%81%8A%20%EF%BD%9Ehappy%20excursion%EF%BD%9E%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="収録曲/むずかしい/春遊 ～happy excursion～(裏譜面)" class="rel-wiki-page">収録曲/むずかしい/春遊 ～happy excursion～(裏譜面)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9D%E3%83%83%E3%83%97%E3%82%B9/%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%88%A5/%E3%81%82%E3%83%BB%E3%81%8B%E8%A1%8C" title="収録曲/ポップス/アーティスト別/あ・か行" class="rel-wiki-page">収録曲/ポップス/アーティスト別/あ・か行</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/AWAKE%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="コメント/収録曲/おに/AWAKE(裏譜面)" class="rel-wiki-page">コメント/収録曲/おに/AWAKE(裏譜面)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="収録曲/おに/時空町３丁目" class="rel-wiki-page">収録曲/おに/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/song_no" title="収録曲/song_no" class="rel-wiki-page">収録曲/song_no</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82" title="コメント/収録曲/おに/ちゅ、多様性。" class="rel-wiki-page">コメント/収録曲/おに/ちゅ、多様性。</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E5%8F%8C%E7%AB%9C%E3%83%8E%E4%B9%B1" title="コメント/収録曲/むずかしい/双竜ノ乱" class="rel-wiki-page">コメント/収録曲/むずかしい/双竜ノ乱</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="コメント/収録曲/おに/時空町３丁目" class="rel-wiki-page">コメント/収録曲/おに/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/CS%E3%81%AE%E6%AD%B4%E5%8F%B2/NS2" title="システム/CSの歴史/NS2" class="rel-wiki-page">システム/CSの歴史/NS2</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%89%E3%83%AB%E3%82%A2%E3%83%BC%E3%82%AC%E3%81%AE%E5%A1%94%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC" title="コメント/収録曲/おに/ドルアーガの塔メドレー" class="rel-wiki-page">コメント/収録曲/おに/ドルアーガの塔メドレー</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%AF%E3%83%A9%E3%83%9D%E3%83%AB%E3%83%9D%E3%83%AB%E3%82%B9%E3%82%AB" title="コメント/収録曲/おに/クラポルポルスカ" class="rel-wiki-page">コメント/収録曲/おに/クラポルポルスカ</a></li> <li><a href="/taiko-fumen/%E7%94%A8%E8%AA%9E%E9%9B%86/%E8%8B%B1%E6%95%B0%E3%83%BB%E3%81%82%E8%A1%8C%EF%BD%9E%E3%81%8B%E8%A1%8C" title="用語集/英数・あ行～か行" class="rel-wiki-page">用語集/英数・あ行～か行</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82" title="収録曲/むずかしい/ちゅ、多様性。" class="rel-wiki-page">収録曲/むずかしい/ちゅ、多様性。</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82" title="収録曲/ふつう/ちゅ、多様性。" class="rel-wiki-page">収録曲/ふつう/ちゅ、多様性。</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82" title="収録曲/かんたん/ちゅ、多様性。" class="rel-wiki-page">収録曲/かんたん/ちゅ、多様性。</a></li> <li><a href="/taiko-fumen/RecentDeleted" title="RecentDeleted" class="rel-wiki-page">RecentDeleted</a></li> <li><a href="/taiko-fumen/RecentCreated" title="RecentCreated" class="rel-wiki-page">RecentCreated</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82" title="収録曲/おに/ちゅ、多様性。" class="rel-wiki-page">収録曲/おに/ちゅ、多様性。</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E5%B9%95%E6%9C%AB%E7%B6%AD%E6%96%B0%E8%AD%9A" title="コメント/収録曲/おに/幕末維新譚" class="rel-wiki-page">コメント/収録曲/おに/幕末維新譚</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/AWAKE%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="収録曲/おに/AWAKE(裏譜面)" class="rel-wiki-page">収録曲/おに/AWAKE(裏譜面)</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="コメント/収録曲/むずかしい/時空町３丁目" class="rel-wiki-page">コメント/収録曲/むずかしい/時空町３丁目</a></li></ul>
+ <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB" title="収録曲/おに/アイドル" class="rel-wiki-page">収録曲/おに/アイドル</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%86%8E%E6%82%AA%E3%81%A8%E9%86%9C%E6%82%AA%E3%81%AE%E8%8A%B1%E6%9D%9F%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="収録曲/おに/憎悪と醜悪の花束(裏譜面)" class="rel-wiki-page">収録曲/おに/憎悪と醜悪の花束(裏譜面)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%86%8E%E6%82%AA%E3%81%A8%E9%86%9C%E6%82%AA%E3%81%AE%E8%8A%B1%E6%9D%9F" title="収録曲/おに/憎悪と醜悪の花束" class="rel-wiki-page">収録曲/おに/憎悪と醜悪の花束</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82" title="コメント/収録曲/おに/ちゅ、多様性。" class="rel-wiki-page">コメント/収録曲/おに/ちゅ、多様性。</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/AWAKE%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="コメント/収録曲/おに/AWAKE(裏譜面)" class="rel-wiki-page">コメント/収録曲/おに/AWAKE(裏譜面)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E9%8D%B5" title="収録曲/おに/未来への鍵" class="rel-wiki-page">収録曲/おに/未来への鍵</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%AA%E3%83%BC%E3%83%96%E3%81%AE%E7%A5%88%E3%82%8A" title="コメント/収録曲/おに/オーブの祈り" class="rel-wiki-page">コメント/収録曲/おに/オーブの祈り</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E9%8D%B5" title="収録曲/むずかしい/未来への鍵" class="rel-wiki-page">収録曲/むずかしい/未来への鍵</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%89%A0MM" title="コメント/収録曲/おに/≠MM" class="rel-wiki-page">コメント/収録曲/おに/≠MM</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="コメント/収録曲/おに/時空町３丁目" class="rel-wiki-page">コメント/収録曲/おに/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/Switch%20On%21%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="コメント/収録曲/おに/Switch On!(裏譜面)" class="rel-wiki-page">コメント/収録曲/おに/Switch On!(裏譜面)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E9%8D%B5" title="収録曲/ふつう/未来への鍵" class="rel-wiki-page">収録曲/ふつう/未来への鍵</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E9%8D%B5" title="収録曲/かんたん/未来への鍵" class="rel-wiki-page">収録曲/かんたん/未来への鍵</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/song_no" title="収録曲/song_no" class="rel-wiki-page">収録曲/song_no</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E7%8B%82%E7%80%BE%E6%80%92%E6%BF%A4" title="収録曲/おに/狂瀾怒濤" class="rel-wiki-page">収録曲/おに/狂瀾怒濤</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%88%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BF%E3%81%A8%E3%83%95%E3%83%BC%E3%82%AC%E3%81%A8%E3%83%AD%E3%83%83%E3%82%AF" title="コメント/収録曲/おに/トッカータとフーガとロック" class="rel-wiki-page">コメント/収録曲/おに/トッカータとフーガとロック</a></li> <li><a href="/taiko-fumen/RecentCreated" title="RecentCreated" class="rel-wiki-page">RecentCreated</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="コメント/収録曲/かんたん/時空町３丁目" class="rel-wiki-page">コメント/収録曲/かんたん/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="収録曲/かんたん/時空町３丁目" class="rel-wiki-page">収録曲/かんたん/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="収録曲/むずかしい/時空町３丁目" class="rel-wiki-page">収録曲/むずかしい/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="収録曲/ふつう/時空町３丁目" class="rel-wiki-page">収録曲/ふつう/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9D%E3%83%83%E3%83%97%E3%82%B9/%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%88%A5/%E3%81%82%E3%83%BB%E3%81%8B%E8%A1%8C" title="収録曲/ポップス/アーティスト別/あ・か行" class="rel-wiki-page">収録曲/ポップス/アーティスト別/あ・か行</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="収録曲/おに/時空町３丁目" class="rel-wiki-page">収録曲/おに/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82" title="収録曲/おに/ちゅ、多様性。" class="rel-wiki-page">収録曲/おに/ちゅ、多様性。</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E9%80%86%E5%8D%A0%E6%88%88" title="コメント/収録曲/おに/逆占戈" class="rel-wiki-page">コメント/収録曲/おに/逆占戈</a></li></ul>
 </div>
-<h3 id="h3_content_6_2" class="heading-after-first">人気のページ <a class="anchor_super" name ="popular"></a></h3>
+<h3 id="h3_content_4_2" class="heading-after-first">人気のページ <a class="anchor_super" name ="popular"></a></h3>
 <div class="wikiwiki-popular wikiwiki-popular-today" data-endpoint="https://counter.wikiwiki.jp/c/taiko-fumen/popular/today?limit=25&excludes=FrontPage%7CMenuBar%7CMenuBar%2F%E4%B8%8A%E9%83%A8%7CMenuBar%2F%E4%B8%8B%E9%83%A8%7C%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84%7C%E5%BD%93Wiki%E3%81%A7%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB%7C%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC%7CWiki%E7%B7%A8%E9%9B%86%2F%E8%AD%9C%E9%9D%A2%E3%83%9A%E3%83%BC%E3%82%B8%E4%BD%9C%E6%88%90%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%7CWiki%E7%B7%A8%E9%9B%86%2F%E8%AD%9C%E9%9D%A2%E4%BD%9C%E6%88%90%E3%82%BD%E3%83%95%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%7CWiki%E7%B7%A8%E9%9B%86%2F%E8%AD%9C%E9%9D%A2%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88etc%7CWiki%E7%B7%A8%E9%9B%86%2F%E8%AD%9C%E9%9D%A2%E6%9C%AA%E8%A3%9C%E5%AE%8C%E3%83%AA%E3%82%B9%E3%83%88%7CWiki%E7%B7%A8%E9%9B%86%2F%E5%8B%95%E7%94%BB%E6%9C%AA%E8%A3%9C%E5%AE%8C%E3%83%AA%E3%82%B9%E3%83%88%7C%E7%AE%A1%E7%90%86%E4%BA%BA%E3%81%B8%E3%81%AE%E9%80%A3%E7%B5%A1%7CRecentChanges%7CRecentCreated">
     <h5 class="wikiwiki-popular-title" data-template="今日の{{pages}}件">今日の25件</h5>
     <ul class="wikiwiki-popular-list popular_list" data-template="&lt;li&gt;&lt;a href=&quot;/taiko-fumen/{{link}}&quot; class=&quot;rel-wiki-page&quot;&gt;{{page}}&lt;span class=&quot;counter&quot;&gt;({{count}})&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;">
@@ -1012,7 +1012,7 @@ URLはこちら↓↓<br />
     </ul>
 </div>
 <p><a href="/taiko-fumen/%E4%BB%8A%E6%97%A5%E3%81%AE100%E4%BB%B6" title="今日の100件" class="rel-wiki-page">今日の100件</a> | <a href="/taiko-fumen/%E4%BA%BA%E6%B0%97%E3%81%AE1000%E4%BB%B6" title="人気の1000件" class="rel-wiki-page">人気の1000件</a></p>
-<h3 id="h3_content_6_3" class="heading-after-first">掲示板新着通知  <a class="anchor_super" name ="boardlatest"></a></h3>
+<h3 id="h3_content_4_3" class="heading-after-first">掲示板新着通知  <a class="anchor_super" name ="boardlatest"></a></h3>
 <div class="zawazawa-recent" data-url="https://zawazawa.jp/a/recent/topics-in/taiko-fumen%3A%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5%E3%81%82%E3%82%8A?limit=10">
     Loading...
 </div>
@@ -1232,7 +1232,7 @@ if (wi_ismobile) {
 </script>
 
 
-<div id="pageload" style="display: none" data-pageload="{&quot;time&quot;:{&quot;all&quot;:0.03358197212219238,&quot;body&quot;:0.017744064331054688},&quot;memory&quot;:3327176,&quot;io&quot;:{&quot;read&quot;:{&quot;files&quot;:7,&quot;bytes&quot;:7685,&quot;locks&quot;:4},&quot;write&quot;:{&quot;files&quot;:0,&quot;bytes&quot;:0,&quot;locks&quot;:0},&quot;directory&quot;:{&quot;traversals&quot;:0,&quot;files&quot;:0},&quot;misc&quot;:506},&quot;contentSize&quot;:{&quot;all&quot;:85754,&quot;body&quot;:25101},&quot;timestamp&quot;:&quot;2023-09-07 18:44:55&quot;}"></div>
+<div id="pageload" style="display: none" data-pageload="{&quot;time&quot;:{&quot;all&quot;:0.03478813171386719,&quot;body&quot;:0.016851186752319336},&quot;memory&quot;:3317000,&quot;io&quot;:{&quot;read&quot;:{&quot;files&quot;:7,&quot;bytes&quot;:7685,&quot;locks&quot;:4},&quot;write&quot;:{&quot;files&quot;:0,&quot;bytes&quot;:0,&quot;locks&quot;:0},&quot;directory&quot;:{&quot;traversals&quot;:0,&quot;files&quot;:0},&quot;misc&quot;:506},&quot;contentSize&quot;:{&quot;all&quot;:85533,&quot;body&quot;:25101},&quot;timestamp&quot;:&quot;2023-09-07 22:35:56&quot;}"></div>
 
 <script type="text/javascript" src="https://cdn.wikiwiki.jp/to/w/common/assets/dist/wikiwiki-f97ed4ad3eb9be80b2b8.min.js"></script>
     <script>

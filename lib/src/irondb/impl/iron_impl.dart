@@ -16,6 +16,11 @@ class IronImpl implements IronInterface {
   late String assetsBase;
   late KeySerializer keySerializer;
   late DataSerializer dataSerializer;
+  @override
+  late Database db = _initDatabase();
+  @override
+  late Database assetsDB =
+      getDefaultAssetsDatabase(assetsBase, keySerializer, dataSerializer);
 
   @override
   Future<void> init(
@@ -24,29 +29,16 @@ class IronImpl implements IronInterface {
       KeySerializer? keySerializer,
       DataSerializer? dataSerializer}) async {
     this.base = base ??= await getDefaultBase();
-    this.assetsBase = assetsBase ??= 'assets';
+    this.assetsBase = assetsBase ??= 'assets/IronDB';
     this.keySerializer = keySerializer ?? const ReplaceFileSeparator();
     this.dataSerializer = dataSerializer ?? const JsonDataSerializer();
   }
-
-  @override
-  late Database db = _initDatabase();
 
   Database _initDatabase() {
     if (isWeb) {
       throw UnsupportedError('web not yet support!');
     }
     return DatabaseImpl(base, keySerializer, dataSerializer);
-  }
-
-  @override
-  late Database assetsDB = _initAssetsDatabase();
-
-  Database _initAssetsDatabase() {
-    if (isWeb) {
-      throw UnsupportedError('web not yet support!');
-    }
-    return DatabaseImpl(assetsBase, keySerializer, dataSerializer);
   }
 
   @override
