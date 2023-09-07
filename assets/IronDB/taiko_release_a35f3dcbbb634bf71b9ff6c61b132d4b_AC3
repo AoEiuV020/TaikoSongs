@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=980">
+
+    
+        <meta property="og:url" content="https://wikiwiki.jp/taiko-fumen/%E4%BD%9C%E5%93%81/AC3" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="太鼓の達人 譜面とか Wiki*" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="太鼓の達人 譜面とか Wiki*" />
+    <meta property="og:image" content="https://icon.wikiwiki.jp/symbolicon/taiko-fumen/ogCustomImage/ed8c16a82527.png" />
+    <title>太鼓の達人3 - 太鼓の達人 譜面とか Wiki*</title>
+
+    <link rel="alternate" href="/taiko-fumen/?cmd=mixirss" type="application/rss+xml" title="RSS" />
+
+        <link rel="icon" href="https://icon.wikiwiki.jp/symbolicon/taiko-fumen/smallIcon/09bfafb22c71.png" />
+    <link rel="apple-touch-icon" href="https://icon.wikiwiki.jp/symbolicon/taiko-fumen/appleTouchIcon/4009d8d0e168.png" />
+    <link rel="manifest" href="https://icon.wikiwiki.jp/symbolicon/taiko-fumen/manifest.webmanifest">
+    <link rel="stylesheet" href="https://cdn.wikiwiki.jp/to/w/common/assets/dist/wikiwiki-f17c027661afe883f62d.min.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.wikiwiki.jp/to/w/common/assets/dist/skin-official-da52ba506f17f840c187.min.css" type="text/css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19502774-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-19502774-1');
+        gtag('event', 'page_cache_miss', { 'send_to': 'UA-19502774-1', 'event_category': 'page_cache' });
+</script>
+
+<script>
+    var wi_stay = (function () {
+        var wi_data_raw = localStorage.getItem('browsingStatistics');
+        var wi_data = wi_data_raw ? (JSON.parse(wi_data_raw) || {}) : {};
+        var stay = Number(wi_data.stay);
+        if (isNaN(stay)) {
+            stay = 0;
+        }
+        return stay;
+    })();
+    var wi_data_raw = localStorage.getItem('usageStatistics');
+    var wi_data =     wi_data_raw ? (JSON.parse(wi_data_raw) || {}) : {};
+    var wi_edit =     String(wi_data.edit || 0);
+    var wi_freeze =   String(wi_data.freeze || 0);
+    var wi_comment =  String(wi_data.comment || 0);
+    var wi_group = String(wi_data.group || "N");
+    var wi_smsAuth = wi_data.smsAuth || false;
+    var wi_hasPosted = wi_data.hasPosted || false;
+    if (document.referrer.length !== 0) {
+        var wi_uri = new URL(document.referrer);
+        var wi_referer = wi_uri.hostname;
+    } else {
+        var wi_referer = "unknown";
+    }
+    var wi_ismobile = navigator.userAgent.match(/iPhone|Android.+Mobile/);
+    if (navigator.userAgent.match(/Android.+Mobile/)) {
+        var wi_device = "and";
+    } else if (navigator.userAgent.match(/iPhone/)) {
+        var wi_device = "ios";
+    } else {
+        var wi_device = "pc";
+    }
+    var wi_isportrait = window.matchMedia("(orientation: portrait)").matches;
+    var wi_isinbound = wi_referer.match(/wikiwiki/) ? false : true;
+    var wi_random100 = Math.floor(Math.random() * (100 - 1) + 1);
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQ52VZ3');</script>
+<!-- End Google Tag Manager -->
+
+
+<script async="async" src="https://flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js"></script>
+<script type="text/javascript">
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+</script>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+var wi_adslot_rectangle = [[300,250],[1,1]];
+var wi_adslot = [[300,250],[1,1]];
+if (document.documentElement.clientWidth > 406) {
+  wi_adslot_rectangle = [[300,250],[336,280],[1,1]];
+  wi_adslot = [[468,60],[300,250],[1,1]];
+}
+
+window.defineSlotFlux = [];
+if (wi_ismobile && wi_isportrait) {
+  defineSlotFlux.push({"slotID": "div-gpt-ad-1563441919648-0", "sizes": [[320, 100], [320, 50]], "slotName":"/19033742/WIKIWIKI_SP_OVERLAY"});
+}
+    if (wi_isinbound && wi_ismobile && wi_group == "N") {
+      defineSlotFlux.push({"slotID": "div-gpt-ad-1563430750445-0", "sizes": wi_adslot_rectangle, "slotName":"s_wikiwiki_300x250_WIKIWIKI-SP-INBOUND_5914"});
+    } else if (wi_isinbound && wi_group == "N") {
+      defineSlotFlux.push({"slotID": "div-gpt-ad-1567409776345-0", "sizes": wi_adslot_rectangle, "slotName":"p_wikiwiki_300x250_WIKIWIKI-PC-INBOUND_3770"}); 
+    }
+if (!wi_ismobile) {
+  defineSlotFlux.push({"slotID": "div-gpt-ad-1567834179057-0", "sizes": [[160, 600]], "slotName":"/19033742/WIKIWIKI_PC_MENU_STICKY"});
+}
+</script>
+<script type="text/javascript">
+if (defineSlotFlux.length) {
+    var readyBids = {
+        prebid: false,
+        amazon: false,
+        google: false
+    };
+    var failSafeTimeout = 3e3;
+    // when both APS and Prebid have returned, initiate ad request
+    var launchAdServer = function () {
+        if (!readyBids.amazon || !readyBids.prebid) {
+            return;
+        }
+        requestAdServer();
+    };
+    var requestAdServer = function () {
+        if (!readyBids.google) {
+            readyBids.google = true;
+            googletag.cmd.push(function () {
+                pbjs.que.push(function () {
+                    pbjs.setTargetingForGPTAsync();
+                });
+                apstag.setDisplayBids();
+                googletag.pubads().refresh();
+            });
+        }
+    };
+}
+</script>
+<script>
+googletag.cmd.push(function() {
+  if (wi_ismobile && wi_isportrait && wi_device == 'ios') {
+    googletag.defineOutOfPageSlot('/19033742/WIKIWIKI_SP_OVERLAY_ANCHOR', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR).addService(googletag.pubads());
+  }
+if (wi_ismobile && wi_isportrait && wi_device == 'and') {
+  googletag.defineSlot('/19033742/WIKIWIKI_SP_OVERLAY',[[320,100],[320,50]],'div-gpt-ad-1563441919648-0').addService(googletag.pubads());
+}
+
+    if (wi_isinbound && wi_ismobile && wi_group == "N") {
+      googletag.defineSlot('/19033742/WIKIWIKI_SP_INBOUND',wi_adslot_rectangle,
+        'div-gpt-ad-1563430750445-0').setCollapseEmptyDiv(true,true).addService(googletag.pubads());
+    } else if (wi_isinbound && wi_group == "N") {
+      googletag.defineSlot('/19033742/WIKIWIKI_PC_INBOUND',wi_adslot_rectangle,
+        'div-gpt-ad-1567409776345-0').setCollapseEmptyDiv(true,true).addService(googletag.pubads());
+    }
+    if (wi_ismobile && wi_isportrait) {
+        googletag.defineSlot('/19033742/WIKIWIKI_SP_SECOND',wi_adslot_rectangle,
+        'div-gpt-ad-1567408559923-0').addService(googletag.pubads());
+    }
+  if (wi_ismobile && wi_group == 'N' && wi_isinbound == true && wi_device == 'ios') {
+    googletag.defineOutOfPageSlot('/19033742/WIKIWIKI_SP_INTERSTITIAL_GOOGLE', googletag.enums.OutOfPageFormat.INTERSTITIAL).addService(googletag.pubads());
+  }
+    googletag.pubads().setTargeting("gpolicy","sunny");
+    googletag.pubads().setTargeting("site","taiko-fumen");
+    googletag.pubads().collapseEmptyDivs();
+    googletag.pubads().enableSingleRequest();
+    // ナビゲーションの矢印がオーバーレイ広告にかぶらないように、
+    // オーバーレイ広告の render が終わったら高さが取得できるようイベントを発行してあげる
+    googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+        var slot = event.slot;
+        if (document.getElementById(slot.getSlotElementId()) != null){
+            var slotElm = document.getElementById(slot.getSlotElementId());
+            slotElm.animate([{ opacity: 0 },{ opacity: 1 }],{duration: 500,fill: 'forwards'});
+            if (slotElm && slotElm.className === 'overlay-ad-wrapper') {
+                var overlayRenderedEvent = document.createEvent('Event');
+                overlayRenderedEvent.initEvent('overlay-ad-rendered', true, true);
+                slotElm.dispatchEvent(overlayRenderedEvent);
+                slotElm.style.backgroundColor="#e8ebed";
+            }
+        }
+    });
+    if (defineSlotFlux.length) {googletag.pubads().disableInitialLoad();};
+    googletag.enableServices();
+    if (defineSlotFlux.length) {
+        pbjs.que.push(function () {
+            pbFlux.prebidBidder();
+        });
+    }
+});
+</script>
+<script type='text/javascript'>
+if (defineSlotFlux.length) {
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+    apstag.init({
+        pubID: '138f2e02-8341-4255-b4f3-872c3ced0f91',
+        adServer: 'googletag',
+        bidTimeout: 2e3
+    });
+    apstag.fetchBids({
+        slots: defineSlotFlux
+    }, function(bids) {
+        googletag.cmd.push(function(){
+            readyBids.amazon = true;
+            launchAdServer();
+        });
+    });
+}
+</script>
+
+<script type="text/javascript">
+if (defineSlotFlux.length) {
+    // set failsafe timeout
+    setTimeout(function () {
+        requestAdServer();
+    }, failSafeTimeout);
+}
+</script>
+
+
+<script>
+googletag.cmd.push(function() {
+  googletag.pubads()
+    .setTargeting("wi_group",     String(wi_data.group || "N"))
+    .setTargeting("wi_comment",   wi_comment.length.toString())
+    .setTargeting("wi_edit",      wi_edit.length.toString())
+    .setTargeting("wi_freeze",    wi_freeze.length.toString())
+    .setTargeting("wi_smsAuth",   String(wi_data.smsAuth || false))
+    .setTargeting("wi_hasPosted", String(wi_data.hasPosted || false))
+    .setTargeting("wi_referer",   String(wi_referer || "unknown"));
+});
+</script>
+
+
+<style>
+.pc-caption-ad-default {
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap: 10px 5px;
+}
+.pc-caption-ad-center{
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    gap: 10px 5px;
+}
+.pc-caption-ad-mobile{
+    margin-bottom:5px;
+    display:flex;
+    justify-content:center;
+}
+</style>
+
+
+<script>
+googletag.cmd.push(function() {
+googletag.pubads().addEventListener('slotRenderEnded',
+    function(event) {
+        var slot = event.slot;
+        if (document.getElementById(slot.getSlotElementId()) != null){
+          var parent = document.getElementById(slot.getSlotElementId()).parentNode;
+          var ovh;
+          if (['/19033742/WIKIWIKI_PC_CAPTION', '/19033742/WIKIWIKI_PC_CAPTION_20TH', '/19033742/WIKIWIKI_CAPTION_B'].includes(slot.getAdUnitPath()) && event.isEmpty == false){
+            if (parent.clientWidth < 769) {
+              parent.classList.add("pc-caption-ad-center");
+            } else {
+              parent.classList.add("pc-caption-ad-default");
+            }
+          } else if (slot.getAdUnitPath() == '/19033742/WIKIWIKI_SP_CAPTION'){
+            parent.classList.add("pc-caption-ad-mobile");
+          } else if (slot.getAdUnitPath() == '/19033742/WIKIWIKI_SP_OVERLAY'){
+            window.setTimeout(() => {
+              ovh = document.getElementById('google_ads_iframe_/19033742/WIKIWIKI_SP_OVERLAY_0__container__').clientHeight;
+              if (ovh > 0) {
+                document.getElementsByTagName('body')[0].style.paddingBottom = ovh + 'px';
+              }
+            }, 1000);
+          }
+        }
+    }
+);});
+</script>
+<link rel="preload" as="script" href="https://pdn.adingo.jp/p.js">
+<link rel="preconnect" href="https://sh.adingo.jp" crossorigin="use-credentials">
+    <link rel="canonical" href="https://wikiwiki.jp/taiko-fumen/%E4%BD%9C%E5%93%81/AC3">
+    <style>
+@media screen and (min-width: 820px) {
+  .container-wrapper {
+    min-width: 980px;
+    max-width: 1366px;
+  }
+}
+</style>
+<style>
+  .columns-container.has-left-column:not(.has-right-column).three-columns-container {
+      grid-template-columns: 260px 1fr;
+  }
+  .columns-container.has-left-column.has-right-column.three-columns-container {
+      grid-template-columns: 260px 1fr 160px;
+  }
+  .columns-container.has-left-column.two-columns-container {
+    grid-template-columns: 260px 20px 1fr;
+  }
+</style>
+<style>
+  body {
+      font-family: Verdana, Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+      font-size: 12px;
+  }
+</style>
+<style>
+  @media screen and (max-width: 819px), print and (max-width: 180mm) {
+    body {
+        font-size: 13px;
+    }
+  }
+</style>
+        <script>
+        window.globalParamsContainer = {"smsAuthParams":{"actionTrollingDefenceCheck":"\/taiko-fumen\/?cmd=trolling_defence_pass","actionSubmitNumber":"\/p\/sms-auth\/code\/request","actionSubmitCode":"\/p\/sms-auth\/code\/activate","cookieName":"authkey"},"editAssistantImgSrc":{"plus_hint":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/plus\/hint.png?v=4","plus_buttons":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/plus\/buttons.gif?v=4","plus_clip":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/plus\/clip.png?v=4","plus_colors":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/plus\/colors.gif?v=4","plus_ncr":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/plus\/ncr.gif?v=4","plus_br":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/plus\/br.gif?v=4","face_smile":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/smile.png?v=4","face_bigsmile":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/bigsmile.png?v=4","face_huh":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/huh.png?v=4","face_oh":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/oh.png?v=4","face_wink":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/wink.png?v=4","face_sad":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/sad.png?v=4","face_worried":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/worried.png?v=4","face_tear":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/tear.png?v=4","face_tere":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/tere.png?v=4","face_shock":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/shock.png?v=4","face_heart":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/heart.png?v=4","face_star":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/star.gif?v=4","face_hatena":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/hatena.gif?v=4","face_tip":"https:\/\/cdn.wikiwiki.jp\/to\/w\/common\/image\/face\/tip.gif?v=4"},"experimentalFeature":false};
+    </script>
+</head>
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ52VZ3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- /19033742/WIKIWIKI_SP_OVERLAY -->
+<div class="overlay-ad-container hidden-switch-class" style="position:fixed;bottom:0;left:0;right:0;width:100%;z-index:99998;">
+  <div id="pc-overlay-ad-container">
+    <div id='div-gpt-ad-1563441919648-0' class="overlay-ad-wrapper" style="text-align:center;"></div>
+  </div>
+</div>
+
+<script>
+  if (wi_ismobile && wi_isportrait && wi_device == 'and') {
+    googletag.cmd.push(function() {googletag.display('div-gpt-ad-1563441919648-0');});
+  }
+</script><noscript>
+    <div class="noscript-alert">
+        <i class="fa fa-exclamation-triangle"></i>
+        ブラウザの JavaScript がオフ（ブロックまたは許可しない）に設定されているため、このページは正常に機能しません。
+    </div>
+</noscript>
+<div class="container-wrapper">
+
+    <div class="container clearfix">
+                                <div id="header" class="user-header">
+                <div class="flex-container" style="justify-content: flex-start;">
+    <div class="flex-box" style="">
+    <div class="flex-box-inner">
+        <div class="h-scrollable"><table><tbody><tr><td style="text-align:left;"><a href="/taiko-fumen/" title="FrontPage" class="rel-wiki-page"><img src="https://cdn.wikiwiki.jp/to/w/taiko-fumen/%3AHeader/::ref/FumenWiki_header.png.webp?rev=94e4fdf897d61f56e3366a97b1deba78&amp;t=20230627001908" alt="トップページへ" title="トップページへ" width="570" height="114"  loading="lazy"></a></td></tr></tbody></table></div>
+
+    </div>
+</div>
+
+</div>            </div>
+            </div>
+
+    <div class="container clearfix">
+        <div class="navibar-container-all">
+            <div class="navibar-container navibar-desktop">
+                <div id="navigator">[ <a href="/taiko-fumen/" >ホーム</a> ]
+
+[ <a href="/taiko-fumen/?cmd=newpage&refer=%E4%BD%9C%E5%93%81%2FAC3" >新規</a> | <a href="/taiko-fumen/?cmd=edit&page=%E4%BD%9C%E5%93%81%2FAC3" rel="nofollow">編集</a> | <a href="/taiko-fumen/?cmd=attach&page=%E4%BD%9C%E5%93%81%2FAC3" >添付</a> ]
+
+[ <a href="/taiko-fumen/?cmd=list" >一覧</a> | <a href="/taiko-fumen/RecentChanges" >最終更新</a> | <a href="/taiko-fumen/?cmd=diff&page=%E4%BD%9C%E5%93%81%2FAC3" >差分</a> | <a href="/taiko-fumen/?cmd=backup&page=%E4%BD%9C%E5%93%81%2FAC3" >バックアップ</a> ]
+
+[ <a href="/taiko-fumen/?cmd=freeze&page=%E4%BD%9C%E5%93%81%2FAC3" >凍結</a> | <a href="/taiko-fumen/?cmd=template&refer=%E4%BD%9C%E5%93%81%2FAC3" >複製</a> | <a href="/taiko-fumen/?cmd=rename&refer=%E4%BD%9C%E5%93%81%2FAC3" >名前変更</a> ]
+
+[ <a href="/taiko-fumen/?cmd=help" >ヘルプ</a> ]</div>            </div>
+            <div class="navibar-container navibar-mobile">
+                <div id="navigator">[ <a href="/taiko-fumen/" >ホーム</a> ]
+
+[ <a id="menu-in-nav" href="#menubar" class="menu-in-nav">Menu<i class="fas fa-arrow-alt-down"></i></a> | <a href="/taiko-fumen/RecentChanges" >最終更新</a> ]</div>            </div>
+            <div class="toolbox toolbox-searchbar">
+                <form action="/taiko-fumen/" method="get">
+                    <input type="hidden" name="cmd" value="search">
+                    <input type="search"  name="word" value="" size="16" placeholder="サイト内検索">
+                    <input type="hidden" name="type" value="AND">
+                    <input type="submit" value="検索">
+                </form>
+            </div>
+        </div>
+        <hr />
+        <div id="edit-menu">
+    <a id="edit-button" href="#">
+        <i class="fa fa-bars fa-lg fa-pencil"></i>
+        <i class="fa fa-times fa-lg hamburger-off"></i>
+    </a>
+    <div id="edit-menu-items">
+        <ul><li><a href="/taiko-fumen/?cmd=newpage&refer=%E4%BD%9C%E5%93%81%2FAC3"><img src="https://cdn.wikiwiki.jp/to/w/common/image/new.png?v=4" /> 新規</a></li><li><a href="/taiko-fumen/?cmd=edit&page=%E4%BD%9C%E5%93%81%2FAC3"><img src="https://cdn.wikiwiki.jp/to/w/common/image/edit.png?v=4" /> 編集</a></li><li><a href="/taiko-fumen/?cmd=attach&page=%E4%BD%9C%E5%93%81%2FAC3"><img src="https://cdn.wikiwiki.jp/to/w/common/image/file.png?v=4" /> 添付</a></li></ul>
+<ul><li><a href="/taiko-fumen/?cmd=list"><img src="https://cdn.wikiwiki.jp/to/w/common/image/list.png?v=4" /> 一覧</a></li><li><a href="/taiko-fumen/RecentChanges"><img src="https://cdn.wikiwiki.jp/to/w/common/image/recentchanges.png?v=4" /> 最終更新</a></li><li><a href="/taiko-fumen/?cmd=diff&page=%E4%BD%9C%E5%93%81%2FAC3"><img src="https://cdn.wikiwiki.jp/to/w/common/image/diff.png?v=4" /> 差分</a></li><li><a href="/taiko-fumen/?cmd=backup&page=%E4%BD%9C%E5%93%81%2FAC3"><img src="https://cdn.wikiwiki.jp/to/w/common/image/backup.png?v=4" /> バックアップ</a></li></ul>
+<ul><li><a href="/taiko-fumen/?cmd=freeze&page=%E4%BD%9C%E5%93%81%2FAC3"><img src="https://cdn.wikiwiki.jp/to/w/common/image/freeze.png?v=4" /> 凍結</a></li><li><a href="/taiko-fumen/?cmd=template&refer=%E4%BD%9C%E5%93%81%2FAC3"><img src="https://cdn.wikiwiki.jp/to/w/common/image/copy.png?v=4" /> 複製</a></li><li><a href="/taiko-fumen/?cmd=rename&refer=%E4%BD%9C%E5%93%81%2FAC3"><img src="https://cdn.wikiwiki.jp/to/w/common/image/rename.png?v=4" /> 名前変更</a></li></ul>
+<ul><li><a href="/taiko-fumen/?cmd=help"><img src="https://cdn.wikiwiki.jp/to/w/common/image/help.png?v=4" /> ヘルプ</a></li></ul>
+
+    </div>
+</div>
+
+<a id="scroll-up-button" href="#">
+    <i class="fas fa-arrow-up fa-lg"></i>
+</a>
+<a id="scroll-down-button" href="#">
+    <i class="fas fa-arrow-down fa-lg"></i>
+</a>    </div>
+
+    <div id="contents" class="columns-container three-columns-container container clearfix has-left-column">
+
+        <div class="column-center clearfix">
+            <div class="clearfix">
+                <div id="breadcrumbs">
+                    <div id="topicpath"><a href="/taiko-fumen/" title="FrontPage" class="rel-wiki-page">Top</a> &gt; <a class="rel-wiki-page" href="/taiko-fumen/%E4%BD%9C%E5%93%81">作品</a> &gt; AC3</div>                </div>
+                <div id="system-icon-container">
+                                        <span id="ctime">
+                        <button class="pageload-toggle" title="HTML convert time">
+    <i class="fas fa-tachometer-alt"></i>
+    <span class="pageload-time-all-ms">?</span>ms
+</button>
+                    </span>
+                    <span id="control-panel">
+                        
+<a href="https://c.wikiwiki.jp/login" title="コントロールパネル">
+    <i class="fas fa-cog"></i>
+</a>
+                    </span>
+                </div>
+            </div>
+
+            <div id="body">
+                
+                <div id="title">
+                                            <h1 class="title">太鼓の達人3</h1>
+                                                                <div id="lastmodified">
+                            Last-modified: 2023-06-28 (水) 17:06:55                                                    </div>
+                                    </div>
+
+                <div id="inbound-ad-container">
+  <!-- /19033742/WIKIWIKI_PC_INBOUND -->
+  <div id='div-gpt-ad-1567409776345-0'></div>
+  <!-- /19033742/WIKIWIKI_PC_INBOUND_RIGHT -->
+  <div id='div-gpt-ad-1658802281376-0'></div>
+  <!-- /19033742/WIKIWIKI_SP_INBOUND -->
+  <div id='div-gpt-ad-1563430750445-0' class="hidden-switch-class"></div>
+</div>
+
+<style>
+.pc-inbound-ad-default {
+    min-height:360px; 
+    margin-bottom:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap: 10px 5px;
+}
+.pc-inbound-ad-center{
+    min-height:360px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    gap: 10px 5px;
+}
+.pc-inbound-ad-mobile{
+    margin-bottom:5px;
+    display:flex;
+    justify-content:center;
+}
+</style>
+
+<script>
+(function () {
+  var body = document.getElementById('body');
+  var bw = body.clientWidth;
+  var co = document.getElementById('inbound-ad-container');
+
+  if (wi_isinbound && wi_ismobile && wi_group == "N") {
+    co.classList.add("pc-inbound-ad-mobile");
+    googletag.cmd.push(function() {googletag.display('div-gpt-ad-1563430750445-0');});
+  
+  } else if (wi_isinbound && wi_group == "N" && bw < 720) {
+    co.classList.add("pc-inbound-ad-center");
+    googletag.cmd.push(function() {googletag.display('div-gpt-ad-1567409776345-0');});
+
+  } else if (wi_isinbound && wi_group == "N" && bw < 1400) {
+    co.classList.add("pc-inbound-ad-center");
+    googletag.cmd.push(function() {
+      googletag.display('div-gpt-ad-1567409776345-0');
+      googletag.pubads().display('/19033742/WIKIWIKI_PC_INBOUND_RIGHT',
+        wi_adslot_rectangle , 'div-gpt-ad-1658802281376-0');
+    });
+    
+  } else if (wi_isinbound && wi_group == "N") {
+    co.classList.add("pc-inbound-ad-default");
+    googletag.cmd.push(function() {
+      googletag.display('div-gpt-ad-1567409776345-0');
+      googletag.pubads().display('/19033742/WIKIWIKI_PC_INBOUND_RIGHT',
+        wi_adslot_rectangle , 'div-gpt-ad-1658802281376-0');
+    });
+  }
+ }());
+</script>
+
+
+
+                <div class="search-words small" style="display: none;">
+    <div class="small">これらのキーワードがハイライトされています：<ul class="search-words-words"></ul></div>
+    <hr class="full_hr">
+</div>
+                <div id="content">
+                                        <ul class="list1"><li>稼働期間：2002 年 3 月 15 日 ～ 12 月 11 日</li>
+<li>旧曲 <strong>18</strong> ＋ 新曲 <strong>26</strong> ＝ 全 <span style="font-size:20px"><strong>44</strong></span> 曲 約59%が新曲。</li></ul>
+<hr class="full_hr" />
+<ul class="list1"><li><a class="ext" href="https://web.archive.org/web/20171020200527/http://bandainamcoent.co.jp/am/vg/taikono-tatsujin3/"  rel="nofollow">公式サイト（アーカイブ）<img src="https://cdn.wikiwiki.jp/to/w/common/image/plus/ext.png?v=4" alt="" title="" class="ext pukiwiki-open-uri" data-href="https://web.archive.org/web/20171020200527/http://bandainamcoent.co.jp/am/vg/taikono-tatsujin3/" data-frame="_blank" /></a> / <a class="ext" href="https://web.archive.org/web/20030617213759/http://www.namco.co.jp/donderpage/music3/index.html"  rel="nofollow">当時の楽曲紹介ページ(アーカイブ)<img src="https://cdn.wikiwiki.jp/to/w/common/image/plus/ext.png?v=4" alt="" title="" class="ext pukiwiki-open-uri" data-href="https://web.archive.org/web/20030617213759/http://www.namco.co.jp/donderpage/music3/index.html" data-frame="_blank" /></a></li>
+<li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/AC%E3%81%AE%E6%AD%B4%E5%8F%B2%28AC14%E3%81%BE%E3%81%A7%29#ac3" title="システム/ACの歴史(AC14まで)" class="rel-wiki-page">システム詳細</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E5%88%A5" title="作品/AC3/ジャンル別" class="rel-wiki-page">ジャンル別収録曲リスト(見やすさ重視)</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0" title="作品/AC3/コンボ数" class="rel-wiki-page">コンボ数</a></li></ul>
+<hr class="full_hr" />
+<ul class="list1"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93" title="作品/AC3/難易度順/かんたん" class="rel-wiki-page">かんたん</a>／<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/%E3%81%B5%E3%81%A4%E3%81%86" title="作品/AC3/難易度順/ふつう" class="rel-wiki-page">ふつう</a>／<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84" title="作品/AC3/難易度順/むずかしい" class="rel-wiki-page">むずかしい</a>／<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/%E3%83%89%E3%83%B3%E3%81%A0%E3%83%95%E3%83%AB%EF%BC%81" title="作品/AC3/難易度順/ドンだフル！" class="rel-wiki-page">ドンだフル！</a>／<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/%E3%83%90%E3%83%88%E3%83%AB" title="作品/AC3/難易度順/バトル" class="rel-wiki-page">バトル</a></li></ul>
+
+<h2 id="h2_content_1_0" >収録曲リスト <a class="anchor_super" name ="songlists"></a> <a class="anchor_super" href="/taiko-fumen/?cmd=edit&page=%E4%BD%9C%E5%93%81%2FAC3&id=songlists"><img src="https://cdn.wikiwiki.jp/to/w/common/image/plus/paraedit.png?v=4" width="9" height="9" alt="" title="Edit"></a></h2>
+<div class="wikiwiki-tablesorter-wrapper"><div class="h-scrollable"><table><thead><tr><td colspan="2" style="text-align:center;"></td><td><strong><span class="nobr">曲名　　　　　　　　　　</span></strong></td><td style="text-align:left; width:60px;">BPM<a id="notetext_1"  class="note_super tooltip"
+            data-tippy-theme="light"
+            data-tippy-allowHTML="true"
+            data-tippy-interactive="true"
+            data-tippy-content="&lt;p&gt;※があるものは細かなBPM変化がある&lt;/p&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;a href=&quot;#notefoot_1&quot;&gt;脚注 *1 へ&lt;/a&gt;&lt;/div&gt;">*1</a></td><td style="background-color:#d15136; text-align:center; width:61px;"><span class="nobr"><span style="color:#fff"><strong>&nbsp;かん&nbsp;<br class="spacer">たん</strong></span></span></td><td style="background-color:#6c9658; text-align:center; width:61px;"><span class="nobr"><span style="color:#fff"><strong>ふつう</strong></span></span></td><td style="background-color:#2b6a7e; text-align:center; width:61px;"><span class="nobr"><span style="color:#fff"><strong>むずか<br class="spacer">しい</strong></span></span></td><td style="background-color:#dcaf2c; text-align:center; width:61px;"><span class="nobr"><span style="color:#fff"><strong>ドンだ<br class="spacer">フル！</strong></span></span></td></tr></thead><tbody><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>1 / 44</strong></td><td><strong>アイアイ</strong><br class="spacer">ジャンル・童謡</td><td style="text-align:left; width:60px;">106</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%82%A2%E3%82%A4%E3%82%A2%E3%82%A4" title="収録曲/かんたん/アイアイ" class="rel-wiki-page">★×1</a></td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%A2%E3%82%A4%E3%82%A2%E3%82%A4" title="収録曲/おに/アイアイ" class="rel-wiki-page">★×1</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>2 / 44</strong></td><td><strong>炭坑節</strong><br class="spacer">ジャンル・音頭</td><td style="text-align:left; width:60px;">89.6</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E7%82%AD%E5%9D%91%E7%AF%80" title="収録曲/かんたん/炭坑節" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E7%82%AD%E5%9D%91%E7%AF%80" title="収録曲/おに/炭坑節" class="rel-wiki-page">★×1</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>3 / 44</strong></td><td><strong>アンパンマンのマーチ</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">96</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%82%A2%E3%83%B3%E3%83%91%E3%83%B3%E3%83%9E%E3%83%B3%E3%81%AE%E3%83%9E%E3%83%BC%E3%83%81" title="収録曲/かんたん/アンパンマンのマーチ" class="rel-wiki-page">★×1</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%82%A2%E3%83%B3%E3%83%91%E3%83%B3%E3%83%9E%E3%83%B3%E3%81%AE%E3%83%9E%E3%83%BC%E3%83%81" title="収録曲/ふつう/アンパンマンのマーチ" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%A2%E3%83%B3%E3%83%91%E3%83%B3%E3%83%9E%E3%83%B3%E3%81%AE%E3%83%9E%E3%83%BC%E3%83%81" title="収録曲/おに/アンパンマンのマーチ" class="rel-wiki-page">★×2</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>4 / 44</strong></td><td><strong>ラジオ体操第一</strong><br class="spacer">ジャンル・体操</td><td style="text-align:left; width:60px;">64-115</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%A9%E3%82%B8%E3%82%AA%E4%BD%93%E6%93%8D%E7%AC%AC%E4%B8%80#easy" title="収録曲/おに/ラジオ体操第一" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%A9%E3%82%B8%E3%82%AA%E4%BD%93%E6%93%8D%E7%AC%AC%E4%B8%80" title="収録曲/おに/ラジオ体操第一" class="rel-wiki-page">★×2</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>5 / 44</strong></td><td><strong>クラシックメドレー(運動会編)</strong><br class="spacer">ジャンル・クラシック</td><td style="text-align:left; width:60px;">70-160</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%28%E9%81%8B%E5%8B%95%E4%BC%9A%E7%B7%A8%29" title="収録曲/かんたん/クラシックメドレー(運動会編)" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%28%E9%81%8B%E5%8B%95%E4%BC%9A%E7%B7%A8%29" title="収録曲/おに/クラシックメドレー(運動会編)" class="rel-wiki-page">★×2</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>6 / 44</strong></td><td><strong>すすめ！ドリラー</strong><br class="spacer">ジャンル・ナムコ</td><td style="text-align:left; width:60px;">140</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%81%99%E3%81%99%E3%82%81%EF%BC%81%E3%83%89%E3%83%AA%E3%83%A9%E3%83%BC" title="収録曲/ふつう/すすめ！ドリラー" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%99%E3%81%99%E3%82%81%EF%BC%81%E3%83%89%E3%83%AA%E3%83%A9%E3%83%BC" title="収録曲/おに/すすめ！ドリラー" class="rel-wiki-page">★×2</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>7 / 44</strong></td><td><strong>愛のうた ～ピクミンのテーマ</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">76</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E6%84%9B%E3%81%AE%E3%81%86%E3%81%9F%20%EF%BD%9E%E3%83%94%E3%82%AF%E3%83%9F%E3%83%B3%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E" title="収録曲/かんたん/愛のうた ～ピクミンのテーマ" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%84%9B%E3%81%AE%E3%81%86%E3%81%9F%EF%BD%9E%E3%83%94%E3%82%AF%E3%83%9F%E3%83%B3%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E" title="収録曲/おに/愛のうた～ピクミンのテーマ" class="rel-wiki-page">★×1</a></td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%84%9B%E3%81%AE%E3%81%86%E3%81%9F%EF%BD%9E%E3%83%94%E3%82%AF%E3%83%9F%E3%83%B3%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E" title="収録曲/おに/愛のうた～ピクミンのテーマ" class="rel-wiki-page">★×3</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>8 / 44</strong></td><td><strong>PIECES OF A DREAM</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">105</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/PIECES%20OF%20A%20DREAM" title="収録曲/かんたん/PIECES OF A DREAM" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/PIECES%20OF%20A%20DREAM" title="収録曲/ふつう/PIECES OF A DREAM" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/PIECES%20OF%20A%20DREAM" title="収録曲/むずかしい/PIECES OF A DREAM" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/PIECES%20OF%20A%20DREAM" title="収録曲/おに/PIECES OF A DREAM" class="rel-wiki-page">★×3</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>9 / 44</strong></td><td><strong>ミニモニ。テレフォン！リンリンリン</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">150</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%83%9F%E3%83%8B%E3%83%A2%E3%83%8B%E3%80%82%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%EF%BC%81%E3%83%AA%E3%83%B3%E3%83%AA%E3%83%B3%E3%83%AA%E3%83%B3" title="収録曲/かんたん/ミニモニ。テレフォン！リンリンリン" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%83%9F%E3%83%8B%E3%83%A2%E3%83%8B%E3%80%82%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%EF%BC%81%E3%83%AA%E3%83%B3%E3%83%AA%E3%83%B3%E3%83%AA%E3%83%B3" title="収録曲/ふつう/ミニモニ。テレフォン！リンリンリン" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%9F%E3%83%8B%E3%83%A2%E3%83%8B%E3%80%82%E3%83%86%E3%83%AC%E3%83%95%E3%82%A9%E3%83%B3%EF%BC%81%E3%83%AA%E3%83%B3%E3%83%AA%E3%83%B3%E3%83%AA%E3%83%B3" title="収録曲/おに/ミニモニ。テレフォン！リンリンリン" class="rel-wiki-page">★×3</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>10 / 44</strong></td><td><strong>どんちゃん音頭</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・音頭</td><td style="text-align:left; width:60px;">140</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%A9%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%E9%9F%B3%E9%A0%AD" title="収録曲/おに/どんちゃん音頭" class="rel-wiki-page">★×3</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>11 / 44</strong></td><td><strong>ハロー！どんちゃん</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・ポップス</td><td style="text-align:left; width:60px;">140</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%8F%E3%83%AD%E3%83%BC%EF%BC%81%E3%81%A9%E3%82%93%E3%81%A1%E3%82%83%E3%82%93" title="収録曲/おに/ハロー！どんちゃん" class="rel-wiki-page">★×3</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>12 / 44</strong></td><td><strong>ガッツだぜ！！</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">125</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%82%AC%E3%83%83%E3%83%84%E3%81%A0%E3%81%9C%21%21" title="収録曲/かんたん/ガッツだぜ!!" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%82%AC%E3%83%83%E3%83%84%E3%81%A0%E3%81%9C%EF%BC%81%EF%BC%81" title="収録曲/ふつう/ガッツだぜ！！" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%82%AC%E3%83%83%E3%83%84%E3%81%A0%E3%81%9C%EF%BC%81%EF%BC%81" title="収録曲/むずかしい/ガッツだぜ！！" class="rel-wiki-page">★×1</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%AC%E3%83%83%E3%83%84%E3%81%A0%E3%81%9C%EF%BC%81%EF%BC%81" title="収録曲/おに/ガッツだぜ！！" class="rel-wiki-page">★×4</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>13 / 44</strong></td><td><strong>マッピー音頭</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・音頭</td><td style="text-align:left; width:60px;">126</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%9E%E3%83%83%E3%83%94%E3%83%BC%E9%9F%B3%E9%A0%AD" title="収録曲/おに/マッピー音頭" class="rel-wiki-page">★×4</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>14 / 44</strong></td><td><strong>ドラえもん音頭</strong><br class="spacer">ジャンル・音頭</td><td style="text-align:left; width:60px;">112</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E9%9F%B3%E9%A0%AD" title="収録曲/かんたん/ドラえもん音頭" class="rel-wiki-page">★×1</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E9%9F%B3%E9%A0%AD" title="収録曲/ふつう/ドラえもん音頭" class="rel-wiki-page">★×1</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E9%9F%B3%E9%A0%AD" title="収録曲/むずかしい/ドラえもん音頭" class="rel-wiki-page">★×1</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93%E9%9F%B3%E9%A0%AD" title="収録曲/おに/ドラえもん音頭" class="rel-wiki-page">★×5</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>15 / 44</strong></td><td><strong>ムーンライト伝説</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">138</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E4%BC%9D%E8%AA%AC" title="収録曲/かんたん/ムーンライト伝説" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E4%BC%9D%E8%AA%AC" title="収録曲/ふつう/ムーンライト伝説" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E4%BC%9D%E8%AA%AC" title="収録曲/むずかしい/ムーンライト伝説" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E4%BC%9D%E8%AA%AC" title="収録曲/おに/ムーンライト伝説" class="rel-wiki-page">★×5</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>16 / 44</strong></td><td><strong>traveling</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">117</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/traveling" title="収録曲/かんたん/traveling" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/traveling" title="収録曲/ふつう/traveling" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/traveling" title="収録曲/おに/traveling" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/traveling" title="収録曲/おに/traveling" class="rel-wiki-page">★×5</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>17 / 44</strong></td><td><strong>Mr.Moonlight</strong>　　<span style="font-size:11px">～愛のビッグバンド～</span><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">183</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/Mr.Moonlight%20%E6%84%9B%E3%81%AE%E3%83%93%E3%83%83%E3%82%B0%E3%83%90%E3%83%B3%E3%83%89" title="収録曲/かんたん/Mr.Moonlight 愛のビッグバンド" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/Mr.Moonlight%20%E6%84%9B%E3%81%AE%E3%83%93%E3%83%83%E3%82%B0%E3%83%90%E3%83%B3%E3%83%89" title="収録曲/ふつう/Mr.Moonlight 愛のビッグバンド" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/Mr.Moonlight%20%E6%84%9B%E3%81%AE%E3%83%93%E3%83%83%E3%82%B0%E3%83%90%E3%83%B3%E3%83%89" title="収録曲/おに/Mr.Moonlight 愛のビッグバンド" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/Mr.Moonlight%20%E6%84%9B%E3%81%AE%E3%83%93%E3%83%83%E3%82%B0%E3%83%90%E3%83%B3%E3%83%89" title="収録曲/おに/Mr.Moonlight 愛のビッグバンド" class="rel-wiki-page">★×5</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>18 / 44</strong></td><td><strong>WE ARE THE CHAMP ～THE NAME OF THE GAME～</strong><br class="spacer">ジャンル・サッカー応援歌</td><td style="text-align:left; width:60px;">123.61?</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/WE%20ARE%20THE%20CHAMP" title="収録曲/かんたん/WE ARE THE CHAMP" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/WE%20ARE%20THE%20CHAMP" title="収録曲/ふつう/WE ARE THE CHAMP" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/WE%20ARE%20THE%20CHAMP" title="収録曲/おに/WE ARE THE CHAMP" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/WE%20ARE%20THE%20CHAMP" title="収録曲/おに/WE ARE THE CHAMP" class="rel-wiki-page">★×5</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>19 / 44</strong></td><td><strong>大ちゃん数え唄</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">119.4</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E5%A4%A7%E3%81%A1%E3%82%83%E3%82%93%E6%95%B0%E3%81%88%E5%94%84" title="収録曲/ふつう/大ちゃん数え唄" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E5%A4%A7%E3%81%A1%E3%82%83%E3%82%93%E6%95%B0%E3%81%88%E5%94%84" title="収録曲/むずかしい/大ちゃん数え唄" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E5%A4%A7%E3%81%A1%E3%82%83%E3%82%93%E6%95%B0%E3%81%88%E5%94%84" title="収録曲/おに/大ちゃん数え唄" class="rel-wiki-page">★×5</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>20 / 44</strong></td><td><strong>どんちゃんえかき歌</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・絵描き唄</td><td style="text-align:left; width:60px;">140</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%A9%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%E3%81%88%E3%81%8B%E3%81%8D%E6%AD%8C" title="収録曲/おに/どんちゃんえかき歌" class="rel-wiki-page">★×5</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>21 / 44</strong></td><td><strong>太鼓の達人・愛のテーマ</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・ナムコ</td><td style="text-align:left; width:60px;">75-76</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E5%A4%AA%E9%BC%93%E3%81%AE%E9%81%94%E4%BA%BA%E3%83%BB%E6%84%9B%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E" title="収録曲/おに/太鼓の達人・愛のテーマ" class="rel-wiki-page">★×5</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>22 / 44</strong></td><td><strong>ハム太郎とっとこうた</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">140</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%83%8F%E3%83%A0%E5%A4%AA%E9%83%8E%E3%81%A8%E3%81%A3%E3%81%A8%E3%81%93%E3%81%86%E3%81%9F" title="収録曲/かんたん/ハム太郎とっとこうた" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%83%8F%E3%83%A0%E5%A4%AA%E9%83%8E%E3%81%A8%E3%81%A3%E3%81%A8%E3%81%93%E3%81%86%E3%81%9F" title="収録曲/ふつう/ハム太郎とっとこうた" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%83%8F%E3%83%A0%E5%A4%AA%E9%83%8E%E3%81%A8%E3%81%A3%E3%81%A8%E3%81%93%E3%81%86%E3%81%9F" title="収録曲/むずかしい/ハム太郎とっとこうた" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%8F%E3%83%A0%E5%A4%AA%E9%83%8E%E3%81%A8%E3%81%A3%E3%81%A8%E3%81%93%E3%81%86%E3%81%9F" title="収録曲/おに/ハム太郎とっとこうた" class="rel-wiki-page">★×6</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>23 / 44</strong></td><td><strong>LOVE涙色</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">118</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/LOVE%E6%B6%99%E8%89%B2" title="収録曲/かんたん/LOVE涙色" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/LOVE%E6%B6%99%E8%89%B2" title="収録曲/ふつう/LOVE涙色" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/LOVE%E6%B6%99%E8%89%B2" title="収録曲/おに/LOVE涙色" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/LOVE%E6%B6%99%E8%89%B2" title="収録曲/おに/LOVE涙色" class="rel-wiki-page">★×6</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>24 / 44</strong></td><td><strong>残酷な天使のテーゼ</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">79-129</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC" title="収録曲/ふつう/残酷な天使のテーゼ" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC" title="収録曲/むずかしい/残酷な天使のテーゼ" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC" title="収録曲/おに/残酷な天使のテーゼ" class="rel-wiki-page">★×6</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>25 / 44</strong></td><td><strong>学園天国</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">176</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E5%AD%A6%E5%9C%92%E5%A4%A9%E5%9B%BD" title="収録曲/ふつう/学園天国" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E5%AD%A6%E5%9C%92%E5%A4%A9%E5%9B%BD" title="収録曲/おに/学園天国" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E5%AD%A6%E5%9C%92%E5%A4%A9%E5%9B%BD" title="収録曲/おに/学園天国" class="rel-wiki-page">★×6</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>26 / 44</strong></td><td><strong>そうだ！We're ALIVE</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">120</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%81%9D%E3%81%86%E3%81%A0%EF%BC%81We%27re%20ALIVE" title="収録曲/かんたん/そうだ！We&#039;re ALIVE" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%81%9D%E3%81%86%E3%81%A0%EF%BC%81We%27re%20ALIVE" title="収録曲/ふつう/そうだ！We&#039;re ALIVE" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%9D%E3%81%86%E3%81%A0%EF%BC%81We%27re%20ALIVE" title="収録曲/おに/そうだ！We&#039;re ALIVE" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%9D%E3%81%86%E3%81%A0%EF%BC%81We%27re%20ALIVE" title="収録曲/おに/そうだ！We&#039;re ALIVE" class="rel-wiki-page">★×6</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>27 / 44</strong></td><td><strong>いい湯だな</strong><br class="spacer">ジャンル・お笑い</td><td style="text-align:left; width:60px;">149</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%81%84%E3%81%84%E6%B9%AF%E3%81%A0%E3%81%AA" title="収録曲/かんたん/いい湯だな" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%81%84%E3%81%84%E6%B9%AF%E3%81%A0%E3%81%AA" title="収録曲/ふつう/いい湯だな" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%84%E3%81%84%E6%B9%AF%E3%81%A0%E3%81%AA" title="収録曲/おに/いい湯だな" class="rel-wiki-page">★×3</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%84%E3%81%84%E6%B9%AF%E3%81%A0%E3%81%AA" title="収録曲/おに/いい湯だな" class="rel-wiki-page">★×6</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>28 / 44</strong></td><td><strong>明日があるさ</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">99.9</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E6%98%8E%E6%97%A5%E3%81%8C%E3%81%82%E3%82%8B%E3%81%95" title="収録曲/ふつう/明日があるさ" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%98%8E%E6%97%A5%E3%81%8C%E3%81%82%E3%82%8B%E3%81%95" title="収録曲/おに/明日があるさ" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%98%8E%E6%97%A5%E3%81%8C%E3%81%82%E3%82%8B%E3%81%95" title="収録曲/おに/明日があるさ" class="rel-wiki-page">★×6</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>29 / 44</strong></td><td><strong>波乗りジョニー</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">138</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC" title="収録曲/かんたん/波乗りジョニー" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC" title="収録曲/ふつう/波乗りジョニー" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC" title="収録曲/おに/波乗りジョニー" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC" title="収録曲/おに/波乗りジョニー" class="rel-wiki-page">★×7</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>30 / 44</strong></td><td><strong>たのしい太鼓道場</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・ナムコ</td><td style="text-align:left; width:60px;">150-190</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%81%9F%E3%81%AE%E3%81%97%E3%81%84%E5%A4%AA%E9%BC%93%E9%81%93%E5%A0%B4" title="収録曲/むずかしい/たのしい太鼓道場" class="rel-wiki-page">★×2</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%9F%E3%81%AE%E3%81%97%E3%81%84%E5%A4%AA%E9%BC%93%E9%81%93%E5%A0%B4" title="収録曲/おに/たのしい太鼓道場" class="rel-wiki-page">★×7</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>31 / 44</strong></td><td><strong>LOVEマシーン</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">131</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/LOVE%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3" title="収録曲/かんたん/LOVEマシーン" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/LOVE%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3" title="収録曲/ふつう/LOVEマシーン" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/LOVE%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3" title="収録曲/むずかしい/LOVEマシーン" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/LOVE%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3" title="収録曲/おに/LOVEマシーン" class="rel-wiki-page">★×7</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>32 / 44</strong></td><td><strong>サザエさん一家</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">92</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93%E4%B8%80%E5%AE%B6" title="収録曲/かんたん/サザエさん一家" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93%E4%B8%80%E5%AE%B6" title="収録曲/ふつう/サザエさん一家" class="rel-wiki-page">★×2</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93%E4%B8%80%E5%AE%B6" title="収録曲/むずかしい/サザエさん一家" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93%E4%B8%80%E5%AE%B6" title="収録曲/おに/サザエさん一家" class="rel-wiki-page">★×7</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>33 / 44</strong></td><td><strong>虹色・夢色・太鼓色</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・ポップス</td><td style="text-align:left; width:60px;">136</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E8%99%B9%E8%89%B2%E3%83%BB%E5%A4%A2%E8%89%B2%E3%83%BB%E5%A4%AA%E9%BC%93%E8%89%B2" title="収録曲/むずかしい/虹色・夢色・太鼓色" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E8%99%B9%E8%89%B2%E3%83%BB%E5%A4%A2%E8%89%B2%E3%83%BB%E5%A4%AA%E9%BC%93%E8%89%B2" title="収録曲/おに/虹色・夢色・太鼓色" class="rel-wiki-page">★×7</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>34 / 44</strong></td><td><strong>Marionette</strong><br class="spacer"><span style="font-size:11px">　　　-マリオネット-</span><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">159</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/Marionette" title="収録曲/ふつう/Marionette" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/Marionette" title="収録曲/むずかしい/Marionette" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/Marionette" title="収録曲/おに/Marionette" class="rel-wiki-page">★×8</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>35 / 44</strong></td><td><strong>ルパン三世のテーマ '78</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">138</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E3%83%AB%E3%83%91%E3%83%B3%E4%B8%89%E4%B8%96%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%20%2778" title="収録曲/かんたん/ルパン三世のテーマ &#039;78" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%83%AB%E3%83%91%E3%83%B3%E4%B8%89%E4%B8%96%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%20%2778" title="収録曲/ふつう/ルパン三世のテーマ &#039;78" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%83%AB%E3%83%91%E3%83%B3%E4%B8%89%E4%B8%96%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%20%2778" title="収録曲/むずかしい/ルパン三世のテーマ &#039;78" class="rel-wiki-page">★×5</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%AB%E3%83%91%E3%83%B3%E4%B8%89%E4%B8%96%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%20%2778" title="収録曲/おに/ルパン三世のテーマ &#039;78" class="rel-wiki-page">★×8</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>36 / 44</strong></td><td><strong>翔べ！ガンダム</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">144</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E7%BF%94%E3%81%B9%EF%BC%81%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0" title="収録曲/ふつう/翔べ！ガンダム" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E7%BF%94%E3%81%B9%EF%BC%81%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0" title="収録曲/おに/翔べ！ガンダム" class="rel-wiki-page">★×6</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E7%BF%94%E3%81%B9%EF%BC%81%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0" title="収録曲/おに/翔べ！ガンダム" class="rel-wiki-page">★×8</a></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>37 / 44</strong></td><td><strong>夏祭り</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">141.2</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E5%A4%8F%E7%A5%AD%E3%82%8A" title="収録曲/かんたん/夏祭り" class="rel-wiki-page">★×4</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E5%A4%8F%E7%A5%AD%E3%82%8A" title="収録曲/ふつう/夏祭り" class="rel-wiki-page">★×6</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E5%A4%8F%E7%A5%AD%E3%82%8A" title="収録曲/むずかしい/夏祭り" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E5%A4%8F%E7%A5%AD%E3%82%8A" title="収録曲/おに/夏祭り" class="rel-wiki-page">★×8</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>38 / 44</strong></td><td><strong>ガッチャマンの歌</strong><br class="spacer">ジャンル・アニメ</td><td style="text-align:left; width:60px;">140</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E3%82%AC%E3%83%83%E3%83%81%E3%83%A3%E3%83%9E%E3%83%B3%E3%81%AE%E6%AD%8C" title="収録曲/ふつう/ガッチャマンの歌" class="rel-wiki-page">★×6</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%82%AC%E3%83%83%E3%83%81%E3%83%A3%E3%83%9E%E3%83%B3%E3%81%AE%E6%AD%8C" title="収録曲/むずかしい/ガッチャマンの歌" class="rel-wiki-page">★×5</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%82%AC%E3%83%83%E3%83%81%E3%83%A3%E3%83%9E%E3%83%B3%E3%81%AE%E6%AD%8C" title="収録曲/むずかしい/ガッチャマンの歌" class="rel-wiki-page">★×9</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>39 / 44</strong></td><td><strong>UNITE！</strong><br class="spacer">ジャンル・J-POP</td><td style="text-align:left; width:60px;">138</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/UNITE%21" title="収録曲/かんたん/UNITE!" class="rel-wiki-page">★×3</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/UNITE%21" title="収録曲/ふつう/UNITE!" class="rel-wiki-page">★×5</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/UNITE%21" title="収録曲/むずかしい/UNITE!" class="rel-wiki-page">★×6</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/UNITE%21" title="収録曲/おに/UNITE!" class="rel-wiki-page">★×9</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>40 / 44</strong></td><td><strong>ラブリーX</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・ナムコ</td><td style="text-align:left; width:60px;">134</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BCX" title="収録曲/おに/ラブリーX" class="rel-wiki-page">★×10</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"></td><td style="text-align:center; width:60px;"><strong>41 / 44</strong></td><td><strong>ゴー・ゴー・キッチン</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・スカ</td><td style="text-align:left; width:60px;">206</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%B4%E3%83%BC%E3%82%B4%E3%83%BC%E3%83%BB%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3" title="収録曲/おに/ゴーゴー・キッチン" class="rel-wiki-page">★×10</a><br class="spacer"><span class="nobr"><span style="font-size:10px">譜面分岐</span></span></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>42 / 44</strong></td><td><strong>クラシックメドレー(ロック編)</strong><br class="spacer">ジャンル・クラシック</td><td style="text-align:left; width:60px;">143</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%28%E3%83%AD%E3%83%83%E3%82%AF%E7%B7%A8%29" title="収録曲/むずかしい/クラシックメドレー(ロック編)" class="rel-wiki-page">★×7</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%28%E3%83%AD%E3%83%83%E3%82%AF%E7%B7%A8%29" title="収録曲/おに/クラシックメドレー(ロック編)" class="rel-wiki-page">★×10</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>43 / 44</strong></td><td><strong>太鼓侍</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・和風</td><td style="text-align:left; width:60px;">135</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E5%A4%AA%E9%BC%93%E4%BE%8D" title="収録曲/むずかしい/太鼓侍" class="rel-wiki-page">★×7</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E5%A4%AA%E9%BC%93%E4%BE%8D" title="収録曲/おに/太鼓侍" class="rel-wiki-page">★×10</a></td></tr><tr><td style="text-align:center; width:1px;"><strong>新</strong></td><td style="text-align:center; width:60px;"><strong>44 / 44</strong></td><td><strong>風雲！バチお先生</strong>　　　<span style="font-size:11px">太鼓の達人オリジナル曲</span><br class="spacer">ジャンル・和風</td><td style="text-align:left; width:60px;">130</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;">-</td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E9%A2%A8%E9%9B%B2%EF%BC%81%E3%83%90%E3%83%81%E3%81%8A%E5%85%88%E7%94%9F" title="収録曲/むずかしい/風雲！バチお先生" class="rel-wiki-page">★×7</a></td><td style="text-align:center; width:61px;"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E9%A2%A8%E9%9B%B2%EF%BC%81%E3%83%90%E3%83%81%E3%81%8A%E5%85%88%E7%94%9F" title="収録曲/おに/風雲！バチお先生" class="rel-wiki-page">★×10</a></td></tr></tbody></table></div>
+</div>
+                </div>
+
+                <div id="main-contents-bottom">
+                    <div id="pc-bottom-parent-ad-container">
+<div id="pc-bottom-left-ad-container">
+    <!-- /19033742/WIKIWIKI_PC_BOTTOM_LEFT or /19033742/WIKIWIKI_SP_SECOND -->
+    <div id='div-gpt-ad-1567408559923-0' class="hidden-switch-class" style="min-height:250px;min-width:300px;"></div>
+</div>
+<!-- /19033742/WIKIWIKI_PC_BOTTOM_RIGHT -->
+<div id='div-gpt-ad-1658912377789-0'></div>
+<div id="pc-bottom-right-ad-container" style="display:none;">
+<!-- WIKIWIKI_PC_BOTTOM_RIGHT -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8989645915312923"
+     data-ad-slot="9155519303"></ins>
+</div>
+</div>
+
+<style>
+.pc-bottom-ad-default {
+    margin-bottom:20px;
+    display:flex;
+    justify-content:flex-start;
+    gap: 10px 5px;
+}
+
+.pc-bottom-ad-center{
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    gap: 10px 5px;
+}
+.pc-bottom-ad-mobile{
+    margin-top:30px;
+    margin-bottom:30px;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+</style>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+(function() {
+    var body = document.getElementById('body');
+    var bw = body.clientWidth;
+    var bh = body.clientHeight;
+    var fh = 50;
+    var slot = [[336,280]];
+    var ads = true;
+    var radm = false;
+    var st = "center";
+    if (bh < 620) fh = 660 - bh;
+    var co = document.getElementById("pc-bottom-parent-ad-container");
+    
+    if (wi_ismobile && bw < 400){
+        co.classList.add("pc-bottom-ad-mobile");
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567408559923-0'); });
+        co.style.marginTop = fh + 'px';
+        return;
+    } else if (bh < 800 && wi_isinbound && wi_group == "N") {
+        return;
+    } else if (bw < 605) {
+        ads = false;
+    } else if (bw > 604 && bw < 677) {
+        slot = [[300,250]];
+        radm = true;
+        ads = false;
+    } else if (bw > 900) {
+        st = "default";
+    }
+    
+    co.classList.add("pc-bottom-ad-" + st);
+    co.style.marginTop = fh + 'px';
+    googletag.cmd.push(function() {
+        googletag.pubads().display('/19033742/WIKIWIKI_PC_BOTTOM_LEFT',
+            slot , 'div-gpt-ad-1567408559923-0');
+    });
+    
+    if (ads) {
+         document.getElementById('pc-bottom-right-ad-container').style.display = 'block';
+        (adsbygoogle = window.adsbygoogle || []).push({});       
+    } else if (radm) {
+        googletag.cmd.push(function() {
+            googletag.pubads().display('/19033742/WIKIWIKI_PC_BOTTOM_RIGHT',
+            [[300,250]] , 'div-gpt-ad-1658912377789-0');
+        });
+    }
+}());
+</script>                </div>
+            </div>
+        </div>
+
+        
+                    <div class="column-left">
+                <div id="menubar">
+                                        <h3 id="h3_content_7_0" >運営からのお知らせ</h3>
+
+<p><strong>【お知らせ】</strong><br />
+「太鼓の達人 譜面とかWiki*」の副管理人を募集しています。<br />
+譜面Wikiの運営に携わってみたい！という方は奮ってご応募ください！<br />
+詳細はリンクをクリック！<br />
+※応募時点で18歳未満である方はトラブル防止のため応募できません。ご了承ください。</p>
+<p><a href="https://forms.gle/oPxELVeyKnQMij9e9"  rel="nofollow">https://forms.gle/oPxELVeyKnQMij9e9</a></p>
+<hr class="full_hr" />
+<p>「太鼓の達人 クリア難易度 議論補助Wiki」用の議論所サーバーを、Discord上に公開しました。<br />
+議論Wikiの存続や、当Wikiでの難易度議論における今後の方針を決めるために、重要なサーバーとなっています。<br />
+ぜひとも参加していただけると嬉しいです。<br />
+参加URLはこちら↓↓<br />
+<a href="https://discord.gg/qSdVzAZaM"  rel="nofollow">https://discord.gg/qSdVzAZaM</a></p>
+<hr class="full_hr" />
+<p>「太鼓の達人 譜面とかWiki*」の利用者定期アンケートを、2023年9月1日（金）より実施しています。ご協力お願いいたします。<br />
+URLはこちら↓↓<br />
+<a href="https://t.co/bDbTFtcOre"  rel="nofollow">https://t.co/bDbTFtcOre</a></p>
+<p><strong><a href="/taiko-fumen/%E5%BD%93Wiki%E3%81%A7%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB" title="当Wikiでのルール" class="rel-wiki-page">当Wikiでのルール</a> / <a href="/taiko-fumen/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84" title="利用規約" class="rel-wiki-page">利用規約</a>（必読）</strong><br />
+<strong><a href="/taiko-fumen/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="プライバシーポリシー" class="rel-wiki-page">プライバシーポリシー</a></strong></p>
+<p><strong><a href="/taiko-fumen/%E8%8D%92%E3%82%89%E3%81%97%E7%AD%89%E3%81%AE%E9%80%9A%E5%A0%B1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="荒らし等の通報について" class="rel-wiki-page">荒らしや迷惑行為の通報</a></strong><br class="spacer"><strong><a href="/taiko-fumen/%E8%8D%92%E3%82%89%E3%81%97%E7%AD%89%E3%81%AE%E9%80%9A%E5%A0%B1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6#edit_restriction" title="荒らし等の通報について" class="rel-wiki-page">規制情報 / 編集できない場合の対処法</a></strong></p>
+
+<form action="/taiko-fumen/?plugin=lookup&refer=%E4%BD%9C%E5%93%81%2F%E6%96%B0AC%2F%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A9%E6%9B%B2" method="post">
+ <div>
+  <input type="hidden" name="inter"  value="サイト内を検索" />
+  <label for="_p_lookup_1">サイト内を検索:</label>
+  <input type="text" name="page" id="_p_lookup_1" size="20" value="" />
+  <input type="submit" value="検索"/>
+ </div>
+</form>
+<p><strong>現在<span class="wikiwiki-online">?</span>人が閲覧中です</strong></p>
+<h2 id="h2_content_7_1" class="heading-after-first">基本情報</h2>
+<ul class="list1"><li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" title="システム" class="rel-wiki-page">システム</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E5%9F%BA%E6%9C%AC%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" title="システム/基本システム" class="rel-wiki-page">基本システム</a></li>
+<li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E9%85%8D%E7%82%B9" title="システム/配点" class="rel-wiki-page">配点</a></li>
+<li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E5%9F%BA%E6%9C%AC%E3%81%AE%E9%81%8A%E3%81%B3%E6%96%B9%28%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%BC%E3%83%89%E7%89%88%29" title="システム/基本の遊び方(アーケード版)" class="rel-wiki-page">基本の遊び方 (アーケード版)</a></li></ul></li>
+<li><a href="/taiko-fumen/%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F" title="よくある質問" class="rel-wiki-page">よくある質問</a></li>
+<li><a href="/taiko-fumen/%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E8%A1%A8%E8%A8%98%E4%B8%80%E8%A6%A7" title="バージョン表記一覧" class="rel-wiki-page">バージョン表記一覧</a></li>
+<li><a href="/taiko-fumen/%E7%94%A8%E8%AA%9E%E9%9B%86" title="用語集" class="rel-wiki-page">用語集</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E7%94%A8%E8%AA%9E%E9%9B%86/%E8%8B%B1%E6%95%B0%E3%83%BB%E3%81%82%E8%A1%8C%EF%BD%9E%E3%81%8B%E8%A1%8C" title="用語集/英数・あ行～か行" class="rel-wiki-page">英数・あ行～か行</a></li>
+<li><a href="/taiko-fumen/%E7%94%A8%E8%AA%9E%E9%9B%86/%E3%81%95%E8%A1%8C%EF%BD%9E%E3%81%AA%E8%A1%8C" title="用語集/さ行～な行" class="rel-wiki-page">さ行～な行</a></li>
+<li><a href="/taiko-fumen/%E7%94%A8%E8%AA%9E%E9%9B%86/%E3%81%AF%E8%A1%8C%EF%BD%9E%E3%82%8F%E8%A1%8C" title="用語集/は行～わ行" class="rel-wiki-page">は行～わ行</a></li>
+<li><a href="/taiko-fumen/%E7%94%A8%E8%AA%9E%E9%9B%86/%E3%81%9D%E3%81%AE%E4%BB%96" title="用語集/その他" class="rel-wiki-page">その他</a></li></ul></li>
+<li><a href="/taiko-fumen/%E8%B3%87%E6%96%99%E9%9B%86" title="資料集" class="rel-wiki-page">資料集</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/AC%E3%81%AE%E6%AD%B4%E5%8F%B2%28%E6%96%B0%E7%AD%90%E4%BD%932%29" title="システム/ACの歴史(新筐体2)" class="rel-wiki-page">ACの歴史</a></li>
+<li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/CS%E3%81%AE%E6%AD%B4%E5%8F%B2" title="システム/CSの歴史" class="rel-wiki-page">CSの歴史</a></li>
+<li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7" title="システム/キャラクター一覧" class="rel-wiki-page">キャラクター一覧</a></li></ul></li></ul>
+<h2 id="h2_content_7_2" class="heading-after-first">掲示板</h2>
+<p><a href="/taiko-fumen/%E5%BD%93Wiki%E3%81%A7%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB#comment" title="当Wikiでのルール" class="rel-wiki-page"><strong>コメント時の注意</strong></a></p>
+<ul class="list1"><li><a href="/taiko-fumen/%E9%9B%91%E8%AB%87%E6%89%80" title="雑談所" class="rel-wiki-page">雑談所</a></li>
+<li><a href="/taiko-fumen/%E3%82%A2%E3%83%B3%E3%82%B1%E3%83%BC%E3%83%88%E6%89%80" title="アンケート所" class="rel-wiki-page">アンケート所</a></li>
+<li><a href="/taiko-fumen/%E7%96%91%E5%95%8F%E8%A7%A3%E6%B1%BA%E6%89%80" title="疑問解決所" class="rel-wiki-page">疑問解決所</a></li>
+<li><a href="/taiko-fumen/%E4%B8%8A%E9%81%94%E6%94%AF%E6%8F%B4%E6%89%80" title="上達支援所" class="rel-wiki-page">上達支援所</a></li>
+<li><a href="/taiko-fumen/%E9%9B%91%E8%AB%87%E6%89%80/%E5%AE%9F%E6%B3%81%E7%94%A8%E3%83%88%E3%83%94%E3%83%83%E3%82%AF" title="雑談所/実況用トピック" class="rel-wiki-page">実況トピック</a></li>
+<li><a href="#boardlatest">新しいコメントを見る</a></li></ul>
+<h2 id="h2_content_7_3" class="heading-after-first"><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2" title="収録曲" class="rel-wiki-page">収録曲</a></h2>
+<h3 id="h3_content_7_4" class="heading-after-first"><a href="/taiko-fumen/%E4%BD%9C%E5%93%81" title="作品" class="rel-wiki-page">作品</a></h3>
+<h4 id="h4_content_7_5" class="heading-after-first">現行作品</h4>
+<ul class="list1"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC" title="作品/新AC" class="rel-wiki-page">ニジイロ</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS2" title="作品/NS2" class="rel-wiki-page">NS2</a> (<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS2/%E5%A4%AA%E9%BC%93%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%B9" title="作品/NS2/太鼓ミュージックパス" class="rel-wiki-page">サブスク</a>)</li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/RC" title="作品/RC" class="rel-wiki-page">RC</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PTB" title="作品/PTB" class="rel-wiki-page">PTB</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/iOS" title="作品/iOS" class="rel-wiki-page">iOS</a></li></ul>
+<h4 id="h4_content_7_6" class="heading-after-first">アーケード版 (AC16)</h4>
+<ul class="list1"><li>日本版
+<ul class="list2"><li>4.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC" title="作品/新AC" class="rel-wiki-page">ニジイロ2023</a><br />
+<span style="font-size:8px">(2023.3.22～)</span></li>
+<li>3.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%8B%E3%82%B8%E3%82%A4%E3%83%AD2022" title="作品/新AC/ニジイロ2022" class="rel-wiki-page">ニジイロ2022</a><br />
+<span style="font-size:8px">(2022.3.16～2023.3.21)</span></li>
+<li>2.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%8B%E3%82%B8%E3%82%A4%E3%83%AD2021" title="作品/新AC/ニジイロ2021" class="rel-wiki-page">ニジイロ2021</a><br />
+<span style="font-size:8px">(2021.3.25～2022.3.15)</span></li>
+<li>1.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%8B%E3%82%B8%E3%82%A4%E3%83%AD2020" title="作品/新AC/ニジイロ2020" class="rel-wiki-page">ニジイロ2020</a><br />
+<span style="font-size:8px">(2020.3.24～2021.3.24)</span></li></ul></li>
+<li>アジア版
+<ul class="list2"><li>3.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC%E3%82%A2%E3%82%B8%E3%82%A2%E7%89%88" title="作品/新ACアジア版" class="rel-wiki-page">ニジイロ2023</a> ( <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC%E3%82%A2%E3%82%B8%E3%82%A2%E7%89%88%28%E8%8B%B1%E8%AA%9E%29" title="作品/新ACアジア版(英語)" class="rel-wiki-page">ENG</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC%E3%82%A2%E3%82%B8%E3%82%A2%E7%89%88%28%E4%B8%AD%E5%9B%BD%E8%AA%9E%29" title="作品/新ACアジア版(中国語)" class="rel-wiki-page">中文</a> )</li></ul></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A9%E6%9B%B2" title="作品/新AC/サヨナラ曲" class="rel-wiki-page">サヨナラ曲</a></li></ul>
+<h4 id="h4_content_7_7" class="heading-after-first">アーケード版 (AC15)</h4>
+<ul class="list1"><li>日本版
+<ul class="list2"><li>11.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3" title="作品/新AC/グリーン" class="rel-wiki-page">グリーン</a></li>
+<li>10.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%96%E3%83%AB%E3%83%BC" title="作品/新AC/ブルー" class="rel-wiki-page">ブルー</a></li>
+<li>9.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%A4%E3%82%A8%E3%83%AD%E3%83%BC" title="作品/新AC/イエロー" class="rel-wiki-page">イエロー</a></li>
+<li>8.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%AC%E3%83%83%E3%83%89" title="作品/新AC/レッド" class="rel-wiki-page">レッド</a></li>
+<li>7.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88" title="作品/新AC/ホワイト" class="rel-wiki-page">ホワイト</a></li>
+<li>6.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%A0%E3%83%A9%E3%82%B5%E3%82%AD" title="作品/新AC/ムラサキ" class="rel-wiki-page">ムラサキ</a></li>
+<li>5.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%AD%E3%83%9F%E3%83%89%E3%83%AA" title="作品/新AC/キミドリ" class="rel-wiki-page">キミドリ</a></li>
+<li>4.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%83%A2%E3%83%A2%E3%82%A4%E3%83%AD" title="作品/新AC/モモイロ" class="rel-wiki-page">モモイロ</a></li>
+<li>3.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%BD%E3%83%A9%E3%82%A4%E3%83%AD" title="作品/新AC/ソライロ" class="rel-wiki-page">ソライロ</a></li>
+<li>2.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/KATSU-DON%20Ver.8.03%E3%81%BE%E3%81%A7" title="作品/新AC/KATSU-DON Ver.8.03まで" class="rel-wiki-page">KATSU-DON</a></li>
+<li>1.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/Ver7.03%E3%81%BE%E3%81%A7" title="作品/新AC/Ver7.03まで" class="rel-wiki-page">無印</a></li></ul></li>
+<li>ブラジル版
+<ul class="list2"><li>4.<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC%E3%83%96%E3%83%A9%E3%82%B8%E3%83%AB%E7%89%88" title="作品/新ACブラジル版" class="rel-wiki-page">モモイロ</a></li></ul></li></ul>
+<h4 id="h4_content_7_8" class="heading-after-first">アーケード版 (旧筐体)</h4>
+<ul class="list1"><li><a href="/taiko-fumen/%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E8%A1%A8%E8%A8%98%E4%B8%80%E8%A6%A7#oldac" title="バージョン表記一覧" class="rel-wiki-page">バージョン表記一覧 (旧筐体)</a></li>
+<li>日本版
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC14" title="作品/AC14" class="rel-wiki-page">AC14</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC13" title="作品/AC13" class="rel-wiki-page">AC13</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC12%E5%A2%97%E9%87%8F%E7%89%88" title="作品/AC12増量版" class="rel-wiki-page">AC12増</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC12" title="作品/AC12" class="rel-wiki-page">AC12</a><br />
+<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC11" title="作品/AC11" class="rel-wiki-page">AC11</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC10" title="作品/AC10" class="rel-wiki-page">AC10</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC9" title="作品/AC9" class="rel-wiki-page">AC9</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC8" title="作品/AC8" class="rel-wiki-page">AC8</a><br />
+<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC7" title="作品/AC7" class="rel-wiki-page">AC7</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC6" title="作品/AC6" class="rel-wiki-page">AC6</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC5" title="作品/AC5" class="rel-wiki-page">AC5</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC4" title="作品/AC4" class="rel-wiki-page">AC4</a><br />
+<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC3" title="作品/AC3" class="rel-wiki-page">AC3</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC2" title="作品/AC2" class="rel-wiki-page">AC2</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC1" title="作品/AC1" class="rel-wiki-page">AC1</a></li></ul></li>
+<li>亜洲版
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC12%E4%BA%9C%E6%B4%B2%E7%89%88" title="作品/AC12亜洲版" class="rel-wiki-page">AC12亜</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/AC11%E4%BA%9C%E6%B4%B2%E7%89%88" title="作品/AC11亜洲版" class="rel-wiki-page">AC11亜</a></li></ul></li></ul>
+<h4 id="h4_content_7_9" class="heading-after-first">家庭用・スマホなど</h4>
+<ul class="list1"><li><a href="/taiko-fumen/%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E8%A1%A8%E8%A8%98%E4%B8%80%E8%A6%A7#consumer" title="バージョン表記一覧" class="rel-wiki-page">バージョン表記一覧 (家庭用)</a></li>
+<li>Nintendo Switch
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS2" title="作品/NS2" class="rel-wiki-page">NS2</a> (<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS2/%E5%A4%AA%E9%BC%93%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%83%91%E3%82%B9" title="作品/NS2/太鼓ミュージックパス" class="rel-wiki-page">サブスク</a>) / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS1" title="作品/NS1" class="rel-wiki-page">NS1</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/NS%20RPG" title="作品/NS RPG" class="rel-wiki-page">NS RPG</a></li></ul></li>
+<li>スマートフォン &amp;<br class="spacer">タブレット
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/RC" title="作品/RC" class="rel-wiki-page">RC</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PTB" title="作品/PTB" class="rel-wiki-page">PTB</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/iOS" title="作品/iOS" class="rel-wiki-page">iOS</a></li></ul></li>
+<li>Xbox (X|S・One) / Windows
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Xbox1" title="作品/Xbox1" class="rel-wiki-page">Xbox</a></li></ul></li>
+<li>PS4
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PS4%201" title="作品/PS4 1" class="rel-wiki-page">PS4</a></li></ul></li>
+<li>Wii U・Wii
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Wii%20U3" title="作品/Wii U3" class="rel-wiki-page">Wii U3</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Wii%20U2" title="作品/Wii U2" class="rel-wiki-page">Wii U2</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Wii%20U1" title="作品/Wii U1" class="rel-wiki-page">Wii U1</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Wii5" title="作品/Wii5" class="rel-wiki-page">Wii5</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Wii4" title="作品/Wii4" class="rel-wiki-page">Wii4</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Wii3" title="作品/Wii3" class="rel-wiki-page">Wii3</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Wii2" title="作品/Wii2" class="rel-wiki-page">Wii2</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Wii1" title="作品/Wii1" class="rel-wiki-page">Wii1</a></li></ul></li>
+<li>3DS・DS
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/3DS3" title="作品/3DS3" class="rel-wiki-page">3DS3</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/3DS2" title="作品/3DS2" class="rel-wiki-page">3DS2</a> (<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/3DS2%E9%9F%93%E5%9B%BD%E7%89%88" title="作品/3DS2韓国版" class="rel-wiki-page">韓国版</a>) / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/3DS1" title="作品/3DS1" class="rel-wiki-page">3DS1</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/DS3" title="作品/DS3" class="rel-wiki-page">DS3</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/DS2" title="作品/DS2" class="rel-wiki-page">DS2</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/DS1" title="作品/DS1" class="rel-wiki-page">DS1</a></li></ul></li>
+<li>PS Vita・PSP
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PS%20Vita1" title="作品/PS Vita1" class="rel-wiki-page">PS Vita</a> (<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PS%20Vita1%E4%BA%9C%E6%B4%B2%E4%B8%AD%E6%96%87%E7%89%88" title="作品/PS Vita1亜洲中文版" class="rel-wiki-page">亜州版</a>)</li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PS%20Vita%20MS" title="作品/PS Vita MS" class="rel-wiki-page">PS Vita MS</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PSPDX" title="作品/PSPDX" class="rel-wiki-page">PSPDX</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PSP2" title="作品/PSP2" class="rel-wiki-page">PSP2</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/PSP1" title="作品/PSP1" class="rel-wiki-page">PSP1</a></li></ul></li>
+<li>PS2
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/CS7" title="作品/CS7" class="rel-wiki-page">CS7</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/CS6" title="作品/CS6" class="rel-wiki-page">CS6</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/CS5" title="作品/CS5" class="rel-wiki-page">CS5</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/CS4" title="作品/CS4" class="rel-wiki-page">CS4</a><br />
+<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/CS3" title="作品/CS3" class="rel-wiki-page">CS3</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/CS2" title="作品/CS2" class="rel-wiki-page">CS2</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/CS1" title="作品/CS1" class="rel-wiki-page">CS1</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB" title="作品/アニメスペシャル" class="rel-wiki-page">アニスペ</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E3%82%A2%E3%83%8B%E3%83%A1%E7%A5%AD%E3%82%8A" title="作品/アニメ祭り" class="rel-wiki-page">アニメ祭</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/TDM" title="作品/TDM" class="rel-wiki-page">TDM</a> (<a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E5%8C%97%E7%B1%B3%E7%89%88TDM" title="作品/北米版TDM" class="rel-wiki-page">米TDM</a>)</li></ul></li>
+<li>その他
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/Beena" title="作品/Beena" class="rel-wiki-page">Beena</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/RT" title="作品/RT" class="rel-wiki-page">RT</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E3%82%82%E3%81%B0%E3%81%84%E3%82%8B" title="作品/もばいる" class="rel-wiki-page">もばいる</a></li></ul></li></ul>
+<h3 id="h3_content_7_10" class="heading-after-first">ジャンル別</h3>
+<p><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E5%9F%BA%E6%9C%AC%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0#genre" title="システム/基本システム" class="rel-wiki-page">ジャンル詳細</a></p>
+<ul class="list1"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9D%E3%83%83%E3%83%97%E3%82%B9" title="収録曲/ポップス" class="rel-wiki-page">ポップス</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9D%E3%83%83%E3%83%97%E3%82%B9/%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E5%88%A5" title="収録曲/ポップス/アーティスト別" class="rel-wiki-page">アーティスト別</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9D%E3%83%83%E3%83%97%E3%82%B9/%E6%B4%8B%E6%A5%BD" title="収録曲/ポップス/洋楽" class="rel-wiki-page">洋楽</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%AD%E3%83%83%E3%82%BA" title="収録曲/キッズ" class="rel-wiki-page">キッズ</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%A2%E3%83%8B%E3%83%A1" title="収録曲/アニメ" class="rel-wiki-page">アニメ</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%A2%E3%83%8B%E3%83%A1/%E3%82%A2%E3%83%8B%E3%83%A1%E5%88%A5" title="収録曲/アニメ/アニメ別" class="rel-wiki-page">アニメ別</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9C%E3%83%BC%E3%82%AB%E3%83%AD%E3%82%A4%E3%83%89%E6%9B%B2" title="収録曲/ボーカロイド曲" class="rel-wiki-page">ボーカロイド&#8482;曲</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%9C%E3%83%BC%E3%82%AB%E3%83%AD%E3%82%A4%E3%83%89%E6%9B%B2/%E3%83%9C%E3%83%BC%E3%82%AB%E3%83%AD%E3%82%A4%E3%83%89%E5%88%A5" title="収録曲/ボーカロイド曲/ボーカロイド別" class="rel-wiki-page">ボーカロイド別</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF" title="収録曲/ゲームミュージック" class="rel-wiki-page">ゲームミュージック</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF/%E3%82%B2%E3%83%BC%E3%83%A0%E5%88%A5" title="収録曲/ゲームミュージック/ゲーム別" class="rel-wiki-page">ゲーム別</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF/THE%20IDOLM%40STER%E9%96%A2%E9%80%A3" title="収録曲/ゲームミュージック/THE IDOLM@STER関連" class="rel-wiki-page">THE IDOLM@STER</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF/%E9%9F%B3%E6%A5%BD%E3%82%B2%E3%83%BC%E3%83%A0%E6%A5%BD%E6%9B%B2" title="収録曲/ゲームミュージック/音楽ゲーム楽曲" class="rel-wiki-page">音楽ゲーム</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%90%E3%83%A9%E3%82%A8%E3%83%86%E3%82%A3" title="収録曲/バラエティ" class="rel-wiki-page">バラエティ</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%90%E3%83%A9%E3%82%A8%E3%83%86%E3%82%A3/%E6%9D%B1%E6%96%B9Project%E3%82%A2%E3%83%AC%E3%83%B3%E3%82%B8%E6%A5%BD%E6%9B%B2" title="収録曲/バラエティ/東方Projectアレンジ楽曲" class="rel-wiki-page">東方Projectアレンジ</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%90%E3%83%A9%E3%82%A8%E3%83%86%E3%82%A3/BMS%E6%A5%BD%E6%9B%B2" title="収録曲/バラエティ/BMS楽曲" class="rel-wiki-page">BMS</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF" title="収録曲/クラシック" class="rel-wiki-page">クラシック</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF/%E4%BD%9C%E6%9B%B2%E5%AE%B6%E5%88%A5" title="収録曲/クラシック/作曲家別" class="rel-wiki-page">作曲家別</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%8A%E3%83%A0%E3%82%B3%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB" title="収録曲/ナムコオリジナル" class="rel-wiki-page">ナムコオリジナル</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%83%8A%E3%83%A0%E3%82%B3%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB/%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E6%9B%B2" title="収録曲/ナムコオリジナル/シリーズ曲" class="rel-wiki-page">シリーズ別</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%A9%E3%81%86%E3%82%88%E3%81%86" title="収録曲/どうよう" class="rel-wiki-page">どうよう</a></li></ul>
+<h3 id="h3_content_7_11" class="heading-after-first">コース別難易度別</h3>
+<ul class="list1"><li>おに
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%9710" title="収録曲/おに/★×10" class="rel-wiki-page">★×10</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%979" title="収録曲/おに/★×9" class="rel-wiki-page">★×9</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%978" title="収録曲/おに/★×8" class="rel-wiki-page">★×8</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%977" title="収録曲/おに/★×7" class="rel-wiki-page">★×7</a><br />
+<a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%976" title="収録曲/おに/★×6" class="rel-wiki-page">★×6</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%975" title="収録曲/おに/★×5" class="rel-wiki-page">★×5</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%98%85%C3%971%EF%BD%9E4" title="収録曲/おに/★×1～4" class="rel-wiki-page">★×1～4</a></li></ul></li>
+<li>むずかしい
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%978" title="収録曲/むずかしい/★×8" class="rel-wiki-page">★×8</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%977" title="収録曲/むずかしい/★×7" class="rel-wiki-page">★×7</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%976" title="収録曲/むずかしい/★×6" class="rel-wiki-page">★×6</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%975" title="収録曲/むずかしい/★×5" class="rel-wiki-page">★×5</a><br />
+<a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%974" title="収録曲/むずかしい/★×4" class="rel-wiki-page">★×4</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%973" title="収録曲/むずかしい/★×3" class="rel-wiki-page">★×3</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%972" title="収録曲/むずかしい/★×2" class="rel-wiki-page">★×2</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%971" title="収録曲/むずかしい/★×1" class="rel-wiki-page">★×1</a></li></ul></li>
+<li>ふつう
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E2%98%85%C3%977" title="収録曲/ふつう/★×7" class="rel-wiki-page">★×7</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E2%98%85%C3%976" title="収録曲/ふつう/★×6" class="rel-wiki-page">★×6</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E2%98%85%C3%975" title="収録曲/ふつう/★×5" class="rel-wiki-page">★×5</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E2%98%85%C3%974" title="収録曲/ふつう/★×4" class="rel-wiki-page">★×4</a><br />
+<a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E2%98%85%C3%973" title="収録曲/ふつう/★×3" class="rel-wiki-page">★×3</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E2%98%85%C3%971%E3%83%BB2" title="収録曲/ふつう/★×1・2" class="rel-wiki-page">★×1・2</a></li></ul></li>
+<li>かんたん
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E2%98%85%C3%975" title="収録曲/かんたん/★×5" class="rel-wiki-page">★×5</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E2%98%85%C3%974" title="収録曲/かんたん/★×4" class="rel-wiki-page">★×4</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E2%98%85%C3%973" title="収録曲/かんたん/★×3" class="rel-wiki-page">★×3</a><br />
+<a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E2%98%85%C3%972" title="収録曲/かんたん/★×2" class="rel-wiki-page">★×2</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E2%98%85%C3%971" title="収録曲/かんたん/★×1" class="rel-wiki-page">★×1</a></li></ul></li>
+<li>コンボ数順
+<ul class="list2"><li>おに : <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8A%E3%81%AB" title="収録曲/コンボ数順/おに" class="rel-wiki-page">600以上</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8A%E3%81%AB%28600%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/おに(600コンボ未満)" class="rel-wiki-page">600未満</a></li>
+<li>むずかしい : <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84" title="収録曲/コンボ数順/むずかしい" class="rel-wiki-page">500以上</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84%28500%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/むずかしい(500コンボ未満)" class="rel-wiki-page">500未満</a></li>
+<li>ふつう : <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%B5%E3%81%A4%E3%81%86" title="収録曲/コンボ数順/ふつう" class="rel-wiki-page">300以上</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%B5%E3%81%A4%E3%81%86%28300%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/ふつう(300コンボ未満)" class="rel-wiki-page">300未満</a></li>
+<li>かんたん : <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93" title="収録曲/コンボ数順/かんたん" class="rel-wiki-page">200以上</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%28200%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/かんたん(200コンボ未満)" class="rel-wiki-page">200未満</a></li></ul></li></ul>
+<h3 id="h3_content_7_12" class="heading-after-first">クリア難易度順 (新筐体)</h3>
+<p>議論状況は<a href="https://wikiwiki.jp/taiko-giron/FrontPage" title="議論:FrontPage"  rel="nofollow"><ins><strong>こちら</strong></ins></a>参照 (<strong>別のWikiです</strong>)</p>
+<ul class="list1"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86" title="収録曲/難易度順" class="rel-wiki-page">難易度順について</a> (AC15時点のページもこちら)</li>
+<li>おに
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%9710" title="収録曲/難易度順/AC16/おに/★×10" class="rel-wiki-page">★×10</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%979" title="収録曲/難易度順/AC16/おに/★×9" class="rel-wiki-page">★×9</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%978" title="収録曲/難易度順/AC16/おに/★×8" class="rel-wiki-page">★×8</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%977" title="収録曲/難易度順/AC16/おに/★×7" class="rel-wiki-page">★×7</a><br />
+<a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%976" title="収録曲/難易度順/AC16/おに/★×6" class="rel-wiki-page">★×6</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%975" title="収録曲/難易度順/AC16/おに/★×5" class="rel-wiki-page">★×5</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%81%8A%E3%81%AB/%E2%98%85%C3%971%EF%BD%9E4" title="収録曲/難易度順/AC16/おに/★×1～4" class="rel-wiki-page">★×1～4</a></li></ul></li>
+<li>むずかしい
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%978" title="収録曲/難易度順/AC16/むずかしい/★×8" class="rel-wiki-page">★×8</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%977" title="収録曲/難易度順/AC16/むずかしい/★×7" class="rel-wiki-page">★×7</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%9B%A3%E6%98%93%E5%BA%A6%E9%A0%86/AC16/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E2%98%85%C3%976" title="収録曲/難易度順/AC16/むずかしい/★×6" class="rel-wiki-page">★×6</a></li></ul></li></ul>
+<h3 id="h3_content_7_13" class="heading-after-first">その他</h3>
+<ul class="list1"><li>初出順
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E5%88%9D%E5%87%BA%E9%A0%86" title="収録曲/初出順" class="rel-wiki-page">旧筐体まで</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E5%88%9D%E5%87%BA%E9%A0%86/%E6%96%B0%E7%AD%90%E4%BD%93%E4%BB%A5%E9%99%8D" title="収録曲/初出順/新筐体以降" class="rel-wiki-page">新筐体グリーンまで</a><br />
+<a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E5%88%9D%E5%87%BA%E9%A0%86/%E6%96%B0%E7%AD%90%E4%BD%932%E4%BB%A5%E9%99%8D" title="収録曲/初出順/新筐体2以降" class="rel-wiki-page">新筐体ニジイロ以降</a></li></ul></li>
+<li>五十音順
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E4%BA%94%E5%8D%81%E9%9F%B3%E9%A0%86" title="収録曲/五十音順" class="rel-wiki-page">あ行～な行</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E4%BA%94%E5%8D%81%E9%9F%B3%E9%A0%86/%E3%81%AF%E8%A1%8C%EF%BD%9E%E3%82%8F%E8%A1%8C" title="収録曲/五十音順/は行～わ行" class="rel-wiki-page">は行～わ行</a><br />
+<a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E4%BA%94%E5%8D%81%E9%9F%B3%E9%A0%86/%E8%8B%B1%E6%95%B0%E5%AD%97" title="収録曲/五十音順/英数字" class="rel-wiki-page">A～Z・数字</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E6%9B%B2ID%E3%81%BE%E3%81%A8%E3%82%81" title="収録曲/曲IDまとめ" class="rel-wiki-page">曲ID順</a></li>
+<li>BPM順
+<ul class="list2"><li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/BPM%E9%A0%86/%E5%9F%BA%E6%9C%ACBPM" title="収録曲/BPM順/基本BPM" class="rel-wiki-page">基本</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/BPM%E9%A0%86/%E6%9C%80%E9%AB%98BPM" title="収録曲/BPM順/最高BPM" class="rel-wiki-page">最高</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/BPM%E9%A0%86/%E6%96%B0%E7%AD%90%E4%BD%93" title="収録曲/BPM順/新筐体" class="rel-wiki-page">新筐体</a> / <a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/BPM%E9%A0%86/%E8%A6%8B%E3%81%9F%E7%9B%AEBPM" title="収録曲/BPM順/見た目BPM" class="rel-wiki-page">見た目</a></li></ul></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E5%B9%B3%E5%9D%87%E5%AF%86%E5%BA%A6%E9%A0%86" title="収録曲/平均密度順" class="rel-wiki-page">平均密度順</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/AC%E9%99%90%E5%AE%9A%E5%8F%8E%E9%8C%B2%E6%9B%B2" title="収録曲/AC限定収録曲" class="rel-wiki-page">AC限定収録曲</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/AC%E6%9C%AA%E5%8F%8E%E9%8C%B2%E6%9B%B2" title="収録曲/AC未収録曲" class="rel-wiki-page">AC未収録曲</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E9%99%90%E5%AE%9A%E5%85%AC%E5%BC%8F%E8%AD%9C%E9%9D%A2" title="収録曲/限定公式譜面" class="rel-wiki-page">限定公式譜面</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E7%89%B9%E5%BE%B4%E7%9A%84%E3%81%AA%E8%AD%9C%E9%9D%A2" title="収録曲/特徴的な譜面" class="rel-wiki-page">特徴的な譜面</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E7%B2%BE%E5%BA%A6%E6%9B%B2" title="収録曲/精度曲" class="rel-wiki-page">精度曲一覧</a></li>
+<li><a href="/taiko-fumen/%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF/%E3%82%AA%E3%82%B9%E3%82%B9%E3%83%A1%E7%B7%B4%E7%BF%92%E6%9B%B2%E4%B8%80%E8%A6%A7%E8%A1%A8" title="テクニック/オススメ練習曲一覧表" class="rel-wiki-page">オススメ練習曲一覧</a></li></ul>
+<h2 id="h2_content_7_14" class="heading-after-first">AC関連情報</h2>
+<ul class="list1"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E5%B1%A5%E6%AD%B4" title="作品/新AC/アップデート履歴" class="rel-wiki-page">アップデート情報</a></li>
+<li><a href="/taiko-fumen/%E6%AE%B5%E4%BD%8D%E9%81%93%E5%A0%B4" title="段位道場" class="rel-wiki-page">段位道場</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E6%AE%B5%E4%BD%8D%E9%81%93%E5%A0%B4/%E9%81%8E%E5%8E%BB%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3" title="段位道場/過去バージョン" class="rel-wiki-page">過去の段位道場</a></li>
+<li><a href="/taiko-fumen/%E6%AE%B5%E4%BD%8D%E9%81%93%E5%A0%B4/%E5%A4%96%E4%BC%9D" title="段位道場/外伝" class="rel-wiki-page">段位道場 外伝</a></li></ul></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%81%94%E3%81%BB%E3%81%86%E3%81%B3%E4%B8%80%E8%A6%A7" title="作品/新AC/ごほうび一覧" class="rel-wiki-page">現在新規獲得できるごほうび一覧</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%81%94%E3%81%BB%E3%81%86%E3%81%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97" title="作品/新AC/ごほうびショップ" class="rel-wiki-page">どんメダルショップ</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E3%81%8D%E3%81%9B%E3%81%8B%E3%81%88%E4%B8%80%E8%A6%A7" title="作品/新AC/きせかえ一覧" class="rel-wiki-page">きせかえ一覧</a></li></ul></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E6%AE%B5%E4%BD%8D%E3%83%BB%E7%A7%B0%E5%8F%B7%E3%81%AE%E4%B8%80%E8%A6%A7" title="作品/新AC/段位・称号の一覧" class="rel-wiki-page">称号の一覧</a> / <a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E6%AE%B5%E4%BD%8D%E3%83%BB%E7%A7%B0%E5%8F%B7%E3%81%AE%E4%B8%80%E8%A6%A7/%E7%A7%B0%E5%8F%B7%E5%AF%BE%E8%B1%A1%E6%9B%B2" title="作品/新AC/段位・称号の一覧/称号対象曲" class="rel-wiki-page">称号対象曲</a>
+<ul class="list2"><li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E7%A7%B0%E5%8F%B7%E3%82%AC%E3%82%B7%E3%83%A3%E3%83%91%E3%83%BC%E3%83%84%E4%B8%80%E8%A6%A7" title="作品/新AC/称号ガシャパーツ一覧" class="rel-wiki-page">称号パーツ</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E6%AE%B5%E4%BD%8D%E3%83%BB%E7%A7%B0%E5%8F%B7%E3%81%AE%E4%B8%80%E8%A6%A7/%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%BB%E3%83%95%E3%83%AB%E3%82%B3%E3%83%B3%E3%83%9C%E7%A7%B0%E5%8F%B7" title="作品/新AC/段位・称号の一覧/クリア・フルコンボ称号" class="rel-wiki-page">プレイ・クリア・フルコンボ称号</a></li></ul></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E6%A5%B5%E3%82%B9%E3%82%B3%E3%82%A2/%E3%81%8A%E3%81%AB" title="作品/新AC/極スコア/おに" class="rel-wiki-page">極スコア</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/AI%E3%83%90%E3%83%88%E3%83%AB%E6%BC%94%E5%A5%8F" title="作品/新AC/AIバトル演奏" class="rel-wiki-page">AIバトル演奏</a></li>
+<li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/song_no" title="収録曲/song_no" class="rel-wiki-page">song_no</a></li>
+<li><a href="/taiko-fumen/%E4%BD%9C%E5%93%81/%E6%96%B0AC/%E8%A4%87%E6%95%B0%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB" title="作品/新AC/複数ジャンル" class="rel-wiki-page">複数ジャンル</a></li></ul>
+<h2 id="h2_content_7_15" class="heading-after-first"><a href="/taiko-fumen/%E3%83%AA%E3%83%B3%E3%82%AF" title="リンク" class="rel-wiki-page">関連リンク</a></h2>
+<ul class="list1"><li><a href="https://taiko-ch.net/index.php"  rel="nofollow">太鼓の達人 ポータルサイト</a>
+<ul class="list2"><li><a href="https://taiko.namco-ch.net/taiko/"  rel="nofollow">公式サイト (ゲームセンター版)</a></li></ul></li>
+<li><a href="https://taiko-ch.net/blog/"  rel="nofollow">公式ブログ</a></li>
+<li>太鼓の達人 公式X (旧Twitter)
+<ul class="list2"><li><a href="https://twitter.com/taiko_All"  rel="nofollow">総合</a></li>
+<li><a href="https://twitter.com/taiko_team"  rel="nofollow">ゲームセンター版 (旧総合)</a></li>
+<li><a href="https://twitter.com/taiko_kateiyou"  rel="nofollow">家庭用</a></li>
+<li><a href="https://twitter.com/taikosp"  rel="nofollow">スマートフォン (SP)</a></li></ul></li>
+<li><a href="https://donderhiroba.jp/login.php"  rel="nofollow">ドンだーひろば (プレイデータ保存用)</a></li>
+<li><a href="https://www.youtube.com/@taikonotatsujin"  rel="nofollow">太鼓の達人 公式YouTubeチャンネル</a><i class="plugin-fa-loader" data-fa-class="fa-brands fa-youtube fa-lg" data-fa-style="color:#FF0000"></i>
+<ul class="list2"><li><a href="https://www.youtube.com/playlist?list=PL7nAGNInREBn5drqKyyX4-Z8spIEZpWFo"  rel="nofollow">公式YouTube (楽曲プレイリスト)</a></li></ul></li>
+<li><a href="https://www.facebook.com/taikoac.asia"  rel="nofollow">アジア版 公式Facebook</a><i class="plugin-fa-loader" data-fa-class="fa-brands fa-facebook fa-lg" data-fa-style="color:#3b5998"></i></li>
+<li><a href="https://taiko.namco-ch.net/taiko/location/"  rel="nofollow">設置店舗情報</a>
+<ul class="list2"><li><a href="https://w.atwiki.jp/q-taiko/"  rel="nofollow">旧筐体設置店舗情報（外部Wiki）</a></li></ul></li>
+<li><a href="https://web.archive.org/web/20170707175213/http://taikoblog.namco-ch.net/"  rel="nofollow">開発日記 (旧公式ブログ)</a> (アーカイブ)</li></ul>
+
+<h2 id="h2_content_9_0" ><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86" title="Wiki編集" class="rel-wiki-page">Wiki編集</a>  <a class="anchor_super" name ="edit"></a></h2>
+<ul class="list1"><li><a href="/taiko-fumen/%E6%95%B4%E5%BD%A2%E3%83%AB%E3%83%BC%E3%83%AB" title="整形ルール" class="rel-wiki-page">テキスト整形のルール</a></li>
+<li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E8%AD%9C%E9%9D%A2%E3%83%9A%E3%83%BC%E3%82%B8%E4%BD%9C%E6%88%90" title="Wiki編集/譜面ページ作成" class="rel-wiki-page">譜面ページ作成について</a>
+<ul class="list2"><li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E8%AD%9C%E9%9D%A2%E4%BD%9C%E6%88%90%E3%82%BD%E3%83%95%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="Wiki編集/譜面作成ソフトについて" class="rel-wiki-page">譜面作成ソフト</a></li>
+<li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E8%AD%9C%E9%9D%A2%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88etc" title="Wiki編集/譜面リクエストetc" class="rel-wiki-page">太鼓の達人 譜面補完計画</a></li>
+<li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E8%AD%9C%E9%9D%A2%E6%9C%AA%E8%A3%9C%E5%AE%8C%E3%83%AA%E3%82%B9%E3%83%88" title="Wiki編集/譜面未補完リスト" class="rel-wiki-page">譜面未補完リスト</a></li>
+<li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E8%AD%9C%E9%9D%A2%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88etc" title="Wiki編集/譜面リクエストetc" class="rel-wiki-page">譜面リクエスト</a></li></ul></li>
+<li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E5%8B%95%E7%94%BB%E6%9C%AA%E8%A3%9C%E5%AE%8C%E3%83%AA%E3%82%B9%E3%83%88" title="Wiki編集/動画未補完リスト" class="rel-wiki-page">動画未補完リスト</a></li>
+<li><a href="/taiko-fumen/Wiki%E7%B7%A8%E9%9B%86/%E9%85%8D%E7%82%B9%E6%9C%AA%E8%A3%9C%E5%AE%8C%E3%83%AA%E3%82%B9%E3%83%88" title="Wiki編集/配点未補完リスト" class="rel-wiki-page">配点未補完リスト(グリーンVer.)</a></li></ul>
+<hr class="full_hr" />
+<ul class="list1"><li><a href="/taiko-fumen/%E4%BC%9A%E8%AD%B0%E5%AE%A4" title="会議室" class="rel-wiki-page">会議室</a></li>
+<li><a href="/taiko-fumen/%E7%AE%A1%E7%90%86%E4%BA%BA%E3%81%B8%E3%81%AE%E9%80%A3%E7%B5%A1" title="管理人への連絡" class="rel-wiki-page">管理人への連絡</a></li></ul>
+<h3 id="h3_content_9_1" class="heading-after-first">更新履歴  <a class="anchor_super" name ="latest"></a></h3>
+<h5>最新の25件</h5>
+<div><strong>2023-09-07</strong>
+<ul class="recent_list">
+ <li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/CS%E3%81%AE%E6%AD%B4%E5%8F%B2/PTB" title="システム/CSの歴史/PTB" class="rel-wiki-page">システム/CSの歴史/PTB</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/AWAKE%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="コメント/収録曲/おに/AWAKE(裏譜面)" class="rel-wiki-page">コメント/収録曲/おに/AWAKE(裏譜面)</a></li> <li><a href="/taiko-fumen/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/CS%E3%81%AE%E6%AD%B4%E5%8F%B2" title="システム/CSの歴史" class="rel-wiki-page">システム/CSの歴史</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/Xevel" title="収録曲/おに/Xevel" class="rel-wiki-page">収録曲/おに/Xevel</a></li> <li><a href="/taiko-fumen/%E5%A4%AA%E9%BC%93%E3%82%AE%E3%83%8D%E3%82%B9/%E9%9F%B3%E7%AC%A6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/%E9%9F%B3%E7%AC%A6%E9%96%93%E9%9A%94%E3%83%BB%E5%AF%86%E5%BA%A6%E3%83%BB%E3%81%9D%E3%81%AE%E4%BB%96" title="太鼓ギネス/音符について/音符間隔・密度・その他" class="rel-wiki-page">太鼓ギネス/音符について/音符間隔・密度・その他</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E3%83%BB%E3%83%91%E3%83%80%E3%83%A9%E3%82%A4%E3%82%B9" title="コメント/収録曲/おに/ダイエット・パダライス" class="rel-wiki-page">コメント/収録曲/おに/ダイエット・パダライス</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%28200%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/かんたん(200コンボ未満)" class="rel-wiki-page">収録曲/コンボ数順/かんたん(200コンボ未満)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%B5%E3%81%A4%E3%81%86%28300%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/ふつう(300コンボ未満)" class="rel-wiki-page">収録曲/コンボ数順/ふつう(300コンボ未満)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84%28500%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29" title="収録曲/コンボ数順/むずかしい(500コンボ未満)" class="rel-wiki-page">収録曲/コンボ数順/むずかしい(500コンボ未満)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8A%E3%81%AB" title="収録曲/コンボ数順/おに" class="rel-wiki-page">収録曲/コンボ数順/おに</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%28200%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29/100%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80" title="収録曲/コンボ数順/かんたん(200コンボ未満)/100コンボ未満" class="rel-wiki-page">収録曲/コンボ数順/かんたん(200コンボ未満)/100コンボ未満</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%B3%E3%83%B3%E3%83%9C%E6%95%B0%E9%A0%86/%E3%81%B5%E3%81%A4%E3%81%86%28300%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80%29/200%E3%82%B3%E3%83%B3%E3%83%9C%E6%9C%AA%E6%BA%80" title="収録曲/コンボ数順/ふつう(300コンボ未満)/200コンボ未満" class="rel-wiki-page">収録曲/コンボ数順/ふつう(300コンボ未満)/200コンボ未満</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB" title="収録曲/おに/アイドル" class="rel-wiki-page">収録曲/おに/アイドル</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%86%8E%E6%82%AA%E3%81%A8%E9%86%9C%E6%82%AA%E3%81%AE%E8%8A%B1%E6%9D%9F%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="収録曲/おに/憎悪と醜悪の花束(裏譜面)" class="rel-wiki-page">収録曲/おに/憎悪と醜悪の花束(裏譜面)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%86%8E%E6%82%AA%E3%81%A8%E9%86%9C%E6%82%AA%E3%81%AE%E8%8A%B1%E6%9D%9F" title="収録曲/おに/憎悪と醜悪の花束" class="rel-wiki-page">収録曲/おに/憎悪と醜悪の花束</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%81%A1%E3%82%85%E3%80%81%E5%A4%9A%E6%A7%98%E6%80%A7%E3%80%82" title="コメント/収録曲/おに/ちゅ、多様性。" class="rel-wiki-page">コメント/収録曲/おに/ちゅ、多様性。</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E9%8D%B5" title="収録曲/おに/未来への鍵" class="rel-wiki-page">収録曲/おに/未来への鍵</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E3%82%AA%E3%83%BC%E3%83%96%E3%81%AE%E7%A5%88%E3%82%8A" title="コメント/収録曲/おに/オーブの祈り" class="rel-wiki-page">コメント/収録曲/おに/オーブの祈り</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%82%80%E3%81%9A%E3%81%8B%E3%81%97%E3%81%84/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E9%8D%B5" title="収録曲/むずかしい/未来への鍵" class="rel-wiki-page">収録曲/むずかしい/未来への鍵</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E2%89%A0MM" title="コメント/収録曲/おに/≠MM" class="rel-wiki-page">コメント/収録曲/おに/≠MM</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/%E6%99%82%E7%A9%BA%E7%94%BA%EF%BC%93%E4%B8%81%E7%9B%AE" title="コメント/収録曲/おに/時空町３丁目" class="rel-wiki-page">コメント/収録曲/おに/時空町３丁目</a></li> <li><a href="/taiko-fumen/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8A%E3%81%AB/Switch%20On%21%28%E8%A3%8F%E8%AD%9C%E9%9D%A2%29" title="コメント/収録曲/おに/Switch On!(裏譜面)" class="rel-wiki-page">コメント/収録曲/おに/Switch On!(裏譜面)</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%B5%E3%81%A4%E3%81%86/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E9%8D%B5" title="収録曲/ふつう/未来への鍵" class="rel-wiki-page">収録曲/ふつう/未来への鍵</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93/%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E9%8D%B5" title="収録曲/かんたん/未来への鍵" class="rel-wiki-page">収録曲/かんたん/未来への鍵</a></li> <li><a href="/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2/song_no" title="収録曲/song_no" class="rel-wiki-page">収録曲/song_no</a></li></ul>
+</div>
+<h3 id="h3_content_9_2" class="heading-after-first">人気のページ <a class="anchor_super" name ="popular"></a></h3>
+<div class="wikiwiki-popular wikiwiki-popular-today" data-endpoint="https://counter.wikiwiki.jp/c/taiko-fumen/popular/today?limit=25&excludes=FrontPage%7CMenuBar%7CMenuBar%2F%E4%B8%8A%E9%83%A8%7CMenuBar%2F%E4%B8%8B%E9%83%A8%7C%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84%7C%E5%BD%93Wiki%E3%81%A7%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB%7C%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC%7CWiki%E7%B7%A8%E9%9B%86%2F%E8%AD%9C%E9%9D%A2%E3%83%9A%E3%83%BC%E3%82%B8%E4%BD%9C%E6%88%90%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%7CWiki%E7%B7%A8%E9%9B%86%2F%E8%AD%9C%E9%9D%A2%E4%BD%9C%E6%88%90%E3%82%BD%E3%83%95%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%7CWiki%E7%B7%A8%E9%9B%86%2F%E8%AD%9C%E9%9D%A2%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88etc%7CWiki%E7%B7%A8%E9%9B%86%2F%E8%AD%9C%E9%9D%A2%E6%9C%AA%E8%A3%9C%E5%AE%8C%E3%83%AA%E3%82%B9%E3%83%88%7CWiki%E7%B7%A8%E9%9B%86%2F%E5%8B%95%E7%94%BB%E6%9C%AA%E8%A3%9C%E5%AE%8C%E3%83%AA%E3%82%B9%E3%83%88%7C%E7%AE%A1%E7%90%86%E4%BA%BA%E3%81%B8%E3%81%AE%E9%80%A3%E7%B5%A1%7CRecentChanges%7CRecentCreated">
+    <h5 class="wikiwiki-popular-title" data-template="今日の{{pages}}件">今日の25件</h5>
+    <ul class="wikiwiki-popular-list popular_list" data-template="&lt;li&gt;&lt;a href=&quot;/taiko-fumen/{{link}}&quot; class=&quot;rel-wiki-page&quot;&gt;{{page}}&lt;span class=&quot;counter&quot;&gt;({{count}})&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;">
+        <li>...loading</li>
+    </ul>
+</div>
+<p><a href="/taiko-fumen/%E4%BB%8A%E6%97%A5%E3%81%AE100%E4%BB%B6" title="今日の100件" class="rel-wiki-page">今日の100件</a> | <a href="/taiko-fumen/%E4%BA%BA%E6%B0%97%E3%81%AE1000%E4%BB%B6" title="人気の1000件" class="rel-wiki-page">人気の1000件</a></p>
+<h3 id="h3_content_9_3" class="heading-after-first">掲示板新着通知  <a class="anchor_super" name ="boardlatest"></a></h3>
+<div class="zawazawa-recent" data-url="https://zawazawa.jp/a/recent/topics-in/taiko-fumen%3A%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5%E3%81%82%E3%82%8A?limit=10">
+    Loading...
+</div>
+<div class="h-scrollable"><table><thead><tr><td colspan="2" style="background-color:lightgrey; text-align:center;"><strong>閲覧しているページのアクセス回数</strong></td></tr></thead><tbody><tr><td style="background-color:#EEEEEE; text-align:center; width:200px;">今日</td><td style="background-color:#EEEEEE; text-align:right; width:200px;"><strong><span class="wikiwiki-counter wikiwiki-counter-today">?</span></strong>回</td></tr><tr><td style="background-color:#EEEEEE; text-align:center; width:200px;">昨日</td><td style="background-color:#EEEEEE; text-align:right; width:200px;"><strong><span class="wikiwiki-counter wikiwiki-counter-yesterday">?</span></strong>回</td></tr><tr><td style="background-color:#EEEEEE; text-align:center; width:200px;">累計</td><td style="background-color:#EEEEEE; text-align:right; width:200px;"><strong><span class="wikiwiki-counter wikiwiki-counter-total">?</span></strong>回</td></tr></tbody></table></div>
+<p><a href="/taiko-fumen/?cmd=edit&amp;page=MenuBar" title="編集:MenuBar"  rel="nofollow">【MenuBarを編集】</a></p>
+<div class="navfold-container clearfix ">
+    <button class="navfold-summary"><span class="navfold-summary-icon navfold-icon-close"><i class="fa-solid fa-fw fa-xs fa-chevron-right"></i></span><span class="navfold-summary-icon navfold-icon-open"><i class="fa-solid fa-fw fa-xs fa-chevron-down"></i></span><span class="navfold-summary-label">管理者用メニュー</span></button>
+    <div class="navfold-content"><p><a href="/taiko-fumen/?cmd=edit&amp;page=MenuBar%2F%E4%B8%8A%E9%83%A8" title="編集:MenuBar/上部"  rel="nofollow">【MenuBar上部を編集】</a> / <a href="/taiko-fumen/?cmd=edit&amp;page=MenuBar%2F%E4%B8%8B%E9%83%A8" title="編集:MenuBar/下部"  rel="nofollow">【MenuBar下部を編集】</a></p>
+</div>
+</div>                </div>
+                <div class="admenu-sticky" style='margin-top: 50px;'>
+<!-- /19033742/WIKIWIKI_PC_MENU_STICKY -->
+<div id='div-gpt-ad-1567834179057-0' style='text-align:center;'>
+<script>
+if (document.documentElement.clientWidth > 770) {
+    (function() {
+        var ad = document.getElementById('div-gpt-ad-1567834179057-0');
+        var b = document.getElementById('body').clientHeight;
+        var m = document.getElementById('menubar').clientHeight;
+        var w = document.getElementById('menubar').clientWidth;
+        var gap = document.querySelector('.container-wrapper').getBoundingClientRect().left;
+        var slot = [[160, 600],[1,1]];
+        ad.style.width = w + 'px';
+        if (w > 200) {
+            slot = [[250, 600],[160, 600],[1,1]];
+        }
+        if (gap > 310) {
+                slot = [[300, 600],[160, 600],[300, 250],[240, 400],[1,1]];
+                ad.style.width = w + 'px';
+                ad.style.textAlign = 'right';
+                document.querySelector('.admenu-sticky').style.transform = 'translate(-320px)';
+        }
+        if (b - m > 1000) {
+            defineSlotFlux.push({"slotID": "div-gpt-ad-1567834179057-0", "sizes": slot, "slotName":"/19033742/WIKIWIKI_PC_MENU_STICKY"});
+            googletag.cmd.push(function() {
+                googletag.pubads().display('/19033742/WIKIWIKI_PC_MENU_STICKY',
+                slot , 'div-gpt-ad-1567834179057-0');
+            });
+        }
+    }());
+} else {
+    document.getElementsByClassName('admenu-sticky')[0].remove();
+}
+</script>
+</div>
+</div>
+<style>
+.admenu-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    margin-bottom: 0;
+    top: 50px;
+}
+</style>            </div>
+            </div>
+
+            <div class="container">
+            <div id="note">
+                <hr class="note_hr" /><a id="notefoot_1" href="#notetext_1" class="note_super">*1</a>
+<span class="small">※があるものは細かなBPM変化がある</span><br />            </div>
+        </div>
+    
+    <div id="footer">
+                                <div class="container">
+                <hr />
+                <div style="text-align:center"><span style="font-size:8px"><a href="/taiko-fumen/%E3%80%8E%E5%A4%AA%E9%BC%93%E3%81%AE%E9%81%94%E4%BA%BA%E3%80%80%E8%AD%9C%E9%9D%A2%E3%81%A8%E3%81%8BWiki%2A%E3%80%8F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="『太鼓の達人　譜面とかWiki*』について" class="rel-wiki-page">当Wikiについて</a>｜<a href="/taiko-fumen/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84" title="利用規約" class="rel-wiki-page">利用規約</a>｜<a href="/taiko-fumen/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="プライバシーポリシー" class="rel-wiki-page">プライバシーポリシー</a>｜<a href="/taiko-fumen/%E5%BD%93Wiki%E3%81%A7%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%AB" title="当Wikiでのルール" class="rel-wiki-page">ルール</a>｜<a href="/taiko-fumen/%E7%AE%A1%E7%90%86%E4%BA%BA%E3%81%B8%E3%81%AE%E9%80%A3%E7%B5%A1" title="管理人への連絡" class="rel-wiki-page">管理人への連絡</a></span><br />
+<span style="font-size:8px">『太鼓の達人&#8482;』は、株式会社バンダイナムコエンターテインメントの登録商標です。<br class="spacer">当Wikiは『太鼓の達人&#8482;』シリーズのファンサイトであり、株式会社バンダイナムコエンターテインメントやその他企業とは一切関係ありません。<br class="spacer">当Wikiのデータベース、画像、動画等は著作権法第32条に基づいて引用しています。<br class="spacer">上記を除くサイト独自コンテンツの知的財産権は、譜面Wiki運営チームが所有します。詳しくは利用規約をご確認ください。</span></div>
+<div style="text-align:right"><span style="font-size:8px"><a href="/taiko-fumen/?cmd=short_url&page=%E4%BD%9C%E5%93%81%2FAC3" rel="nofollow">このページの短縮URLを取得</a></span><br />
+<br class="spacer"></div>
+<div style="text-align:right"><span style="font-size:8px">ヘッダーイラスト他作成：<strong>ms1214様</strong><br class="spacer">ロゴイラスト作成：<strong>通りすがりのドンだー様</strong><br class="spacer">ファビコン作成・その他編集：<strong>譜面Wiki運営チーム</strong></span></div>            </div>
+                <div class="container">
+            <hr />
+            <div class="footer-block clearfix">
+                <div class="footer-block-item-left" id="signature">
+                    <!-- google_ad_section_start(weight=ignore) -->
+                    レンタルWIKI by <a href="https://wikiwiki.jp/" title="無料レンタルWIKIサービス">WIKIWIKI.jp*</a>&nbsp;/&nbsp;
+                    <a href="https://wikiwiki.jp/pp/aboutad" title="広告について">広告について</a> /
+                    無料レンタル掲示板 <a href="https://zawazawa.jp/" title="zawazawa">zawazawa</a>
+                    <!-- google_ad_section_end -->
+                </div>
+                <div class="footer-block-item-right">
+                    <div class="footer-mixirss">
+                        <div class="toolbar"><a href="/taiko-fumen/?cmd=mixirss" ><img src="https://cdn.wikiwiki.jp/to/w/common/image/rss.png?v=4" width="36" height="14" alt="最終更新のRSS" title="最終更新のRSS" /></a></div>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+var fluct_int_inbound = false;
+var fluct_int_cookies = document.cookie;
+var fluct_int_cookiesArray = fluct_int_cookies.split(';');
+for(var fluct_int_c of fluct_int_cookiesArray){
+    var fluct_int_cArray = fluct_int_c.split('=');
+    if (fluct_int_cArray[0] == '_wi_ins'){
+        fluct_int_inbound = (wi_ismobile && fluct_int_cArray[1] && wi_group == 'N' && wi_isinbound == false) ? true : false;
+    } else if (fluct_int_cArray[0] == '_wi_ins_s'){
+        wi_random100 = 50;
+    }
+}
+var fluct_int_ignite = (wi_ismobile && wi_random100 == 50 && wi_group == 'N' && wi_isinbound == false) ? true : false;
+var fluct_dev_mode = location.hash;
+if (fluct_dev_mode == '##fluct_int_inbound') {
+  fluct_int_inbound = true; // always
+} else if  (fluct_dev_mode == '##fluct_int_ignite') {
+  fluct_int_ignite = true; // always
+}
+
+if (wi_device == 'ios'){
+  fluct_int_ignite = false;
+  fluct_int_inbound = false;
+}
+
+if (wi_device == 'and' && fluct_int_inbound) {
+  var fluct_int_group_id = 1000088446;
+  var fluct_int_unit_id = 1000132472;
+} else if (wi_device == 'ios' && fluct_int_inbound) {
+  var fluct_int_group_id = 1000088446;
+  var fluct_int_unit_id = 1000132471;
+} else if (wi_device == 'and') {
+  var fluct_int_group_id = 1000155331;
+  var fluct_int_unit_id = 1000252319;
+} else if (wi_device == 'ios') {
+  var fluct_int_group_id = 1000155330;
+  var fluct_int_unit_id = 1000252318;
+}
+
+if (fluct_int_ignite || fluct_int_inbound) {
+  document.write('<scr' + 'ipt type="text/javascript" src="https://cdn-fluct.sh.adingo.jp/f.js?G=' + fluct_int_group_id + '"></scr' + 'ipt>');
+  window['adingo_fluct_yads_btn_bold_large'] = true;
+}
+</script>
+
+<script type="text/javascript">
+if (fluct_int_ignite || fluct_int_inbound) {
+  if (typeof (adingoFluct) !== 'undefined') {
+    adingoFluct.showAd(fluct_int_unit_id);
+    (function() {
+      const target = document.getElementsByClassName("adingoFluctInter")[0];
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          if (document.getElementsByClassName("hidden-switch-class") != null) {
+            const hid_sw_cl = document.getElementsByClassName("hidden-switch-class");
+          if (mutation.target.style.display == "block") {
+            for(i = 0; i < hid_sw_cl.length; i++){
+              hid_sw_cl[i].style.visibility ="hidden";
+            }         
+          } else if (mutation.target.style.display == "none") {
+            for(i = 0; i < hid_sw_cl.length; i++){
+              hid_sw_cl[i].style.visibility ="visible";
+            }
+            observer.disconnect();
+          }
+          }
+        });
+      });
+      const config = {
+        attributes: true,
+        childList: true,
+        subtree: true,
+        attributeFilter: ['style']
+      };
+      observer.observe(target, config);
+    }());
+  }
+}
+</script>
+
+<!--      fluct グループ名「WIKIWIKI（インタースティシャル）（スマホ）_300x250_Web_オーバーレイ_ブラウザバックインタースティシャル」      -->
+
+<script type="text/javascript" src="https://pdn.adingo.jp/p.js" async></script>
+<script type="text/javascript">
+
+if (wi_ismobile) {
+  var fluctAdScript = fluctAdScript || {};
+  fluctAdScript.cmd = fluctAdScript.cmd || [];
+  (function() {
+      var groupId = '1000147013';
+      var unitId = '1000243012'
+  
+      var targetDomains = ["www.google.com", "www.google.co.jp", "www.yahoo.co.jp", "search.yahoo.co.jp"];
+      if (!isTargetReferral()) {
+
+        return;
+      }
+
+      function isTargetReferral() {
+        for (var domain of targetDomains) {
+          if (document.referrer.indexOf(domain) !== -1) {
+            return true;
+          }
+        }
+        return false;
+      }
+
+      function showInterstitial(divId) {
+        var div = document.createElement('div');
+        div.id = divId;
+        document.body.appendChild(div);
+        fluctAdScript.cmd.push(function (cmd) {
+            function doBack() { history.back(); }
+            cmd.requestAdByGroup(groupId)
+                .display('#' + divId, unitId)
+                .onRendered(function(res) {
+                    res.container.parentNode.querySelector('img').addEventListener('click', doBack);
+                });
+        });
+            
+      }
+
+      history.scrollRestoration = "manual";
+      history.pushState({}, document.title, location.href);
+
+      window.addEventListener('popstate', function(event) {
+          var wrapperElemId = "fluct_async_wrapper";
+          showInterstitial(wrapperElemId);
+      });
+    })();
+}
+</script>
+
+
+<div id="pageload" style="display: none" data-pageload="{&quot;time&quot;:{&quot;all&quot;:0.04741406440734863,&quot;body&quot;:0.028422832489013672},&quot;memory&quot;:3886704,&quot;io&quot;:{&quot;read&quot;:{&quot;files&quot;:7,&quot;bytes&quot;:12556,&quot;locks&quot;:4},&quot;write&quot;:{&quot;files&quot;:0,&quot;bytes&quot;:0,&quot;locks&quot;:0},&quot;directory&quot;:{&quot;traversals&quot;:0,&quot;files&quot;:0},&quot;misc&quot;:718},&quot;contentSize&quot;:{&quot;all&quot;:116703,&quot;body&quot;:55740},&quot;timestamp&quot;:&quot;2023-09-07 23:32:56&quot;}"></div>
+
+<script type="text/javascript" src="https://cdn.wikiwiki.jp/to/w/common/assets/dist/wikiwiki-f97ed4ad3eb9be80b2b8.min.js"></script>
+<script type="text/javascript" src="https://cdn.wikiwiki.jp/to/w/common/assets/dist/wikiwiki-opt-tablesorter-744409f2672c3b002700.min.js"></script>
+    <script>
+        tippy('.tooltip');
+    </script>
+<script>
+    lightbox.option({
+        resizeDuration: 0
+    });
+</script>
+<script>
+    $(function() {
+        // HINT: tablesorter needs <thead> block before <tbody>
+        $(".wikiwiki-tablesorter-wrapper table").tablesorter({
+            sortReset: true
+        });
+    });
+</script>
+<div id="wikiwiki-pageview-counter" data-endpoint="https://counter.wikiwiki.jp/c/taiko-fumen/pv/%E4%BD%9C%E5%93%81%2FAC3" style="display: none;"></div>
+<script>
+    $('#wikiwiki-pageview-counter').pageview();
+    $('.wikiwiki-popular').popular();
+</script>
+    <script>
+    jQuery('.plugin-fa-loader').fontAwesomeLoader();
+    </script>
+<script type="text/javascript" src="https://zawazawa.jp/_js/zawazawa-recent-topics-wikiwiki-style.jquery.min.js" charset="UTF-8"></script>
+<script type="text/javascript">
+$(function() {
+    $('.zawazawa-recent').each(function () {
+        var placeholder = $(this);
+        placeholder.zawazawaRecentTopicsWikiwikiStyle({
+            url: placeholder.data('url'),
+            key: 'wikiwiki'
+        });
+    });
+});
+</script>
+<script type="text/javascript">
+    $(function() {
+        $('.navfold-container').navfold({
+            wiki: "taiko-fumen",
+            persistence: {
+                'menubar': '#menubar'
+            }
+        });
+    });
+</script>
+<script>
+    $(function() {
+        $('.search-words').searchWordHighlight({
+            paramName: 'word',
+            selector: "#content,#note",
+            limit: 10,
+            markedClassResolver: function (i) { return "word" + i; }
+        });
+    });
+</script>
+<script>
+$(".pageload-toggle").loadpanel({
+    dataSelector: "#pageload",
+    dataAttribute: "data-pageload",
+    summaryMsecSubSelector: ".pageload-time-all-ms",
+    helpLink: 'https://zawazawa.jp/wikiwiki/topic/15'
+}); </script>
+<script>$(".realtime-date").realtimeDate();</script>
+<script>
+    $("body").notificationBar();
+</script>
+<script>
+$("#contents").anchorLink({
+    url: '/taiko-fumen/%E4%BD%9C%E5%93%81/AC3',
+});
+</script>
+    <script>
+        $(document).responsiveNavigation({
+            editButtonElement: '#edit-button',
+            scrollUpButtonElement: '#scroll-up-button',
+            scrollDownButtonElement: '#scroll-down-button',
+            scrollDownNavElement: '#menu-in-nav',
+            menubarElement: '#menubar',
+            mainContentsBottomElement: '#main-contents-bottom',
+            sidebarBottomElement: '#sidebar-bottom',
+            headerElement: '#header',
+            footerElement: '#footer',
+            overlayAdRenderedEventName: 'overlay-ad-rendered',
+            overlayAdMarginTop: 25
+        });
+    </script>
+<script>
+    $(document).pukiwiki();
+</script>
+
+<script>
+jQuery(function() {
+    $('form').usageStatistics({"keyName":"usageStatistics","smsAuth":false,"hasPosted":false});
+    $(document).browsingStatistics({
+        keyName: 'browsingStatistics'
+    });
+});
+</script>
+</body>
+</html>
