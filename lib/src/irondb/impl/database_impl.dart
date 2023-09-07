@@ -5,7 +5,7 @@ import 'package:path/path.dart' as path;
 import '../database.dart';
 import '../serialize.dart';
 
-class DatabaseImpl extends Database {
+class DatabaseImpl implements Database {
   final Directory folder;
   final KeySerializer keySerializer;
   final DataSerializer dataSerializer;

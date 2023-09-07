@@ -1,4 +1,4 @@
-abstract class Database {
+abstract interface class Database {
   Database sub(String table);
 
   Future<void> write<T>(String key, T? value);
