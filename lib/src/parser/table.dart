@@ -117,8 +117,7 @@ class TableRow {
     final Map<String, int> map = {};
     for (int i = 0; i < content.length; i++) {
       var headTd = content[i];
-      // 表头可能包含换行和空格，这里这里都是不需要的,
-      var name = headTd.text.replaceAll(' ', '');
+      var name = headTd.text;
       map.putIfAbsent(name, () => i);
     }
     return map;
