@@ -10,6 +10,7 @@
 include: package:flutter_lints/flutter.yaml
 analyzer:
   errors:
+    asset_directory_does_not_exist: error
     inference_failure_on_function_invocation: ignore
     argument_type_not_assignable: warning
   language:

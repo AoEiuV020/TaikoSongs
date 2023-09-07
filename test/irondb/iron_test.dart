@@ -4,8 +4,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' as path;
 import 'package:taiko_songs/src/irondb/iron.dart';
 
-void main() {
-  Iron.init(base: path.join(Directory.systemTemp.path, 'IronDBTest'));
+void main() async {
+  await Iron.init(base: path.join(Directory.systemTemp.path, 'IronDBTest'));
   group('IronDB', () {
     test('string', () async {
       final db = Iron.db.sub('string');
