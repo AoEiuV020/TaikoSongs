@@ -15,24 +15,10 @@ Future<void> main(List<String> arguments) async {
   var data = DataSource();
   var list = data.getReleaseList();
   var releaseIndex = 0;
-  var songIndex = 0;
-  var difficultyIndex = 0;
   await for (var release in list) {
     ++releaseIndex;
     var songList = await data.getSongList(release).toList();
     logger.info('${release.name} ${songList.length}');
-    for (var song in songList) {
-      ++songIndex;
-      if (songIndex < 765) {
-        continue;
-      }
-      logger.info(song.name);
-      for (var difficultyItem in song.difficultyMap.values) {
-        ++difficultyIndex;
-        final difficulty = await data.getDifficulty(difficultyItem);
-        logger.info(
-            '$difficultyItem, $releaseIndex/$songIndex/$difficultyIndex: ${difficulty.chartImageUrl}');
-      }
-    }
   }
+  logger.info('release count: $releaseIndex');
 }

@@ -1,9 +1,11 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:path/path.dart' as path;
 
 import '../database.dart';
 import '../serialize.dart';
+import 'isolate_transformer.dart';
 import 'serialize_impl.dart';
 
 /// 针对flutter assets，按assets要求的文件名格式读写，
@@ -42,8 +44,15 @@ class DatabaseAssetsIO implements Database {
     if (!await file.exists()) {
       return null;
     }
-    final str = await file.readAsString();
-    return dataSerializer.deserialize<T>(str);
+    return await IsolateTransformer<List<int>, T>()
+        .transform(
+            file.openRead(),
+            (e) => e
+                .transform(utf8.decoder)
+                .join()
+                .asStream()
+                .map((str) => dataSerializer.deserialize<T>(str)))
+        .first;
   }
 
   @override

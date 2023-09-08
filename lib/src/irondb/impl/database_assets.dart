@@ -1,7 +1,10 @@
+import 'dart:convert';
+
 import 'package:flutter/services.dart';
 
 import '../database.dart';
 import '../serialize.dart';
+import 'isolate_transformer.dart';
 import 'serialize_impl.dart';
 
 /// 针对flutter assets，按assets要求的文件名格式读取，不支持写入，
@@ -38,8 +41,11 @@ class DatabaseAssets implements Database {
   Future<T?> read<T>(String key) async {
     final assetsKey = getAssetsKey(key);
     try {
-      final str = await rootBundle.loadString(assetsKey);
-      return dataSerializer.deserialize<T>(str);
+      return await IsolateTransformer<ByteData, T>().convert(
+          await rootBundle.load(assetsKey),
+          (e) => e
+              .asyncMap((data) => utf8.decode(data.buffer.asUint8List()))
+              .map((str) => dataSerializer.deserialize<T>(str)));
     } catch (e) {
       return null;
     }
