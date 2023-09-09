@@ -18,6 +18,11 @@ class IsolateTransformer<S, T> {
       }, onDone: () {
         // 这里把sendPort当成结束的标记使用，
         sendPort.send(sendPort);
+      }, onError: (Object e, s) {
+        if (e is Error) {
+          // 异常传到主线程再抛出，
+          sendPort.send(e);
+        }
       });
       receivePort.listen((event) {
         // 这里把sendPort当成结束的标记使用，
