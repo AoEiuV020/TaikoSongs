@@ -49,11 +49,13 @@ class DatabaseImpl implements Database {
       return;
     }
     final write = file.openWrite();
-    write.addStream(IsolateTransformer<T, List<int>>().transform(
+    await write.addStream(IsolateTransformer<T, List<int>>().transform(
         Stream.value(value),
         (e) => e
             .map((value) => dataSerializer.serialize<T>(value))
             .transform(utf8.encoder)));
+    await write.flush();
+    await write.close();
   }
 
   @override
