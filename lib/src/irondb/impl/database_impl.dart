@@ -1,7 +1,9 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:path/path.dart' as path;
 
+import '../../async/isolate_transformer.dart';
 import '../database.dart';
 import '../serialize.dart';
 
@@ -12,8 +14,7 @@ class DatabaseImpl implements Database {
 
   DatabaseImpl._(this.folder, this.keySerializer, this.dataSerializer);
 
-  factory DatabaseImpl(
-      String base, KeySerializer keySerializer, DataSerializer dataSerializer) {
+  factory DatabaseImpl(String base, KeySerializer keySerializer, DataSerializer dataSerializer) {
     return DatabaseImpl._(Directory(base), keySerializer, dataSerializer);
   }
 
@@ -29,8 +30,14 @@ class DatabaseImpl implements Database {
     if (!await file.exists()) {
       return null;
     }
-    final str = await file.readAsString();
-    return dataSerializer.deserialize<T>(str);
+    return await IsolateTransformer<File, T>().convert(
+        file,
+        (e) => e
+            .asyncExpand((file) => file.openRead())
+            .transform(utf8.decoder)
+            .join()
+            .asStream()
+            .map((str) => dataSerializer.deserialize<T>(str)));
   }
 
   @override
@@ -42,6 +49,12 @@ class DatabaseImpl implements Database {
       return;
     }
     await file.writeAsString(dataSerializer.serialize<T>(value));
+    final write = file.openWrite();
+    write.addStream(IsolateTransformer<T, List<int>>().transform(
+        Stream.value(value),
+        (e) => e
+            .map((value) => dataSerializer.serialize<T>(value))
+            .transform(utf8.encoder)));
   }
 
   @override

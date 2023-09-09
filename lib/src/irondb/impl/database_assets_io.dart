@@ -44,15 +44,14 @@ class DatabaseAssetsIO implements Database {
     if (!await file.exists()) {
       return null;
     }
-    return await IsolateTransformer<List<int>, T>()
-        .transform(
-            file.openRead(),
-            (e) => e
-                .transform(utf8.decoder)
-                .join()
-                .asStream()
-                .map((str) => dataSerializer.deserialize<T>(str)))
-        .first;
+    return await IsolateTransformer<File, T>().convert(
+        file,
+        (e) => e
+            .asyncExpand((file) => file.openRead())
+            .transform(utf8.decoder)
+            .join()
+            .asStream()
+            .map((str) => dataSerializer.deserialize<T>(str)));
   }
 
   @override
