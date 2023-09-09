@@ -48,7 +48,6 @@ class DatabaseImpl implements Database {
       await file.delete();
       return;
     }
-    await file.writeAsString(dataSerializer.serialize<T>(value));
     final write = file.openWrite();
     write.addStream(IsolateTransformer<T, List<int>>().transform(
         Stream.value(value),
