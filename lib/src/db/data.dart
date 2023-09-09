@@ -29,29 +29,33 @@ class DataSource {
   Stream<ReleaseItem> getReleaseList(
       {bool refresh = false, bool cacheOnly = false}) async* {
     var collection = CollectionItem();
-    var body = await htmlCache.request(
-        db.sub('collection'), collection.url, refresh, cacheOnly);
-    yield* CollectionParser().parseList(collection.url, body);
+    yield* IsolateTransformer<String, ReleaseItem>().transform(
+        Stream.fromFuture(htmlCache.request(
+            db.sub('collection'), collection.url, refresh, cacheOnly)),
+        (e) => e.asyncExpand(
+            (body) => CollectionParser().parseList(collection.url, body)));
   }
 
   Stream<SongItem> getSongList(ReleaseItem release,
       {bool refresh = false, bool cacheOnly = false}) async* {
-    yield* IsolateTransformer<ReleaseItem, SongItem>().transform(
-        Stream.value(release),
-        (e) => e
-            .asyncMap((event) => htmlCache.request(
-                db.sub('release').sub(event.name),
-                event.url,
-                refresh,
-                cacheOnly))
-            .asyncExpand(
-                (event) => SongParser().parseList(release.url, event)));
+    yield* IsolateTransformer<String, SongItem>().transform(
+        Stream.fromFuture(htmlCache.request(db.sub('release').sub(release.name),
+            release.url, refresh, cacheOnly)),
+        (e) =>
+            e.asyncExpand((body) => SongParser().parseList(release.url, body)));
   }
 
   Future<Difficulty> getDifficulty(DifficultyItem difficultyItem,
       {bool refresh = false, bool cacheOnly = false}) async {
-    var body = await htmlCache.request(db.sub('song').sub(difficultyItem.name),
-        difficultyItem.url, refresh, cacheOnly);
-    return await DifficultyParser().parseData(difficultyItem.url, body);
+    return await IsolateTransformer<String, Difficulty>()
+        .transform(
+            Stream.fromFuture(htmlCache.request(
+                db.sub('song').sub(difficultyItem.name),
+                difficultyItem.url,
+                refresh,
+                cacheOnly)),
+            (e) => e.asyncMap((body) =>
+                DifficultyParser().parseData(difficultyItem.url, body)))
+        .first;
   }
 }
