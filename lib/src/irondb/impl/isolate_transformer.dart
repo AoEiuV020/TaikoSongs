@@ -17,6 +17,7 @@ class IsolateTransformer<S, T> {
         sendPort.send(event);
       });
       receivePort.listen((event) {
+        // 这里把sendPort当成结束的标记使用，
         if (event == receivePort.sendPort) {
           streamController.close();
           return;
@@ -25,16 +26,23 @@ class IsolateTransformer<S, T> {
       }, onDone: () {
         streamController.close();
       });
-    }, mainReceive.sendPort);
+    }, mainReceive.sendPort,
+        // 这里注册监听异步线程内抛出的异常，
+        onError: mainReceive.sendPort);
 
     await for (var message in mainReceive) {
       if (message is SendPort) {
         data.listen((event) {
           message.send(event);
         }, onDone: () {
+          // 这里把sendPort当成结束的标记使用，
           message.send(message);
         });
         continue;
+      }
+      // 这里是异步线程内抛出的异常，
+      if (message is Error) {
+        throw message;
       }
       yield message as T;
     }
