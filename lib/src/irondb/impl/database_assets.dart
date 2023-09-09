@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
+import 'package:logging/logging.dart';
 
 import '../database.dart';
 import '../serialize.dart';
@@ -10,6 +11,8 @@ import 'serialize_impl.dart';
 /// 针对flutter assets，按assets要求的文件名格式读取，不支持写入，
 /// 重点在于assets不包含子目录，所以sub不能用子目录分级，多级sub改成文件名中多级下划线分割，
 class DatabaseAssets implements Database {
+  static final logger = Logger('DatabaseAssets');
+  static final Map<String, dynamic> cacheMap = {};
   final String folder;
   final String prefix;
   final SubSerializer subSerializer = const AssetsFilenameSerializer();
@@ -40,15 +43,25 @@ class DatabaseAssets implements Database {
   @override
   Future<T?> read<T>(String key) async {
     final assetsKey = getAssetsKey(key);
+    T? cache = cacheMap[assetsKey] as T?;
+    if (cache != null) {
+      logger.info('use cache: $assetsKey');
+      return cache;
+    }
+    final ByteData bundle;
     try {
-      return await IsolateTransformer<ByteData, T>().convert(
-          await rootBundle.load(assetsKey),
-          (e) => e
-              .asyncMap((data) => utf8.decode(data.buffer.asUint8List()))
-              .map((str) => dataSerializer.deserialize<T>(str)));
+      bundle = await rootBundle.load(assetsKey);
     } catch (e) {
+      // The asset does not exist or has empty data.
       return null;
     }
+    final ret = await IsolateTransformer<ByteData, T>().convert(
+        bundle,
+        (e) => e
+            .asyncMap((data) => utf8.decode(data.buffer.asUint8List()))
+            .map((str) => dataSerializer.deserialize<T>(str)));
+    cacheMap[assetsKey] = ret;
+    return ret;
   }
 
   @override
