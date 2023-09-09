@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:logging/logging.dart';
 
+import '../../async/isolate_transformer.dart';
 import '../database.dart';
 import '../serialize.dart';
-import 'isolate_transformer.dart';
 import 'serialize_impl.dart';
 
 /// 针对flutter assets，按assets要求的文件名格式读取，不支持写入，

@@ -1,11 +1,11 @@
 import 'package:logging/logging.dart';
+import 'package:taiko_songs/src/async/isolate_transformer.dart';
 import 'package:taiko_songs/src/bean/collection.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/cache/html_cache.dart';
 import 'package:taiko_songs/src/irondb/database.dart';
-import 'package:taiko_songs/src/irondb/impl/isolate_transformer.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 import 'package:taiko_songs/src/parser/collection_parser.dart';
 import 'package:taiko_songs/src/parser/difficulty_parser.dart';
