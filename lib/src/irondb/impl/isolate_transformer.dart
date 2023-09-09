@@ -15,6 +15,9 @@ class IsolateTransformer<S, T> {
       final streamController = StreamController<S>();
       mapper(streamController.stream).listen((event) {
         sendPort.send(event);
+      }, onDone: () {
+        // 这里把sendPort当成结束的标记使用，
+        sendPort.send(sendPort);
       });
       receivePort.listen((event) {
         // 这里把sendPort当成结束的标记使用，
@@ -31,6 +34,10 @@ class IsolateTransformer<S, T> {
         onError: mainReceive.sendPort);
 
     await for (var message in mainReceive) {
+      if (message == mainReceive.sendPort) {
+        // 这里把sendPort当成结束的标记使用，
+        return;
+      }
       if (message is SendPort) {
         data.listen((event) {
           message.send(event);

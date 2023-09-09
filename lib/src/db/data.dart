@@ -5,6 +5,7 @@ import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/cache/html_cache.dart';
 import 'package:taiko_songs/src/irondb/database.dart';
+import 'package:taiko_songs/src/irondb/impl/isolate_transformer.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 import 'package:taiko_songs/src/parser/collection_parser.dart';
 import 'package:taiko_songs/src/parser/difficulty_parser.dart';
@@ -35,9 +36,16 @@ class DataSource {
 
   Stream<SongItem> getSongList(ReleaseItem release,
       {bool refresh = false, bool cacheOnly = false}) async* {
-    var body = await htmlCache.request(
-        db.sub('release').sub(release.name), release.url, refresh, cacheOnly);
-    yield* SongParser().parseList(release.url, body);
+    yield* IsolateTransformer<ReleaseItem, SongItem>().transform(
+        Stream.value(release),
+        (e) => e
+            .asyncMap((event) => htmlCache.request(
+                db.sub('release').sub(event.name),
+                event.url,
+                refresh,
+                cacheOnly))
+            .asyncExpand(
+                (event) => SongParser().parseList(release.url, event)));
   }
 
   Future<Difficulty> getDifficulty(DifficultyItem difficultyItem,

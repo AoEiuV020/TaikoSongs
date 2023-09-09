@@ -14,6 +14,6 @@ class DifficultyParser extends Parser {
         .querySelectorAll('div#content img')
         .map((e) => getSrc(e))
         .firstWhere((element) => element.startsWith(prefix));
-    return Difficulty(null, 0, 0, '', imgUrl);
+    return Difficulty(0, 0, '', imgUrl);
   }
 }
