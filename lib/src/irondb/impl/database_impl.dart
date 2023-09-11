@@ -49,7 +49,7 @@ class DatabaseImpl implements Database {
       await file.delete();
       return;
     }
-    await IsolateTransformer().run<T>(value, (value) async {
+    await IsolateTransformer().run(value, (T value) async {
       final write = file.openWrite();
       final str = dataSerializer.serialize<T>(value);
       write.write(str);
