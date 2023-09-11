@@ -77,11 +77,13 @@ class MyApp extends StatelessWidget {
                     return SettingsView(controller: settingsController);
                   case SongListView.routeName:
                     return SongListView(
-                      releaseItem: routeSettings.arguments as ReleaseItem,
+                      releaseItem: ReleaseItem.fromJson(
+                          routeSettings.arguments as Map<String, dynamic>),
                     );
                   case DifficultyDetailView.routeName:
                     return DifficultyDetailView(
-                      difficultyItem: routeSettings.arguments as DifficultyItem,
+                      difficultyItem: DifficultyItem.fromJson(
+                          routeSettings.arguments as Map<String, dynamic>),
                     );
                   case ReleaseListView.routeName:
                   default:

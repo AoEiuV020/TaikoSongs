@@ -65,10 +65,10 @@ class ReleaseListView extends StatelessWidget {
                                 AssetImage('assets/images/flutter_logo.png'),
                           ),
                           onTap: () {
-                            Navigator.pushNamed(
+                            Navigator.restorablePushNamed(
                               context,
                               SongListView.routeName,
-                              arguments: item,
+                              arguments: item.toJson(),
                             );
                           });
                     },

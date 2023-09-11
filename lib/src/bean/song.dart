@@ -1,5 +1,10 @@
+import 'package:json_annotation/json_annotation.dart';
+
 import 'difficulty.dart';
 
+part 'song.g.dart';
+
+@JsonSerializable()
 class SongItem {
   final String name;
   final String subtitle;
@@ -7,24 +12,30 @@ class SongItem {
   final String bpm;
   final Map<DifficultyType, DifficultyItem> difficultyMap;
 
-  SongItem(
-      this.name, this.subtitle, this.category, this.bpm, this.difficultyMap);
+  SongItem(this.name, this.subtitle, this.category, this.bpm,
+      this.difficultyMap);
 
   @override
   String toString() {
-    return '$name, subtitle: $subtitle, category: $category, bpm: $bpm, difficulty: ${difficultyMap.values}';
+    return '$name, subtitle: $subtitle, category: $category, bpm: $bpm, difficulty: ${difficultyMap
+        .values}';
   }
 
   int getLevelTypeDifficulty(DifficultyType type) {
     return difficultyMap[type]?.level ?? 0;
   }
 
+  factory SongItem.fromJson(Map<String, dynamic> json) =>
+      _$SongItemFromJson(json);
+
+  Map<String, dynamic> toJson() => _$SongItemToJson(this);
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is SongItem &&
-          runtimeType == other.runtimeType &&
-          name == other.name;
+          other is SongItem &&
+              runtimeType == other.runtimeType &&
+              name == other.name;
 
   @override
   int get hashCode => name.hashCode;

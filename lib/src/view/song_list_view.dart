@@ -52,10 +52,10 @@ class SongListView extends StatelessWidget {
                           AssetImage('assets/images/flutter_logo.png'),
                     ),
                     onTap: () {
-                      Navigator.pushNamed(
+                      Navigator.restorablePushNamed(
                         context,
                         DifficultyDetailView.routeName,
-                        arguments: item.difficultyMap.values.last,
+                        arguments: item.difficultyMap.values.last.toJson(),
                       );
                     });
               },

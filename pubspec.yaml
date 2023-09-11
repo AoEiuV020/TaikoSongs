@@ -19,6 +19,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   html: ^0.15.4
+  json_annotation: ^4.8.1
   logging: ^1.2.0
   path: ^1.8.3
   path_provider: ^2.1.1
@@ -28,6 +29,8 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
 
 flutter:
   uses-material-design: true

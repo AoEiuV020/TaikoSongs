@@ -1,5 +1,8 @@
+import 'package:json_annotation/json_annotation.dart';
 
+part 'difficulty.g.dart';
 
+@JsonSerializable()
 class DifficultyItem {
   final String name;
   final DifficultyType type;
@@ -19,6 +22,10 @@ class DifficultyItem {
     return '${difficultyTypeStringMap[type]}★×$level${hasBranch ? '※' : ''}';
   }
 
+  factory DifficultyItem.fromJson(Map<String, dynamic> json) =>
+      _$DifficultyItemFromJson(json);
+
+  Map<String, dynamic> toJson() => _$DifficultyItemToJson(this);
   static final Map<DifficultyType, String> difficultyTypeStringMap = {
     DifficultyType.easy: '梅',
     DifficultyType.normal: '竹',
