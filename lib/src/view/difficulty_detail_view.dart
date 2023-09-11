@@ -28,7 +28,16 @@ class DifficultyDetailView extends StatelessWidget {
               return const Text('Error!');
             }
             var difficulty = snapshot.requireData;
-            return Image.network(difficulty.chartImageUrl);
+            return SizedBox(
+              width: double.infinity, // 宽度充满父级容器
+              height: double.infinity, // 高度充满父级容器
+              child: SingleChildScrollView(
+                child: Image.network(
+                  difficulty.chartImageUrl,
+                  fit: BoxFit.fitWidth,
+                ),
+              ),
+            );
           }),
     );
   }
