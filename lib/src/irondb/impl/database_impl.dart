@@ -49,19 +49,18 @@ class DatabaseImpl implements Database {
       await file.delete();
       return;
     }
-    final write = file.openWrite();
-    await write.addStream(IsolateTransformer().transform(
-        Stream.value(value),
-        (e) => e
-            .map((value) => dataSerializer.serialize<T>(value))
-            .transform(utf8.encoder)));
-    await write.flush();
-    await write.close();
+    await IsolateTransformer().run<T>(value, (value) async {
+      final write = file.openWrite();
+      final str = dataSerializer.serialize<T>(value);
+      write.write(str);
+      await write.flush();
+      await write.close();
+    });
   }
 
   @override
   Future<void> drop() async {
-    _deleteDirectory(folder);
+    await IsolateTransformer().run(folder, _deleteDirectory);
   }
 
   Future<void> _deleteDirectory(Directory directory) async {

@@ -62,19 +62,27 @@ class DatabaseAssetsIO implements Database {
       await file.delete();
       return;
     }
-    await file.writeAsString(dataSerializer.serialize<T>(value));
+    await IsolateTransformer().run<T>(value, (value) async {
+      final write = file.openWrite();
+      final str = dataSerializer.serialize<T>(value);
+      write.write(str);
+      await write.flush();
+      await write.close();
+    });
   }
 
   @override
   Future<void> drop() async {
-    if (!await folder.exists()) {
-      return;
-    }
-    final pathPrefix = path.join(folder.path, prefix);
-    await for (var file in folder.list()) {
-      if (file.path.startsWith(pathPrefix)) {
-        await file.delete();
+    await IsolateTransformer().run(folder, (folder) async {
+      if (!await folder.exists()) {
+        return;
       }
-    }
+      final pathPrefix = path.join(folder.path, prefix);
+      await for (var file in folder.list()) {
+        if (file.path.startsWith(pathPrefix)) {
+          await file.delete();
+        }
+      }
+    });
   }
 }

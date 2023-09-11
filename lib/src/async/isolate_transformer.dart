@@ -6,6 +6,15 @@ class IsolateTransformer {
     return transform<S, T>(Stream.value(data), mapper).first;
   }
 
+  Future<void> run<S>(S data, Future<void> Function(S data) mapper) async {
+    await transform<S, int>(
+        Stream.value(data),
+        (e) => e.asyncMap((event) async {
+              await mapper(event);
+              return 1;
+            })).first;
+  }
+
   Stream<T> transform<S, T>(
       Stream<S> data, Stream<T> Function(Stream<S> e) mapper) async* {
     var mainReceive = ReceivePort();
