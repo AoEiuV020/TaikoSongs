@@ -44,20 +44,64 @@ class SongListView extends StatelessWidget {
               itemBuilder: (BuildContext context, int index) {
                 final item = items[index];
 
-                return ListTile(
-                    title: Text(
-                        "${item.name}\t ${item.category}\t ${item.bpm}\t ${item.difficultyMap.values}"),
-                    leading: const CircleAvatar(
-                      foregroundImage:
-                          AssetImage('assets/images/flutter_logo.png'),
+                final Widget difficultyGroup = Row(
+                  children: DifficultyType.values
+                      .map((e) => InkWell(
+                            onTap: item.difficultyMap.containsKey(e)
+                                ? () {
+                                    Navigator.restorablePushNamed(
+                                      context,
+                                      DifficultyDetailView.routeName,
+                                      arguments:
+                                          item.difficultyMap[e]!.toJson(),
+                                    );
+                                  }
+                                : null,
+                            child: SizedBox(
+                              width: 32,
+                              height: 32,
+                              child: Center(
+                                child: Text(
+                                  item.getLevelTypeDifficulty(e).toString(),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ),
+                          ))
+                      .toList(),
+                );
+                return InkWell(
+                  child: Container(
+                    padding: const EdgeInsets.all(8),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(item.name),
+                              Visibility(
+                                visible: item.subtitle.isNotEmpty,
+                                child: Text(
+                                  item.subtitle,
+                                  style: TextStyle(
+                                    color: Colors.grey[500],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          padding: const EdgeInsets.all(8),
+                          child: Text(item.bpm),
+                        ),
+                        difficultyGroup,
+                      ],
                     ),
-                    onTap: () {
-                      Navigator.restorablePushNamed(
-                        context,
-                        DifficultyDetailView.routeName,
-                        arguments: item.difficultyMap.values.last.toJson(),
-                      );
-                    });
+                  ),
+                );
               },
             );
           }),
