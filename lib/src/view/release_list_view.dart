@@ -60,10 +60,6 @@ class ReleaseListView extends StatelessWidget {
 
                       return ListTile(
                           title: Text(item.name),
-                          leading: const CircleAvatar(
-                            foregroundImage:
-                                AssetImage('assets/images/flutter_logo.png'),
-                          ),
                           onTap: () {
                             Navigator.restorablePushNamed(
                               context,
