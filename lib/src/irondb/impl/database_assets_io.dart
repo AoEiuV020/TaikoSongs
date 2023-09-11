@@ -44,7 +44,7 @@ class DatabaseAssetsIO implements Database {
     if (!await file.exists()) {
       return null;
     }
-    return await IsolateTransformer<File, T>().convert(
+    return await IsolateTransformer().convert(
         file,
         (e) => e
             .asyncExpand((file) => file.openRead())

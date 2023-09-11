@@ -14,7 +14,8 @@ class DatabaseImpl implements Database {
 
   DatabaseImpl._(this.folder, this.keySerializer, this.dataSerializer);
 
-  factory DatabaseImpl(String base, KeySerializer keySerializer, DataSerializer dataSerializer) {
+  factory DatabaseImpl(
+      String base, KeySerializer keySerializer, DataSerializer dataSerializer) {
     return DatabaseImpl._(Directory(base), keySerializer, dataSerializer);
   }
 
@@ -30,7 +31,7 @@ class DatabaseImpl implements Database {
     if (!await file.exists()) {
       return null;
     }
-    return await IsolateTransformer<File, T>().convert(
+    return await IsolateTransformer().convert(
         file,
         (e) => e
             .asyncExpand((file) => file.openRead())
@@ -49,7 +50,7 @@ class DatabaseImpl implements Database {
       return;
     }
     final write = file.openWrite();
-    await write.addStream(IsolateTransformer<T, List<int>>().transform(
+    await write.addStream(IsolateTransformer().transform(
         Stream.value(value),
         (e) => e
             .map((value) => dataSerializer.serialize<T>(value))

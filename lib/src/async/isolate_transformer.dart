@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'dart:isolate';
 
-class IsolateTransformer<S, T> {
-  Future<T> convert(S data, Stream<T> Function(Stream<S> e) mapper) {
-    return transform(Stream.value(data), mapper).first;
+class IsolateTransformer {
+  Future<T> convert<S, T>(S data, Stream<T> Function(Stream<S> e) mapper) {
+    return transform<S, T>(Stream.value(data), mapper).first;
   }
 
-  Stream<T> transform(
+  Stream<T> transform<S, T>(
       Stream<S> data, Stream<T> Function(Stream<S> e) mapper) async* {
     var mainReceive = ReceivePort();
     await Isolate.spawn((SendPort sendPort) {

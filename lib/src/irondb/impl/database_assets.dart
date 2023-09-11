@@ -55,7 +55,7 @@ class DatabaseAssets implements Database {
       // The asset does not exist or has empty data.
       return null;
     }
-    final ret = await IsolateTransformer<ByteData, T>().convert(
+    final ret = await IsolateTransformer().convert(
         bundle,
         (e) => e
             .asyncMap((data) => utf8.decode(data.buffer.asUint8List()))

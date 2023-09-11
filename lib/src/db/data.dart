@@ -29,7 +29,7 @@ class DataSource {
   Stream<ReleaseItem> getReleaseList(
       {bool refresh = false, bool cacheOnly = false}) async* {
     var collection = CollectionItem();
-    yield* IsolateTransformer<String, ReleaseItem>().transform(
+    yield* IsolateTransformer().transform(
         Stream.fromFuture(htmlCache.request(
             db.sub('collection'), collection.url, refresh, cacheOnly)),
         (e) => e.asyncExpand(
@@ -38,7 +38,7 @@ class DataSource {
 
   Stream<SongItem> getSongList(ReleaseItem release,
       {bool refresh = false, bool cacheOnly = false}) async* {
-    yield* IsolateTransformer<String, SongItem>().transform(
+    yield* IsolateTransformer().transform(
         Stream.fromFuture(htmlCache.request(db.sub('release').sub(release.name),
             release.url, refresh, cacheOnly)),
         (e) =>
@@ -47,7 +47,7 @@ class DataSource {
 
   Future<Difficulty> getDifficulty(DifficultyItem difficultyItem,
       {bool refresh = false, bool cacheOnly = false}) async {
-    return await IsolateTransformer<String, Difficulty>()
+    return await IsolateTransformer()
         .transform(
             Stream.fromFuture(htmlCache.request(
                 db.sub('song').sub(difficultyItem.name),
