@@ -52,22 +52,25 @@ class ReleaseListView extends StatelessWidget {
                     return const Text('Error!');
                   }
                   var items = snapshot.requireData;
-                  return ListView.builder(
-                    restorationId: 'releaseList',
-                    itemCount: items.length,
-                    itemBuilder: (BuildContext context, int index) {
-                      final item = items[index];
+                  return Scrollbar(
+                    interactive: true,
+                    child: ListView.builder(
+                      restorationId: 'releaseList',
+                      itemCount: items.length,
+                      itemBuilder: (BuildContext context, int index) {
+                        final item = items[index];
 
-                      return ListTile(
-                          title: Text(item.name),
-                          onTap: () {
-                            Navigator.restorablePushNamed(
-                              context,
-                              SongListView.routeName,
-                              arguments: item.toJson(),
-                            );
-                          });
-                    },
+                        return ListTile(
+                            title: Text(item.name),
+                            onTap: () {
+                              Navigator.restorablePushNamed(
+                                context,
+                                SongListView.routeName,
+                                arguments: item.toJson(),
+                              );
+                            });
+                      },
+                    ),
                   );
                 });
           }),

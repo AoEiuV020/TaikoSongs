@@ -38,71 +38,74 @@ class SongListView extends StatelessWidget {
               return const Text('Error!');
             }
             var items = snapshot.requireData;
-            return ListView.builder(
-              restorationId: 'songList',
-              itemCount: items.length,
-              itemBuilder: (BuildContext context, int index) {
-                final item = items[index];
+            return Scrollbar(
+              interactive: true,
+              child: ListView.builder(
+                restorationId: 'songList',
+                itemCount: items.length,
+                itemBuilder: (BuildContext context, int index) {
+                  final item = items[index];
 
-                final Widget difficultyGroup = Row(
-                  children: DifficultyType.values
-                      .map((e) => InkWell(
-                            onTap: item.difficultyMap.containsKey(e)
-                                ? () {
-                                    Navigator.restorablePushNamed(
-                                      context,
-                                      DifficultyDetailView.routeName,
-                                      arguments:
-                                          item.difficultyMap[e]!.toJson(),
-                                    );
-                                  }
-                                : null,
-                            child: SizedBox(
-                              width: 32,
-                              height: 32,
-                              child: Center(
-                                child: Text(
-                                  item.getLevelTypeDifficulty(e).toString(),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                            ),
-                          ))
-                      .toList(),
-                );
-                return InkWell(
-                  child: Container(
-                    padding: const EdgeInsets.all(8),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(item.name),
-                              Visibility(
-                                visible: item.subtitle.isNotEmpty,
-                                child: Text(
-                                  item.subtitle,
-                                  style: TextStyle(
-                                    color: Colors.grey[500],
+                  final Widget difficultyGroup = Row(
+                    children: DifficultyType.values
+                        .map((e) => InkWell(
+                              onTap: item.difficultyMap.containsKey(e)
+                                  ? () {
+                                      Navigator.restorablePushNamed(
+                                        context,
+                                        DifficultyDetailView.routeName,
+                                        arguments:
+                                            item.difficultyMap[e]!.toJson(),
+                                      );
+                                    }
+                                  : null,
+                              child: SizedBox(
+                                width: 32,
+                                height: 32,
+                                child: Center(
+                                  child: Text(
+                                    item.getLevelTypeDifficulty(e).toString(),
+                                    textAlign: TextAlign.center,
                                   ),
                                 ),
                               ),
-                            ],
+                            ))
+                        .toList(),
+                  );
+                  return InkWell(
+                    child: Container(
+                      padding: const EdgeInsets.all(8),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(item.name),
+                                Visibility(
+                                  visible: item.subtitle.isNotEmpty,
+                                  child: Text(
+                                    item.subtitle,
+                                    style: TextStyle(
+                                      color: Colors.grey[500],
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
-                        Container(
-                          padding: const EdgeInsets.all(8),
-                          child: Text(item.bpm),
-                        ),
-                        difficultyGroup,
-                      ],
+                          Container(
+                            padding: const EdgeInsets.all(8),
+                            child: Text(item.bpm),
+                          ),
+                          difficultyGroup,
+                        ],
+                      ),
                     ),
-                  ),
-                );
-              },
+                  );
+                },
+              ),
             );
           }),
     );
