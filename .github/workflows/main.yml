@@ -69,10 +69,7 @@ jobs:
                   echo 'EOF' >> .custom_env
               fi
           fi
-          if [[ "$CREATE_RELEASE" == "true" ]]
-          then
-              echo DEPLOY_WEB="true" >> .custom_env
-          fi
+          echo DEPLOY_WEB="true" >> .custom_env
           if [[ "$CREATE_RELEASE" == "true" && -n "${{ secrets.TELEGRAM_TO }}" && -n "${{ secrets.TELEGRAM_TOKEN }}" ]]
           then
               echo SEND_TELEGRAM="true" >> .custom_env
