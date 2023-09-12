@@ -15,7 +15,7 @@ class DifficultyDetailView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Item Details'),
+        title: const Text('谱面'),
       ),
       body: FutureBuilder(
           future: DataSource().getDifficulty(difficultyItem),

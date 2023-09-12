@@ -17,7 +17,7 @@ class ReleaseListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Sample Items'),
+        title: const Text('作品列表'),
         actions: [
           IconButton(
             icon: const Icon(Icons.settings),

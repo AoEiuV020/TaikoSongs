@@ -27,7 +27,7 @@ class SongListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Item Details'),
+        title: const Text('歌曲列表'),
       ),
       body: FutureBuilder(
           future: initData(),
