@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
+import 'package:taiko_songs/src/irondb/iron.dart';
 
 import 'src/app.dart';
 import 'src/settings/settings_controller.dart';
@@ -12,6 +13,9 @@ void main() async {
   Logger.root.onRecord.listen((record) {
     print('${record.level.name}: ${record.time}: ${record.message}');
   });
+  // 确保 Flutter 初始化完成
+  WidgetsFlutterBinding.ensureInitialized();
+  await Iron.init();
   // Set up the SettingsController, which will glue user settings to multiple
   // Flutter Widgets.
   final settingsController = SettingsController(SettingsService());

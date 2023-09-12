@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/db/data.dart';
-import 'package:taiko_songs/src/irondb/iron.dart';
 
 import '../settings/settings_view.dart';
 import 'song_list_view.dart';
@@ -32,7 +31,7 @@ class ReleaseListView extends StatelessWidget {
         ],
       ),
       body: FutureBuilder(
-          future: Iron.init(),
+          future: DataSource().getReleaseList().toList(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
@@ -41,38 +40,27 @@ class ReleaseListView extends StatelessWidget {
                   'initData failed', snapshot.error, snapshot.stackTrace);
               return const Text('Error!');
             }
-            return FutureBuilder(
-                future: DataSource().getReleaseList().toList(),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState == ConnectionState.waiting) {
-                    return const CircularProgressIndicator();
-                  } else if (snapshot.hasError) {
-                    logger.severe(
-                        'initData failed', snapshot.error, snapshot.stackTrace);
-                    return const Text('Error!');
-                  }
-                  var items = snapshot.requireData;
-                  return Scrollbar(
-                    interactive: true,
-                    child: ListView.builder(
-                      restorationId: 'releaseList',
-                      itemCount: items.length,
-                      itemBuilder: (BuildContext context, int index) {
-                        final item = items[index];
+            var items = snapshot.requireData;
+            return Scrollbar(
+              interactive: true,
+              child: ListView.builder(
+                restorationId: 'releaseList',
+                itemCount: items.length,
+                itemBuilder: (BuildContext context, int index) {
+                  final item = items[index];
 
-                        return ListTile(
-                            title: Text(item.name),
-                            onTap: () {
-                              Navigator.restorablePushNamed(
-                                context,
-                                SongListView.routeName,
-                                arguments: item.toJson(),
-                              );
-                            });
-                      },
-                    ),
-                  );
-                });
+                  return ListTile(
+                      title: Text(item.name),
+                      onTap: () {
+                        Navigator.restorablePushNamed(
+                          context,
+                          SongListView.routeName,
+                          arguments: item.toJson(),
+                        );
+                      });
+                },
+              ),
+            );
           }),
     );
   }
