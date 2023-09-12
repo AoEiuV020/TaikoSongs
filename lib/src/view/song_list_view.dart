@@ -81,6 +81,9 @@ class SongListView extends StatelessWidget {
                   );
                   return InkWell(
                     child: Container(
+                      color: item.categoryColor == null
+                          ? null
+                          : Color(0x22000000 | item.categoryColor!),
                       padding: const EdgeInsets.all(8),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,

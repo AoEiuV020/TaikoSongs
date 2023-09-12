@@ -9,16 +9,16 @@ class SongItem {
   final String name;
   final String subtitle;
   final String category;
+  final int? categoryColor;
   final String bpm;
   final Map<DifficultyType, DifficultyItem> difficultyMap;
 
-  SongItem(this.name, this.subtitle, this.category, this.bpm,
-      this.difficultyMap);
+  SongItem(this.name, this.subtitle, this.category, this.categoryColor,
+      this.bpm, this.difficultyMap);
 
   @override
   String toString() {
-    return '$name, subtitle: $subtitle, category: $category, bpm: $bpm, difficulty: ${difficultyMap
-        .values}';
+    return '$name, subtitle: $subtitle, category: $category, bpm: $bpm, difficulty: ${difficultyMap.values}';
   }
 
   int getLevelTypeDifficulty(DifficultyType type) {

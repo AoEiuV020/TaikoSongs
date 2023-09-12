@@ -39,7 +39,16 @@ class SongParser extends Parser {
         }
         SongItem? previous;
         for (var data in table.data) {
-          var category = data.title?.text ?? '';
+          final String category;
+          final int? categoryColor;
+          final title = data.title;
+          if (title != null) {
+            category = title.text;
+            categoryColor = getBackgroundColor(title.ele);
+          } else {
+            category = '';
+            categoryColor = 0;
+          }
           final String name;
           final String subtitle;
           if (bpmIndex >= 2 &&
@@ -81,7 +90,8 @@ class SongParser extends Parser {
             var difficulty = DifficultyItem(name, type, level, hasBranch, url);
             difficultyMap[type] = difficulty;
           }
-          var song = SongItem(name, subtitle, category, bpm, difficultyMap);
+          var song = SongItem(
+              name, subtitle, category, categoryColor, bpm, difficultyMap);
           if (previous != null) {
             if (name == previous.name ||
                 (name.startsWith(previous.name) && name.endsWith('(裏)'))) {
