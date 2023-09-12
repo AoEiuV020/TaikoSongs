@@ -33,6 +33,13 @@ class DifficultyItem {
     DifficultyType.oni: '鬼',
     DifficultyType.uraOni: '里鬼',
   };
+  static final Map<DifficultyType, int> difficultyTypeColorMap = {
+    DifficultyType.easy: 0xd52700,
+    DifficultyType.normal: 0x769e11,
+    DifficultyType.hard: 0x297ba3,
+    DifficultyType.oni: 0xaf1e7f,
+    DifficultyType.uraOni: 0x6042dd,
+  };
 }
 
 class Difficulty {

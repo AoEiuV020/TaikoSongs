@@ -64,10 +64,15 @@ class SongListView extends StatelessWidget {
                               child: SizedBox(
                                 width: 32,
                                 height: 32,
-                                child: Center(
-                                  child: Text(
-                                    item.getLevelTypeDifficulty(e).toString(),
-                                    textAlign: TextAlign.center,
+                                child: Container(
+                                  color: Color(0x88000000 |
+                                      DifficultyItem
+                                          .difficultyTypeColorMap[e]!),
+                                  child: Center(
+                                    child: Text(
+                                      item.getLevelTypeDifficulty(e).toString(),
+                                      textAlign: TextAlign.center,
+                                    ),
                                   ),
                                 ),
                               ),
