@@ -1,6 +1,6 @@
 {
-  "appTitle": "taiko_songs",
+  "appTitle": "太鼓の歌",
   "@appTitle": {
-    "description": "The title of the application"
+    "description": "太鼓达人各作品歌曲列表和谱面，"
   }
 }

@@ -1,11 +1,11 @@
 {
-    "name": "taiko_songs",
-    "short_name": "taiko_songs",
+    "name": "太鼓の歌",
+    "short_name": "太鼓の歌",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "太鼓达人各作品歌曲列表和谱面，",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
