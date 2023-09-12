@@ -36,9 +36,9 @@ class ReleaseListView extends StatelessWidget {
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
-            } else if (snapshot.connectionState == ConnectionState.done) {
-              logger.info('done');
             } else if (snapshot.hasError) {
+              logger.severe(
+                  'initData failed', snapshot.error, snapshot.stackTrace);
               return const Text('Error!');
             }
             return FutureBuilder(
@@ -46,9 +46,9 @@ class ReleaseListView extends StatelessWidget {
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return const CircularProgressIndicator();
-                  } else if (snapshot.connectionState == ConnectionState.done) {
-                    logger.info('done');
                   } else if (snapshot.hasError) {
+                    logger.severe(
+                        'initData failed', snapshot.error, snapshot.stackTrace);
                     return const Text('Error!');
                   }
                   var items = snapshot.requireData;

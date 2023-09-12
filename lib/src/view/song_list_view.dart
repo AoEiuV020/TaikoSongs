@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
+import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
 import 'package:taiko_songs/src/view/difficulty_detail_view.dart';
 
@@ -13,6 +14,15 @@ class SongListView extends StatelessWidget {
   final ReleaseItem releaseItem;
   final logger = Logger('SongListView');
 
+  Future<List<SongItem>> initData() {
+    return DataSource().getSongList(releaseItem).toList().then((value) => value
+      ..sort(
+        (a, b) =>
+            a.getLevelTypeDifficulty(DifficultyType.oni) -
+            b.getLevelTypeDifficulty(DifficultyType.oni),
+      ));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,21 +30,13 @@ class SongListView extends StatelessWidget {
         title: const Text('Item Details'),
       ),
       body: FutureBuilder(
-          future: DataSource()
-              .getSongList(releaseItem)
-              .toList()
-              .then((value) => value
-                ..sort(
-                  (a, b) =>
-                      a.getLevelTypeDifficulty(DifficultyType.oni) -
-                      b.getLevelTypeDifficulty(DifficultyType.oni),
-                )),
+          future: initData(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
-            } else if (snapshot.connectionState == ConnectionState.done) {
-              logger.info('done');
             } else if (snapshot.hasError) {
+              logger.severe(
+                  'initData failed', snapshot.error, snapshot.stackTrace);
               return const Text('Error!');
             }
             var items = snapshot.requireData;
