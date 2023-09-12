@@ -16,6 +16,10 @@ class IsolateTransformer {
 
   Stream<T> transform<S, T>(
       Stream<S> data, Stream<T> Function(Stream<S> e) mapper) async* {
+    if (const bool.fromEnvironment('dart.library.js_util')) {
+      yield* mapper(data);
+      return;
+    }
     var mainReceive = ReceivePort();
     await Isolate.spawn((SendPort sendPort) {
       final receivePort = ReceivePort();

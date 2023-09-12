@@ -1,7 +1,11 @@
-# 无法自动适配网站根目录
+# CORS
 
-只能在编译时定死网站的根目录，默认是根目录斜杆/，  
-所以本项目gh-pages测试页面只能是这样，  
-[https://flutterdemo.aoeiuv020.com/](https://flutterdemo.aoeiuv020.com/)  
-而不能是这样，  
-[https://aoeiuv020.github.io/FlutterDemo/](https://aoeiuv020.github.io/FlutterDemo/)  
+[TaikoSongs](https://taiko.aoeiuv020.com/)
+
+web端会有跨域（CORS）问题，浏览器规范限制，不是代码能解决的，  
+chrome可以添加启动参数（--disable-web-security）关闭这个限制，  
+https://stackoverflow.com/a/66879350  
+也可以通过安装拓展解决，  
+https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf/related?hl=en-US  
+安卓chrome也可以通过adb权限设置这个参数，  
+https://stackoverflow.com/a/52948221  
