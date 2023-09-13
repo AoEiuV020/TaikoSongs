@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 
@@ -15,13 +16,12 @@ import 'view/song_list_view.dart';
 class MyApp extends StatelessWidget {
   const MyApp({
     super.key,
-    required this.settingsController,
   });
-
-  final SettingsController settingsController;
 
   @override
   Widget build(BuildContext context) {
+    final SettingsController settingsController =
+        Provider.of<SettingsController>(context);
     // Glue the SettingsController to the MaterialApp.
     //
     // The ListenableBuilder Widget listens to the SettingsController for changes.
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
           // The appTitle is defined in .arb files found in the localization
           // directory.
           onGenerateTitle: (BuildContext context) =>
-              AppLocalizations.of(context)!.appTitle,
+          AppLocalizations.of(context)!.appTitle,
 
           // Define a light and dark color theme. Then, read the user's
           // preferred ThemeMode (light, dark, or system default) from the

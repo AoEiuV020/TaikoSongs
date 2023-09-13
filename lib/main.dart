@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
+import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 
 import 'src/app.dart';
@@ -27,5 +28,10 @@ void main() async {
   // Run the app and pass in the SettingsController. The app listens to the
   // SettingsController for changes, then passes it further down to the
   // SettingsView.
-  runApp(MyApp(settingsController: settingsController));
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => settingsController,
+      child: const MyApp(),
+    ),
+  );
 }
