@@ -2,7 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/async/isolate_transformer.dart';
+
+import '../settings/settings_controller.dart';
 
 class TranslatedText extends StatefulWidget {
   final String originalText;
@@ -59,6 +62,11 @@ class _TranslatedTextState extends State<TranslatedText> {
 
   @override
   Widget build(BuildContext context) {
-    return Text(translatedText);
+    return Consumer<SettingsController>(builder: (context, settings, child) {
+      if (settings.translate.get()) {
+        return Text(translatedText);
+      }
+      return Text(widget.originalText);
+    });
   }
 }
