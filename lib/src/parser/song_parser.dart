@@ -47,7 +47,7 @@ class SongParser extends Parser {
             categoryColor = getBackgroundColor(title.ele);
           } else {
             category = '';
-            categoryColor = 0;
+            categoryColor = null;
           }
           final String name;
           final String subtitle;

@@ -28,7 +28,27 @@ abstract class Parser {
         final iValue = int.parse(value.substring(2), radix: 16);
         return iValue;
       }
-      return htmlColorMap[value];
+      if (value.startsWith('#')) {
+        final iValue = int.parse(value.substring(1), radix: 16);
+        return 0xff | iValue;
+      }
+      final htmlColor = htmlColorMap[value];
+      if (htmlColor != null) {
+        return 0xff | htmlColor;
+      }
+      // rgb(73, 213, 235)
+      if (value.startsWith('rbg(')) {
+        final rbgList = value.substring(4, value.length - 1).split(',');
+        final rs = rbgList[0].trim();
+        final bs = rbgList[1].trim();
+        final gs = rbgList[2].trim();
+        final ri = int.parse(rs) & 0xff;
+        final bi = int.parse(bs) & 0xff;
+        final gi = int.parse(gs) & 0xff;
+        final rbg = (ri << (8 * 2)) | (bi << (8)) | gi;
+        return 0xff | rbg;
+      }
+      return null;
     }
     return null;
   }
@@ -41,6 +61,9 @@ abstract class Parser {
     'gold': 0xffd700,
     'darkorchid': 0x9932cc,
     'orangered': 0xff4500,
+    'silver': 0xc0c0c0,
+    'magenta': 0xff00ff,
+    'blue': 0x0000ff,
   };
 
   String getAbsHref(String baseUrl, Element e) {
