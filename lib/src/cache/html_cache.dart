@@ -33,7 +33,12 @@ class HtmlCache {
       }
       logger.info('download html: $url');
       final options = Options();
-      final String? etag = await db.read('$key.etag');
+      final String? etag;
+      if (refresh) {
+        etag = await db.read('$key.etag');
+      } else {
+        etag = null;
+      }
       if (etag != null && etag.isNotEmpty) {
         logger.info('etag exists: $etag');
         options.headers = {
