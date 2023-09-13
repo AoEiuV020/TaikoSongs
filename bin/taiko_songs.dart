@@ -14,7 +14,17 @@ Future<void> main(List<String> arguments) async {
   });
   await Iron.init();
   var data = DataSource();
-  await printSongCategory(data);
+  await printReleaseName(data);
+}
+
+Future<void> printReleaseName(DataSource data) async {
+  var list = data.getReleaseList();
+  var releaseIndex = 0;
+  await for (var release in list) {
+    ++releaseIndex;
+    logger.info('${releaseIndex.toString().padLeft(2, ' ')} ${release.name}');
+  }
+  logger.info('release count: $releaseIndex');
 }
 
 Future<void> printSongCategory(DataSource data) async {
@@ -49,7 +59,7 @@ Future<void> printSongCount(DataSource data) async {
   await for (var release in list) {
     ++releaseIndex;
     final songList = await data.getSongList(release).toList();
-    logger.info('${release.name} ${songList.length}');
+    logger.info('$releaseIndex ${release.name} ${songList.length}');
   }
   logger.info('release count: $releaseIndex');
 }
