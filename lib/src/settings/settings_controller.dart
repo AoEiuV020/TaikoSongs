@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences_field_delegate/shared_preferences_field_delegate.dart';
 
 import 'settings_service.dart';
 
@@ -10,41 +11,33 @@ import 'settings_service.dart';
 class SettingsController with ChangeNotifier {
   SettingsController(this._settingsService);
 
-  // Make SettingsService a private variable so it is not used directly.
   final SettingsService _settingsService;
+  late final translate = settingsField(_settingsService.translate);
+  late final themeMode = settingsField(_settingsService.themeMode);
 
-  // Make ThemeMode a private variable so it is not updated directly without
-  // also persisting the changes with the SettingsService.
-  late ThemeMode _themeMode;
+  SettingsField<T> settingsField<T>(Field<T> field) =>
+      SettingsField(this, field);
 
-  // Allow Widgets to read the user's preferred ThemeMode.
-  ThemeMode get themeMode => _themeMode;
+  // 继承为public方法以便下方SettingsField调用,
+  @override
+  void notifyListeners() => super.notifyListeners();
+}
 
-  /// Load the user's settings from the SettingsService. It may load from a
-  /// local database or the internet. The controller only knows it can load the
-  /// settings from the service.
-  Future<void> loadSettings() async {
-    _themeMode = _settingsService.themeMode.get();
+class SettingsField<T> extends Field<T> {
+  final SettingsController settings;
+  final Field<T> field;
 
-    // Important! Inform listeners a change has occurred.
-    notifyListeners();
-  }
+  SettingsField(this.settings, this.field);
 
-  /// Update and persist the ThemeMode based on the user's selection.
-  Future<void> updateThemeMode(ThemeMode? newThemeMode) async {
-    if (newThemeMode == null) return;
+  @override
+  T get() => field.get();
 
-    // Do not perform any work if new and old ThemeMode are identical
-    if (newThemeMode == _themeMode) return;
+  @override
+  Stream<T> get onChanged => field.onChanged;
 
-    // Otherwise, store the new ThemeMode in memory
-    _themeMode = newThemeMode;
-
-    // Important! Inform listeners a change has occurred.
-    notifyListeners();
-
-    // Persist the changes to a local database or the internet using the
-    // SettingService.
-    await _settingsService.themeMode.set(newThemeMode);
+  @override
+  Future<void> set(T value) async {
+    await field.set(value);
+    settings.notifyListeners();
   }
 }

@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
           // SettingsController to display the correct theme.
           theme: ThemeData(),
           darkTheme: ThemeData.dark(),
-          themeMode: settings.themeMode,
+          themeMode: settings.themeMode.get(),
 
           builder: EasyLoading.init(),
 
