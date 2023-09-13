@@ -4,9 +4,10 @@ import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
-import 'package:taiko_songs/src/view/difficulty_detail_view.dart';
 
 import '../settings/settings_view.dart';
+import 'difficulty_detail_view.dart';
+import 'translated_text_view.dart';
 
 class SongListView extends StatelessWidget {
   SongListView({super.key, required this.releaseItem});
@@ -29,7 +30,12 @@ class SongListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('歌曲列表'),
+        title: Row(
+          children: [
+            TranslatedText(releaseItem.name),
+            const Text('-歌曲列表'),
+          ],
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.settings),
