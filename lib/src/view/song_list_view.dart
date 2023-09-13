@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
+import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
 
+import '../settings/settings_controller.dart';
 import '../settings/settings_view.dart';
 import 'difficulty_detail_view.dart';
 import 'translated_text_view.dart';
@@ -56,83 +58,97 @@ class SongListView extends StatelessWidget {
               return const Text('Error!');
             }
             var items = snapshot.requireData;
-            return Scrollbar(
-              interactive: true,
-              child: ListView.builder(
-                restorationId: 'songList',
-                itemCount: items.length,
-                itemBuilder: (BuildContext context, int index) {
-                  final item = items[index];
+            return Consumer<SettingsController>(
+                builder: (context, settings, child) {
+              return Scrollbar(
+                interactive: true,
+                child: ListView.builder(
+                  restorationId: 'songList',
+                  itemCount: items.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    final item = items[index];
 
-                  final Widget difficultyGroup = Row(
-                    children: DifficultyType.values
-                        .map((e) => InkWell(
-                              onTap: item.difficultyMap.containsKey(e)
-                                  ? () {
-                                      Navigator.restorablePushNamed(
-                                        context,
-                                        DifficultyDetailView.routeName,
-                                        arguments:
-                                            item.difficultyMap[e]!.toJson(),
-                                      );
-                                    }
-                                  : null,
-                              child: SizedBox(
-                                width: 32,
-                                height: 32,
-                                child: Container(
-                                  color: Color(0x88000000 |
-                                      DifficultyItem
-                                          .difficultyTypeColorMap[e]!),
-                                  child: Center(
+                    final Widget difficultyGroup = Row(
+                      children: DifficultyType.values.indexed
+                          .where((event) {
+                            final (int i, _) = event;
+                            return settings.visibleColumnList.get()[i + 2];
+                          })
+                          .map((e) => e.$2)
+                          .map((e) => InkWell(
+                                onTap: item.difficultyMap.containsKey(e)
+                                    ? () {
+                                        Navigator.restorablePushNamed(
+                                          context,
+                                          DifficultyDetailView.routeName,
+                                          arguments:
+                                              item.difficultyMap[e]!.toJson(),
+                                        );
+                                      }
+                                    : null,
+                                child: SizedBox(
+                                  width: 32,
+                                  height: 32,
+                                  child: Container(
+                                    color: Color(0x88000000 |
+                                        DifficultyItem
+                                            .difficultyTypeColorMap[e]!),
+                                    child: Center(
+                                      child: Text(
+                                        item
+                                            .getLevelTypeDifficulty(e)
+                                            .toString(),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ))
+                          .toList(),
+                    );
+                    return InkWell(
+                      child: Container(
+                        color: item.categoryColor == null
+                            ? null
+                            : Color(0x22000000 | item.categoryColor!),
+                        padding: const EdgeInsets.all(8),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(item.name),
+                                  Visibility(
+                                    visible: item.subtitle.isNotEmpty &&
+                                        settings.visibleColumnList.get()[0],
                                     child: Text(
-                                      item.getLevelTypeDifficulty(e).toString(),
-                                      textAlign: TextAlign.center,
+                                      item.subtitle,
+                                      style: TextStyle(
+                                        color: Colors.grey[500],
+                                      ),
                                     ),
                                   ),
-                                ),
+                                ],
                               ),
-                            ))
-                        .toList(),
-                  );
-                  return InkWell(
-                    child: Container(
-                      color: item.categoryColor == null
-                          ? null
-                          : Color(0x22000000 | item.categoryColor!),
-                      padding: const EdgeInsets.all(8),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(item.name),
-                                Visibility(
-                                  visible: item.subtitle.isNotEmpty,
-                                  child: Text(
-                                    item.subtitle,
-                                    style: TextStyle(
-                                      color: Colors.grey[500],
-                                    ),
-                                  ),
-                                ),
-                              ],
                             ),
-                          ),
-                          Container(
-                            padding: const EdgeInsets.all(8),
-                            child: Text(item.bpm),
-                          ),
-                          difficultyGroup,
-                        ],
+                            Visibility(
+                              visible: settings.visibleColumnList.get()[1],
+                              child: Container(
+                                padding: const EdgeInsets.all(8),
+                                child: Text(item.bpm),
+                              ),
+                            ),
+                            difficultyGroup,
+                          ],
+                        ),
                       ),
-                    ),
-                  );
-                },
-              ),
-            );
+                    );
+                  },
+                ),
+              );
+            });
           }),
     );
   }

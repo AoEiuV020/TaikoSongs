@@ -14,6 +14,8 @@ class SettingsController with ChangeNotifier {
   final SettingsService _settingsService;
   late final translate = settingsField(_settingsService.translate);
   late final themeMode = settingsField(_settingsService.themeMode);
+  late final visibleColumnList =
+      settingsField(_settingsService.visibleColumnList);
 
   SettingsField<T> settingsField<T>(Field<T> field) =>
       SettingsField(this, field);

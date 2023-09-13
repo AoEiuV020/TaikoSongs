@@ -60,6 +60,25 @@ class SettingsView extends StatelessWidget {
                 const Text('翻译（机翻+人工）'),
               ],
             ),
+            const Text('展示内容'),
+            Wrap(
+              children: List<Widget>.generate(7, (int index) {
+                return Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Checkbox(
+                      value: settings.visibleColumnList.get()[index],
+                      onChanged: (value) {
+                        final list = settings.visibleColumnList.get();
+                        list[index] = value!;
+                        settings.visibleColumnList.set(list);
+                      },
+                    ),
+                    Text('${index + 1}'),
+                  ],
+                );
+              }),
+            ),
           ],
         ),
       );
