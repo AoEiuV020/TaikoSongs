@@ -4,6 +4,7 @@ import 'package:taiko_songs/src/db/data.dart';
 
 import '../settings/settings_view.dart';
 import 'song_list_view.dart';
+import 'translated_text_view.dart';
 
 class ReleaseListView extends StatelessWidget {
   ReleaseListView({
@@ -50,7 +51,7 @@ class ReleaseListView extends StatelessWidget {
                   final item = items[index];
 
                   return ListTile(
-                      title: Text(item.name),
+                      title: TranslatedText(item.name),
                       onTap: () {
                         Navigator.restorablePushNamed(
                           context,
