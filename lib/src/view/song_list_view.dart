@@ -19,13 +19,30 @@ class SongListView extends StatelessWidget {
   final ReleaseItem releaseItem;
   final logger = Logger('SongListView');
 
-  Future<List<SongItem>> initData() {
-    return DataSource().getSongList(releaseItem).toList().then((value) => value
-      ..sort(
-        (a, b) =>
-            a.getLevelTypeDifficulty(DifficultyType.oni) -
-            b.getLevelTypeDifficulty(DifficultyType.oni),
-      ));
+  Future<List<SongItem>> initData(List<bool> visibleList) {
+    return DataSource()
+        .getSongList(releaseItem)
+        .where((song) {
+          for (var i = 0; i < 5; ++i) {
+            final visibleIndex = i + 2;
+            final visible = visibleList[visibleIndex];
+            if (!visible) {
+              continue;
+            }
+            final level = song.getLevelTypeDifficulty(DifficultyType.values[i]);
+            if (level > 0) {
+              return true;
+            }
+          }
+          return false;
+        })
+        .toList()
+        .then((value) => value
+          ..sort(
+            (a, b) =>
+                a.getLevelTypeDifficulty(DifficultyType.oni) -
+                b.getLevelTypeDifficulty(DifficultyType.oni),
+          ));
   }
 
   @override
@@ -47,19 +64,18 @@ class SongListView extends StatelessWidget {
           ),
         ],
       ),
-      body: FutureBuilder(
-          future: initData(),
-          builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return const CircularProgressIndicator();
-            } else if (snapshot.hasError) {
-              logger.severe(
-                  'initData failed', snapshot.error, snapshot.stackTrace);
-              return const Text('Error!');
-            }
-            var items = snapshot.requireData;
-            return Consumer<SettingsController>(
-                builder: (context, settings, child) {
+      body: Consumer<SettingsController>(builder: (context, settings, child) {
+        return FutureBuilder(
+            future: initData(settings.visibleColumnList.get()),
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const CircularProgressIndicator();
+              } else if (snapshot.hasError) {
+                logger.severe(
+                    'initData failed', snapshot.error, snapshot.stackTrace);
+                return const Text('Error!');
+              }
+              var items = snapshot.requireData;
               return Scrollbar(
                 interactive: true,
                 child: ListView.builder(
@@ -149,7 +165,7 @@ class SongListView extends StatelessWidget {
                 ),
               );
             });
-          }),
+      }),
     );
   }
 }
