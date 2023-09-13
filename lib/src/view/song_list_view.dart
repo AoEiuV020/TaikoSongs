@@ -66,108 +66,172 @@ class SongListView extends StatelessWidget {
         ],
       ),
       body: Consumer<SettingsController>(builder: (context, settings, child) {
-        return FutureBuilder(
-            future: initData(settings.visibleColumnList.get()),
-            builder: (context, snapshot) {
-              if (snapshot.connectionState == ConnectionState.waiting) {
-                return const CircularProgressIndicator();
-              } else if (snapshot.hasError) {
-                logger.severe(
-                    'initData failed', snapshot.error, snapshot.stackTrace);
-                return const Text('Error!');
-              }
-              var items = snapshot.requireData;
-              return Scrollbar(
-                controller: _scrollController,
-                interactive: true,
-                child: ListView.builder(
-                  restorationId: 'songList',
-                  controller: _scrollController,
-                  itemCount: items.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    final item = items[index];
-
-                    final Widget difficultyGroup = Row(
-                      children: DifficultyType.values.indexed
-                          .where((event) {
-                            final (int i, _) = event;
-                            return settings.visibleColumnList.get()[i + 2];
-                          })
-                          .map((e) => e.$2)
-                          .map((e) => InkWell(
-                        onTap: item.difficultyMap.containsKey(e)
-                            ? () {
-                          Navigator.restorablePushNamed(
-                            context,
-                            DifficultyDetailView.routeName,
-                            arguments:
-                            item.difficultyMap[e]!.toJson(),
-                          );
-                        }
-                            : null,
-                        child: SizedBox(
-                          width: 32,
-                          height: 32,
-                          child: Container(
-                            color: Color(0x88000000 |
-                            DifficultyItem
-                                .difficultyTypeColorMap[e]!),
-                            child: Center(
-                              child: Text(
-                                item
-                                    .getLevelTypeDifficulty(e)
-                                    .toString(),
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
-                          ),
-                        ),
-                      ))
-                          .toList(),
-                    );
-                    return InkWell(
-                      child: Container(
-                        color: item.categoryColor == null
-                            ? null
-                            : Color(0x22000000 | item.categoryColor!),
-                        padding: const EdgeInsets.all(8),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(item.name),
-                                  Visibility(
-                                    visible: item.subtitle.isNotEmpty &&
-                                        settings.visibleColumnList.get()[0],
+        return Column(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(8),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('曲名'),
+                      ],
+                    ),
+                  ),
+                  Visibility(
+                    visible: settings.visibleColumnList.get()[1],
+                    child: Container(
+                      padding: const EdgeInsets.all(8),
+                      child: const Text('BPM'),
+                    ),
+                  ),
+                  Row(
+                    children: DifficultyType.values.indexed
+                        .where((event) {
+                          final (int i, _) = event;
+                          return settings.visibleColumnList.get()[i + 2];
+                        })
+                        .map((e) => e.$2)
+                        .map((e) => InkWell(
+                              onTap: () {
+                                logger.fine('order click');
+                              },
+                              child: SizedBox(
+                                width: 32,
+                                height: 32,
+                                child: Container(
+                                  color: Color(0x88000000 |
+                                      DifficultyItem
+                                          .difficultyTypeColorMap[e]!),
+                                  child: Center(
                                     child: Text(
-                                      item.subtitle,
-                                      style: TextStyle(
-                                        color: Colors.grey[500],
-                                      ),
+                                      DifficultyItem.difficultyTypeStringMap[e]!
+                                          .substring(0, 1),
+                                      textAlign: TextAlign.center,
                                     ),
                                   ),
+                                ),
+                              ),
+                            ))
+                        .toList(),
+                  ),
+                ],
+              ),
+            ),
+            FutureBuilder(
+                future: initData(settings.visibleColumnList.get()),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const CircularProgressIndicator();
+                  } else if (snapshot.hasError) {
+                    logger.severe(
+                        'initData failed', snapshot.error, snapshot.stackTrace);
+                    return const Text('Error!');
+                  }
+                  var items = snapshot.requireData;
+                  return Expanded(
+                    child: Scrollbar(
+                      controller: _scrollController,
+                      interactive: true,
+                      child: ListView.builder(
+                        restorationId: 'songList',
+                        controller: _scrollController,
+                        itemCount: items.length,
+                        itemBuilder: (BuildContext context, int index) {
+                          final item = items[index];
+
+                          final Widget difficultyGroup = Row(
+                            children: DifficultyType.values.indexed
+                                .where((event) {
+                                  final (int i, _) = event;
+                                  return settings.visibleColumnList
+                                      .get()[i + 2];
+                                })
+                                .map((e) => e.$2)
+                                .map((e) => InkWell(
+                                      onTap: item.difficultyMap.containsKey(e)
+                                          ? () {
+                                              Navigator.restorablePushNamed(
+                                                context,
+                                                DifficultyDetailView.routeName,
+                                                arguments: item
+                                                    .difficultyMap[e]!
+                                                    .toJson(),
+                                              );
+                                            }
+                                          : null,
+                                      child: SizedBox(
+                                        width: 32,
+                                        height: 32,
+                                        child: Container(
+                                          color: Color(0x88000000 |
+                                              DifficultyItem
+                                                  .difficultyTypeColorMap[e]!),
+                                          child: Center(
+                                            child: Text(
+                                              item
+                                                  .getLevelTypeDifficulty(e)
+                                                  .toString(),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ))
+                                .toList(),
+                          );
+                          return InkWell(
+                            child: Container(
+                              color: item.categoryColor == null
+                                  ? null
+                                  : Color(0x22000000 | item.categoryColor!),
+                              padding: const EdgeInsets.all(8),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(item.name),
+                                        Visibility(
+                                          visible: item.subtitle.isNotEmpty &&
+                                              settings.visibleColumnList
+                                                  .get()[0],
+                                          child: Text(
+                                            item.subtitle,
+                                            style: TextStyle(
+                                              color: Colors.grey[500],
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  Visibility(
+                                    visible:
+                                        settings.visibleColumnList.get()[1],
+                                    child: Container(
+                                      padding: const EdgeInsets.all(8),
+                                      child: Text(item.bpm),
+                                    ),
+                                  ),
+                                  difficultyGroup,
                                 ],
                               ),
                             ),
-                            Visibility(
-                              visible: settings.visibleColumnList.get()[1],
-                              child: Container(
-                                padding: const EdgeInsets.all(8),
-                                child: Text(item.bpm),
-                              ),
-                            ),
-                            difficultyGroup,
-                          ],
-                        ),
+                          );
+                        },
                       ),
-                    );
-                  },
-                ),
-              );
-            });
+                    ),
+                  );
+                }),
+          ],
+        );
       }),
     );
   }
