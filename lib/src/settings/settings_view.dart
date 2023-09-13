@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:taiko_songs/src/bean/difficulty.dart';
 
 import 'settings_controller.dart';
 
@@ -49,35 +50,49 @@ class SettingsView extends StatelessWidget {
                 ],
               ),
             ),
-            Row(
-              children: [
-                Switch(
-                  value: settings.translate.get(),
-                  onChanged: (value) {
-                    settings.translate.set(value);
-                  },
-                ),
-                const Text('翻译（机翻+人工）'),
-              ],
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: Row(
+                children: [
+                  Switch(
+                    value: settings.translate.get(),
+                    onChanged: (value) {
+                      settings.translate.set(value);
+                    },
+                  ),
+                  const Text('翻译（机翻+人工）'),
+                ],
+              ),
             ),
-            const Text('展示内容'),
-            Wrap(
-              children: List<Widget>.generate(7, (int index) {
-                return Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Checkbox(
-                      value: settings.visibleColumnList.get()[index],
-                      onChanged: (value) {
-                        final list = settings.visibleColumnList.get();
-                        list[index] = value!;
-                        settings.visibleColumnList.set(list);
-                      },
-                    ),
-                    Text('${index + 1}'),
-                  ],
-                );
-              }),
+            const Padding(
+              padding: EdgeInsets.all(16),
+              child: Text('展示内容'),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: Wrap(
+                children: List<Widget>.generate(7, (int index) {
+                  return Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Checkbox(
+                        value: settings.visibleColumnList.get()[index],
+                        onChanged: (value) {
+                          final list = settings.visibleColumnList.get();
+                          list[index] = value!;
+                          settings.visibleColumnList.set(list);
+                        },
+                      ),
+                      index == 0
+                          ? const Text('副标题')
+                          : index == 1
+                              ? const Text('BPM')
+                              : Text(DifficultyItem.difficultyTypeStringMap[
+                                  DifficultyType.values[index - 2]]!),
+                    ],
+                  );
+                }),
+              ),
             ),
           ],
         ),
