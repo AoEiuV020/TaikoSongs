@@ -20,15 +20,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final SettingsController settingsController =
-        Provider.of<SettingsController>(context);
     // Glue the SettingsController to the MaterialApp.
     //
     // The ListenableBuilder Widget listens to the SettingsController for changes.
     // Whenever the user updates their settings, the MaterialApp is rebuilt.
-    return ListenableBuilder(
-      listenable: settingsController,
-      builder: (BuildContext context, Widget? child) {
+    return Consumer<SettingsController>(
+      builder: (context, settings, child) {
         return MaterialApp(
           // Providing a restorationScopeId allows the Navigator built by the
           // MaterialApp to restore the navigation stack when a user leaves and
@@ -55,14 +52,14 @@ class MyApp extends StatelessWidget {
           // The appTitle is defined in .arb files found in the localization
           // directory.
           onGenerateTitle: (BuildContext context) =>
-          AppLocalizations.of(context)!.appTitle,
+              AppLocalizations.of(context)!.appTitle,
 
           // Define a light and dark color theme. Then, read the user's
           // preferred ThemeMode (light, dark, or system default) from the
           // SettingsController to display the correct theme.
           theme: ThemeData(),
           darkTheme: ThemeData.dark(),
-          themeMode: settingsController.themeMode,
+          themeMode: settings.themeMode,
 
           builder: EasyLoading.init(),
 
@@ -74,7 +71,7 @@ class MyApp extends StatelessWidget {
               builder: (BuildContext context) {
                 switch (routeSettings.name) {
                   case SettingsView.routeName:
-                    return SettingsView(controller: settingsController);
+                    return const SettingsView();
                   case SongListView.routeName:
                     return SongListView(
                       releaseItem: ReleaseItem.fromJson(
