@@ -29,8 +29,19 @@ abstract class Parser {
         return iValue;
       }
       if (value.startsWith('#')) {
-        final iValue = int.parse(value.substring(1), radix: 16);
-        return 0xff | iValue;
+        var sValue = value.substring(1);
+        if (sValue.length == 3) {
+          final List<int> chList = [];
+          for (var ch in sValue.codeUnits) {
+            chList.add(ch);
+            chList.add(ch);
+          }
+          sValue = String.fromCharCodes(chList);
+        }
+        if (sValue.length == 6) {
+          final iValue = int.parse(value.substring(1), radix: 16);
+          return 0xff | iValue;
+        }
       }
       final htmlColor = htmlColorMap[value];
       if (htmlColor != null) {
