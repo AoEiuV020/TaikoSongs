@@ -128,7 +128,7 @@ class TableCell {
   final int colSpan;
   final int rowSpan;
   final Element ele; // td or th,
-  late String text = ele.text.trim().replaceAll(' ', ' ');
+  late String text = ele.text.trim().replaceAll(' ', ' ').replaceAll('　', ' ');
 
   TableCell(this.ele, {this.colSpan = 1, this.rowSpan = 1});
 }
