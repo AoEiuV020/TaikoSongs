@@ -1,8 +1,9 @@
 // ignore_for_file: avoid_print
-
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:shared_preferences_field_delegate/shared_preferences_field_delegate.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 
 import 'src/app.dart';
@@ -17,9 +18,9 @@ void main() async {
   // 确保 Flutter 初始化完成
   WidgetsFlutterBinding.ensureInitialized();
   await Iron.init();
-  // Set up the SettingsController, which will glue user settings to multiple
-  // Flutter Widgets.
-  final settingsController = SettingsController(SettingsService());
+  final sharedPreferences = await SharedPreferences.getInstance();
+  final fieldFactory = SharedPreferencesFieldFactory(sharedPreferences);
+  final settingsController = SettingsController(SettingsService(fieldFactory));
 
   // Load the user's preferred theme while the splash screen is displayed.
   // This prevents a sudden theme change when the app is first displayed.
