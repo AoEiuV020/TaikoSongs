@@ -6,6 +6,8 @@ import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
 import 'package:taiko_songs/src/view/difficulty_detail_view.dart';
 
+import '../settings/settings_view.dart';
+
 class SongListView extends StatelessWidget {
   SongListView({super.key, required this.releaseItem});
 
@@ -28,6 +30,14 @@ class SongListView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('歌曲列表'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.settings),
+            onPressed: () {
+              Navigator.restorablePushNamed(context, SettingsView.routeName);
+            },
+          ),
+        ],
       ),
       body: FutureBuilder(
           future: initData(),
