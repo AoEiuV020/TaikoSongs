@@ -4,6 +4,7 @@ import 'package:html/parser.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/parser/base.dart';
+import 'package:taiko_songs/src/parser/table.dart';
 
 class SongParser extends Parser {
   Stream<SongItem> parseList(String baseUrl, String doc) async* {
@@ -37,14 +38,29 @@ class SongParser extends Parser {
         if (bpmIndex == -1) {
           continue;
         }
+        int? categoryIndex;
+        for (var i = 0; i < bpmIndex; ++i) {
+          if (headCellList[i].text == 'ジャンル') {
+            categoryIndex = i;
+            break;
+          }
+        }
         SongItem? previous;
         for (var data in table.data) {
+          final title = data.title;
+          final TableCell? categoryCell;
+          if (title != null) {
+            categoryCell = title;
+          } else if (categoryIndex != null) {
+            categoryCell = data.row.content[categoryIndex];
+          } else {
+            categoryCell = null;
+          }
           final String category;
           final int? categoryColor;
-          final title = data.title;
-          if (title != null) {
-            category = title.text;
-            categoryColor = getBackgroundColor(title.ele);
+          if (categoryCell != null) {
+            category = categoryCell.text;
+            categoryColor = getBackgroundColor(categoryCell.ele);
           } else {
             category = '';
             categoryColor = null;
