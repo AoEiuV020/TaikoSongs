@@ -18,6 +18,7 @@ class SongListView extends StatelessWidget {
 
   final ReleaseItem releaseItem;
   final logger = Logger('SongListView');
+  final ScrollController _scrollController = ScrollController();
 
   Future<List<SongItem>> initData(List<bool> visibleList) {
     return DataSource()
@@ -77,9 +78,11 @@ class SongListView extends StatelessWidget {
               }
               var items = snapshot.requireData;
               return Scrollbar(
+                controller: _scrollController,
                 interactive: true,
                 child: ListView.builder(
                   restorationId: 'songList',
+                  controller: _scrollController,
                   itemCount: items.length,
                   itemBuilder: (BuildContext context, int index) {
                     final item = items[index];
@@ -92,34 +95,34 @@ class SongListView extends StatelessWidget {
                           })
                           .map((e) => e.$2)
                           .map((e) => InkWell(
-                                onTap: item.difficultyMap.containsKey(e)
-                                    ? () {
-                                        Navigator.restorablePushNamed(
-                                          context,
-                                          DifficultyDetailView.routeName,
-                                          arguments:
-                                              item.difficultyMap[e]!.toJson(),
-                                        );
-                                      }
-                                    : null,
-                                child: SizedBox(
-                                  width: 32,
-                                  height: 32,
-                                  child: Container(
-                                    color: Color(0x88000000 |
-                                        DifficultyItem
-                                            .difficultyTypeColorMap[e]!),
-                                    child: Center(
-                                      child: Text(
-                                        item
-                                            .getLevelTypeDifficulty(e)
-                                            .toString(),
-                                        textAlign: TextAlign.center,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ))
+                        onTap: item.difficultyMap.containsKey(e)
+                            ? () {
+                          Navigator.restorablePushNamed(
+                            context,
+                            DifficultyDetailView.routeName,
+                            arguments:
+                            item.difficultyMap[e]!.toJson(),
+                          );
+                        }
+                            : null,
+                        child: SizedBox(
+                          width: 32,
+                          height: 32,
+                          child: Container(
+                            color: Color(0x88000000 |
+                            DifficultyItem
+                                .difficultyTypeColorMap[e]!),
+                            child: Center(
+                              child: Text(
+                                item
+                                    .getLevelTypeDifficulty(e)
+                                    .toString(),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ))
                           .toList(),
                     );
                     return InkWell(

@@ -13,6 +13,7 @@ class ReleaseListView extends StatelessWidget {
 
   static const routeName = '/release_list';
   final logger = Logger('ReleaseListView');
+  final ScrollController _scrollController = ScrollController();
 
   @override
   Widget build(BuildContext context) {
@@ -43,9 +44,11 @@ class ReleaseListView extends StatelessWidget {
             }
             var items = snapshot.requireData;
             return Scrollbar(
+              controller: _scrollController,
               interactive: true,
               child: ListView.builder(
                 restorationId: 'releaseList',
+                controller: _scrollController,
                 itemCount: items.length,
                 itemBuilder: (BuildContext context, int index) {
                   final item = items[index];
