@@ -27,6 +27,7 @@ class _TranslatedTextState extends State<TranslatedText> {
     final transformer = IsolateTransformer();
     final Map<String, String> resultMap = {};
     await _loadAssets(transformer, resultMap, 'release_name.txt');
+    await _loadAssets(transformer, resultMap, 'song_name_ps4.txt');
     await _loadAssets(transformer, resultMap, 'song_name_ns2.txt');
     await _loadAssets(transformer, resultMap, 'other.txt');
     return resultMap;

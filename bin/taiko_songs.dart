@@ -16,7 +16,7 @@ Future<void> main(List<String> arguments) async {
   });
   await Iron.init();
   var data = DataSource();
-  await printSongNameNS2();
+  await translateSongName();
 }
 
 Future<void> printSongName(DataSource data) async {
