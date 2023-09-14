@@ -38,12 +38,7 @@ class SongListView extends StatelessWidget {
           return false;
         })
         .toList()
-        .then((value) => value
-          ..sort(
-            (a, b) =>
-                a.getLevelTypeDifficulty(DifficultyType.oni) -
-                b.getLevelTypeDifficulty(DifficultyType.oni),
-          ));
+        .then((value) => value);
   }
 
   @override
@@ -197,12 +192,12 @@ class SongListView extends StatelessWidget {
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        Text(item.name),
+                                        TranslatedText(item.name),
                                         Visibility(
                                           visible: item.subtitle.isNotEmpty &&
                                               settings.visibleColumnList
                                                   .get()[0],
-                                          child: Text(
+                                          child: TranslatedText(
                                             item.subtitle,
                                             style: TextStyle(
                                               color: Colors.grey[500],

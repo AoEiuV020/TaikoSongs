@@ -1,9 +1,11 @@
-// ignore_for_file: avoid_print
+// ignore_for_file: avoid_print, unused_local_variable
 
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
+
+import 'translate_name.dart';
 
 var logger = Logger('main');
 
@@ -14,7 +16,25 @@ Future<void> main(List<String> arguments) async {
   });
   await Iron.init();
   var data = DataSource();
-  await refreshSongList(data);
+  await printSongNameNS2();
+}
+
+Future<void> printSongName(DataSource data) async {
+  var list = data.getReleaseList();
+  var releaseIndex = 0;
+  var songIndex = 0;
+  await for (var release in list) {
+    ++releaseIndex;
+    if (release.name != '太鼓の達人 ドンダフルフェスティバル（NS2）') {
+      continue;
+    }
+    await for (var song in data.getSongList(release)) {
+      ++songIndex;
+      logger.info('${songIndex.toString().padLeft(4, ' ')} ${song.name}');
+    }
+    logger.info('song count: $songIndex');
+  }
+  logger.info('release count: $releaseIndex');
 }
 
 Future<void> refreshSongList(DataSource data) async {
