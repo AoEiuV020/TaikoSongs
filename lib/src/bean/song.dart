@@ -43,7 +43,8 @@ class SongItem {
 
   static Comparator<SongItem> makeComparator(Map<String, bool> sortMap) {
     Comparator<SongItem> base = (c1, c2) => 0;
-    sortMap.forEach((key, value) {
+    sortMap.keys.toList().reversed.forEach((key) {
+      final value = sortMap[key]!;
       KeyExtractor<SongItem, Comparable<dynamic>> keyExtractor;
       if (key == 'bpm') {
         keyExtractor = (s) => s.bpm;

@@ -96,7 +96,12 @@ class SongListView extends StatelessWidget {
                         .map((e) => e.$2)
                         .map((e) => InkWell(
                               onTap: () {
-                                logger.fine('order click');
+                                final sortMap = settings.sortMap.get();
+                                final key =
+                                    DifficultyItem.difficultyTypeStringMap[e]!;
+                                final oldValue = sortMap.remove(key) ?? false;
+                                sortMap[key] = !oldValue;
+                                settings.sortMap.set(sortMap);
                               },
                               child: SizedBox(
                                 width: 32,
