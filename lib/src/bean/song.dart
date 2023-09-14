@@ -1,4 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:taiko_songs/src/compare/then_compare.dart';
 
 import 'difficulty.dart';
 
@@ -33,12 +34,49 @@ class SongItem {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-          other is SongItem &&
-              runtimeType == other.runtimeType &&
-              name == other.name;
+      other is SongItem &&
+          runtimeType == other.runtimeType &&
+          name == other.name;
 
   @override
   int get hashCode => name.hashCode;
+
+  static Comparator<SongItem> makeComparator(Map<String, bool> sortMap) {
+    Comparator<SongItem> base = (c1, c2) => 0;
+    sortMap.forEach((key, value) {
+      KeyExtractor<SongItem, Comparable<dynamic>> keyExtractor;
+      if (key == 'bpm') {
+        keyExtractor = (s) => s.bpm;
+      } else if (key == 'category') {
+        keyExtractor = (s) => s.category;
+      } else if (key == 'subtitle') {
+        keyExtractor = (s) => s.subtitle;
+      } else if (key == 'name') {
+        keyExtractor = (s) => s.name;
+      } else {
+        final type = $enumDecode(DifficultyItem.difficultyTypeStringMap, key);
+        keyExtractor = (s) => s.getLevelTypeDifficulty(type);
+      }
+      var comparator = comparing(keyExtractor);
+      if (value) {
+        comparator = reversed(comparator);
+      }
+      base = thenComparing0(base, comparator);
+    });
+    return base;
+  }
+}
+
+enum SongSortKey {
+  category,
+  name,
+  subtitle,
+  bpm,
+  easy, // かんたん（简单）
+  normal, // ふつう（普通）
+  hard, // むずかしい（困难）
+  oni, // おに（魔王）
+  uraOni, // おに(裏)（里魔王）
 }
 
 enum SongCategory {

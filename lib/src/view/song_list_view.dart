@@ -20,7 +20,8 @@ class SongListView extends StatelessWidget {
   final logger = Logger('SongListView');
   final ScrollController _scrollController = ScrollController();
 
-  Future<List<SongItem>> initData(List<bool> visibleList) {
+  Future<List<SongItem>> initData(
+      List<bool> visibleList, Map<String, bool> sortMap) {
     return DataSource()
         .getSongList(releaseItem)
         .where((song) {
@@ -38,7 +39,10 @@ class SongListView extends StatelessWidget {
           return false;
         })
         .toList()
-        .then((value) => value);
+        .then((value) => value
+          ..sort(
+            SongItem.makeComparator(sortMap),
+          ));
   }
 
   @override
@@ -117,7 +121,8 @@ class SongListView extends StatelessWidget {
               ),
             ),
             FutureBuilder(
-                future: initData(settings.visibleColumnList.get()),
+                future: initData(
+                    settings.visibleColumnList.get(), settings.sortMap.get()),
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
                     return const CircularProgressIndicator();
