@@ -52,7 +52,6 @@ class SongListView extends StatelessWidget {
         title: Row(
           children: [
             TranslatedText(releaseItem.name),
-            const Text('-歌曲列表'),
           ],
         ),
         actions: [
