@@ -9,7 +9,7 @@ void main() {
       ICalculator<int> calc = Calculator(CalcAction.plus, const Stream.empty());
       calc = AndCalculator(calc, Calculator(CalcAction.plus, s1));
       calc = AndCalculator(calc, Calculator(CalcAction.plus, s2));
-      expect({1, 2, 3, 4}, await calc.calc(const Stream.empty()).toSet());
+      expect({1, 2, 3, 4}, await calc.result().toSet());
     });
     test('plus3', () async {
       final Stream<int> s1 = Stream.fromIterable([1, 2, 3]);
@@ -19,7 +19,7 @@ void main() {
       calc = AndCalculator(calc, Calculator(CalcAction.plus, s1));
       calc = AndCalculator(calc, Calculator(CalcAction.plus, s2));
       calc = AndCalculator(calc, Calculator(CalcAction.plus, s3));
-      expect({1, 2, 3, 4, 5}, await calc.calc(const Stream.empty()).toSet());
+      expect({1, 2, 3, 4, 5}, await calc.result().toSet());
     });
     test('+-', () async {
       final Stream<int> s1 = Stream.fromIterable([1, 2, 3]);
@@ -29,7 +29,7 @@ void main() {
       calc = AndCalculator(calc, Calculator(CalcAction.plus, s1));
       calc = AndCalculator(calc, Calculator(CalcAction.minus, s2));
       calc = AndCalculator(calc, Calculator(CalcAction.plus, s3));
-      expect({1, 3, 4, 5}, await calc.calc(const Stream.empty()).toSet());
+      expect({1, 3, 4, 5}, await calc.result().toSet());
     });
   });
 }

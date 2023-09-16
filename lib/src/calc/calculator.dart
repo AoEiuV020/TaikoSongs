@@ -3,6 +3,10 @@
 abstract class ICalculator<T> {
   Stream<T> calc(Stream<T> source);
 
+  Stream<T> result() {
+    return calc(Stream<T>.empty());
+  }
+
   ICalculator<T> and(ICalculator<T> other) {
     return AndCalculator(this, other);
   }
