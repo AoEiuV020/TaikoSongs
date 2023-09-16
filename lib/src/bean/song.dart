@@ -46,6 +46,8 @@ class SongItem {
     sortMap.keys.toList().reversed.forEach((key) {
       final value = sortMap[key]!;
       KeyExtractor<SongItem, Comparable<dynamic>> keyExtractor;
+      // 有就优先，
+      KeyExtractor<SongItem, Comparable<dynamic>>? first;
       if (key == 'bpm') {
         keyExtractor = (s) =>
             double.parse(RegExp(r'[\d.]+').allMatches(s.bpm).last.group(0)!);
@@ -58,10 +60,15 @@ class SongItem {
       } else {
         final type = $enumDecode(DifficultyItem.difficultyTypeStringMap, key);
         keyExtractor = (s) => s.getLevelTypeDifficulty(type);
+        // 排里鬼时不要把没有的情况排到前面，
+        first = (s) => s.getLevelTypeDifficulty(type) == 0 ? 1 : 0;
       }
       var comparator = comparing(keyExtractor);
       if (value) {
         comparator = reversed(comparator);
+      }
+      if (first != null) {
+        comparator = thenComparing0(comparing(first), comparator);
       }
       base = thenComparing0(base, comparator);
     });

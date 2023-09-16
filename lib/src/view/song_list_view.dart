@@ -216,13 +216,12 @@ class SongListView extends StatelessWidget {
                                   DifficultyItem
                                       .difficultyTypeColorMap[e]!),
                                   child: Center(
-                                    child: Text(
-                                      item
-                                          .getLevelTypeDifficulty(e)
-                                          .toString(),
-                                      textAlign: TextAlign.center,
-                                    ),
-                                  ),
+                                            child: Text(
+                                              getDifficultyString(item
+                                                  .getLevelTypeDifficulty(e)),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ),
                                 ),
                               ),
                             ))
@@ -296,5 +295,12 @@ class SongListView extends StatelessWidget {
       return ' 类型$orderString';
     }
     return orderString;
+  }
+
+  String getDifficultyString(int level) {
+    if (level == 0) {
+      return '-';
+    }
+    return level.toString();
   }
 }
