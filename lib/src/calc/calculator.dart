@@ -1,16 +1,16 @@
-import 'package:taiko_songs/src/bean/song.dart';
 
-abstract class Calculator<T> {
+
+abstract class ICalculator<T> {
   Stream<T> calc(Stream<T> source);
 
-  Calculator<T> and(Calculator<T> other) {
+  ICalculator<T> and(ICalculator<T> other) {
     return AndCalculator(this, other);
   }
 }
 
-class AndCalculator<T> extends Calculator<T> {
-  final Calculator<T> firstCalculator;
-  final Calculator<T> nextCalculator;
+class AndCalculator<T> extends ICalculator<T> {
+  final ICalculator<T> firstCalculator;
+  final ICalculator<T> nextCalculator;
 
   AndCalculator(this.firstCalculator, this.nextCalculator);
 
@@ -20,14 +20,14 @@ class AndCalculator<T> extends Calculator<T> {
   }
 }
 
-class SongCalculator extends Calculator<SongItem> {
+class Calculator<T> extends ICalculator<T> {
   final CalcAction action;
-  final Stream<SongItem> target;
+  final Stream<T> target;
 
-  SongCalculator(this.action, this.target);
+  Calculator(this.action, this.target);
 
   @override
-  Stream<SongItem> calc(Stream<SongItem> source) {
+  Stream<T> calc(Stream<T> source) {
     switch (action) {
       case CalcAction.plus:
         return plus(source);
@@ -36,22 +36,22 @@ class SongCalculator extends Calculator<SongItem> {
     }
   }
 
-  Stream<SongItem> plus(Stream<SongItem> source) async* {
-    Set<SongItem> exists = {};
-    await for (SongItem song in source) {
+  Stream<T> plus(Stream<T> source) async* {
+    Set<T> exists = {};
+    await for (T song in source) {
       exists.add(song);
       yield song;
     }
-    await for (SongItem song in target) {
+    await for (T song in target) {
       if (exists.add(song)) {
         yield song;
       }
     }
   }
 
-  Stream<SongItem> minus(Stream<SongItem> source) async* {
+  Stream<T> minus(Stream<T> source) async* {
     var toRemoveSet = await target.toSet();
-    await for (SongItem song in source) {
+    await for (T song in source) {
       if (!toRemoveSet.contains(song)) {
         yield song;
       }
