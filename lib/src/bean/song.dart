@@ -47,7 +47,8 @@ class SongItem {
       final value = sortMap[key]!;
       KeyExtractor<SongItem, Comparable<dynamic>> keyExtractor;
       if (key == 'bpm') {
-        keyExtractor = (s) => s.bpm;
+        keyExtractor = (s) =>
+            double.parse(RegExp(r'[\d.]+').allMatches(s.bpm).last.group(0)!);
       } else if (key == 'category') {
         keyExtractor = (s) => s.category;
       } else if (key == 'subtitle') {

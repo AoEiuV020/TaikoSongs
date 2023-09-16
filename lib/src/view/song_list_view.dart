@@ -71,18 +71,41 @@ class SongListView extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text('曲名'),
-                      ],
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        settings.sortMap.use((sortMap) {
+                          const key = 'category';
+                          final oldValue = sortMap.remove(key) ?? false;
+                          sortMap[key] = !oldValue;
+                        });
+                      },
+                      child: const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.all(8),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Text('曲名'),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   Visibility(
                     visible: settings.visibleColumnList.get()[1],
                     child: InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        settings.sortMap.use((sortMap) {
+                          const key = 'bpm';
+                          final oldValue = sortMap.remove(key) ?? false;
+                          sortMap[key] = !oldValue;
+                        });
+                      },
                       child: const Padding(
                         padding: EdgeInsets.all(8),
                         child: Text('BPM'),
