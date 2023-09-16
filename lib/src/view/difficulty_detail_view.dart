@@ -1,7 +1,11 @@
+import 'package:dio/dio.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/db/data.dart';
+
+import 'web_cors_error_tip.dart';
 
 class DifficultyDetailView extends StatelessWidget {
   DifficultyDetailView({super.key, required this.difficultyItem});
@@ -25,6 +29,9 @@ class DifficultyDetailView extends StatelessWidget {
             } else if (snapshot.hasError) {
               logger.severe(
                   'initData failed', snapshot.error, snapshot.stackTrace);
+              if (snapshot.error is DioException && kIsWeb) {
+                return const WebCorsErrorTip();
+              }
               return const Text('Error!');
             }
             var difficulty = snapshot.requireData;

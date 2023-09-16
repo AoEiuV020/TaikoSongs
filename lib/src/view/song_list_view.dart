@@ -65,8 +65,8 @@ class SongListView extends StatelessWidget {
       ),
       body: Consumer<SettingsController>(builder: (context, settings, child) {
         final sortMap = settings.sortMap.get();
-        final lastSortKey = sortMap.keys.last;
-        final lastSortOrder = sortMap[lastSortKey]!;
+        final lastSortKey = sortMap.keys.lastOrNull ?? '';
+        final lastSortOrder = lastSortKey == '' ? true : sortMap[lastSortKey]!;
         return Column(
           children: [
             Container(
