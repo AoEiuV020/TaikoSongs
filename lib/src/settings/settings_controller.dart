@@ -43,4 +43,10 @@ class SettingsField<T> extends Field<T> {
     await field.set(value);
     settings.notifyListeners();
   }
+
+  Future<void> use(dynamic Function(T value) block) async {
+    T value = get();
+    await block(value);
+    set(value);
+  }
 }

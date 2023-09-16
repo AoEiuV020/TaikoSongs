@@ -81,9 +81,12 @@ class SongListView extends StatelessWidget {
                   ),
                   Visibility(
                     visible: settings.visibleColumnList.get()[1],
-                    child: Container(
-                      padding: const EdgeInsets.all(8),
-                      child: const Text('BPM'),
+                    child: InkWell(
+                      onTap: () {},
+                      child: const Padding(
+                        padding: EdgeInsets.all(8),
+                        child: Text('BPM'),
+                      ),
                     ),
                   ),
                   Row(
@@ -95,12 +98,12 @@ class SongListView extends StatelessWidget {
                         .map((e) => e.$2)
                         .map((e) => InkWell(
                               onTap: () {
-                                final sortMap = settings.sortMap.get();
-                                final key =
-                                    DifficultyItem.difficultyTypeStringMap[e]!;
-                                final oldValue = sortMap.remove(key) ?? false;
-                                sortMap[key] = !oldValue;
-                                settings.sortMap.set(sortMap);
+                                settings.sortMap.use((sortMap) {
+                                  final key = DifficultyItem
+                                      .difficultyTypeStringMap[e]!;
+                                  final oldValue = sortMap.remove(key) ?? false;
+                                  sortMap[key] = !oldValue;
+                                });
                               },
                               child: SizedBox(
                                 width: 32,
