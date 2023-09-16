@@ -13,7 +13,8 @@ import 'src/settings/settings_service.dart';
 void main() async {
   Logger.root.level = Level.ALL;
   Logger.root.onRecord.listen((record) {
-    print('${record.level.name}: ${record.time}: ${record.message}');
+    print(
+        '${record.level.name}: ${record.time}: ${record.message}, ${record.error}, ${record.stackTrace}');
   });
   // 确保 Flutter 初始化完成
   WidgetsFlutterBinding.ensureInitialized();
