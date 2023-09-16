@@ -40,12 +40,12 @@ abstract class Parser {
         }
         if (sValue.length == 6) {
           final iValue = int.parse(value.substring(1), radix: 16);
-          return 0xff | iValue;
+          return 0xff000000 | iValue;
         }
       }
       final htmlColor = htmlColorMap[value];
       if (htmlColor != null) {
-        return 0xff | htmlColor;
+        return 0xff000000 | htmlColor;
       }
       // rgb(73, 213, 235)
       if (value.startsWith('rbg(')) {
@@ -57,7 +57,7 @@ abstract class Parser {
         final bi = int.parse(bs) & 0xff;
         final gi = int.parse(gs) & 0xff;
         final rbg = (ri << (8 * 2)) | (bi << (8)) | gi;
-        return 0xff | rbg;
+        return 0xff000000 | rbg;
       }
       return null;
     }
