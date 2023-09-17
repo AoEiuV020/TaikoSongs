@@ -42,6 +42,30 @@ class DifficultyDetailView extends StatelessWidget {
                 child: Image.network(
                   difficulty.chartImageUrl,
                   fit: BoxFit.fitWidth,
+                  loadingBuilder: (BuildContext context, Widget child,
+                      ImageChunkEvent? loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    }
+                    return Row(
+                      children: [
+                        CircularProgressIndicator(
+                          value: loadingProgress.expectedTotalBytes != null
+                              ? loadingProgress.cumulativeBytesLoaded /
+                                  loadingProgress.expectedTotalBytes!
+                              : null,
+                        ),
+                      ],
+                    );
+                  },
+                  errorBuilder: (context, error, stackTrace) {
+                    return Row(
+                      children: [
+                        const Text('Error!'),
+                        Text(error.toString()),
+                      ],
+                    );
+                  },
                 ),
               ),
             );
