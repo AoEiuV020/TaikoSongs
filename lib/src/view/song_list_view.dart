@@ -45,14 +45,21 @@ class _SongListViewState extends State<SongListView> {
 
   List<SongItem>? _data;
 
-  Future<List<SongItem>> initData(
-      List<bool> visibleList, Map<String, bool> sortMap) async {
+  Future<List<SongItem>> initDataCache() async {
     var data = _data;
     if (data == null) {
       logger.info('make data');
       data = await widget.dataProvider().toList();
-      _data = data;
+      setState(() {
+        _data = data;
+      });
     }
+    return data;
+  }
+
+  Future<List<SongItem>> initData(
+      List<bool> visibleList, Map<String, bool> sortMap) async {
+    var data = await initDataCache();
     data = data.where((song) {
       for (var i = 0; i < 5; ++i) {
         final visibleIndex = i + 2;
@@ -74,11 +81,28 @@ class _SongListViewState extends State<SongListView> {
   }
 
   @override
+  void initState() {
+    super.initState();
+    initDataCache();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Row(
           children: [
+            Visibility(
+              visible: _data != null,
+              child: Row(
+                children: _data != null
+                    ? [
+                        Text(_data!.length.toString()),
+                        const Text('-'),
+                      ]
+                    : [],
+              ),
+            ),
             TranslatedText(widget.title),
           ],
         ),
@@ -148,167 +172,175 @@ class _SongListViewState extends State<SongListView> {
                   Row(
                     children: DifficultyType.values.indexed
                         .where((event) {
-                      final (int i, _) = event;
-                      return settings.visibleColumnList.get()[i + 2];
-                    })
+                          final (int i, _) = event;
+                          return settings.visibleColumnList.get()[i + 2];
+                        })
                         .map((e) => e.$2)
                         .map((e) => InkWell(
-                      onTap: () {
-                        settings.sortMap.use((sortMap) {
-                          final key = DifficultyItem
-                              .difficultyTypeStringMap[e]!;
-                          final oldValue = sortMap.remove(key) ?? false;
-                          sortMap[key] = !oldValue;
-                        });
-                      },
-                      child: SizedBox(
-                        width: 32,
-                        height: 32,
-                        child: Container(
-                          color: Color(0x88000000 |
-                          DifficultyItem
-                              .difficultyTypeColorMap[e]!),
-                          child: Center(
-                            child: DifficultyItem
-                                .difficultyTypeStringMap[e]! ==
-                                lastSortKey
-                                ? Text(getSortOrderCharacter(
-                              DifficultyItem
-                                  .difficultyTypeStringMap[e]!,
-                              lastSortKey,
-                              lastSortOrder,
-                            ))
-                                : Text(
-                              DifficultyItem
-                                  .difficultyTypeStringMap[e]!
-                                  .substring(0, 1),
-                              textAlign: TextAlign.center,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ))
-                        .toList(),
-                  ),
-                ],
-              ),
-            ),
-            FutureBuilder(
-                future: initData(
-                    settings.visibleColumnList.get(), settings.sortMap.get()),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState == ConnectionState.waiting) {
-                    return const CircularProgressIndicator();
-                  } else if (snapshot.hasError) {
-                    logger.severe(
-                        'initData failed', snapshot.error, snapshot.stackTrace);
-                    return const Text('Error!');
-                  }
-                  var items = snapshot.requireData;
-                  return Expanded(
-                    child: Scrollbar(
-                      controller: _scrollController,
-                      interactive: true,
-                      child: ListView.builder(
-                        restorationId: 'songList',
-                        controller: _scrollController,
-                        itemCount: items.length,
-                        itemBuilder: (BuildContext context, int index) {
-                          final item = items[index];
-
-                          final Widget difficultyGroup = Row(
-                            children: DifficultyType.values.indexed
-                                .where((event) {
-                              final (int i, _) = event;
-                              return settings.visibleColumnList
-                                  .get()[i + 2];
-                            })
-                                .map((e) => e.$2)
-                                .map((e) => InkWell(
-                              onTap: item.difficultyMap.containsKey(e)
-                                  ? () {
-                                Navigator.restorablePushNamed(
-                                  context,
-                                  DifficultyDetailView.routeName,
-                                  arguments: item
-                                      .difficultyMap[e]!
-                                      .toJson(),
-                                );
-                              }
-                                  : null,
+                              onTap: () {
+                                settings.sortMap.use((sortMap) {
+                                  final key = DifficultyItem
+                                      .difficultyTypeStringMap[e]!;
+                                  final oldValue = sortMap.remove(key) ?? false;
+                                  sortMap[key] = !oldValue;
+                                });
+                              },
                               child: SizedBox(
                                 width: 32,
                                 height: 32,
                                 child: Container(
                                   color: Color(0x88000000 |
-                                  DifficultyItem
-                                      .difficultyTypeColorMap[e]!),
+                                      DifficultyItem
+                                          .difficultyTypeColorMap[e]!),
                                   child: Center(
-                                    child: Text(
-                                      getDifficultyString(item
-                                          .getLevelTypeDifficulty(e)),
-                                      textAlign: TextAlign.center,
-                                    ),
+                                    child: DifficultyItem
+                                                .difficultyTypeStringMap[e]! ==
+                                            lastSortKey
+                                        ? Text(getSortOrderCharacter(
+                                            DifficultyItem
+                                                .difficultyTypeStringMap[e]!,
+                                            lastSortKey,
+                                            lastSortOrder,
+                                          ))
+                                        : Text(
+                                            DifficultyItem
+                                                .difficultyTypeStringMap[e]!
+                                                .substring(0, 1),
+                                            textAlign: TextAlign.center,
+                                          ),
                                   ),
                                 ),
                               ),
                             ))
-                                .toList(),
-                          );
-                          return InkWell(
-                            child: Container(
-                              color: item.categoryColor == null
-                                  ? null
-                                  : Color(0x22ffffff & item.categoryColor!),
-                              padding: const EdgeInsets.all(8),
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Expanded(
-                                    child: Column(
-                                      crossAxisAlignment:
-                                      CrossAxisAlignment.start,
-                                      children: [
-                                        TranslatedText(item.name),
-                                        Visibility(
-                                          visible: item.subtitle.isNotEmpty &&
-                                              settings.visibleColumnList
-                                                  .get()[0],
-                                          child: TranslatedText(
-                                            item.subtitle,
-                                            style: TextStyle(
-                                              color: Colors.grey[500],
+                        .toList(),
+                  ),
+                ],
+              ),
+            ),
+            _data == null
+                ? const CircularProgressIndicator()
+                : FutureBuilder(
+                    future: initData(settings.visibleColumnList.get(),
+                        settings.sortMap.get()),
+                    builder: (context, snapshot) {
+                      if (snapshot.connectionState == ConnectionState.waiting) {
+                        return const CircularProgressIndicator();
+                      } else if (snapshot.hasError) {
+                        logger.severe('initData failed', snapshot.error,
+                            snapshot.stackTrace);
+                        return const Text('Error!');
+                      }
+                      var items = snapshot.requireData;
+                      return Expanded(
+                        child: Scrollbar(
+                          controller: _scrollController,
+                          interactive: true,
+                          child: ListView.builder(
+                            restorationId: 'songList',
+                            controller: _scrollController,
+                            itemCount: items.length,
+                            itemBuilder: (BuildContext context, int index) {
+                              final item = items[index];
+
+                              final Widget difficultyGroup = Row(
+                                children: DifficultyType.values.indexed
+                                    .where((event) {
+                                      final (int i, _) = event;
+                                      return settings.visibleColumnList
+                                          .get()[i + 2];
+                                    })
+                                    .map((e) => e.$2)
+                                    .map((e) => InkWell(
+                                          onTap: item.difficultyMap
+                                                  .containsKey(e)
+                                              ? () {
+                                                  Navigator.restorablePushNamed(
+                                                    context,
+                                                    DifficultyDetailView
+                                                        .routeName,
+                                                    arguments: item
+                                                        .difficultyMap[e]!
+                                                        .toJson(),
+                                                  );
+                                                }
+                                              : null,
+                                          child: SizedBox(
+                                            width: 32,
+                                            height: 32,
+                                            child: Container(
+                                              color: Color(0x88000000 |
+                                                  DifficultyItem
+                                                          .difficultyTypeColorMap[
+                                                      e]!),
+                                              child: Center(
+                                                child: Text(
+                                                  getDifficultyString(item
+                                                      .getLevelTypeDifficulty(
+                                                          e)),
+                                                  textAlign: TextAlign.center,
+                                                ),
+                                              ),
                                             ),
                                           ),
+                                        ))
+                                    .toList(),
+                              );
+                              return InkWell(
+                                child: Container(
+                                  color: item.categoryColor == null
+                                      ? null
+                                      : Color(0x22ffffff & item.categoryColor!),
+                                  padding: const EdgeInsets.all(8),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Expanded(
+                                        child: Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            TranslatedText(item.name),
+                                            Visibility(
+                                              visible:
+                                                  item.subtitle.isNotEmpty &&
+                                                      settings.visibleColumnList
+                                                          .get()[0],
+                                              child: TranslatedText(
+                                                item.subtitle,
+                                                style: TextStyle(
+                                                  color: Colors.grey[500],
+                                                ),
+                                              ),
+                                            ),
+                                          ],
                                         ),
-                                      ],
-                                    ),
+                                      ),
+                                      Visibility(
+                                        visible:
+                                            settings.visibleColumnList.get()[1],
+                                        child: Container(
+                                          padding: const EdgeInsets.all(8),
+                                          child: Text(item.bpm),
+                                        ),
+                                      ),
+                                      difficultyGroup,
+                                    ],
                                   ),
-                                  Visibility(
-                                    visible:
-                                    settings.visibleColumnList.get()[1],
-                                    child: Container(
-                                      padding: const EdgeInsets.all(8),
-                                      child: Text(item.bpm),
-                                    ),
-                                  ),
-                                  difficultyGroup,
-                                ],
-                              ),
-                            ),
-                          );
-                        },
-                      ),
-                    ),
-                  );
-                }),
+                                ),
+                              );
+                            },
+                          ),
+                        ),
+                      );
+                    }),
           ],
         );
       }),
     );
   }
 
-  String getSortOrderCharacter(String key, String lastSortKey, bool lastSortOrder) {
+  String getSortOrderCharacter(
+      String key, String lastSortKey, bool lastSortOrder) {
     if (key != lastSortKey) {
       return '';
     }
