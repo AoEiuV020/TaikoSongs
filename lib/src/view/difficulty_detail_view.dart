@@ -30,7 +30,7 @@ class DifficultyDetailView extends StatelessWidget {
               logger.severe(
                   'initData failed', snapshot.error, snapshot.stackTrace);
               if (snapshot.error is DioException && kIsWeb) {
-                return const WebCorsErrorTip();
+                return WebCorsErrorTip(originUrl: difficultyItem.url);
               }
               return const Text('Error!');
             }
