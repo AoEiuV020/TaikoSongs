@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/db/data.dart';
+import 'package:taiko_songs/src/view/calculator_view.dart';
 
 import '../settings/settings_view.dart';
 import 'song_list_view.dart';
@@ -22,11 +23,14 @@ class ReleaseListView extends StatelessWidget {
         title: const Text('作品列表'),
         actions: [
           IconButton(
+            icon: const Icon(Icons.calculate),
+            onPressed: () {
+              Navigator.restorablePushNamed(context, CalculatorView.routeName);
+            },
+          ),
+          IconButton(
             icon: const Icon(Icons.settings),
             onPressed: () {
-              // Navigate to the settings page. If the user leaves and returns
-              // to the app after it has been killed while running in the
-              // background, the navigation stack is restored.
               Navigator.restorablePushNamed(context, SettingsView.routeName);
             },
           ),

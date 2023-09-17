@@ -5,6 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
+import 'package:taiko_songs/src/view/calculator_view.dart';
 
 import 'settings/settings_controller.dart';
 import 'settings/settings_view.dart';
@@ -72,6 +73,8 @@ class MyApp extends StatelessWidget {
                 switch (routeSettings.name) {
                   case SettingsView.routeName:
                     return const SettingsView();
+                  case CalculatorView.routeName:
+                    return const CalculatorView();
                   case SongListView.routeName:
                     return SongListView(
                       releaseItem: ReleaseItem.fromJson(
