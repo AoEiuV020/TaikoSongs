@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/bean/song.dart';
+import 'package:taiko_songs/src/calc/song_calculator.dart';
 import 'package:taiko_songs/src/db/data.dart';
 
 import '../settings/settings_controller.dart';
@@ -12,18 +13,32 @@ import 'difficulty_detail_view.dart';
 import 'translated_text_view.dart';
 
 class SongListView extends StatelessWidget {
-  SongListView({super.key, required this.releaseItem});
+  SongListView._({required this.title, required this.dataProvider});
 
   static const routeName = '/song_list';
 
-  final ReleaseItem releaseItem;
+  factory SongListView.fromReleaseItem(ReleaseItem releaseItem) {
+    return SongListView._(
+      title: releaseItem.name,
+      dataProvider: () => DataSource().getSongList(releaseItem),
+    );
+  }
+
+  factory SongListView.fromCalculator(CalculatorArgument argument) {
+    return SongListView._(
+      title: '计算结果',
+      dataProvider: () => argument.getStream(),
+    );
+  }
+
+  final String title;
+  final Stream<SongItem> Function() dataProvider;
   final logger = Logger('SongListView');
   final ScrollController _scrollController = ScrollController();
 
   Future<List<SongItem>> initData(
       List<bool> visibleList, Map<String, bool> sortMap) {
-    return DataSource()
-        .getSongList(releaseItem)
+    return dataProvider()
         .where((song) {
           for (var i = 0; i < 5; ++i) {
             final visibleIndex = i + 2;
@@ -51,7 +66,7 @@ class SongListView extends StatelessWidget {
       appBar: AppBar(
         title: Row(
           children: [
-            TranslatedText(releaseItem.name),
+            TranslatedText(title),
           ],
         ),
         actions: [
@@ -120,27 +135,27 @@ class SongListView extends StatelessWidget {
                   Row(
                     children: DifficultyType.values.indexed
                         .where((event) {
-                      final (int i, _) = event;
-                      return settings.visibleColumnList.get()[i + 2];
-                    })
+                          final (int i, _) = event;
+                          return settings.visibleColumnList.get()[i + 2];
+                        })
                         .map((e) => e.$2)
                         .map((e) => InkWell(
-                      onTap: () {
-                        settings.sortMap.use((sortMap) {
-                          final key = DifficultyItem
-                              .difficultyTypeStringMap[e]!;
-                          final oldValue = sortMap.remove(key) ?? false;
-                          sortMap[key] = !oldValue;
-                        });
-                      },
-                      child: SizedBox(
-                        width: 32,
-                        height: 32,
-                        child: Container(
-                          color: Color(0x88000000 |
-                          DifficultyItem
-                              .difficultyTypeColorMap[e]!),
-                          child: Center(
+                              onTap: () {
+                                settings.sortMap.use((sortMap) {
+                                  final key = DifficultyItem
+                                      .difficultyTypeStringMap[e]!;
+                                  final oldValue = sortMap.remove(key) ?? false;
+                                  sortMap[key] = !oldValue;
+                                });
+                              },
+                              child: SizedBox(
+                                width: 32,
+                                height: 32,
+                                child: Container(
+                                  color: Color(0x88000000 |
+                                      DifficultyItem
+                                          .difficultyTypeColorMap[e]!),
+                                  child: Center(
                                     child: DifficultyItem
                                                 .difficultyTypeStringMap[e]! ==
                                             lastSortKey
@@ -157,9 +172,9 @@ class SongListView extends StatelessWidget {
                                             textAlign: TextAlign.center,
                                           ),
                                   ),
-                        ),
-                      ),
-                    ))
+                                ),
+                              ),
+                            ))
                         .toList(),
                   ),
                 ],
@@ -191,40 +206,40 @@ class SongListView extends StatelessWidget {
                           final Widget difficultyGroup = Row(
                             children: DifficultyType.values.indexed
                                 .where((event) {
-                              final (int i, _) = event;
-                              return settings.visibleColumnList
-                                  .get()[i + 2];
-                            })
+                                  final (int i, _) = event;
+                                  return settings.visibleColumnList
+                                      .get()[i + 2];
+                                })
                                 .map((e) => e.$2)
                                 .map((e) => InkWell(
-                              onTap: item.difficultyMap.containsKey(e)
-                                  ? () {
-                                Navigator.restorablePushNamed(
-                                  context,
-                                  DifficultyDetailView.routeName,
-                                  arguments: item
-                                      .difficultyMap[e]!
-                                      .toJson(),
-                                );
-                              }
-                                  : null,
-                              child: SizedBox(
-                                width: 32,
-                                height: 32,
-                                child: Container(
-                                  color: Color(0x88000000 |
-                                  DifficultyItem
-                                      .difficultyTypeColorMap[e]!),
-                                  child: Center(
+                                      onTap: item.difficultyMap.containsKey(e)
+                                          ? () {
+                                              Navigator.restorablePushNamed(
+                                                context,
+                                                DifficultyDetailView.routeName,
+                                                arguments: item
+                                                    .difficultyMap[e]!
+                                                    .toJson(),
+                                              );
+                                            }
+                                          : null,
+                                      child: SizedBox(
+                                        width: 32,
+                                        height: 32,
+                                        child: Container(
+                                          color: Color(0x88000000 |
+                                              DifficultyItem
+                                                  .difficultyTypeColorMap[e]!),
+                                          child: Center(
                                             child: Text(
                                               getDifficultyString(item
                                                   .getLevelTypeDifficulty(e)),
                                               textAlign: TextAlign.center,
                                             ),
                                           ),
-                                ),
-                              ),
-                            ))
+                                        ),
+                                      ),
+                                    ))
                                 .toList(),
                           );
                           return InkWell(
@@ -239,7 +254,7 @@ class SongListView extends StatelessWidget {
                                   Expanded(
                                     child: Column(
                                       crossAxisAlignment:
-                                      CrossAxisAlignment.start,
+                                          CrossAxisAlignment.start,
                                       children: [
                                         TranslatedText(item.name),
                                         Visibility(
@@ -258,7 +273,7 @@ class SongListView extends StatelessWidget {
                                   ),
                                   Visibility(
                                     visible:
-                                    settings.visibleColumnList.get()[1],
+                                        settings.visibleColumnList.get()[1],
                                     child: Container(
                                       padding: const EdgeInsets.all(8),
                                       child: Text(item.bpm),

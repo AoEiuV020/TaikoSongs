@@ -5,6 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
+import 'package:taiko_songs/src/calc/song_calculator.dart';
 import 'package:taiko_songs/src/view/calculator_view.dart';
 
 import 'settings/settings_controller.dart';
@@ -70,20 +71,24 @@ class MyApp extends StatelessWidget {
             return MaterialPageRoute<void>(
               settings: routeSettings,
               builder: (BuildContext context) {
+                final args = routeSettings.arguments;
                 switch (routeSettings.name) {
                   case SettingsView.routeName:
                     return const SettingsView();
                   case CalculatorView.routeName:
                     return const CalculatorView();
                   case SongListView.routeName:
-                    return SongListView(
-                      releaseItem: ReleaseItem.fromJson(
-                          routeSettings.arguments as Map<String, dynamic>),
-                    );
+                    if (args is CalculatorArgument) {
+                      return SongListView.fromCalculator(args);
+                    } else {
+                      return SongListView.fromReleaseItem(
+                        ReleaseItem.fromJson(args as Map<String, dynamic>),
+                      );
+                    }
                   case DifficultyDetailView.routeName:
                     return DifficultyDetailView(
-                      difficultyItem: DifficultyItem.fromJson(
-                          routeSettings.arguments as Map<String, dynamic>),
+                      difficultyItem:
+                          DifficultyItem.fromJson(args as Map<String, dynamic>),
                     );
                   case ReleaseListView.routeName:
                   default:
