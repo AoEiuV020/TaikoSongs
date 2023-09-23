@@ -5,7 +5,7 @@ import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 
-import 'translate_name_huali.dart';
+import 'translate_name_slash.dart';
 
 var logger = Logger('main');
 

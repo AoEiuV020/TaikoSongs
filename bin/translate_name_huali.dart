@@ -5,7 +5,7 @@ import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
 
-Future<void> translateSongName(DataSource data) async {
+Future<void> translateSongNameHuali(DataSource data) async {
   /* https://tak-wls-prod.wahlap.net/file/dist/#/songs
   使用vue框架，这里不好解析 ，直接在浏览器用js解析出列表，
 Array.from(document.querySelectorAll('.song_item')).map(function(item, index, array) {
