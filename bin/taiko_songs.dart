@@ -5,7 +5,7 @@ import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 
-import 'translate_name.dart';
+import 'translate_name_huali.dart';
 
 var logger = Logger('main');
 
@@ -16,7 +16,7 @@ Future<void> main(List<String> arguments) async {
   });
   await Iron.init();
   var data = DataSource();
-  await translateSongName();
+  await translateSongName(data);
 }
 
 Future<void> printSongName(DataSource data) async {

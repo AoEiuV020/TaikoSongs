@@ -5,7 +5,7 @@ import 'package:taiko_songs/src/cache/html_cache.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 import 'package:taiko_songs/src/parser/base.dart';
 
-Future<void> translateSongName() async {
+Future<void> translateSongNamePS4() async {
   const url = 'https://www.jianshu.com/p/e84a47a43b0d';
   final list = await SongNameParserPS4().parseNameList(url).toList();
   int count = list.length;
