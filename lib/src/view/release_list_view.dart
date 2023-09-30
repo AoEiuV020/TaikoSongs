@@ -36,40 +36,43 @@ class ReleaseListView extends StatelessWidget {
           ),
         ],
       ),
-      body: FutureBuilder(
-          future: DataSource().getReleaseList().toList(),
-          builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return const CircularProgressIndicator();
-            } else if (snapshot.hasError) {
-              logger.severe(
-                  'initData failed', snapshot.error, snapshot.stackTrace);
-              return const Text('Error!');
-            }
-            var items = snapshot.requireData;
-            return Scrollbar(
-              controller: _scrollController,
-              interactive: true,
-              child: ListView.builder(
-                restorationId: 'releaseList',
+      body: Align(
+        alignment: Alignment.topCenter,
+        child: FutureBuilder(
+            future: DataSource().getReleaseList().toList(),
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const CircularProgressIndicator();
+              } else if (snapshot.hasError) {
+                logger.severe(
+                    'initData failed', snapshot.error, snapshot.stackTrace);
+                return const Text('Error!');
+              }
+              var items = snapshot.requireData;
+              return Scrollbar(
                 controller: _scrollController,
-                itemCount: items.length,
-                itemBuilder: (BuildContext context, int index) {
-                  final item = items[index];
+                interactive: true,
+                child: ListView.builder(
+                  restorationId: 'releaseList',
+                  controller: _scrollController,
+                  itemCount: items.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    final item = items[index];
 
-                  return ListTile(
-                      title: TranslatedText(item.name),
-                      onTap: () {
-                        Navigator.restorablePushNamed(
-                          context,
-                          SongListView.routeName,
-                          arguments: item.toJson(),
-                        );
-                      });
-                },
-              ),
-            );
-          }),
+                    return ListTile(
+                        title: TranslatedText(item.name),
+                        onTap: () {
+                          Navigator.restorablePushNamed(
+                            context,
+                            SongListView.routeName,
+                            arguments: item.toJson(),
+                          );
+                        });
+                  },
+                ),
+              );
+            }),
+      ),
     );
   }
 }
