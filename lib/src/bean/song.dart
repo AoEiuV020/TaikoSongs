@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:taiko_songs/src/compare/then_compare.dart';
 
@@ -34,9 +35,9 @@ class SongItem {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is SongItem &&
-          runtimeType == other.runtimeType &&
-          name == other.name;
+          other is SongItem &&
+              runtimeType == other.runtimeType &&
+              name == other.name;
 
   @override
   int get hashCode => name.hashCode;
@@ -65,12 +66,12 @@ class SongItem {
       }
       var comparator = comparing(keyExtractor);
       if (value) {
-        comparator = reversed(comparator);
+        comparator = comparator.inverse;
       }
       if (first != null) {
-        comparator = thenComparing0(comparing(first), comparator);
+        comparator = comparing(first).then(comparator);
       }
-      base = thenComparing0(base, comparator);
+      base = base.then(comparator);
     });
     return base;
   }
