@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 
@@ -92,6 +93,19 @@ class SettingsView extends StatelessWidget {
                     ],
                   );
                 }),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: ElevatedButton(
+                onPressed: () async {
+                  await settings.sortMap.use((value) => value.clear());
+                  EasyLoading.showToast(
+                    "重置完成",
+                    duration: const Duration(milliseconds: 500),
+                  );
+                },
+                child: const Text('重置排序'),
               ),
             ),
           ],

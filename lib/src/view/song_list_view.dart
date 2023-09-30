@@ -74,9 +74,11 @@ class _SongListViewState extends State<SongListView> {
       }
       return false;
     }).toList();
-    data.sort(
-      SongItem.makeComparator(sortMap),
-    );
+    if (sortMap.isNotEmpty) {
+      data.sort(
+        SongItem.makeComparator(sortMap),
+      );
+    }
     return data;
   }
 
