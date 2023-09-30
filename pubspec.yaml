@@ -1,5 +1,5 @@
 name: taiko_songs
-description: A new Flutter project.
+description: taiko song list.
 
 # Prevent accidental publishing to pub.dev.
 publish_to: 'none'
