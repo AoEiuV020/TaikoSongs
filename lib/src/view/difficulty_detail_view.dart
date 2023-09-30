@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/db/data.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 import 'web_cors_error_tip.dart';
 
@@ -20,6 +21,14 @@ class DifficultyDetailView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('谱面'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.open_in_browser),
+            onPressed: () {
+              launchUrlString(difficultyItem.url);
+            },
+          ),
+        ],
       ),
       body: FutureBuilder(
           future: DataSource().getDifficulty(difficultyItem),

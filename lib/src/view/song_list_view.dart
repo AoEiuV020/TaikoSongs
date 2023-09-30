@@ -8,6 +8,7 @@ import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/calc/song_calculator.dart';
 import 'package:taiko_songs/src/compare/then_compare.dart';
 import 'package:taiko_songs/src/db/data.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 import '../settings/settings_controller.dart';
 import '../settings/settings_view.dart';
@@ -15,13 +16,15 @@ import 'difficulty_detail_view.dart';
 import 'translated_text_view.dart';
 
 class SongListView extends StatefulWidget {
-  const SongListView._({required this.title, required this.dataProvider});
+  const SongListView._(
+      {required this.title, this.url, required this.dataProvider});
 
   static const routeName = '/song_list';
 
   factory SongListView.fromReleaseItem(ReleaseItem releaseItem) {
     return SongListView._(
       title: releaseItem.name,
+      url: releaseItem.url,
       dataProvider: () => DataSource().getSongList(releaseItem),
     );
   }
@@ -34,6 +37,7 @@ class SongListView extends StatefulWidget {
   }
 
   final String title;
+  final String? url;
   final Stream<SongItem> Function() dataProvider;
 
   @override
@@ -99,6 +103,15 @@ class _SongListViewState extends State<SongListView> {
           overflow: TextOverflow.fade,
         ),
         actions: [
+          Visibility(
+            visible: widget.url != null,
+            child: IconButton(
+              icon: const Icon(Icons.open_in_browser),
+              onPressed: () {
+                launchUrlString(widget.url!);
+              },
+            ),
+          ),
           IconButton(
             icon: const Icon(Icons.settings),
             onPressed: () {
