@@ -11,8 +11,10 @@ import '../settings/settings_controller.dart';
 class TranslatedText extends StatefulWidget {
   final String originalText;
   final TextStyle? style;
+  final TextOverflow? overflow;
 
-  const TranslatedText(this.originalText, {super.key, this.style});
+  const TranslatedText(this.originalText,
+      {super.key, this.style, this.overflow});
 
   @override
   _TranslatedTextState createState() => _TranslatedTextState();
@@ -82,9 +84,17 @@ class _TranslatedTextState extends State<TranslatedText> {
   Widget build(BuildContext context) {
     return Consumer<SettingsController>(builder: (context, settings, child) {
       if (settings.translate.get()) {
-        return Text(translatedText, style: widget.style);
+        return Text(
+          translatedText,
+          style: widget.style,
+          overflow: widget.overflow,
+        );
       }
-      return Text(widget.originalText, style: widget.style);
+      return Text(
+        widget.originalText,
+        style: widget.style,
+        overflow: widget.overflow,
+      );
     });
   }
 }
