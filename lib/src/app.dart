@@ -11,6 +11,7 @@ import 'package:taiko_songs/src/view/calculator_view.dart';
 import 'settings/settings_controller.dart';
 import 'settings/settings_view.dart';
 import 'view/difficulty_detail_view.dart';
+import 'view/miss_translated_text_view.dart';
 import 'view/release_list_view.dart';
 import 'view/song_list_view.dart';
 
@@ -75,6 +76,8 @@ class MyApp extends StatelessWidget {
                 switch (routeSettings.name) {
                   case SettingsView.routeName:
                     return const SettingsView();
+                  case MissTranslatedTextView.routeName:
+                    return const MissTranslatedTextView();
                   case CalculatorView.routeName:
                     return const CalculatorView();
                   case SongListView.routeName:

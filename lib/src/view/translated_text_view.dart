@@ -16,11 +16,15 @@ class TranslatedText extends StatefulWidget {
 
   @override
   _TranslatedTextState createState() => _TranslatedTextState();
+
+  static Set<String> getMissTextSet() => _TranslatedTextState.missSet;
 }
 
 class _TranslatedTextState extends State<TranslatedText> {
   final logger = Logger('TranslatedText');
   static Future<Map<String, String>> translatedMap = _initTranslatedMap();
+  static final Set<String> missSet = {};
+  static final jpRegex = RegExp(r'[ぁ-んァ-ン]');
   String translatedText = '';
 
   static Future<Map<String, String>> _initTranslatedMap() async {
@@ -39,8 +43,7 @@ class _TranslatedTextState extends State<TranslatedText> {
     final bundle = await rootBundle.load('assets/translate/$filename');
     final stream = transformer.transform(
         Stream.value(bundle),
-            (e) =>
-            e
+            (e) => e
             .asyncMap((data) => utf8.decode(data.buffer.asUint8List()))
             .transform(const LineSplitter())
             .where((event) => event.isNotEmpty)
@@ -67,8 +70,11 @@ class _TranslatedTextState extends State<TranslatedText> {
       setState(() {
         translatedText = result;
       });
-    } else {
+    } else if (missSet.contains(textToTranslate)) {
+      // 这里是已知不存在的，
+    } else if (jpRegex.hasMatch(textToTranslate)) {
       logger.info('miss: $textToTranslate');
+      missSet.add(textToTranslate);
     }
   }
 

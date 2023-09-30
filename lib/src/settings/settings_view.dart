@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
+import 'package:taiko_songs/src/view/miss_translated_text_view.dart';
 
 import 'settings_controller.dart';
 
@@ -106,6 +107,18 @@ class SettingsView extends StatelessWidget {
                   );
                 },
                 child: const Text('重置排序'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: ElevatedButton(
+                onPressed: () async {
+                  Navigator.restorablePushNamed(
+                    context,
+                    MissTranslatedTextView.routeName,
+                  );
+                },
+                child: const Text('查看未翻译文本'),
               ),
             ),
           ],
