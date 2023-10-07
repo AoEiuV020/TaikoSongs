@@ -5,6 +5,7 @@ import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/cache/html_cache.dart';
+import 'package:taiko_songs/src/db/translated.dart';
 import 'package:taiko_songs/src/irondb/database.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 import 'package:taiko_songs/src/parser/collection_parser.dart';
@@ -14,17 +15,19 @@ import 'package:taiko_songs/src/parser/song_parser.dart';
 class DataSource {
   static DataSource? _instance;
 
-  DataSource._internal(this.db);
+  DataSource._internal();
 
   factory DataSource() {
-    _instance ??= DataSource._internal(Iron.mix([
-      Iron.db,
-      Iron.assetsDB(),
-    ]).sub('taiko'));
+    _instance ??= DataSource._internal();
     return _instance!;
   }
 
-  final Database db;
+  final Database db = Iron.mix([
+    Iron.db,
+    Iron.assetsDB(),
+  ]).sub('taiko');
+  final TranslatedSource translatedSource =
+      TranslatedSource(Iron.assetsDB('assets/translate'));
   final HtmlCache htmlCache = HtmlCache();
   final logger = Logger('DataSource');
 
@@ -60,4 +63,7 @@ class DataSource {
                 DifficultyParser().parseData(difficultyItem.url, body)))
         .first;
   }
+
+  Future<String?> getTranslated(String text) =>
+      translatedSource.getTranslated(text);
 }
