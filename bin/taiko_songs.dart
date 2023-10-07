@@ -5,8 +5,6 @@ import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 
-import 'translate_name_slash.dart';
-
 var logger = Logger('main');
 
 Future<void> main(List<String> arguments) async {
@@ -16,7 +14,7 @@ Future<void> main(List<String> arguments) async {
   });
   await Iron.init();
   var data = DataSource();
-  await translateSongName(data);
+  await printSongCount(data);
 }
 
 Future<void> printSongName(DataSource data) async {
