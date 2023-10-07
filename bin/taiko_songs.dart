@@ -14,7 +14,7 @@ Future<void> main(List<String> arguments) async {
   });
   await Iron.init();
   var data = DataSource();
-  await search(data, '鬼 行');
+  await search(data, '埼玉 2000');
 }
 
 Future<void> search(DataSource data, String keyword) async {

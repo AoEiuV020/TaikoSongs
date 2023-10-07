@@ -67,14 +67,23 @@ class DataSource {
   Future<String?> getTranslated(String text) =>
       translatedSource.getTranslated(text);
 
+  Future<bool> textContains(String text, String key) async {
+    if (text.contains(key)) {
+      return true;
+    }
+    final translated = await getTranslated(text);
+    return translated != null && translated.contains(key);
+  }
+
   Stream<ReleaseItem> search(String keyword) async* {
     final keywordList = keyword.split(' ');
     final releaseStream = getReleaseList();
     await for (final release in releaseStream) {
       var nameMatch = true;
       for (final key in keywordList) {
-        if (!release.name.contains(key)) {
+        if (!await textContains(release.name, key)) {
           nameMatch = false;
+          break;
         }
       }
       if (nameMatch) {
@@ -89,15 +98,21 @@ class DataSource {
     }
   }
 
-  Stream<SongItem> searchSong(ReleaseItem release, String keyword) {
+  Stream<SongItem> searchSong(ReleaseItem release, String keyword) async* {
     final keywordList = keyword.split(' ');
-    return getSongList(release).where((song) {
+    final songStream = getSongList(release);
+    await for (final song in songStream) {
+      var nameMatch = true;
       for (final key in keywordList) {
-        if (!song.name.contains(key) && !song.subtitle.contains(key)) {
-          return false;
+        if (!await textContains(song.name, key) &&
+            !await textContains(song.subtitle, key)) {
+          nameMatch = false;
+          break;
         }
       }
-      return true;
-    });
+      if (nameMatch) {
+        yield song;
+      }
+    }
   }
 }
