@@ -9,24 +9,24 @@ import 'utils_cmd.dart'
 
 class IronImpl implements IronInterface {
   late String base;
-  late String assetsBase;
   late KeySerializer keySerializer;
   late DataSerializer dataSerializer;
   @override
   late Database db = getDefaultDatabase(base, keySerializer, dataSerializer);
-  @override
-  late Database assetsDB = getDefaultAssetsDatabase(assetsBase, dataSerializer);
 
   @override
-  Future<void> init(
-      {String? base,
-      String? assetsBase,
-      KeySerializer? keySerializer,
-      DataSerializer? dataSerializer}) async {
+  Future<void> init({String? base,
+    KeySerializer? keySerializer,
+    DataSerializer? dataSerializer}) async {
     this.base = base ??= await getDefaultBase();
-    this.assetsBase = assetsBase ??= 'assets/IronDB';
     this.keySerializer = keySerializer ?? const ReplaceFileSeparator();
     this.dataSerializer = dataSerializer ?? const JsonDataSerializer();
+  }
+
+
+  @override
+  Database assetsDB([String assetsBase = 'assets/IronDB']) {
+    return getDefaultAssetsDatabase(assetsBase, dataSerializer);
   }
 
   @override

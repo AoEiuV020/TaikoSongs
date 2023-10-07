@@ -5,13 +5,12 @@ import 'serialize.dart';
 abstract interface class IronInterface {
   Future<void> init(
       {String? base,
-      String? assetsBase,
       KeySerializer? keySerializer,
       DataSerializer? dataSerializer});
 
   Database get db;
 
-  Database get assetsDB;
+  Database assetsDB([String assetsBase = 'assets/IronDB']);
 
   Database mix(List<Database> list);
 }
