@@ -1,10 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/async/isolate_transformer.dart';
+import 'package:taiko_songs/src/irondb/database.dart';
+import 'package:taiko_songs/src/irondb/iron.dart';
 
 import '../settings/settings_controller.dart';
 
@@ -24,6 +25,7 @@ class TranslatedText extends StatefulWidget {
 
 class _TranslatedTextState extends State<TranslatedText> {
   final logger = Logger('TranslatedText');
+  static late Database db = Iron.assetsDB('assets/translate');
   static Future<Map<String, String>> translatedMap = _initTranslatedMap();
   static final Set<String> missSet = {};
   static final jpRegex = RegExp(r'[ぁ-んァ-ン]');
@@ -42,11 +44,13 @@ class _TranslatedTextState extends State<TranslatedText> {
 
   static Future<void> _loadAssets(IsolateTransformer transformer,
       Map<String, String> resultMap, String filename) async {
-    final bundle = await rootBundle.load('assets/translate/$filename');
+    final data = await db.read<String>(filename);
+    if (data == null) {
+      return;
+    }
     final stream = transformer.transform(
-        Stream.value(bundle),
-            (e) => e
-            .asyncMap((data) => utf8.decode(data.buffer.asUint8List()))
+        Stream.value(data),
+        (e) => e
             .transform(const LineSplitter())
             .where((event) => event.isNotEmpty)
             .where((event) => !event.startsWith('//'))
