@@ -14,7 +14,22 @@ Future<void> main(List<String> arguments) async {
   });
   await Iron.init();
   var data = DataSource();
-  await printSongCount(data);
+  await search(data, '鬼 行');
+}
+
+Future<void> search(DataSource data, String keyword) async {
+  var releaseIndex = 0;
+  var songIndex = 0;
+  await for (final release in data.search(keyword)) {
+    ++releaseIndex;
+    logger.info('${releaseIndex.toString().padLeft(2, ' ')} ${release.name}');
+    await for (var song in data.searchSong(release, keyword)) {
+      ++songIndex;
+      logger.info('${songIndex.toString().padLeft(4, ' ')} ${song.name}');
+    }
+    logger.info('song count: $songIndex');
+  }
+  logger.info('release count: $releaseIndex');
 }
 
 Future<void> printSongName(DataSource data) async {

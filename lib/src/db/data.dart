@@ -66,4 +66,38 @@ class DataSource {
 
   Future<String?> getTranslated(String text) =>
       translatedSource.getTranslated(text);
+
+  Stream<ReleaseItem> search(String keyword) async* {
+    final keywordList = keyword.split(' ');
+    final releaseStream = getReleaseList();
+    await for (final release in releaseStream) {
+      var nameMatch = true;
+      for (final key in keywordList) {
+        if (!release.name.contains(key)) {
+          nameMatch = false;
+        }
+      }
+      if (nameMatch) {
+        yield release;
+        continue;
+      }
+      final songStream = searchSong(release, keyword);
+      if (await songStream.isEmpty) {
+        continue;
+      }
+      yield release;
+    }
+  }
+
+  Stream<SongItem> searchSong(ReleaseItem release, String keyword) {
+    final keywordList = keyword.split(' ');
+    return getSongList(release).where((song) {
+      for (final key in keywordList) {
+        if (!song.name.contains(key) && !song.subtitle.contains(key)) {
+          return false;
+        }
+      }
+      return true;
+    });
+  }
 }
