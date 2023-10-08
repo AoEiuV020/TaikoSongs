@@ -3,6 +3,7 @@ import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/db/data.dart';
 
 import '../bean/release.dart';
+import '../settings/settings_view.dart';
 import 'song_list_view.dart';
 import 'translated_text_view.dart';
 
@@ -30,6 +31,14 @@ class SearchReleaseListView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('搜索结果'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.settings),
+            onPressed: () {
+              Navigator.restorablePushNamed(context, SettingsView.routeName);
+            },
+          ),
+        ],
       ),
       body: Align(
         alignment: Alignment.topCenter,
