@@ -35,6 +35,7 @@ class ReleaseListView extends StatelessWidget {
                     title: const Text('清输入搜索关键字'),
                     content: TextField(
                       controller: textEditingController,
+                      autofocus: true,
                       decoration: const InputDecoration(labelText: '空格分隔多个关键字'),
                     ),
                     actions: <Widget>[
