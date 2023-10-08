@@ -17,6 +17,17 @@ class ReleaseListView extends StatelessWidget {
   final logger = Logger('ReleaseListView');
   final ScrollController _scrollController = ScrollController();
 
+  void search(BuildContext context, String text) {
+    if (text.isEmpty) {
+      return;
+    }
+    Navigator.restorablePushNamed(
+      context,
+      SearchReleaseListView.routeName,
+      arguments: text,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,6 +47,11 @@ class ReleaseListView extends StatelessWidget {
                     content: TextField(
                       controller: textEditingController,
                       autofocus: true,
+                      textInputAction: TextInputAction.search,
+                      onSubmitted: (text) {
+                        Navigator.of(context).pop();
+                        search(context, text);
+                      },
                       decoration: const InputDecoration(labelText: '空格分隔多个关键字'),
                     ),
                     actions: <Widget>[
@@ -48,16 +64,9 @@ class ReleaseListView extends StatelessWidget {
                       TextButton(
                         child: const Text('确定'),
                         onPressed: () {
-                          String enteredText = textEditingController.text;
                           Navigator.of(context).pop(); // 关闭对话框
-                          if (enteredText.isEmpty) {
-                            return;
-                          }
-                          Navigator.restorablePushNamed(
-                            context,
-                            SearchReleaseListView.routeName,
-                            arguments: enteredText,
-                          );
+                          String text = textEditingController.text;
+                          search(context, text);
                         },
                       ),
                     ],
