@@ -29,6 +29,15 @@ class SongListView extends StatefulWidget {
     );
   }
 
+  factory SongListView.fromSearch(SearchSongListArgument args) {
+    final releaseItem = args.releaseItem;
+    return SongListView._(
+      title: releaseItem.name,
+      url: releaseItem.url,
+      dataProvider: () => DataSource().searchSong(releaseItem, args.keyword),
+    );
+  }
+
   factory SongListView.fromCalculator(CalculatorArgument argument) {
     return SongListView._(
       title: '计算结果',
@@ -42,6 +51,13 @@ class SongListView extends StatefulWidget {
 
   @override
   State<SongListView> createState() => _SongListViewState();
+}
+
+class SearchSongListArgument {
+  final ReleaseItem releaseItem;
+  final String keyword;
+
+  SearchSongListArgument(this.releaseItem, this.keyword);
 }
 
 class _SongListViewState extends State<SongListView> {

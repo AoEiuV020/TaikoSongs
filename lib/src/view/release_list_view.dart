@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/db/data.dart';
 import 'package:taiko_songs/src/view/calculator_view.dart';
+import 'package:taiko_songs/src/view/search_release_list_view.dart';
 
 import '../settings/settings_view.dart';
 import 'song_list_view.dart';
@@ -22,6 +23,48 @@ class ReleaseListView extends StatelessWidget {
       appBar: AppBar(
         title: const Text('作品列表'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.search),
+            onPressed: () {
+              showDialog(
+                context: context,
+                builder: (BuildContext context) {
+                  final TextEditingController textEditingController =
+                      TextEditingController();
+                  return AlertDialog(
+                    title: const Text('清输入搜索关键字'),
+                    content: TextField(
+                      controller: textEditingController,
+                      decoration: const InputDecoration(labelText: '空格分隔多个关键字'),
+                    ),
+                    actions: <Widget>[
+                      TextButton(
+                        child: const Text('取消'),
+                        onPressed: () {
+                          Navigator.of(context).pop();
+                        },
+                      ),
+                      TextButton(
+                        child: const Text('确定'),
+                        onPressed: () {
+                          String enteredText = textEditingController.text;
+                          Navigator.of(context).pop(); // 关闭对话框
+                          if (enteredText.isEmpty) {
+                            return;
+                          }
+                          Navigator.restorablePushNamed(
+                            context,
+                            SearchReleaseListView.routeName,
+                            arguments: enteredText,
+                          );
+                        },
+                      ),
+                    ],
+                  );
+                },
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.calculate),
             onPressed: () {

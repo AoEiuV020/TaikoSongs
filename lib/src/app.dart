@@ -13,6 +13,7 @@ import 'settings/settings_view.dart';
 import 'view/difficulty_detail_view.dart';
 import 'view/miss_translated_text_view.dart';
 import 'view/release_list_view.dart';
+import 'view/search_release_list_view.dart';
 import 'view/song_list_view.dart';
 
 /// The Widget that configures your application.
@@ -76,6 +77,8 @@ class MyApp extends StatelessWidget {
                 switch (routeSettings.name) {
                   case SettingsView.routeName:
                     return const SettingsView();
+                  case SearchReleaseListView.routeName:
+                    return SearchReleaseListView(keyword: args as String);
                   case MissTranslatedTextView.routeName:
                     return const MissTranslatedTextView();
                   case CalculatorView.routeName:
@@ -83,6 +86,8 @@ class MyApp extends StatelessWidget {
                   case SongListView.routeName:
                     if (args is CalculatorArgument) {
                       return SongListView.fromCalculator(args);
+                    } else if (args is SearchSongListArgument) {
+                      return SongListView.fromSearch(args);
                     } else {
                       return SongListView.fromReleaseItem(
                         ReleaseItem.fromJson(args as Map<String, dynamic>),
