@@ -17,7 +17,10 @@ import 'translated_text_view.dart';
 
 class SongListView extends StatefulWidget {
   const SongListView._(
-      {required this.title, this.url, required this.dataProvider});
+      {required this.title,
+      this.url,
+      required this.dataProvider,
+      this.keyword = ''});
 
   static const routeName = '/song_list';
 
@@ -34,7 +37,8 @@ class SongListView extends StatefulWidget {
     return SongListView._(
       title: releaseItem.name,
       url: releaseItem.url,
-      dataProvider: () => DataSource().searchSong(releaseItem, args.keyword),
+      dataProvider: () => DataSource().getSongList(releaseItem),
+      keyword: args.keyword,
     );
   }
 
@@ -48,6 +52,7 @@ class SongListView extends StatefulWidget {
   final String title;
   final String? url;
   final Stream<SongItem> Function() dataProvider;
+  final String keyword;
 
   @override
   State<SongListView> createState() => _SongListViewState();
@@ -142,6 +147,7 @@ class _SongListViewState extends State<SongListView> {
   @override
   void initState() {
     super.initState();
+    keyword = widget.keyword;
     initDataCache();
   }
 
@@ -164,6 +170,7 @@ class _SongListViewState extends State<SongListView> {
                   builder: (BuildContext context) {
                     final TextEditingController textEditingController =
                         TextEditingController();
+                    textEditingController.text = keyword;
                     return AlertDialog(
                       title: const Text('清输入搜索关键字'),
                       content: TextField(
