@@ -67,12 +67,14 @@ class DataSource {
   Future<String?> getTranslated(String text) =>
       translatedSource.getTranslated(text);
 
-  Future<bool> textContains(String text, String key) async {
-    if (text.contains(key)) {
+  Future<bool> _textContains(String text, String key) async {
+    String textLow = text.toLowerCase();
+    String keyLow = key.toLowerCase();
+    if (textLow.contains(keyLow)) {
       return true;
     }
     final translated = await getTranslated(text);
-    return translated != null && translated.contains(key);
+    return translated != null && translated.toLowerCase().contains(keyLow);
   }
 
   Stream<ReleaseItem> search(String keyword) async* {
@@ -81,7 +83,7 @@ class DataSource {
     await for (final release in releaseStream) {
       var nameMatch = true;
       for (final key in keywordList) {
-        if (!await textContains(release.name, key)) {
+        if (!await _textContains(release.name, key)) {
           nameMatch = false;
           break;
         }
@@ -104,8 +106,8 @@ class DataSource {
     await for (final song in songStream) {
       var nameMatch = true;
       for (final key in keywordList) {
-        if (!await textContains(song.name, key) &&
-            !await textContains(song.subtitle, key)) {
+        if (!await _textContains(song.name, key) &&
+            !await _textContains(song.subtitle, key)) {
           nameMatch = false;
           break;
         }
