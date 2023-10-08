@@ -44,14 +44,32 @@ class SearchReleaseListView extends StatelessWidget {
                 return const Text('Error!');
               }
               var items = snapshot.requireData;
+              final done = snapshot.connectionState == ConnectionState.done;
               return Scrollbar(
                 controller: _scrollController,
                 interactive: true,
                 child: ListView.builder(
                   restorationId: 'releaseList',
                   controller: _scrollController,
-                  itemCount: items.length,
+                  itemCount: items.length + 1,
                   itemBuilder: (BuildContext context, int index) {
+                    if (index == items.length) {
+                      return Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: done
+                            ? Text(
+                                '没有更多了',
+                                style: TextStyle(
+                                  color: Colors.grey[500],
+                                ),
+                              )
+                            : const Row(
+                                children: [
+                                  CircularProgressIndicator(),
+                                ],
+                              ),
+                      );
+                    }
                     final item = items[index];
 
                     return ListTile(
