@@ -1,0 +1,982 @@
+Armor Break	えのぐ	ポップス	ff00ffff	136	`easy`3`false`かんたん/Armor Break|`normal`4`false`ふつう/Armor Break|`hard`4`false`むずかしい/Armor Break|`oni`7`false`おに/Armor Break|
+RPG		ポップス	ff00ffff	135	`easy`3`false`かんたん/RPG|`normal`3`false`ふつう/RPG|`hard`4`false`むずかしい/RPG|`oni`6`false`おに/RPG|
+AIAIAI (feat.中田ヤスタカ)	Kizuna AI	ポップス	ff00ffff	128	`easy`3`false`かんたん/AIAIAI (feat.中田ヤスタカ)|`normal`3`false`ふつう/AIAIAI (feat.中田ヤスタカ)|`hard`4`false`むずかしい/AIAIAI (feat.中田ヤスタカ)|`oni`7`false`おに/AIAIAI (feat.中田ヤスタカ)|
+I Wish For You		ポップス	ff00ffff	119	`easy`2`false`かんたん/I Wish For You|`normal`3`false`ふつう/I Wish For You|`hard`5`false`むずかしい/I Wish For You|`oni`5`false`おに/I Wish For You|
+愛唄		ポップス	ff00ffff	85	`easy`2`false`かんたん/愛唄|`normal`2`false`ふつう/愛唄|`hard`2`false`むずかしい/愛唄|`oni`3`false`おに/愛唄|
+会いたかった		ポップス	ff00ffff	192	`easy`3`false`かんたん/会いたかった|`normal`3`false`ふつう/会いたかった|`hard`4`false`むずかしい/会いたかった|`oni`5`false`おに/会いたかった|
+アイノカタチ feat. HIDE(GReeeeN)		ポップス	ff00ffff	88-90	`easy`1`false`かんたん/アイノカタチ feat.HIDE(GReeeeN)|`normal`2`false`ふつう/アイノカタチ feat.HIDE(GReeeeN)|`hard`3`false`むずかしい/アイノカタチ feat.HIDE(GReeeeN)|`oni`4`false`おに/アイノカタチ feat.HIDE(GReeeeN)|
+愛は勝つ		ポップス	ff00ffff	125	`easy`3`false`かんたん/愛は勝つ|`normal`5`false`ふつう/愛は勝つ|`hard`5`false`むずかしい/愛は勝つ|`oni`7`false`おに/愛は勝つ|
+愛をこめて花束を		ポップス	ff00ffff	81	`easy`2`false`かんたん/愛をこめて花束を|`normal`2`false`ふつう/愛をこめて花束を|`hard`4`false`むずかしい/愛をこめて花束を|`oni`5`false`おに/愛をこめて花束を|
+アゲ♂アゲ♂EVERY☆騎士		ポップス	ff00ffff	132	`easy`3`false`かんたん/アゲ♂アゲ♂EVERY☆騎士|`normal`4`false`ふつう/アゲ♂アゲ♂EVERY☆騎士|`hard`6`false`むずかしい/アゲ♂アゲ♂EVERY☆騎士|`oni`8`false`おに/アゲ♂アゲ♂EVERY☆騎士|
+アジアの純真		ポップス	ff00ffff	126	`easy`3`false`かんたん/アジアの純真|`normal`3`false`ふつう/アジアの純真|`hard`4`false`むずかしい/アジアの純真|`oni`6`false`おに/アジアの純真|
+明日も	NTTドコモ「ドコモの学割」CMソング	ポップス	ff00ffff	179	`easy`1`false`かんたん/明日も|`normal`2`false`ふつう/明日も|`hard`3`false`むずかしい/明日も|`oni`2`false`おに/明日も|
+新しい光	9mm Parabellum Bullet	ポップス	ff00ffff	180※	`easy`5`false`かんたん/新しい光(9mm)|`normal`6`false`ふつう/新しい光(9mm)|`hard`8`false`むずかしい/新しい光(9mm)|`oni`9`false`おに/新しい光(9mm)|
+あなたとトゥラッタッタ♪	DREAMS COME TRUE/「まんぷく」より	ポップス	ff00ffff	120	`easy`1`false`かんたん/あなたとトゥラッタッタ♪|`normal`1`false`ふつう/あなたとトゥラッタッタ♪|`hard`1`false`むずかしい/あなたとトゥラッタッタ♪|`oni`1`false`おに/あなたとトゥラッタッタ♪|`uraOni`10`false`おに/あなたとトゥラッタッタ♪(裏譜面)
+あなたに恋をしてみました		ポップス	ff00ffff	137	`easy`3`false`かんたん/あなたに恋をしてみました|`normal`4`false`ふつう/あなたに恋をしてみました|`hard`4`false`むずかしい/あなたに恋をしてみました|`oni`6`false`おに/あなたに恋をしてみました|
+アバみ	アバンティーズ	ポップス	ff00ffff	200※	`easy`2`false`かんたん/アバみ|`normal`3`false`ふつう/アバみ|`hard`4`false`むずかしい/アバみ|`oni`8`false`おに/アバみ|
+Ahoy!! 我ら宝鐘海賊団☆	宝鐘マリン	ポップス	ff00ffff	170	`easy`3`false`かんたん/Ahoy!! 我ら宝鐘海賊団☆|`normal`4`false`ふつう/Ahoy!! 我ら宝鐘海賊団☆|`hard`5`false`むずかしい/Ahoy!! 我ら宝鐘海賊団☆|`oni`7`false`おに/Ahoy!! 我ら宝鐘海賊団☆|
+歩いていこう		ポップス	ff00ffff	82	`easy`1`false`かんたん/歩いていこう|`normal`2`false`ふつう/歩いていこう|`hard`1`false`むずかしい/歩いていこう|`oni`3`false`おに/歩いていこう|
+ANTI-HERO	SEKAI NO OWARI	ポップス	ff00ffff	105※	`easy`3`false`かんたん/ANTI-HERO|`normal`4`false`ふつう/ANTI-HERO|`hard`6`false`むずかしい/ANTI-HERO|`oni`8`false`おに/ANTI-HERO|`uraOni`9`false`おに/ANTI-HERO(裏譜面)
+アンビバレント		ポップス	ff00ffff	130	`easy`2`false`かんたん/アンビバレント|`normal`2`false`ふつう/アンビバレント|`hard`4`false`むずかしい/アンビバレント|`oni`7`false`おに/アンビバレント|
+EZ DO DANCE		ポップス	ff00ffff	140	`easy`3`false`かんたん/EZ DO DANCE|`normal`4`false`ふつう/EZ DO DANCE|`hard`6`false`むずかしい/EZ DO DANCE|`oni`8`false`おに/EZ DO DANCE|
+行くぜっ！怪盗少女 -Z ver.-	ももいろクローバーZ	ポップス	ff00ffff	160	`easy`3`false`かんたん/行くぜっ！怪盗少女 -Z ver.-|`normal`4`false`ふつう/行くぜっ！怪盗少女 -Z ver.-|`hard`3`false`むずかしい/行くぜっ！怪盗少女 -Z ver.-|`oni`6`false`おに/行くぜっ！怪盗少女 ‐Z ver.‐|
+イケナイ太陽		ポップス	ff00ffff	145	`easy`4`false`かんたん/イケナイ太陽|`normal`4`false`ふつう/イケナイ太陽|`hard`5`false`むずかしい/イケナイ太陽|`oni`7`false`おに/イケナイ太陽|
+今	HIKAKIN & SEIKIN	ポップス	ff00ffff	128	`easy`2`false`かんたん/今|`normal`3`false`ふつう/今|`hard`3`false`むずかしい/今|`oni`5`false`おに/今|
+今、咲き誇る花たちよ		ポップス	ff00ffff	195	`easy`3`false`かんたん/今、咲き誇る花たちよ|`normal`5`false`ふつう/今、咲き誇る花たちよ|`hard`5`false`むずかしい/今、咲き誇る花たちよ|`oni`6`false`おに/今、咲き誇る花たちよ|
+いろはすてっぷ！	風真いろは	ポップス	ff00ffff	156	`easy`3`false`かんたん/いろはすてっぷ！|`normal`5`false`ふつう/いろはすてっぷ！|`hard`5`false`むずかしい/いろはすてっぷ！|`oni`7`false`おに/いろはすてっぷ！|
+インベーダーインベーダー	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	160	`easy`3`false`かんたん/インベーダーインベーダー|`normal`4`false`ふつう/インベーダーインベーダー|`hard`6`false`むずかしい/インベーダーインベーダー|`oni`6`false`おに/インベーダーインベーダー|
+WON'T BE LONG		ポップス	ff00ffff	105	`easy`3`false`かんたん/WON'T BE LONG|`normal`4`false`ふつう/WON'T BE LONG|`hard`4`false`むずかしい/WON'T BE LONG|`oni`6`false`おに/WON'T BE LONG|
+UZA		ポップス	ff00ffff	131.4	`easy`3`false`かんたん/UZA|`normal`5`false`ふつう/UZA|`hard`5`false`むずかしい/UZA|`oni`6`false`おに/UZA|
+嘘		ポップス	ff00ffff	173-180	`easy`3`false`かんたん/嘘|`normal`5`false`ふつう/嘘|`hard`5`false`むずかしい/嘘|`oni`6`false`おに/嘘|
+うっせぇわ	Ado	ポップス	ff00ffff	178	`easy`2`false`かんたん/うっせぇわ|`normal`2`false`ふつう/うっせぇわ|`hard`3`false`むずかしい/うっせぇわ|`oni`8`false`おに/うっせぇわ|
+海の声	au「三太郎シリーズ」CMソング	ポップス	ff00ffff	76	`easy`2`false`かんたん/海の声|`normal`3`false`ふつう/海の声|`hard`5`false`むずかしい/海の声|`oni`6`false`おに/海の声|
+Everyday、カチューシャ		ポップス	ff00ffff	172.04	`easy`3`false`かんたん/Everyday、カチューシャ|`normal`2`false`ふつう/Everyday、カチューシャ|`hard`4`false`むずかしい/Everyday、カチューシャ|`oni`6`false`おに/Everyday、カチューシャ|
+O2		ポップス	ff00ffff	170	`easy`3`false`かんたん/O2|`normal`4`false`ふつう/O2|`hard`5`false`むずかしい/O2|`oni`7`false`おに/O2|
+オーバード	鷹嶺ルイ	ポップス	ff00ffff	130※	`easy`3`false`かんたん/オーバード|`normal`4`false`ふつう/オーバード|`hard`5`false`むずかしい/オーバード|`oni`7`false`おに/オーバード|`uraOni`10`false`おに/オーバード(裏譜面)
+オー！リバル	映画「名探偵コナン 業火の向日葵」より	ポップス	ff00ffff	129	`easy`3`false`かんたん/オー！リバル|`normal`4`false`ふつう/オー！リバル|`hard`7`false`むずかしい/オー！リバル|`oni`8`false`おに/オー！リバル|
+踊	Ado	ポップス	ff00ffff	128	`easy`2`false`かんたん/踊|`normal`3`false`ふつう/踊|`hard`5`false`むずかしい/踊|`oni`8`false`おに/踊|
+OLA!!	映画「クレヨンしんちゃん オラの引越し物語～サボテン大襲撃～」より	ポップス	ff00ffff	115	`easy`4`false`かんたん/OLA!!|`normal`4`false`ふつう/OLA!!|`hard`6`false`むずかしい/OLA!!|`oni`7`false`おに/OLA!!|
+俺ら東京さ行ぐだ		ポップス	ff00ffff	118.5	`easy`3`false`かんたん/俺ら東京さ行ぐだ|`normal`4`false`ふつう/俺ら東京さ行ぐだ|`hard`6`false`むずかしい/俺ら東京さ行ぐだ|`oni`8`false`おに/俺ら東京さ行ぐだ|
+Original Color Girls!!!!	えのぐ	ポップス	ff00ffff	130	`easy`3`false`かんたん/Original Color Girls!!!!|`normal`4`false`ふつう/Original Color Girls!!!!|`hard`6`false`むずかしい/Original Color Girls!!!!|`oni`8`false`おに/Original Color Girls!!!!|
+風が吹いている		ポップス	ff00ffff	89	`easy`3`false`かんたん/風が吹いている|`normal`4`false`ふつう/風が吹いている|`hard`6`false`むずかしい/風が吹いている|`oni`7`false`おに/風が吹いている|
+ガラスを割れ！		ポップス	ff00ffff	164	`easy`3`false`かんたん/ガラスを割れ！|`normal`4`false`ふつう/ガラスを割れ！|`hard`4`false`むずかしい/ガラスを割れ！|`oni`6`false`おに/ガラスを割れ！|
+カルマ		ポップス	ff00ffff	194	`easy`4`false`かんたん/カルマ|`normal`5`false`ふつう/カルマ|`hard`5`false`むずかしい/カルマ|`oni`7`false`おに/カルマ|
+KISS KISS BANG BANG		ポップス	ff00ffff	154	`easy`4`false`かんたん/KISS KISS BANG BANG|`normal`4`false`ふつう/KISS KISS BANG BANG|`hard`5`false`むずかしい/KISS KISS BANG BANG|`oni`5`false`おに/KISS KISS BANG BANG|
+キセキ		ポップス	ff00ffff	90	`easy`3`false`かんたん/キセキ|`normal`3`false`ふつう/キセキ|`hard`4`false`むずかしい/キセキ|`oni`3`false`おに/キセキ|
+気分上々↑↑		ポップス	ff00ffff	125	`easy`4`false`かんたん/気分上々↑↑|`normal`4`false`ふつう/気分上々↑↑|`hard`6`false`むずかしい/気分上々↑↑|`oni`7`false`おに/気分上々↑↑|
+気まぐれロマンティック		ポップス	ff00ffff	167-170	`easy`3`false`かんたん/気まぐれロマンティック|`normal`4`false`ふつう/気まぐれロマンティック|`hard`3`false`むずかしい/気まぐれロマンティック|`oni`6`false`おに/気まぐれロマンティック|
+キミがいる	ドラマ「ホタルノヒカリ2」主題歌	ポップス	ff00ffff	208	`easy`3`false`かんたん/キミがいる|`normal`4`false`ふつう/キミがいる|`hard`6`false`むずかしい/キミがいる|`oni`8`false`おに/キミがいる|
+君がくれた夏		ポップス	ff00ffff	85	`easy`3`false`かんたん/君がくれた夏|`normal`4`false`ふつう/君がくれた夏|`hard`5`false`むずかしい/君がくれた夏|`oni`6`false`おに/君がくれた夏|
+ギミチョコ！！		ポップス	ff00ffff	220	`easy`4`false`かんたん/ギミチョコ！！|`normal`6`false`ふつう/ギミチョコ！！|`hard`7`false`むずかしい/ギミチョコ！！|`oni`8`false`おに/ギミチョコ！！|`uraOni`10`false`おに/ギミチョコ！！(裏譜面)
+君に桜ヒラリと舞う		ポップス	ff00ffff	131.3-150	`easy`3`false`かんたん/君に桜ヒラリと舞う|`normal`5`false`ふつう/君に桜ヒラリと舞う|`hard`5`false`むずかしい/君に桜ヒラリと舞う|`oni`7`false`おに/君に桜ヒラリと舞う|
+君はロックを聴かない		ポップス	ff00ffff	63-100	`easy`1`false`かんたん/君はロックを聴かない|`normal`1`false`ふつう/君はロックを聴かない|`hard`2`false`むずかしい/君はロックを聴かない|`oni`4`false`おに/君はロックを聴かない|
+きゃりーANAN	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	190※	`easy`3`false`かんたん/きゃりーANAN|`normal`4`false`ふつう/きゃりーANAN|`hard`5`false`むずかしい/きゃりーANAN|`oni`8`false`おに/きゃりーANAN|
+CANDY CANDY	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	130※	`easy`3`false`かんたん/CANDY CANDY|`normal`4`false`ふつう/CANDY CANDY|`hard`6`false`むずかしい/CANDY CANDY|`oni`7`false`おに/CANDY CANDY|
+Candy Pop		ポップス	ff00ffff	174	`easy`1`false`かんたん/Candy Pop|`normal`2`false`ふつう/Candy Pop|`hard`3`false`むずかしい/Candy Pop|`oni`6`false`おに/Candy Pop|
+きらきらキラー	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	160	`easy`3`false`かんたん/きらきらキラー|`normal`4`false`ふつう/きらきらキラー|`hard`4`false`むずかしい/きらきらキラー|`oni`7`false`おに/きらきらキラー|
+銀河鉄道999		ポップス	ff00ffff	131	`easy`3`false`かんたん/銀河鉄道999|`normal`5`false`ふつう/銀河鉄道999|`hard`5`true`むずかしい/銀河鉄道999|`oni`6`false`おに/銀河鉄道999|
+紅		ポップス	ff00ffff	156.3	`easy`4`false`かんたん/紅|`normal`5`false`ふつう/紅|`hard`7`true`むずかしい/紅|`oni`9`false`おに/紅|
+群青		ポップス	ff00ffff	135	`easy`2`false`かんたん/群青|`normal`4`false`ふつう/群青|`hard`6`false`むずかしい/群青|`oni`8`false`おに/群青|
+喧嘩上等		ポップス	ff00ffff	160	`easy`3`false`かんたん/喧嘩上等|`normal`4`false`ふつう/喧嘩上等|`hard`5`false`むずかしい/喧嘩上等|`oni`8`false`おに/喧嘩上等|
+恋	ドラマ「逃げるは恥だが役に立つ」より	ポップス	ff00ffff	158	`easy`2`false`かんたん/恋|`normal`3`false`ふつう/恋|`hard`3`false`むずかしい/恋|`oni`6`false`おに/恋|`uraOni`1`false`おに/恋(裏譜面)
+恋音と雨空		ポップス	ff00ffff	129※	`easy`3`false`かんたん/恋音と雨空|`normal`4`false`ふつう/恋音と雨空|`hard`5`false`むずかしい/恋音と雨空|`oni`7`false`おに/恋音と雨空|
+恋するフォーチュンクッキー		ポップス	ff00ffff	122	`easy`3`false`かんたん/恋するフォーチュンクッキー|`normal`4`false`ふつう/恋するフォーチュンクッキー|`hard`6`false`むずかしい/恋するフォーチュンクッキー|`oni`7`false`おに/恋するフォーチュンクッキー|
+ココロオドル		ポップス	ff00ffff	113	`easy`4`false`かんたん/ココロオドル|`normal`4`false`ふつう/ココロオドル|`hard`5`false`むずかしい/ココロオドル|`oni`8`false`おに/ココロオドル|
+ゴッドソング	バンドじゃないもん！MAXX NAKAYOSHI	ポップス	ff00ffff	162	`easy`3`false`かんたん/ゴッドソング|`normal`5`false`ふつう/ゴッドソング|`hard`6`false`むずかしい/ゴッドソング|`oni`8`false`おに/ゴッドソング|`uraOni`10`false`おに/ゴッドソング(裏譜面)
+粉雪		ポップス	ff00ffff	82※	`easy`3`false`かんたん/粉雪|`normal`4`false`ふつう/粉雪|`hard`6`false`むずかしい/粉雪|`oni`6`false`おに/粉雪|
+ごめんなさいのKissing You		ポップス	ff00ffff	143	`easy`4`false`かんたん/ごめんなさいのKissing You|`normal`5`false`ふつう/ごめんなさいのKissing You|`hard`6`false`むずかしい/ごめんなさいのKissing You|`oni`7`false`おに/ごめんなさいのKissing You|
+サイレントマジョリティー		ポップス	ff00ffff	123	`easy`2`false`かんたん/サイレントマジョリティー|`normal`4`false`ふつう/サイレントマジョリティー|`hard`4`false`むずかしい/サイレントマジョリティー|`oni`6`false`おに/サイレントマジョリティー|
+さくら		ポップス	ff00ffff	120	`easy`3`false`かんたん/さくら(ケツメイシ)|`normal`3`false`ふつう/さくら(ケツメイシ)|`hard`6`false`むずかしい/さくら(ケツメイシ)|`oni`7`true`おに/さくら(ケツメイシ)|
+桜		ポップス	ff00ffff	83.94※	`easy`3`false`かんたん/桜|`normal`3`false`ふつう/桜|`hard`5`false`むずかしい/桜|`oni`6`false`おに/桜|
+さくらんぼ		ポップス	ff00ffff	170	`easy`4`false`かんたん/さくらんぼ|`normal`4`false`ふつう/さくらんぼ|`hard`3`false`むずかしい/さくらんぼ|`oni`8`false`おに/さくらんぼ|
+さちさちにしてあげる♪	小林幸子	ポップス	ff00ffff	160	`easy`3`false`かんたん/さちさちにしてあげる♪|`normal`6`false`ふつう/さちさちにしてあげる♪|`hard`7`false`むずかしい/さちさちにしてあげる♪|`oni`7`false`おに/さちさちにしてあげる♪|`uraOni`10`false`おに/さちさちにしてあげる♪(裏譜面)
+雑草	HIKAKIN & SEIKIN	ポップス	ff00ffff	128	`easy`3`false`かんたん/雑草|`normal`3`false`ふつう/雑草|`hard`5`false`むずかしい/雑草|`oni`6`false`おに/雑草|
+Summer Dude	i☆Ris	ポップス	ff00ffff	133※	`easy`3`false`かんたん/Summer Dude|`normal`5`false`ふつう/Summer Dude|`hard`6`false`むずかしい/Summer Dude|`oni`8`false`おに/Summer Dude|
+さよならエレジー		ポップス	ff00ffff	155	`easy`3`false`かんたん/さよならエレジー|`normal`4`false`ふつう/さよならエレジー|`hard`5`false`むずかしい/さよならエレジー|`oni`8`false`おに/さよならエレジー|
+さよならクロール		ポップス	ff00ffff	145	`easy`3`false`かんたん/さよならクロール|`normal`4`false`ふつう/さよならクロール|`hard`5`false`むずかしい/さよならクロール|`oni`6`false`おに/さよならクロール|
+サラバ、愛しき悲しみたちよ	ももいろクローバーZ	ポップス	ff00ffff	168※	`easy`4`false`かんたん/サラバ、愛しき悲しみたちよ|`normal`4`false`ふつう/サラバ、愛しき悲しみたちよ|`hard`4`false`むずかしい/サラバ、愛しき悲しみたちよ|`oni`7`false`おに/サラバ、愛しき悲しみたちよ|
+サラバ、愛しき悲しみたちよ -ZZ ver.-	ももいろクローバーZ	ポップス	ff00ffff	168※	`easy`4`false`かんたん/サラバ、愛しき悲しみたちよ -ZZ ver.-|`normal`4`false`ふつう/サラバ、愛しき悲しみたちよ -ZZ ver.-|`hard`4`false`むずかしい/サラバ、愛しき悲しみたちよ -ZZ ver.-|`oni`7`false`おに/サラバ、愛しき悲しみたちよ -ZZ ver.-|
+365日のラブストーリー。		ポップス	ff00ffff	124※	`easy`3`false`かんたん/365日のラブストーリー。|`normal`3`false`ふつう/365日のラブストーリー。|`hard`3`false`むずかしい/365日のラブストーリー。|`oni`6`false`おに/365日のラブストーリー。|
+366日		ポップス	ff00ffff	76	`easy`2`false`かんたん/366日|`normal`3`false`ふつう/366日|`hard`5`false`むずかしい/366日|`oni`7`false`おに/366日|
+Shine		ポップス	ff00ffff	127	`easy`3`false`かんたん/Shine|`normal`4`false`ふつう/Shine|`hard`3`false`むずかしい/Shine|`oni`6`false`おに/Shine|
+上海ハニー		ポップス	ff00ffff	130※	`easy`4`false`かんたん/上海ハニー|`normal`5`false`ふつう/上海ハニー|`hard`6`false`むずかしい/上海ハニー|`oni`6`false`おに/上海ハニー|
+羞恥心		ポップス	ff00ffff	148	`easy`3`false`かんたん/羞恥心|`normal`4`false`ふつう/羞恥心|`hard`5`false`むずかしい/羞恥心|`oni`7`false`おに/羞恥心|
+シュガーソングとビターステップ	「血界戦線」より	ポップス	ff00ffff	132	`easy`3`false`かんたん/シュガーソングとビターステップ|`normal`4`false`ふつう/シュガーソングとビターステップ|`hard`5`false`むずかしい/シュガーソングとビターステップ|`oni`8`false`おに/シュガーソングとビターステップ|
+JOIN US	UUUMコラボユニット	ポップス	ff00ffff	132※	`easy`2`false`かんたん/JOIN US|`normal`3`false`ふつう/JOIN US|`hard`3`false`むずかしい/JOIN US|`oni`7`false`おに/JOIN US|
+じょいふる		ポップス	ff00ffff	159	`easy`3`false`かんたん/じょいふる|`normal`4`false`ふつう/じょいふる|`hard`6`false`むずかしい/じょいふる|`oni`6`false`おに/じょいふる|
+JOINT		ポップス	ff00ffff	170※	`easy`3`false`かんたん/JOINT|`normal`4`false`ふつう/JOINT|`hard`6`false`むずかしい/JOINT|`oni`6`false`おに/JOINT|
+シル・ヴ・プレジデント	P丸様。	ポップス	ff00ffff	176	`easy`3`false`かんたん/シル・ヴ・プレジデント|`normal`4`false`ふつう/シル・ヴ・プレジデント|`hard`5`false`むずかしい/シル・ヴ・プレジデント|`oni`7`false`おに/シル・ヴ・プレジデント|
+シンクロニシティ		ポップス	ff00ffff	136	`easy`2`false`かんたん/シンクロニシティ|`normal`3`false`ふつう/シンクロニシティ|`hard`5`false`むずかしい/シンクロニシティ|`oni`7`false`おに/シンクロニシティ|
+シン・ゾンビ	GLAY×太鼓の達人タイアップソング	ポップス	ff00ffff	168-360※	`easy`3`false`かんたん/シン・ゾンビ|`normal`4`false`ふつう/シン・ゾンビ|`hard`6`false`むずかしい/シン・ゾンビ|`oni`9`true`おに/シン・ゾンビ|
+Soup		ポップス	ff00ffff	84	`easy`3`false`かんたん/Soup|`normal`5`false`ふつう/Soup|`hard`6`false`むずかしい/Soup|`oni`8`false`おに/Soup|
+好きな人がいること		ポップス	ff00ffff	108	`easy`3`false`かんたん/好きな人がいること|`normal`4`false`ふつう/好きな人がいること|`hard`6`false`むずかしい/好きな人がいること|`oni`7`false`おに/好きな人がいること|
+STAY TUNE	Suchmos	ポップス	ff00ffff	123※	`easy`2`false`かんたん/STAY TUNE|`normal`3`false`ふつう/STAY TUNE|`hard`5`false`むずかしい/STAY TUNE|`oni`7`false`おに/STAY TUNE|
+素直になれたら		ポップス	ff00ffff	98	`easy`3`false`かんたん/素直になれたら|`normal`3`false`ふつう/素直になれたら|`hard`3`false`むずかしい/素直になれたら|`oni`5`false`おに/素直になれたら|
+SPEED KING		ポップス	ff00ffff	205※	`easy`4`false`かんたん/SPEED KING|`normal`5`false`ふつう/SPEED KING|`hard`7`false`むずかしい/SPEED KING|`oni`9`false`おに/SPEED KING|
+Smile & Go!!	不知火フレア	ポップス	ff00ffff	160	`easy`2`false`かんたん/Smile ＆ Go!!|`normal`4`false`ふつう/Smile ＆ Go!!|`hard`4`false`むずかしい/Smile ＆ Go!!|`oni`7`false`おに/Smile ＆ Go!!|
+前前前世	映画「君の名は。」より	ポップス	ff00ffff	190	`easy`3`false`かんたん/前前前世|`normal`4`false`ふつう/前前前世|`hard`6`false`むずかしい/前前前世|`oni`8`false`おに/前前前世|
+前略、道の上より		ポップス	ff00ffff	151	`easy`3`false`かんたん/前略、道の上より|`normal`4`false`ふつう/前略、道の上より|`hard`6`false`むずかしい/前略、道の上より|`oni`8`false`おに/前略、道の上より|
+全力少年		ポップス	ff00ffff	134※	`easy`3`false`かんたん/全力少年|`normal`5`false`ふつう/全力少年|`hard`6`false`むずかしい/全力少年|`oni`7`false`おに/全力少年|
+そばかす		ポップス	ff00ffff	171	`easy`4`false`かんたん/そばかす|`normal`3`false`ふつう/そばかす|`hard`4`false`むずかしい/そばかす|`oni`6`false`おに/そばかす|
+それが大事		ポップス	ff00ffff	119	`easy`3`false`かんたん/それが大事|`normal`4`false`ふつう/それが大事|`hard`6`false`むずかしい/それが大事|`oni`7`false`おに/それが大事|
+大器晩成	アンジュルム	ポップス	ff00ffff	146	`easy`3`false`かんたん/大器晩成|`normal`4`false`ふつう/大器晩成|`hard`5`false`むずかしい/大器晩成|`oni`7`false`おに/大器晩成|
+抱いてセニョリータ		ポップス	ff00ffff	145	`easy`4`false`かんたん/抱いてセニョリータ|`normal`4`false`ふつう/抱いてセニョリータ|`hard`5`false`むずかしい/抱いてセニョリータ|`oni`7`false`おに/抱いてセニョリータ|
+太陽とビキニ		ポップス	ff00ffff	150※	`easy`3`false`かんたん/太陽とビキニ|`normal`3`false`ふつう/太陽とビキニ|`hard`5`false`むずかしい/太陽とビキニ|`oni`6`false`おに/太陽とビキニ|
+Timing ～タイミング～		ポップス	ff00ffff	126	`easy`2`false`かんたん/Timing ～タイミング～|`normal`4`false`ふつう/Timing ～タイミング～|`hard`6`false`むずかしい/Timing ～タイミング～|`oni`8`false`おに/Timing ～タイミング～|
+高嶺の花子さん	back number	ポップス	ff00ffff	87-139※	`easy`2`false`かんたん/高嶺の花子さん|`normal`4`false`ふつう/高嶺の花子さん|`hard`4`false`むずかしい/高嶺の花子さん|`oni`6`false`おに/高嶺の花子さん|
+だから僕は音楽を辞めた		ポップス	ff00ffff	125	`easy`1`false`かんたん/だから僕は音楽を辞めた|`normal`2`false`ふつう/だから僕は音楽を辞めた|`hard`4`false`むずかしい/だから僕は音楽を辞めた|`oni`6`false`おに/だから僕は音楽を辞めた|`uraOni`8`false`おに/だから僕は音楽を辞めた(裏譜面)
+ただ君に晴れ	ヨルシカ	ポップス	ff00ffff	140※	`easy`2`false`かんたん/ただ君に晴れ|`normal`2`false`ふつう/ただ君に晴れ|`hard`3`false`むずかしい/ただ君に晴れ|`oni`5`false`おに/ただ君に晴れ|
+地上の星		ポップス	ff00ffff	100	`easy`3`false`かんたん/地上の星|`normal`4`false`ふつう/地上の星|`hard`5`false`むずかしい/地上の星|`oni`7`false`おに/地上の星|
+チャンピオンロード	ぺけたん&ンダホ from フィッシャーズ	ポップス	ff00ffff	180	`easy`2`false`かんたん/チャンピオンロード|`normal`3`false`ふつう/チャンピオンロード|`hard`6`false`むずかしい/チャンピオンロード|`oni`8`false`おに/チャンピオンロード|
+Choo Choo TRAIN		ポップス	ff00ffff	115	`easy`2`false`かんたん/Choo Choo TRAIN|`normal`3`false`ふつう/Choo Choo TRAIN|`hard`4`false`むずかしい/Choo Choo TRAIN|`oni`4`false`おに/Choo Choo TRAIN|
+チョコレイト・ディスコ		ポップス	ff00ffff	128	`easy`3`false`かんたん/チョコレイト・ディスコ|`normal`2`false`ふつう/チョコレイト・ディスコ|`hard`5`false`むずかしい/チョコレイト・ディスコ|`oni`5`false`おに/チョコレイト・ディスコ|
+月色Chainon	ももいろクローバーZ 劇場版「美少女戦士セーラームーンEternal」より	ポップス	ff00ffff	128	`easy`3`false`かんたん/月色Chainon|`normal`4`false`ふつう/月色Chainon|`hard`6`false`むずかしい/月色Chainon|`oni`7`false`おに/月色Chainon|
+月と太陽		ポップス	ff00ffff	108	`easy`3`false`かんたん/月と太陽|`normal`4`false`ふつう/月と太陽|`hard`5`false`むずかしい/月と太陽|`oni`8`false`おに/月と太陽|
+つけまつける	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	145	`easy`3`false`かんたん/つけまつける|`normal`4`false`ふつう/つけまつける|`hard`3`false`むずかしい/つけまつける|`oni`6`false`おに/つけまつける|
+蕾		ポップス	ff00ffff	76※	`easy`3`false`かんたん/蕾|`normal`3`false`ふつう/蕾|`hard`3`false`むずかしい/蕾|`oni`4`false`おに/蕾|
+TT -Japanese ver.-		ポップス	ff00ffff	130	`easy`3`false`かんたん/TT -Japanese ver.-|`normal`5`false`ふつう/TT -Japanese ver.-|`hard`5`false`むずかしい/TT -Japanese ver.-|`oni`7`false`おに/TT -Japanese ver.-|
+ディープ・クレンジングSU(from RIP SLYME)		ポップス	ff00ffff	128	`easy`5`false`かんたん/ディープ・クレンジング|`normal`5`false`ふつう/ディープ・クレンジング|`hard`6`false`むずかしい/ディープ・クレンジング|`oni`7`false`おに/ディープ・クレンジング|
+Desire	Do As Infinity	ポップス	ff00ffff	122※	`easy`3`false`かんたん/Desire|`normal`3`false`ふつう/Desire|`hard`7`false`むずかしい/Desire|`oni`8`false`おに/Desire|
+デジタルモグラ		ポップス	ff00ffff	140	`easy`2`false`かんたん/デジタルモグラ|`normal`3`false`ふつう/デジタルモグラ|`hard`4`false`むずかしい/デジタルモグラ|`oni`7`false`おに/デジタルモグラ|
+Telecastic fake show	凛として時雨	ポップス	ff00ffff	144-215※	`easy`4`false`かんたん/Telecastic fake show|`normal`6`false`ふつう/Telecastic fake show|`hard`7`false`むずかしい/Telecastic fake show|`oni`10`false`おに/Telecastic fake show|
+天体観測		ポップス	ff00ffff	163	`easy`4`false`かんたん/天体観測|`normal`5`false`ふつう/天体観測|`hard`5`false`むずかしい/天体観測|`oni`6`false`おに/天体観測|
+TEMPLATE	星街すいせい	ポップス	ff00ffff	100-200※	`easy`3`false`かんたん/TEMPLATE|`normal`5`false`ふつう/TEMPLATE|`hard`6`false`むずかしい/TEMPLATE|`oni`8`false`おに/TEMPLATE|
+24 karats TRIBE OF GOLD		ポップス	ff00ffff	103	`easy`3`false`かんたん/24karats TRIBE OF GOLD|`normal`4`false`ふつう/24karats TRIBE OF GOLD|`hard`4`false`むずかしい/24karats TRIBE OF GOLD|`oni`7`false`おに/24karats TRIBE OF GOLD|
+遠くまで	Do As Infinity	ポップス	ff00ffff	141※	`easy`3`false`かんたん/遠くまで|`normal`4`false`ふつう/遠くまで|`hard`4`false`むずかしい/遠くまで|`oni`6`false`おに/遠くまで|
+ともに	WANIMA	ポップス	ff00ffff	127-254※	`easy`3`false`かんたん/ともに|`normal`4`false`ふつう/ともに|`hard`5`false`むずかしい/ともに|`oni`7`false`おに/ともに|
+友よ ～この先もずっと･･･	「映画クレヨンしんちゃん 爆睡！ユメミーワールド大突撃」より	ポップス	ff00ffff	127	`easy`2`false`かんたん/友よ ～この先もずっと…|`normal`4`false`ふつう/友よ ～この先もずっと…|`hard`4`false`むずかしい/友よ ～この先もずっと…|`oni`5`false`おに/友よ ～この先もずっと…|
+ドラマチック		ポップス	ff00ffff	164	`easy`4`false`かんたん/ドラマチック|`normal`4`false`ふつう/ドラマチック|`hard`6`false`むずかしい/ドラマチック|`oni`8`true`おに/ドラマチック|
+ドラマツルギー	Eve	ポップス	ff00ffff	127.6-149	`easy`2`false`かんたん/ドラマツルギー|`normal`2`false`ふつう/ドラマツルギー|`hard`3`false`むずかしい/ドラマツルギー|`oni`5`false`おに/ドラマツルギー|`uraOni`8`false`おに/ドラマツルギー(裏譜面)
+DREAMERS' PARADISE	DANCE EARTH PARTY タイアップソング	ポップス	ff00ffff	126※	`easy`3`false`かんたん/DREAMERS' PARADISE|`normal`4`false`ふつう/DREAMERS' PARADISE|`hard`6`false`むずかしい/DREAMERS' PARADISE|`oni`7`false`おに/DREAMERS' PARADISE|
+Dreamin' World	えのぐ	ポップス	ff00ffff	118	`easy`2`false`かんたん/Dreamin' World|`normal`3`false`ふつう/Dreamin' World|`hard`5`false`むずかしい/Dreamin' World|`oni`6`false`おに/Dreamin' World|
+TRAIN-TRAIN		ポップス	ff00ffff	173-190※	`easy`4`false`かんたん/TRAIN-TRAIN|`normal`5`false`ふつう/TRAIN-TRAIN|`hard`5`false`むずかしい/TRAIN-TRAIN|`oni`6`false`おに/TRAIN-TRAIN|
+夏祭り		ポップス	ff00ffff	141※	`easy`3`false`かんたん/夏祭り|`normal`2`false`ふつう/夏祭り|`hard`6`false`むずかしい/夏祭り|`oni`6`false`おに/夏祭り|
+夏祭り / ジッタリン・ジン		ポップス	ff00ffff	70.5※-282	`easy`4`true`かんたん/夏祭り ／ ジッタリン・ジン|`normal`4`true`ふつう/夏祭り ／ ジッタリン・ジン|`hard`6`true`むずかしい/夏祭り ／ ジッタリン・ジン|`oni`7`true`おに/夏祭り ／ ジッタリン・ジン|`uraOni`10`false`おに/夏祭り ／ ジッタリン・ジン(裏譜面)
+ナンセンス文学	Eve	ポップス	ff00ffff	154	`easy`2`false`かんたん/ナンセンス文学|`normal`2`false`ふつう/ナンセンス文学|`hard`4`false`むずかしい/ナンセンス文学|`oni`7`false`おに/ナンセンス文学|
+虹	Fischer's‐フィッシャーズ‐	ポップス	ff00ffff	180	`easy`3`false`かんたん/虹(Fischer's)|`normal`4`false`ふつう/虹(Fischer's)|`hard`5`false`むずかしい/虹(Fischer's)|`oni`6`false`おに/虹(Fischer's)|
+にんじゃりばんばん	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	130	`easy`3`false`かんたん/にんじゃりばんばん|`normal`5`false`ふつう/にんじゃりばんばん|`hard`6`false`むずかしい/にんじゃりばんばん|`oni`8`false`おに/にんじゃりばんばん|
+猫		ポップス	ff00ffff	77	`easy`2`false`かんたん/猫|`normal`3`false`ふつう/猫|`hard`3`false`むずかしい/猫|`oni`8`false`おに/猫|
+熱情のスペクトラム		ポップス	ff00ffff	160	`easy`3`false`かんたん/熱情のスペクトラム|`normal`4`false`ふつう/熱情のスペクトラム|`hard`5`false`むずかしい/熱情のスペクトラム|`oni`8`false`おに/熱情のスペクトラム|
+ねねねねねねねね!大爆走	桃鈴ねね	ポップス	ff00ffff	170	`easy`3`false`かんたん/ねねねねねねねね!大爆走|`normal`4`false`ふつう/ねねねねねねねね!大爆走|`hard`4`false`むずかしい/ねねねねねねねね!大爆走|`oni`7`false`おに/ねねねねねねねね!大爆走|
+NO MORE CRY	TVドラマ「ごくせん」より	ポップス	ff00ffff	137	`easy`3`false`かんたん/NO MORE CRY|`normal`3`false`ふつう/NO MORE CRY|`hard`3`false`むずかしい/NO MORE CRY|`oni`6`false`おに/NO MORE CRY|
+Highschool♡love		ポップス	ff00ffff	128	`easy`3`false`かんたん/Highschool・love|`normal`4`false`ふつう/Highschool・love|`hard`5`false`むずかしい/Highschool・love|`oni`6`false`おに/Highschool・love|
+白日		ポップス	ff00ffff	93	`easy`2`false`かんたん/白日|`normal`2`false`ふつう/白日|`hard`2`false`むずかしい/白日|`oni`8`false`おに/白日|
+Butterfly		ポップス	ff00ffff	111※	`easy`2`false`かんたん/Butterfly(木村カエラ)|`normal`3`false`ふつう/Butterfly(木村カエラ)|`hard`4`false`むずかしい/Butterfly(木村カエラ)|`oni`6`false`おに/Butterfly(木村カエラ)|
+ハッピーウェディング前ソング	ヤバイTシャツ屋さん	ポップス	ff00ffff	183※	`easy`1`false`かんたん/ハッピーウェディング前ソング|`normal`2`false`ふつう/ハッピーウェディング前ソング|`hard`3`false`むずかしい/ハッピーウェディング前ソング|`oni`6`false`おに/ハッピーウェディング前ソング|`uraOni`8`false`おに/ハッピーウェディング前ソング(裏譜面)
+華振舞	和楽器バンド	ポップス	ff00ffff	162	`easy`4`false`かんたん/華振舞|`normal`5`false`ふつう/華振舞|`hard`7`false`むずかしい/華振舞|`oni`9`false`おに/華振舞|
+Punishment	9mm Parabellum Bullet	ポップス	ff00ffff	212※	`easy`4`false`かんたん/Punishment|`normal`4`false`ふつう/Punishment|`hard`8`false`むずかしい/Punishment|`oni`9`false`おに/Punishment|
+遥か		ポップス	ff00ffff	84	`easy`2`false`かんたん/遥か|`normal`3`false`ふつう/遥か|`hard`4`false`むずかしい/遥か|`oni`5`false`おに/遥か|
+ハルジオン		ポップス	ff00ffff	130	`easy`2`false`かんたん/ハルジオン|`normal`3`false`ふつう/ハルジオン|`hard`5`false`むずかしい/ハルジオン|`oni`7`false`おに/ハルジオン|
+PEACH		ポップス	ff00ffff	147	`easy`3`false`かんたん/PEACH|`normal`3`false`ふつう/PEACH|`hard`4`true`むずかしい/PEACH|`oni`6`false`おに/PEACH|
+ひまわりの約束	映画「STAND BY ME ドラえもん」より	ポップス	ff00ffff	79	`easy`3`false`かんたん/ひまわりの約束|`normal`4`false`ふつう/ひまわりの約束|`hard`5`false`むずかしい/ひまわりの約束|`oni`7`false`おに/ひまわりの約束|
+HIMAWARI HAPPY	HIMAWARIちゃんねる	ポップス	ff00ffff	114-125	`easy`1`false`かんたん/HIMAWARI HAPPY|`normal`1`false`ふつう/HIMAWARI HAPPY|`hard`2`false`むずかしい/HIMAWARI HAPPY|`oni`2`false`おに/HIMAWARI HAPPY|
+believe in you	「テイルズ オブ アスタリア」テーマソング	ポップス	ff00ffff	127	`easy`4`false`かんたん/believe in you|`normal`5`false`ふつう/believe in you|`hard`6`false`むずかしい/believe in you|`oni`7`false`おに/believe in you|
+ファッションモンスター	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	160	`easy`3`false`かんたん/ファッションモンスター|`normal`4`false`ふつう/ファッションモンスター|`hard`5`false`むずかしい/ファッションモンスター|`oni`7`false`おに/ファッションモンスター|
+FUNKASTIC		ポップス	ff00ffff	125※	`easy`4`false`かんたん/FUNKASTIC|`normal`4`false`ふつう/FUNKASTIC|`hard`7`false`むずかしい/FUNKASTIC|`oni`7`false`おに/FUNKASTIC|
+Follow Me		ポップス	ff00ffff	143	`easy`3`false`かんたん/Follow Me|`normal`5`false`ふつう/Follow Me|`hard`6`false`むずかしい/Follow Me|`oni`7`false`おに/Follow Me|
+フライングゲット		ポップス	ff00ffff	131	`easy`2`false`かんたん/フライングゲット|`normal`3`false`ふつう/フライングゲット|`hard`5`false`むずかしい/フライングゲット|`oni`5`false`おに/フライングゲット|
+Prism Melody	hololive IDOL PROJECT	ポップス	ff00ffff	182	`easy`2`false`かんたん/Prism Melody|`normal`4`false`ふつう/Prism Melody|`hard`4`false`むずかしい/Prism Melody|`oni`7`false`おに/Prism Melody|
+ふりそでーしょん	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	200	`easy`3`false`かんたん/ふりそでーしょん|`normal`5`false`ふつう/ふりそでーしょん|`hard`6`false`むずかしい/ふりそでーしょん|`oni`7`false`おに/ふりそでーしょん|
+プルメリア～花唄～	映画「ごくせん THE MOVIE」より	ポップス	ff00ffff	114	`easy`3`false`かんたん/プルメリア～花唄～|`normal`4`false`ふつう/プルメリア～花唄～|`hard`6`false`むずかしい/プルメリア～花唄～|`oni`7`false`おに/プルメリア～花唄～|
+フレンジャー		ポップス	ff00ffff	170	`easy`4`false`かんたん/フレンジャー|`normal`5`false`ふつう/フレンジャー|`hard`5`false`むずかしい/フレンジャー|`oni`7`false`おに/フレンジャー|
+ヘビーローテーション		ポップス	ff00ffff	178	`easy`2`false`かんたん/ヘビーローテーション|`normal`3`false`ふつう/ヘビーローテーション|`hard`4`true`むずかしい/ヘビーローテーション|`oni`6`false`おに/ヘビーローテーション|
+冒険者たち	Do As Infinity	ポップス	ff00ffff	176※	`easy`4`false`かんたん/冒険者たち|`normal`5`false`ふつう/冒険者たち|`hard`5`false`むずかしい/冒険者たち|`oni`8`false`おに/冒険者たち|
+ポケットからきゅんです！	ひらめ	ポップス	ff00ffff	90	`easy`2`false`かんたん/ポケットからきゅんです！|`normal`2`false`ふつう/ポケットからきゅんです！|`hard`3`false`むずかしい/ポケットからきゅんです！|`oni`7`false`おに/ポケットからきゅんです！|
+HOT LIMIT		ポップス	ff00ffff	148	`easy`3`false`かんたん/HOT LIMIT|`normal`4`false`ふつう/HOT LIMIT|`hard`6`false`むずかしい/HOT LIMIT|`oni`7`false`おに/HOT LIMIT|
+POP STAR		ポップス	ff00ffff	140	`easy`3`false`かんたん/POP STAR|`normal`3`false`ふつう/POP STAR|`hard`4`false`むずかしい/POP STAR|`oni`7`true`おに/POP STAR|
+ポニーテールとシュシュ		ポップス	ff00ffff	80※-160	`easy`3`false`かんたん/ポニーテールとシュシュ|`normal`5`false`ふつう/ポニーテールとシュシュ|`hard`6`false`むずかしい/ポニーテールとシュシュ|`oni`7`false`おに/ポニーテールとシュシュ|
+ほめのび	白銀ノエル	ポップス	ff00ffff	112※	`easy`1`false`かんたん/ほめのび|`normal`1`false`ふつう/ほめのび|`hard`2`false`むずかしい/ほめのび|`oni`4`false`おに/ほめのび|
+ポリリズム		ポップス	ff00ffff	130	`easy`4`false`かんたん/ポリリズム|`normal`6`false`ふつう/ポリリズム|`hard`5`true`むずかしい/ポリリズム|`oni`8`false`おに/ポリリズム|
+ホロメン音頭	hololive IDOL PROJECT	ポップス	ff00ffff	96	`easy`2`false`かんたん/ホロメン音頭|`normal`3`false`ふつう/ホロメン音頭|`hard`5`false`むずかしい/ホロメン音頭|`oni`6`false`おに/ホロメン音頭|
+本日ハ晴天ナリ	Do As Infinity	ポップス	ff00ffff	186※	`easy`4`false`かんたん/本日ハ晴天ナリ|`normal`4`false`ふつう/本日ハ晴天ナリ|`hard`5`false`むずかしい/本日ハ晴天ナリ|`oni`7`false`おに/本日ハ晴天ナリ|
+PON PON PON	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	128※	`easy`3`false`かんたん/PON PON PON|`normal`4`false`ふつう/PON PON PON|`hard`4`false`むずかしい/PON PON PON|`oni`6`false`おに/PON PON PON|
+maximum the hormone	マキシマム ザ ホルモン	ポップス	ff00ffff	108-201※	`easy`5`false`かんたん/maximum the hormone|`normal`6`false`ふつう/maximum the hormone|`hard`7`false`むずかしい/maximum the hormone|`oni`8`false`おに/maximum the hormone|
+真夏のSounds good!		ポップス	ff00ffff	148.2	`easy`3`false`かんたん/真夏のSounds good!|`normal`3`false`ふつう/真夏のSounds good!|`hard`3`false`むずかしい/真夏のSounds good!|`oni`5`false`おに/真夏のSounds good!|
+魔法のコトバ	映画「ハチミツとクローバー」主題歌	ポップス	ff00ffff	124	`easy`3`false`かんたん/魔法のコトバ|`normal`3`false`ふつう/魔法のコトバ|`hard`4`false`むずかしい/魔法のコトバ|`oni`7`false`おに/魔法のコトバ|
+マリーゴールド		ポップス	ff00ffff	106	`easy`1`false`かんたん/マリーゴールド|`normal`1`false`ふつう/マリーゴールド|`hard`4`false`むずかしい/マリーゴールド|`oni`6`false`おに/マリーゴールド|
+みかんのうた		ポップス	ff00ffff	286	`easy`3`false`かんたん/みかんのうた|`normal`3`false`ふつう/みかんのうた|`hard`7`false`むずかしい/みかんのうた|`oni`8`false`おに/みかんのうた|
+ミセナイナミダハ、きっといつか		ポップス	ff00ffff	83	`easy`1`false`かんたん/ミセナイナミダハ、きっといつか|`normal`3`false`ふつう/ミセナイナミダハ、きっといつか|`hard`4`false`むずかしい/ミセナイナミダハ、きっといつか|`oni`6`false`おに/ミセナイナミダハ、きっといつか|
+見たこともない景色	au 三太郎サッカー応援 CMソング	ポップス	ff00ffff	181	`easy`1`false`かんたん/見たこともない景色|`normal`2`false`ふつう/見たこともない景色|`hard`4`false`むずかしい/見たこともない景色|`oni`6`false`おに/見たこともない景色|`uraOni`8`false`おに/見たこともない景色(裏譜面)
+みんながみんな英雄	au「三太郎シリーズ」CMソング	ポップス	ff00ffff	117	`easy`2`false`かんたん/みんながみんな英雄|`normal`3`false`ふつう/みんながみんな英雄|`hard`4`false`むずかしい/みんながみんな英雄|`oni`6`false`おに/みんながみんな英雄|
+Make it!	i☆Ris	ポップス	ff00ffff	172	`easy`2`false`かんたん/Make it!|`normal`4`false`ふつう/Make it!|`hard`4`false`むずかしい/Make it!|`oni`7`false`おに/Make it!|
+女々しくて		ポップス	ff00ffff	143	`easy`3`false`かんたん/女々しくて|`normal`4`false`ふつう/女々しくて|`hard`5`false`むずかしい/女々しくて|`oni`8`false`おに/女々しくて|
+もったいないとらんど	きゃりーぱみゅぱみゅ	ポップス	ff00ffff	160	`easy`3`false`かんたん/もったいないとらんど|`normal`5`false`ふつう/もったいないとらんど|`hard`6`false`むずかしい/もったいないとらんど|`oni`7`false`おに/もったいないとらんど|
+ももいろ太鼓どどんが節	ももいろクローバーZ	ポップス	ff00ffff	165※	`easy`3`false`かんたん/ももいろ太鼓どどんが節|`normal`4`false`ふつう/ももいろ太鼓どどんが節|`hard`5`false`むずかしい/ももいろ太鼓どどんが節|`oni`6`false`おに/ももいろ太鼓どどんが節|
+もらい泣き		ポップス	ff00ffff	180	`easy`3`false`かんたん/もらい泣き|`normal`2`false`ふつう/もらい泣き|`hard`5`false`むずかしい/もらい泣き|`oni`7`false`おに/もらい泣き|
+U.S.A.		ポップス	ff00ffff	139.6	`easy`2`false`かんたん/U.S.A.|`normal`3`false`ふつう/U.S.A.|`hard`5`false`むずかしい/U.S.A.|`oni`6`false`おに/U.S.A.|
+誘惑	GLAY	ポップス	ff00ffff	182※	`easy`3`false`かんたん/誘惑|`normal`4`false`ふつう/誘惑|`hard`5`false`むずかしい/誘惑|`oni`7`false`おに/誘惑|
+宵花火	ばんばんざい	ポップス	ff00ffff	80	`easy`2`false`かんたん/宵花火|`normal`2`false`ふつう/宵花火|`hard`4`false`むずかしい/宵花火|`oni`7`false`おに/宵花火|
+YONA YONA DANCE	和田アキ子	ポップス	ff00ffff	145	`easy`2`false`かんたん/YONA YONA DANCE|`normal`5`false`ふつう/YONA YONA DANCE|`hard`5`false`むずかしい/YONA YONA DANCE|`oni`8`false`おに/YONA YONA DANCE|
+夜に駆ける		ポップス	ff00ffff	130	`easy`1`false`かんたん/夜に駆ける|`normal`2`false`ふつう/夜に駆ける|`hard`4`false`むずかしい/夜に駆ける|`oni`8`false`おに/夜に駆ける|
+楽園ベイベー		ポップス	ff00ffff	113※	`easy`4`false`かんたん/楽園ベイベー|`normal`4`false`ふつう/楽園ベイベー|`hard`7`false`むずかしい/楽園ベイベー|`oni`8`false`おに/楽園ベイベー|
+LOVEずっきゅん		ポップス	ff00ffff	150	`easy`4`false`かんたん/LOVEずっきゅん|`normal`4`false`ふつう/LOVEずっきゅん|`hard`6`false`むずかしい/LOVEずっきゅん|`oni`8`false`おに/LOVEずっきゅん|
+ラブ・ストーリーは突然に		ポップス	ff00ffff	113	`easy`3`false`かんたん/ラブ・ストーリーは突然に|`normal`4`false`ふつう/ラブ・ストーリーは突然に|`hard`5`false`むずかしい/ラブ・ストーリーは突然に|`oni`5`false`おに/ラブ・ストーリーは突然に|
+ラブソングはとまらないよ	「カルピスウォーター」CMソング	ポップス	ff00ffff	114	`easy`3`false`かんたん/ラブソングはとまらないよ|`normal`4`false`ふつう/ラブソングはとまらないよ|`hard`4`false`むずかしい/ラブソングはとまらないよ|`oni`6`false`おに/ラブソングはとまらないよ|
+LOVE 2000		ポップス	ff00ffff	170	`easy`3`false`かんたん/LOVE 2000|`normal`4`false`ふつう/LOVE 2000|`hard`5`false`むずかしい/LOVE 2000|`oni`6`false`おに/LOVE 2000|
+Love Forever		ポップス	ff00ffff	120	`easy`2`false`かんたん/Love Forever|`normal`3`false`ふつう/Love Forever|`hard`4`false`むずかしい/Love Forever|`oni`6`false`おに/Love Forever|
+LOVEマシーン		ポップス	ff00ffff	129	`easy`4`false`かんたん/LOVEマシーン|`normal`5`false`ふつう/LOVEマシーン|`hard`5`false`むずかしい/LOVEマシーン|`oni`5`true`おに/LOVEマシーン|
+ラブラドール・レトリバー		ポップス	ff00ffff	135	`easy`3`false`かんたん/ラブラドール・レトリバー|`normal`4`false`ふつう/ラブラドール・レトリバー|`hard`5`false`むずかしい/ラブラドール・レトリバー|`oni`7`false`おに/ラブラドール・レトリバー|
+乱数調整のリバースシンデレラ	粗品 feat. 彩宮すう(CV:竹達彩奈)	ポップス	ff00ffff	85-170※	`easy`3`false`かんたん/乱数調整のリバースシンデレラ|`normal`5`false`ふつう/乱数調整のリバースシンデレラ|`hard`6`false`むずかしい/乱数調整のリバースシンデレラ|`oni`8`false`おに/乱数調整のリバースシンデレラ|`uraOni`10`false`おに/乱数調整のリバースシンデレラ(裏譜面)
+LISTEN TO THE STEREO!!		ポップス	ff00ffff	55-182※	`easy`3`false`かんたん/LISTEN TO THE STEREO!!|`normal`5`false`ふつう/LISTEN TO THE STEREO!!|`hard`5`false`むずかしい/LISTEN TO THE STEREO!!|`oni`7`false`おに/LISTEN TO THE STEREO!!|`uraOni`7`false`おに/LISTEN TO THE STEREO!!#another
+R.Y.U.S.E.I.		ポップス	ff00ffff	128	`easy`3`false`かんたん/R.Y.U.S.E.I.|`normal`5`false`ふつう/R.Y.U.S.E.I.|`hard`7`false`むずかしい/R.Y.U.S.E.I.|`oni`8`false`おに/R.Y.U.S.E.I.|
+リライト		ポップス	ff00ffff	180	`easy`4`false`かんたん/リライト|`normal`4`false`ふつう/リライト|`hard`3`false`むずかしい/リライト|`oni`5`false`おに/リライト|
+リンダリンダ		ポップス	ff00ffff	63-198※	`easy`4`false`かんたん/リンダリンダ|`normal`6`false`ふつう/リンダリンダ|`hard`5`false`むずかしい/リンダリンダ|`oni`5`false`おに/リンダリンダ|
+ルージュの伝言		ポップス	ff00ffff	154	`easy`3`false`かんたん/ルージュの伝言|`normal`3`false`ふつう/ルージュの伝言|`hard`4`false`むずかしい/ルージュの伝言|`oni`7`false`おに/ルージュの伝言|
+レイン		ポップス	ff00ffff	95	`easy`3`false`かんたん/レイン|`normal`4`false`ふつう/レイン|`hard`5`false`むずかしい/レイン|`oni`7`false`おに/レイン|
+ロキ	みきとP feat.鏡音リン	ポップス	ff00ffff	150	`easy`3`false`かんたん/ロキ|`normal`3`false`ふつう/ロキ|`hard`4`false`むずかしい/ロキ|`oni`7`false`おに/ロキ|
+ROCKET DIVE		ポップス	ff00ffff	182.99	`easy`3`false`かんたん/ROCKET DIVE|`normal`4`false`ふつう/ROCKET DIVE|`hard`3`false`むずかしい/ROCKET DIVE|`oni`6`false`おに/ROCKET DIVE|
+ロビンソン		ポップス	ff00ffff	111	`easy`3`false`かんたん/ロビンソン|`normal`3`false`ふつう/ロビンソン|`hard`4`false`むずかしい/ロビンソン|`oni`7`false`おに/ロビンソン|
+ロマンス		ポップス	ff00ffff	146	`easy`3`false`かんたん/ロマンス|`normal`4`false`ふつう/ロマンス|`hard`5`false`むずかしい/ロマンス|`oni`8`false`おに/ロマンス|
+Romanticが止まらない		ポップス	ff00ffff	146	`easy`3`false`かんたん/Romanticが止まらない|`normal`5`true`ふつう/Romanticが止まらない|`hard`6`false`むずかしい/Romanticが止まらない|`oni`6`false`おに/Romanticが止まらない|
+1 2 3～恋がはじまる～		ポップス	ff00ffff	159	`easy`3`false`かんたん/1 2 3～恋がはじまる～|`normal`4`false`ふつう/1 2 3～恋がはじまる～|`hard`4`false`むずかしい/1 2 3～恋がはじまる～|`oni`6`false`おに/1 2 3～恋がはじまる～|
+One Night Carnival		ポップス	ff00ffff	136	`easy`3`false`かんたん/One Night Carnival|`normal`5`false`ふつう/One Night Carnival|`hard`6`false`むずかしい/One Night Carnival|`oni`8`false`おに/One Night Carnival|
+哀戦士	劇場版「機動戦士ガンダムⅡ 哀 戦士篇」より	アニメ	ffffa500	150※	`easy`4`false`かんたん/哀戦士|`normal`5`false`ふつう/哀戦士|`hard`6`false`むずかしい/哀戦士|`oni`8`true`おに/哀戦士|
+愛にできることはまだあるかい	「天気の子」より	アニメ	ffffa500	71	`easy`2`false`かんたん/愛にできることはまだあるかい|`normal`2`false`ふつう/愛にできることはまだあるかい|`hard`4`false`むずかしい/愛にできることはまだあるかい|`oni`5`false`おに/愛にできることはまだあるかい|`uraOni`8`false`おに/愛にできることはまだあるかい(裏譜面)
+I★my★me★mine	「たまごっち！」より	アニメ	ffffa500	182	`easy`2`false`かんたん/I★my★me★mine|`normal`3`false`ふつう/I★my★me★mine|`hard`5`false`むずかしい/I★my★me★mine|`oni`6`false`おに/I★my★me★mine|
+愛をとりもどせ!!		アニメ	ffffa500	158※	`easy`3`false`かんたん/愛をとりもどせ！！|`normal`5`false`ふつう/愛をとりもどせ！！|`hard`3`false`むずかしい/愛をとりもどせ！！|`oni`7`true`おに/愛をとりもどせ！！|
+青空のラプソディ	「小林さんちのメイドラゴン」OP主題歌	アニメ	ffffa500	270	`easy`3`false`かんたん/青空のラプソディ|`normal`4`false`ふつう/青空のラプソディ|`hard`5`false`むずかしい/青空のラプソディ|`oni`8`false`おに/青空のラプソディ|`uraOni`9`false`おに/青空のラプソディ(裏譜面)
+明け星		アニメ	ffffa500	95	`easy`1`false`かんたん/明け星|`normal`2`false`ふつう/明け星|`hard`5`false`むずかしい/明け星|`oni`6`false`おに/明け星|
+ADAMAS	「ソードアート・オンライン アリシゼーション」より	アニメ	ffffa500	191	`easy`4`false`かんたん/ADAMAS|`normal`4`false`ふつう/ADAMAS|`hard`4`false`むずかしい/ADAMAS|`oni`8`false`おに/ADAMAS|
+新しい光	(ウルトラマンゼロ)	アニメ	ffffa500	131	`easy`3`false`かんたん/新しい光|`normal`4`false`ふつう/新しい光|`hard`5`false`むずかしい/新しい光|`oni`6`false`おに/新しい光|
+アンパンマンたいそう		アニメ	ffffa500	135	`easy`1`false`かんたん/アンパンマンたいそう|`normal`2`false`ふつう/アンパンマンたいそう|`hard`2`false`むずかしい/アンパンマンたいそう|`oni`2`false`おに/アンパンマンたいそう|
+アンパンマンのマーチ		アニメ	ffffa500	96※	`easy`1`false`かんたん/アンパンマンのマーチ|`normal`2`false`ふつう/アンパンマンのマーチ|`hard`5`false`むずかしい/アンパンマンのマーチ|`oni`3`false`おに/アンパンマンのマーチ|
+怒りをくれよ	「ワンピース フィルム ゴールド」より	アニメ	ffffa500	160	`easy`3`false`かんたん/怒りをくれよ|`normal`5`false`ふつう/怒りをくれよ|`hard`6`false`むずかしい/怒りをくれよ|`oni`6`false`おに/怒りをくれよ|
+ignited-イグナイテッド-		アニメ	ffffa500	155	`easy`4`false`かんたん/ignited-イグナイテッド-|`normal`4`false`ふつう/ignited-イグナイテッド-|`hard`5`false`むずかしい/ignited-イグナイテッド-|`oni`7`false`おに/ignited-イグナイテッド-|
+いつかいつか	「たまごっち！みらくるフレンズ」より	アニメ	ffffa500	125	`easy`2`false`かんたん/いつかいつか|`normal`4`false`ふつう/いつかいつか|`hard`4`false`むずかしい/いつかいつか|`oni`5`false`おに/いつかいつか|
+イマジネーション	「ハイキュー!!」より	アニメ	ffffa500	204	`easy`3`false`かんたん/イマジネーション|`normal`5`false`ふつう/イマジネーション|`hard`6`false`むずかしい/イマジネーション|`oni`8`false`おに/イマジネーション|
+INSIDE IDENTITY	「中二病でも恋がしたい！」より	アニメ	ffffa500	186※	`easy`4`false`かんたん/INSIDE IDENTITY|`normal`4`false`ふつう/INSIDE IDENTITY|`hard`5`false`むずかしい/INSIDE IDENTITY|`oni`8`false`おに/INSIDE IDENTITY|
+インフェルノ	「炎炎ノ消防隊」より	アニメ	ffffa500	185	`easy`3`false`かんたん/インフェルノ|`normal`5`false`ふつう/インフェルノ|`hard`5`false`むずかしい/インフェルノ|`oni`8`false`おに/インフェルノ|
+ウィーアー！		アニメ	ffffa500	168	`easy`3`false`かんたん/ウィーアー！(初代)|`normal`4`false`ふつう/ウィーアー！(初代)|`hard`5`false`むずかしい/ウィーアー！(初代)|`oni`6`false`おに/ウィーアー！(初代)|
+ウィーキャン！	「ワンピース」より	アニメ	ffffa500	180	`easy`2`false`かんたん/ウィーキャン！|`normal`4`false`ふつう/ウィーキャン！|`hard`6`false`むずかしい/ウィーキャン！|`oni`7`false`おに/ウィーキャン！|
+We can!! HUGっと！プリキュア		アニメ	ffffa500	154-173.76	`easy`1`false`かんたん/We can!! HUGっと！プリキュア|`normal`2`false`ふつう/We can!! HUGっと！プリキュア|`hard`2`false`むずかしい/We can!! HUGっと！プリキュア|`oni`2`false`おに/We can!! HUGっと！プリキュア|
+ウィーゴー！		アニメ	ffffa500	176	`easy`3`false`かんたん/ウィーゴー！|`normal`2`false`ふつう/ウィーゴー！|`hard`5`false`むずかしい/ウィーゴー！|`oni`6`false`おに/ウィーゴー！|
+WiSH VOYAGE	「アイドリッシュセブン」より	アニメ	ffffa500	150	`easy`2`false`かんたん/WiSH VOYAGE|`normal`3`false`ふつう/WiSH VOYAGE|`hard`4`false`むずかしい/WiSH VOYAGE|`oni`6`false`おに/WiSH VOYAGE|
+Wake up!		アニメ	ffffa500	176	`easy`3`false`かんたん/Wake up!|`normal`5`false`ふつう/Wake up!|`hard`5`false`むずかしい/Wake up!|`oni`6`false`おに/Wake up!|
+ウキウキオトッペ		アニメ	ffffa500	170	`easy`1`false`かんたん/ウキウキオトッペ|`normal`1`false`ふつう/ウキウキオトッペ|`hard`4`false`むずかしい/ウキウキオトッペ|`oni`9`false`おに/ウキウキオトッペ|
+宇宙戦艦ヤマト		アニメ	ffffa500	140	`easy`3`false`かんたん/宇宙戦艦ヤマト|`normal`4`false`ふつう/宇宙戦艦ヤマト|`hard`5`false`むずかしい/宇宙戦艦ヤマト|`oni`6`false`おに/宇宙戦艦ヤマト|
+ウルトラセブンの歌		アニメ	ffffa500	94-128※	`easy`2`false`かんたん/ウルトラセブンの歌|`normal`3`false`ふつう/ウルトラセブンの歌|`hard`4`false`むずかしい/ウルトラセブンの歌|`oni`7`false`おに/ウルトラセブンの歌|
+ウルトラマンA	(ウルトラマン・ブラス)	アニメ	ffffa500	62-128※	`easy`3`false`かんたん/ウルトラマンA|`normal`4`false`ふつう/ウルトラマンA|`hard`6`false`むずかしい/ウルトラマンA|`oni`7`false`おに/ウルトラマンA|
+ウルトラマンX		アニメ	ffffa500	148	`easy`1`false`かんたん/ウルトラマンX|`normal`3`false`ふつう/ウルトラマンX|`hard`5`false`むずかしい/ウルトラマンX|`oni`7`false`おに/ウルトラマンX|`uraOni`10`false`おに/ウルトラマンX(裏譜面)
+ウルトラマンタロウ	(ウルトラマン・ブラス)	アニメ	ffffa500	139※	`easy`3`false`かんたん/ウルトラマンタロウ|`normal`3`false`ふつう/ウルトラマンタロウ|`hard`6`false`むずかしい/ウルトラマンタロウ|`oni`8`false`おに/ウルトラマンタロウ|
+ウルトラマンの歌		アニメ	ffffa500	110-129※	`easy`2`false`かんたん/ウルトラマンの歌|`normal`4`false`ふつう/ウルトラマンの歌|`hard`4`false`むずかしい/ウルトラマンの歌|`oni`6`false`おに/ウルトラマンの歌|
+運命のしずく～Destiny's star～	(ウルトラマンゼロ)	アニメ	ffffa500	136	`easy`3`false`かんたん/運命のしずく～Destiny's star～|`normal`5`false`ふつう/運命のしずく～Destiny's star～|`hard`5`false`むずかしい/運命のしずく～Destiny's star～|`oni`6`false`おに/運命のしずく～Destiny's star～|
+EXCITE	「仮面ライダーエグゼイド」より	アニメ	ffffa500	151	`easy`2`false`かんたん/EXCITE|`normal`3`false`ふつう/EXCITE|`hard`5`false`むずかしい/EXCITE|`oni`7`false`おに/EXCITE|
+XY&Z	「ポケットモンスター XY&Z」より	アニメ	ffffa500	254	`easy`1`false`かんたん/XY＆Z|`normal`2`false`ふつう/XY＆Z|`hard`5`false`むずかしい/XY＆Z|`oni`9`false`おに/XY＆Z|
+Over "Quartzer"	「仮面ライダージオウ」より	アニメ	ffffa500	133	`easy`1`false`かんたん/Over “Quartzer”|`normal`1`false`ふつう/Over “Quartzer”|`hard`2`false`むずかしい/Over “Quartzer”|`oni`7`false`おに/Over “Quartzer”|
+オーブの祈り	「ウルトラマンオーブ」より	アニメ	ffffa500	156	`easy`3`false`かんたん/オーブの祈り|`normal`5`false`ふつう/オーブの祈り|`hard`6`false`むずかしい/オーブの祈り|`oni`10`false`おに/オーブの祈り|
+おしりの山はエベレスト	「NHKみんなのうた」より	アニメ	ffffa500	58.5-234	`easy`1`false`かんたん/おしりの山はエベレスト|`normal`2`false`ふつう/おしりの山はエベレスト|`hard`4`false`むずかしい/おしりの山はエベレスト|`oni`5`false`おに/おしりの山はエベレスト|`uraOni`9`false`おに/おしりの山はエベレスト(裏譜面)
+おどるポンポコリン	「ちびまる子ちゃん」より	アニメ	ffffa500	140	`easy`1`false`かんたん/おどるポンポコリン|`normal`2`false`ふつう/おどるポンポコリン|`hard`3`true`むずかしい/おどるポンポコリン|`oni`4`false`おに/おどるポンポコリン|
+お願いマッスル	「ダンベル何キロ持てる？」より	アニメ	ffffa500	132	`easy`3`false`かんたん/お願いマッスル|`normal`5`false`ふつう/お願いマッスル|`hard`6`false`むずかしい/お願いマッスル|`oni`7`false`おに/お願いマッスル|
+オリオンをなぞる	「TIGER & BUNNY」より	アニメ	ffffa500	182	`easy`4`false`かんたん/オリオンをなぞる|`normal`4`false`ふつう/オリオンをなぞる|`hard`5`false`むずかしい/オリオンをなぞる|`oni`7`false`おに/オリオンをなぞる|
+only my railgun	「とある科学の超電磁砲」より	アニメ	ffffa500	143	`easy`3`false`かんたん/only my railgun|`normal`5`false`ふつう/only my railgun|`hard`6`false`むずかしい/only my railgun|`oni`7`false`おに/only my railgun|
+廻廻奇譚	TVアニメ『呪術廻戦』第1クールオープニングテーマ	アニメ	ffffa500	185	`easy`4`false`かんたん/廻廻奇譚|`normal`5`false`ふつう/廻廻奇譚|`hard`6`false`むずかしい/廻廻奇譚|`oni`8`false`おに/廻廻奇譚|
+快晴・上昇・ハレルーヤ	「遊☆戯☆王デュエルモンスターズGX」より	アニメ	ffffa500	230	`easy`5`false`かんたん/快晴・上昇・ハレルーヤ|`normal`7`false`ふつう/快晴・上昇・ハレルーヤ|`hard`7`false`むずかしい/快晴・上昇・ハレルーヤ|`oni`9`false`おに/快晴・上昇・ハレルーヤ|
+帰ってきたウルトラマン	(ウルトラマン・ブラス)	アニメ	ffffa500	65-132※	`easy`3`false`かんたん/帰ってきたウルトラマン|`normal`5`false`ふつう/帰ってきたウルトラマン|`hard`5`false`むずかしい/帰ってきたウルトラマン|`oni`5`false`おに/帰ってきたウルトラマン|
+崖の上のポニョ		アニメ	ffffa500	120	`easy`1`false`かんたん/崖の上のポニョ|`normal`2`false`ふつう/崖の上のポニョ|`hard`1`false`むずかしい/崖の上のポニョ|`oni`2`false`おに/崖の上のポニョ|
+カゲロウ	「銀魂.」より	アニメ	ffffa500	164	`easy`2`false`かんたん/カゲロウ|`normal`4`false`ふつう/カゲロウ|`hard`4`false`むずかしい/カゲロウ|`oni`7`false`おに/カゲロウ|
+騎士竜戦隊リュウソウジャー		アニメ	ffffa500	181	`easy`1`false`かんたん/騎士竜戦隊リュウソウジャー|`normal`2`false`ふつう/騎士竜戦隊リュウソウジャー|`hard`3`false`むずかしい/騎士竜戦隊リュウソウジャー|`oni`7`false`おに/騎士竜戦隊リュウソウジャー|
+キミに100パーセント	「クレヨンしんちゃん」より	アニメ	ffffa500	160	`easy`2`false`かんたん/キミに100パーセント|`normal`3`false`ふつう/キミに100パーセント|`hard`5`false`むずかしい/キミに100パーセント|`oni`5`false`おに/キミに100パーセント|
+君の知らない物語		アニメ	ffffa500	165	`easy`3`false`かんたん/君の知らない物語|`normal`4`false`ふつう/君の知らない物語|`hard`3`false`むずかしい/君の知らない物語|`oni`7`false`おに/君の知らない物語|
+君をのせて		アニメ	ffffa500	118	`easy`2`false`かんたん/君をのせて|`normal`3`false`ふつう/君をのせて|`hard`4`false`むずかしい/君をのせて|`oni`6`false`おに/君をのせて|
+CAT'S EYE		アニメ	ffffa500	145※	`easy`2`false`かんたん/CAT'S EYE|`normal`4`false`ふつう/CAT'S EYE|`hard`6`false`むずかしい/CAT'S EYE|`oni`7`false`おに/CAT'S EYE|
+キューティーハニー		アニメ	ffffa500	157.5	`easy`3`false`かんたん/キューティーハニー(倖田來未Ver)|`normal`4`false`ふつう/キューティーハニー(倖田來未Ver)|`hard`6`false`むずかしい/キューティーハニー(倖田來未Ver)|`oni`7`true`おに/キューティーハニー(倖田來未Ver)|
+キラキラ Every day	「たまごっち！」より	アニメ	ffffa500	131	`easy`2`false`かんたん/キラキラ Every day|`normal`2`false`ふつう/キラキラ Every day|`hard`2`false`むずかしい/キラキラ Every day|`oni`2`false`おに/キラキラ Every day|
+KIRA☆Power		アニメ	ffffa500	139	`easy`3`false`かんたん/KIRA☆Power|`normal`4`false`ふつう/KIRA☆Power|`hard`6`false`むずかしい/KIRA☆Power|`oni`6`false`おに/KIRA☆Power|
+キン肉マン Go Fight!		アニメ	ffffa500	149	`easy`3`false`かんたん/キン肉マン Go Fight!|`normal`4`false`ふつう/キン肉マン Go Fight!|`hard`5`false`むずかしい/キン肉マン Go Fight!|`oni`6`false`おに/キン肉マン Go Fight!|
+QUESTION	「暗殺教室」より	アニメ	ffffa500	177	`easy`3`false`かんたん/QUESTION|`normal`5`false`ふつう/QUESTION|`hard`6`false`むずかしい/QUESTION|`oni`7`false`おに/QUESTION|
+Climax Jump	「仮面ライダー電王」より	アニメ	ffffa500	170	`easy`2`false`かんたん/Climax Jump|`normal`2`false`ふつう/Climax Jump|`hard`5`false`むずかしい/Climax Jump|`oni`8`false`おに/Climax Jump|
+Groovy Duel	「機動戦士ガンダム サンダーボルト」	アニメ	ffffa500	141※	`easy`3`false`かんたん/Groovy Duel|`normal`5`false`ふつう/Groovy Duel|`hard`7`false`むずかしい/Groovy Duel|`oni`10`false`おに/Groovy Duel|
+紅蓮華	「鬼滅の刃」より	アニメ	ffffa500	135	`easy`2`false`かんたん/紅蓮華|`normal`2`false`ふつう/紅蓮華|`hard`3`false`むずかしい/紅蓮華|`oni`6`false`おに/紅蓮華|
+紅蓮の弓矢		アニメ	ffffa500	180.63	`easy`5`false`かんたん/紅蓮の弓矢|`normal`6`false`ふつう/紅蓮の弓矢|`hard`6`false`むずかしい/紅蓮の弓矢|`oni`8`false`おに/紅蓮の弓矢|
+crossing field	「ソードアート・オンライン」より	アニメ	ffffa500	179	`easy`2`false`かんたん/crossing field|`normal`4`false`ふつう/crossing field|`hard`4`false`むずかしい/crossing field|`oni`6`false`おに/crossing field|
+GLORIOUS RO@D	「アイドルマスター SideM」より	アニメ	ffffa500	128	`easy`2`false`かんたん/GLORIOUS RO@D|`normal`3`false`ふつう/GLORIOUS RO@D|`hard`3`false`むずかしい/GLORIOUS RO@D|`oni`7`false`おに/GLORIOUS RO@D|
+激動	「D.Gray-man」より	アニメ	ffffa500	113	`easy`3`false`かんたん/激動|`normal`4`false`ふつう/激動|`hard`6`false`むずかしい/激動|`oni`8`false`おに/激動|
+ゲゲゲの鬼太郎	TVアニメ 第6期 オープニング主題歌	アニメ	ffffa500	116	`easy`1`false`かんたん/ゲゲゲの鬼太郎(氷川きよし)|`normal`1`false`ふつう/ゲゲゲの鬼太郎(氷川きよし)|`hard`1`false`むずかしい/ゲゲゲの鬼太郎(氷川きよし)|`oni`2`false`おに/ゲゲゲの鬼太郎(氷川きよし)|`uraOni`10`false`おに/ゲゲゲの鬼太郎(氷川きよし)(裏譜面)
+月光花	「ブラック・ジャック」より	アニメ	ffffa500	102	`easy`3`false`かんたん/月光花|`normal`3`false`ふつう/月光花|`hard`4`false`むずかしい/月光花|`oni`6`false`おに/月光花|
+ゲッタバンバン	「ポケットモンスター XY」より	アニメ	ffffa500	167	`easy`2`false`かんたん/ゲッタバンバン|`normal`4`false`ふつう/ゲッタバンバン|`hard`5`false`むずかしい/ゲッタバンバン|`oni`6`false`おに/ゲッタバンバン|
+限界突破×サバイバー	「ドラゴンボール超」より	アニメ	ffffa500	187.5	`easy`3`false`かんたん/限界突破×サバイバー|`normal`3`false`ふつう/限界突破×サバイバー|`hard`3`false`むずかしい/限界突破×サバイバー|`oni`3`false`おに/限界突破×サバイバー|`uraOni`8`false`おに/限界突破×サバイバー(裏譜面)
+轟轟戦隊ボウケンジャー		アニメ	ffffa500	152	`easy`3`false`かんたん/轟轟戦隊ボウケンジャー|`normal`3`false`ふつう/轟轟戦隊ボウケンジャー|`hard`6`true`むずかしい/轟轟戦隊ボウケンジャー|`oni`6`false`おに/轟轟戦隊ボウケンジャー|
+GO-GO たまごっち！		アニメ	ffffa500	135	`easy`1`false`かんたん/GO-GO たまごっち！|`normal`2`false`ふつう/GO-GO たまごっち！|`hard`4`false`むずかしい/GO-GO たまごっち！|`oni`7`false`おに/GO-GO たまごっち！|
+ココロのちず		アニメ	ffffa500	131	`easy`3`false`かんたん/ココロのちず|`normal`4`false`ふつう/ココロのちず|`hard`4`false`むずかしい/ココロのちず|`oni`5`false`おに/ココロのちず|
+God knows...	「涼宮ハルヒの憂鬱」より	アニメ	ffffa500	150※	`easy`3`false`かんたん/God knows...|`normal`4`false`ふつう/God knows...|`hard`4`false`むずかしい/God knows...|`oni`7`false`おに/God knows...|`uraOni`9`false`おに/God knows...(裏譜面)
+五等分の気持ち	中野家の五つ子(花澤香菜・竹達彩奈・伊藤美来・佐倉綾音・水瀬いのり) アニメ「五等分の花嫁」より	アニメ	ffffa500	175	`easy`3`false`かんたん/五等分の気持ち|`normal`4`false`ふつう/五等分の気持ち|`hard`6`false`むずかしい/五等分の気持ち|`oni`7`false`おに/五等分の気持ち|
+コネクト	「魔法少女まどか☆マギカ」より	アニメ	ffffa500	175	`easy`3`false`かんたん/コネクト|`normal`3`false`ふつう/コネクト|`hard`3`false`むずかしい/コネクト|`oni`5`false`おに/コネクト|
+コミカルに追いかけっこ	「こちら葛飾区亀有公園前派出所」より	アニメ	ffffa500	152	`easy`2`false`かんたん/コミカルに追いかけっこ|`normal`4`false`ふつう/コミカルに追いかけっこ|`hard`5`false`むずかしい/コミカルに追いかけっこ|`oni`7`false`おに/コミカルに追いかけっこ|
+sakura	「交響詩篇エウレカセブン」より	アニメ	ffffa500	138	`easy`3`false`かんたん/sakura|`normal`4`false`ふつう/sakura|`hard`6`false`むずかしい/sakura|`oni`7`false`おに/sakura|
+侍戦隊シンケンジャー		アニメ	ffffa500	174	`easy`2`false`かんたん/侍戦隊シンケンジャー|`normal`3`false`ふつう/侍戦隊シンケンジャー|`hard`4`false`むずかしい/侍戦隊シンケンジャー|`oni`6`false`おに/侍戦隊シンケンジャー|
+残酷な天使のテーゼ		アニメ	ffffa500	80-129※	`easy`3`false`かんたん/残酷な天使のテーゼ|`normal`4`false`ふつう/残酷な天使のテーゼ|`hard`6`false`むずかしい/残酷な天使のテーゼ|`oni`7`true`おに/残酷な天使のテーゼ|`uraOni`8`true`おに/残酷な天使のテーゼ(裏譜面)
+さんぽ		アニメ	ffffa500	120	`easy`1`false`かんたん/さんぽ|`normal`1`false`ふつう/さんぽ|`hard`4`false`むずかしい/さんぽ|`oni`5`false`おに/さんぽ|`uraOni`9`false`おに/さんぽ(裏譜面)
+GEEDの証	『ウルトラマンジード』より	アニメ	ffffa500	158	`easy`3`false`かんたん/GEEDの証|`normal`3`false`ふつう/GEEDの証|`hard`4`false`むずかしい/GEEDの証|`oni`7`false`おに/GEEDの証|
+思春期を殺した少年の翼	「新機動戦記ガンダムW」より	アニメ	ffffa500	158	`easy`3`false`かんたん/思春期を殺した少年の翼|`normal`3`false`ふつう/思春期を殺した少年の翼|`hard`5`false`むずかしい/思春期を殺した少年の翼|`oni`8`false`おに/思春期を殺した少年の翼|
+SHINY	「境界のRINNE」より	アニメ	ffffa500	175	`easy`3`false`かんたん/SHINY|`normal`4`false`ふつう/SHINY|`hard`5`false`むずかしい/SHINY|`oni`7`false`おに/SHINY|
+SHINING LINE*		アニメ	ffffa500	134-150	`easy`2`false`かんたん/SHINING LINE*|`normal`2`false`ふつう/SHINING LINE*|`hard`4`false`むずかしい/SHINING LINE*|`oni`6`false`おに/SHINING LINE*|
+JUST LIVE MORE		アニメ	ffffa500	190	`easy`2`false`かんたん/JUST LIVE MORE|`normal`3`false`ふつう/JUST LIVE MORE|`hard`5`false`むずかしい/JUST LIVE MORE|`oni`7`false`おに/JUST LIVE MORE|
+Jungle P		アニメ	ffffa500	145	`easy`2`false`かんたん/Jungle P|`normal`2`false`ふつう/Jungle P|`hard`5`false`むずかしい/Jungle P|`oni`7`false`おに/Jungle P|
+獣拳戦隊ゲキレンジャー		アニメ	ffffa500	162	`easy`2`false`かんたん/獣拳戦隊ゲキレンジャー|`normal`2`false`ふつう/獣拳戦隊ゲキレンジャー|`hard`5`true`むずかしい/獣拳戦隊ゲキレンジャー|`oni`7`false`おに/獣拳戦隊ゲキレンジャー|
+少女S	「BLEACH」より	アニメ	ffffa500	136	`easy`3`false`かんたん/少女S|`normal`4`false`ふつう/少女S|`hard`5`false`むずかしい/少女S|`oni`7`false`おに/少女S|
+ジョジョ～その血の運命～		アニメ	ffffa500	146	`easy`3`false`かんたん/ジョジョ ～その血の運命～|`normal`5`false`ふつう/ジョジョ ～その血の運命～|`hard`5`false`むずかしい/ジョジョ ～その血の運命～|`oni`7`false`おに/ジョジョ ～その血の運命～|
+自力本願レボリューション	「暗殺教室」より	アニメ	ffffa500	180	`easy`4`false`かんたん/自力本願レボリューション|`normal`6`false`ふつう/自力本願レボリューション|`hard`6`false`むずかしい/自力本願レボリューション|`oni`7`false`おに/自力本願レボリューション|
+Switch On!		アニメ	ffffa500	190	`easy`1`false`かんたん/Switch On!|`normal`1`false`ふつう/Switch On!|`hard`3`false`むずかしい/Switch On!|`oni`3`false`おに/Switch On!|`uraOni`9`false`おに/Switch On!(裏譜面)
+スタートライン！	「アイカツスターズ！」より	アニメ	ffffa500	158	`easy`2`false`かんたん/スタートライン！|`normal`2`false`ふつう/スタートライン！|`hard`3`false`むずかしい/スタートライン！|`oni`6`false`おに/スタートライン！|
+ス・マ・イ・ル	「はなかっぱ」より	アニメ	ffffa500	166	`easy`2`false`かんたん/ス・マ・イ・ル|`normal`3`false`ふつう/ス・マ・イ・ル|`hard`5`false`むずかしい/ス・マ・イ・ル|`oni`5`false`おに/ス・マ・イ・ル|
+青春サツバツ論	「暗殺教室」より	アニメ	ffffa500	146	`easy`4`false`かんたん/青春サツバツ論|`normal`5`false`ふつう/青春サツバツ論|`hard`7`false`むずかしい/青春サツバツ論|`oni`8`false`おに/青春サツバツ論|
+全力バタンキュー	「おそ松さん」より	アニメ	ffffa500	155	`easy`2`false`かんたん/全力バタンキュー|`normal`4`false`ふつう/全力バタンキュー|`hard`6`false`むずかしい/全力バタンキュー|`oni`8`false`おに/全力バタンキュー|
+創聖のアクエリオン		アニメ	ffffa500	151	`easy`3`false`かんたん/創聖のアクエリオン|`normal`4`false`ふつう/創聖のアクエリオン|`hard`5`false`むずかしい/創聖のアクエリオン|`oni`7`false`おに/創聖のアクエリオン|
+DIVE TO WORLD	「家庭教師ヒットマンREBORN!」より	アニメ	ffffa500	147	`easy`3`false`かんたん/DIVE TO WORLD|`normal`5`false`ふつう/DIVE TO WORLD|`hard`5`false`むずかしい/DIVE TO WORLD|`oni`9`false`おに/DIVE TO WORLD|
+ダイヤモンドハッピー		アニメ	ffffa500	233	`easy`2`false`かんたん/ダイヤモンドハッピー|`normal`3`false`ふつう/ダイヤモンドハッピー|`hard`5`false`むずかしい/ダイヤモンドハッピー|`oni`6`false`おに/ダイヤモンドハッピー|`uraOni`9`false`おに/ダイヤモンドハッピー(裏譜面)
+タッチ		アニメ	ffffa500	161	`easy`4`false`かんたん/タッチ|`normal`4`false`ふつう/タッチ|`hard`6`false`むずかしい/タッチ|`oni`5`false`おに/タッチ|
+Tank!		アニメ	ffffa500	138※	`easy`5`false`かんたん/Tank!|`normal`5`false`ふつう/Tank!|`hard`7`false`むずかしい/Tank!|`oni`9`false`おに/Tank!|`uraOni`9`false`おに/Tank!(裏譜面)
+Checkmate!?	「だがしかし」より	アニメ	ffffa500	137	`easy`3`false`かんたん/Checkmate!?|`normal`5`false`ふつう/Checkmate!?|`hard`6`false`むずかしい/Checkmate!?|`oni`8`false`おに/Checkmate!?|
+CHA-LA HEAD-CHA-LA		アニメ	ffffa500	154	`easy`3`false`かんたん/CHA-LA HEAD-CHA-LA|`normal`4`false`ふつう/CHA-LA HEAD-CHA-LA|`hard`5`false`むずかしい/CHA-LA HEAD-CHA-LA|`oni`6`false`おに/CHA-LA HEAD-CHA-LA|
+超絶☆ダイナミック！	「ドラゴンボール超」より	アニメ	ffffa500	192	`easy`2`false`かんたん/超絶☆ダイナミック！|`normal`4`false`ふつう/超絶☆ダイナミック！|`hard`4`false`むずかしい/超絶☆ダイナミック！|`oni`6`false`おに/超絶☆ダイナミック！|
+Daydream café	「ご注文はうさぎですか？」より	アニメ	ffffa500	150	`easy`3`false`かんたん/Daydream cafe|`normal`5`false`ふつう/Daydream cafe|`hard`6`false`むずかしい/Daydream cafe|`oni`7`false`おに/Daydream cafe|
+database feat.TAKUMA(10-FEET)	「ログ・ホライズン」より	アニメ	ffffa500	177	`easy`4`false`かんたん/database feat.TAKUMA(10-FEET)|`normal`6`false`ふつう/database feat.TAKUMA(10-FEET)|`hard`6`false`むずかしい/database feat.TAKUMA(10-FEET)|`oni`7`false`おに/database feat.TAKUMA(10-FEET)|
+天装戦隊ゴセイジャー		アニメ	ffffa500	184	`easy`2`false`かんたん/天装戦隊ゴセイジャー|`normal`4`false`ふつう/天装戦隊ゴセイジャー|`hard`6`false`むずかしい/天装戦隊ゴセイジャー|`oni`6`false`おに/天装戦隊ゴセイジャー|
+桃源郷エイリアン		アニメ	ffffa500	170	`easy`3`false`かんたん/桃源郷エイリアン|`normal`4`false`ふつう/桃源郷エイリアン|`hard`5`false`むずかしい/桃源郷エイリアン|`oni`6`false`おに/桃源郷エイリアン|
+Du-Du-Wa DO IT!!		アニメ	ffffa500	83-210	`easy`2`false`かんたん/Du-Du-Wa DO IT!!|`normal`3`false`ふつう/Du-Du-Wa DO IT!!|`hard`7`false`むずかしい/Du-Du-Wa DO IT!!|`oni`7`false`おに/Du-Du-Wa DO IT!!|
+動物戦隊ジュウオウジャー		アニメ	ffffa500	174	`easy`2`false`かんたん/動物戦隊ジュウオウジャー|`normal`2`false`ふつう/動物戦隊ジュウオウジャー|`hard`3`false`むずかしい/動物戦隊ジュウオウジャー|`oni`5`false`おに/動物戦隊ジュウオウジャー|
+talking	「すべてがFになる THE PERFECT INSIDER」より	アニメ	ffffa500	140	`easy`3`false`かんたん/talking|`normal`5`false`ふつう/talking|`hard`5`false`むずかしい/talking|`oni`8`false`おに/talking|
+時を待とう	「妖怪ウォッチ シャドウサイド」より	アニメ	ffffa500	180	`easy`1`false`かんたん/時を待とう|`normal`2`false`ふつう/時を待とう|`hard`3`false`むずかしい/時を待とう|`oni`6`false`おに/時を待とう|
+Dokkin♢魔法つかいプリキュア！		アニメ	ffffa500	176	`easy`1`false`かんたん/Dokkin 魔法つかいプリキュア！|`normal`2`false`ふつう/Dokkin 魔法つかいプリキュア！|`hard`4`false`むずかしい/Dokkin 魔法つかいプリキュア！|`oni`5`false`おに/Dokkin 魔法つかいプリキュア！|
+となりのトトロ		アニメ	ffffa500	129.5	`easy`2`false`かんたん/となりのトトロ|`normal`3`false`ふつう/となりのトトロ|`hard`1`false`むずかしい/となりのトトロ|`oni`5`false`おに/となりのトトロ|
+ドラえもんのうた		アニメ	ffffa500	123	`easy`1`false`かんたん/ドラえもんのうた|`normal`2`false`ふつう/ドラえもんのうた|`hard`3`false`むずかしい/ドラえもんのうた|`oni`3`false`おに/ドラえもんのうた|
+ドリームパレード	「プリパラ」より	アニメ	ffffa500	172	`easy`3`false`かんたん/ドリームパレード|`normal`4`false`ふつう/ドリームパレード|`hard`4`false`むずかしい/ドリームパレード|`oni`5`false`おに/ドリームパレード|
+ドレミファソライロ	「たまごっち！ゆめキラドリーム」より	アニメ	ffffa500	176	`easy`2`false`かんたん/ドレミファソライロ|`normal`2`false`ふつう/ドレミファソライロ|`hard`3`false`むずかしい/ドレミファソライロ|`oni`5`false`おに/ドレミファソライロ|
+曇天		アニメ	ffffa500	187	`easy`3`false`かんたん/曇天|`normal`4`false`ふつう/曇天|`hard`5`false`むずかしい/曇天|`oni`6`false`おに/曇天|
+にんげんっていいな		アニメ	ffffa500	121	`easy`2`false`かんたん/にんげんっていいな|`normal`3`false`ふつう/にんげんっていいな|`hard`3`false`むずかしい/にんげんっていいな|`oni`8`false`おに/にんげんっていいな|
+バイマイサイド		アニメ	ffffa500	164	`easy`3`false`かんたん/バイマイサイド|`normal`4`false`ふつう/バイマイサイド|`hard`5`false`むずかしい/バイマイサイド|`oni`6`false`おに/バイマイサイド|
+バクチ・ダンサー		アニメ	ffffa500	151	`easy`4`false`かんたん/バクチ・ダンサー|`normal`4`false`ふつう/バクチ・ダンサー|`hard`6`false`むずかしい/バクチ・ダンサー|`oni`8`false`おに/バクチ・ダンサー|
+Battaille Décisive	「ヱヴァンゲリヲン新劇場版：序」より	アニメ	ffffa500	150	`easy`3`false`かんたん/Battaille Decisive|`normal`3`false`ふつう/Battaille Decisive|`hard`5`false`むずかしい/Battaille Decisive|`oni`7`true`おに/Battaille Decisive|
+Butter-Fly	「デジモンアドベンチャー」より	アニメ	ffffa500	165	`easy`4`false`かんたん/Butter-Fly|`normal`5`false`ふつう/Butter-Fly|`hard`5`false`むずかしい/Butter-Fly|`oni`7`false`おに/Butter-Fly|
+88	「家庭教師ヒットマンREBORN!」より	アニメ	ffffa500	175	`easy`3`false`かんたん/88|`normal`4`false`ふつう/88|`hard`4`false`むずかしい/88|`oni`8`false`おに/88|
+ハッピー☆マテリアル	「魔法先生ネギま！」より	アニメ	ffffa500	163	`easy`4`false`かんたん/ハッピー★マテリアル|`normal`6`false`ふつう/ハッピー★マテリアル|`hard`6`false`むずかしい/ハッピー★マテリアル|`oni`8`true`おに/ハッピー★マテリアル|
+ハム太郎とっとこうた	「とっとこハム太郎」より	アニメ	ffffa500	140	`easy`2`false`かんたん/ハム太郎とっとこうた2005|`normal`2`false`ふつう/ハム太郎とっとこうた2005|`hard`6`false`むずかしい/ハム太郎とっとこうた2005|`oni`5`false`おに/ハム太郎とっとこうた2005|
+VAMOLA!キョウリュウジャー		アニメ	ffffa500	148	`easy`2`false`かんたん/VAMOLA!キョウリュウジャー|`normal`3`false`ふつう/VAMOLA!キョウリュウジャー|`hard`5`false`むずかしい/VAMOLA!キョウリュウジャー|`oni`6`false`おに/VAMOLA!キョウリュウジャー|
+Paradisus-Paradoxum	「Re:ゼロから始める異世界生活」より	アニメ	ffffa500	201	`easy`3`false`かんたん/Paradisus-Paradoxum|`normal`5`false`ふつう/Paradisus-Paradoxum|`hard`6`false`むずかしい/Paradisus-Paradoxum|`oni`8`false`おに/Paradisus-Paradoxum|
+ハルウタ		アニメ	ffffa500	103-145	`easy`3`false`かんたん/ハルウタ|`normal`4`false`ふつう/ハルウタ|`hard`5`false`むずかしい/ハルウタ|`oni`6`false`おに/ハルウタ|
+ハレ晴レユカイ	「涼宮ハルヒの憂鬱」より	アニメ	ffffa500	172	`easy`4`false`かんたん/ハレ晴レユカイ|`normal`5`false`ふつう/ハレ晴レユカイ|`hard`6`false`むずかしい/ハレ晴レユカイ|`oni`8`false`おに/ハレ晴レユカイ|
+HANDS UP!		アニメ	ffffa500	130※	`easy`3`false`かんたん/HANDS UP!|`normal`5`false`ふつう/HANDS UP!|`hard`6`false`むずかしい/HANDS UP!|`oni`7`false`おに/HANDS UP!|
+Be The One	「仮面ライダービルド」より	アニメ	ffffa500	136	`easy`1`false`かんたん/Be The One|`normal`2`false`ふつう/Be The One|`hard`4`false`むずかしい/Be The One|`oni`5`false`おに/Be The One|
+ヒカリアレ	「ハイキュー!! 烏野高校 VS 白鳥沢学園高校」より	アニメ	ffffa500	178	`easy`3`false`かんたん/ヒカリアレ|`normal`5`false`ふつう/ヒカリアレ|`hard`6`false`むずかしい/ヒカリアレ|`oni`9`false`おに/ヒカリアレ|
+Feed A	「GOD EATER」より	アニメ	ffffa500	262※	`easy`4`false`かんたん/Feed A|`normal`6`false`ふつう/Feed A|`hard`7`false`むずかしい/Feed A|`oni`9`false`おに/Feed A|
+ブラッドサーキュレーター	「NARUTO-ナルト-疾風伝」より	アニメ	ffffa500	183	`easy`2`false`かんたん/ブラッドサーキュレーター|`normal`4`false`ふつう/ブラッドサーキュレーター|`hard`5`false`むずかしい/ブラッドサーキュレーター|`oni`7`false`おに/ブラッドサーキュレーター|
+BRAND NEW WORLD		アニメ	ffffa500	160	`easy`3`false`かんたん/BRAND NEW WORLD|`normal`5`false`ふつう/BRAND NEW WORLD|`hard`4`false`むずかしい/BRAND NEW WORLD|`oni`5`false`おに/BRAND NEW WORLD|
+プリキュア5、スマイル go go!	「Yes！プリキュア5」より	アニメ	ffffa500	174-177	`easy`2`false`かんたん/プリキュア5、スマイル go go!|`normal`2`false`ふつう/プリキュア5、スマイル go go!|`hard`4`false`むずかしい/プリキュア5、スマイル go go!|`oni`5`false`おに/プリキュア5、スマイル go go!|
+ブルーバード		アニメ	ffffa500	152※	`easy`3`false`かんたん/ブルーバード|`normal`4`false`ふつう/ブルーバード|`hard`6`false`むずかしい/ブルーバード|`oni`6`false`おに/ブルーバード|
+Bravely You	「Charlotte(シャーロット)」より	アニメ	ffffa500	150	`easy`3`false`かんたん/Bravely You|`normal`4`false`ふつう/Bravely You|`hard`5`false`むずかしい/Bravely You|`oni`8`false`おに/Bravely You|
+ペガサス幻想		アニメ	ffffa500	165	`easy`3`false`かんたん/ペガサス幻想|`normal`5`false`ふつう/ペガサス幻想|`hard`4`false`むずかしい/ペガサス幻想|`oni`6`false`おに/ペガサス幻想|
+炎		アニメ	ffffa500	76	`easy`1`false`かんたん/炎|`normal`2`false`ふつう/炎|`hard`1`false`むずかしい/炎|`oni`4`false`おに/炎|
+V（ボルト）		アニメ	ffffa500	200	`easy`2`false`かんたん/V（ボルト）|`normal`3`false`ふつう/V（ボルト）|`hard`6`false`むずかしい/V（ボルト）|`oni`8`false`おに/V（ボルト）|
+My Soul,Your Beats!	「Angel Beats!」より	アニメ	ffffa500	145※	`easy`3`false`かんたん/My Soul,Your Beats!|`normal`4`false`ふつう/My Soul,Your Beats!|`hard`7`false`むずかしい/My Soul,Your Beats!|`oni`8`false`おに/My Soul,Your Beats!|
+魔訶不思議アドベンチャー！	「ドラゴンボール」より	アニメ	ffffa500	135	`easy`3`false`かんたん/魔訶不思議アドベンチャー!|`normal`5`false`ふつう/魔訶不思議アドベンチャー!|`hard`6`false`むずかしい/魔訶不思議アドベンチャー!|`oni`7`false`おに/魔訶不思議アドベンチャー!|
+マスカット	「クレヨンしんちゃん」より	アニメ	ffffa500	170	`easy`1`false`かんたん/マスカット|`normal`1`false`ふつう/マスカット|`hard`1`false`むずかしい/マスカット|`oni`2`false`おに/マスカット|
+魔法戦隊マジレンジャー		アニメ	ffffa500	164	`easy`2`false`かんたん/魔法戦隊マジレンジャー|`normal`3`false`ふつう/魔法戦隊マジレンジャー|`hard`4`false`むずかしい/魔法戦隊マジレンジャー|`oni`6`true`おに/魔法戦隊マジレンジャー|
+ミックスナッツ	TVアニメ『SPY×FAMILY』第1クールオープニング主題歌	アニメ	ffffa500	150	`easy`2`false`かんたん/ミックスナッツ|`normal`4`false`ふつう/ミックスナッツ|`hard`5`false`むずかしい/ミックスナッツ|`oni`7`false`おに/ミックスナッツ|`uraOni`9`false`おに/ミックスナッツ(裏譜面)
+ミッション！ 健・康・第・イチ	「はたらく細胞」より	アニメ	ffffa500	186	`easy`3`false`かんたん/ミッション！ 健・康・第・イチ|`normal`4`false`ふつう/ミッション！ 健・康・第・イチ|`hard`5`false`むずかしい/ミッション！ 健・康・第・イチ|`oni`7`false`おに/ミッション！ 健・康・第・イチ|
+未来コネクション		アニメ	ffffa500	143	`easy`2`false`かんたん/未来コネクション|`normal`3`false`ふつう/未来コネクション|`hard`4`false`むずかしい/未来コネクション|`oni`7`false`おに/未来コネクション|
+未来はジョー！ジョー！	「デュエル・マスターズ」より	アニメ	ffffa500	160	`easy`2`false`かんたん/未来はジョー！ジョー！|`normal`3`false`ふつう/未来はジョー！ジョー！|`hard`5`false`むずかしい/未来はジョー！ジョー！|`oni`8`false`おに/未来はジョー！ジョー！|
+みらくる☆トラベル	「たまごっち！みらくるフレンズ」より	アニメ	ffffa500	178	`easy`2`false`かんたん/みらくる☆トラベル|`normal`3`false`ふつう/みらくる☆トラベル|`hard`4`false`むずかしい/みらくる☆トラベル|`oni`4`false`おに/みらくる☆トラベル|
+名探偵コナン メイン･テーマ		アニメ	ffffa500	130	`easy`3`false`かんたん/名探偵コナン メイン・テーマ|`normal`2`false`ふつう/名探偵コナン メイン・テーマ|`hard`6`false`むずかしい/名探偵コナン メイン・テーマ|`oni`6`false`おに/名探偵コナン メイン・テーマ|
+MOIL	須田景凪 映画「二ノ国」より	アニメ	ffffa500	100	`easy`2`false`かんたん/MOIL|`normal`2`false`ふつう/MOIL|`hard`3`false`むずかしい/MOIL|`oni`7`false`おに/MOIL|
+もってけ！セーラーふく	「らき☆すた」より	アニメ	ffffa500	150※	`easy`3`false`かんたん/もってけ！セーラーふく|`normal`6`false`ふつう/もってけ！セーラーふく|`hard`7`false`むずかしい/もってけ！セーラーふく|`oni`8`false`おに/もってけ！セーラーふく|
+やじるしになって！		アニメ	ffffa500	165	`easy`1`false`かんたん/やじるしになって！|`normal`1`false`ふつう/やじるしになって！|`hard`2`false`むずかしい/やじるしになって！|`oni`3`false`おに/やじるしになって！|
+勇気100%		アニメ	ffffa500	143	`easy`3`false`かんたん/勇気100％|`normal`3`false`ふつう/勇気100％|`hard`4`false`むずかしい/勇気100％|`oni`6`false`おに/勇気100％|
+雪だるまつくろう	「アナと雪の女王」より	アニメ	ffffa500	97-153	`easy`1`false`かんたん/雪だるまつくろう|`normal`1`false`ふつう/雪だるまつくろう|`hard`3`false`むずかしい/雪だるまつくろう|`oni`7`false`おに/雪だるまつくろう|
+夢をかなえてドラえもん		アニメ	ffffa500	123	`easy`1`false`かんたん/夢をかなえてドラえもん|`normal`1`false`ふつう/夢をかなえてドラえもん|`hard`2`false`むずかしい/夢をかなえてドラえもん|`oni`4`false`おに/夢をかなえてドラえもん|
+ようこそジャパリパークへ	どうぶつビスケッツ×PPP 「けものフレンズ」より	アニメ	ffffa500	170※	`easy`2`false`かんたん/ようこそジャパリパークへ|`normal`2`false`ふつう/ようこそジャパリパークへ|`hard`4`false`むずかしい/ようこそジャパリパークへ|`oni`7`false`おに/ようこそジャパリパークへ|
+Rising Hope	「魔法科高校の劣等生」より	アニメ	ffffa500	190	`easy`4`false`かんたん/Rising Hope|`normal`6`false`ふつう/Rising Hope|`hard`6`false`むずかしい/Rising Hope|`oni`7`false`おに/Rising Hope|
+Life is SHOW TIME		アニメ	ffffa500	152	`easy`2`false`かんたん/Life is SHOW TIME|`normal`2`false`ふつう/Life is SHOW TIME|`hard`3`false`むずかしい/Life is SHOW TIME|`oni`6`false`おに/Life is SHOW TIME|
+ラヴァーズ		アニメ	ffffa500	164	`easy`3`false`かんたん/ラヴァーズ|`normal`5`false`ふつう/ラヴァーズ|`hard`5`false`むずかしい/ラヴァーズ|`oni`6`false`おに/ラヴァーズ|
+ラムのラブソング		アニメ	ffffa500	180-183※	`easy`5`false`かんたん/ラムのラブソング|`normal`6`false`ふつう/ラムのラブソング|`hard`5`false`むずかしい/ラムのラブソング|`oni`8`true`おに/ラムのラブソング|
+ラ♪ラ♪ラ♪スイートプリキュア♪		アニメ	ffffa500	162	`easy`2`false`かんたん/ラ♪ラ♪ラ♪スイートプリキュア♪|`normal`2`false`ふつう/ラ♪ラ♪ラ♪スイートプリキュア♪|`hard`3`false`むずかしい/ラ♪ラ♪ラ♪スイートプリキュア♪|`oni`6`false`おに/ラ♪ラ♪ラ♪スイートプリキュア♪|
+Reason!!	「アイドルマスター SideM」より	アニメ	ffffa500	190	`easy`1`false`かんたん/Reason!!|`normal`2`false`ふつう/Reason!!|`hard`3`false`むずかしい/Reason!!|`oni`6`false`おに/Reason!!|
+ルパン三世のテーマ '78		アニメ	ffffa500	138※	`easy`4`false`かんたん/ルパン三世のテーマ '78|`normal`5`false`ふつう/ルパン三世のテーマ '78|`hard`6`true`むずかしい/ルパン三世のテーマ '78|`oni`7`false`おに/ルパン三世のテーマ '78|
+ルパンレンジャーVSパトレンジャー		アニメ	ffffa500	130	`easy`1`false`かんたん/ルパンレンジャーVSパトレンジャー|`normal`2`false`ふつう/ルパンレンジャーVSパトレンジャー|`hard`3`false`むずかしい/ルパンレンジャーVSパトレンジャー|`oni`5`false`おに/ルパンレンジャーVSパトレンジャー|
+Raise your flag	「機動戦士ガンダム 鉄血のオルフェンズ」より	アニメ	ffffa500	145	`easy`2`false`かんたん/Raise your flag|`normal`4`false`ふつう/Raise your flag|`hard`5`false`むずかしい/Raise your flag|`oni`8`false`おに/Raise your flag|
+烈車戦隊トッキュウジャー		アニメ	ffffa500	216	`easy`2`false`かんたん/烈車戦隊トッキュウジャー|`normal`2`false`ふつう/烈車戦隊トッキュウジャー|`hard`4`false`むずかしい/烈車戦隊トッキュウジャー|`oni`5`false`おに/烈車戦隊トッキュウジャー|
+LET'S GO OUT	「銀魂」より	アニメ	ffffa500	178	`easy`3`false`かんたん/LET'S GO OUT|`normal`3`false`ふつう/LET'S GO OUT|`hard`4`false`むずかしい/LET'S GO OUT|`oni`6`false`おに/LET'S GO OUT|
+Let's go!スマイルプリキュア！		アニメ	ffffa500	172	`easy`1`false`かんたん/Let's go! スマイルプリキュア！|`normal`1`false`ふつう/Let's go! スマイルプリキュア！|`hard`3`false`むずかしい/Let's go! スマイルプリキュア！|`oni`4`false`おに/Let's go! スマイルプリキュア！|
+Let It Go～ありのままで～	「アナと雪の女王」より	アニメ	ffffa500	137	`easy`2`false`かんたん/Let It Go～ありのままで～|`normal`2`false`ふつう/Let It Go～ありのままで～|`hard`2`false`むずかしい/Let It Go～ありのままで～|`oni`4`false`おに/Let It Go～ありのままで～|
+ロードムービー	「映画クレヨンしんちゃん 襲来!! 宇宙人シリリ」主題歌	アニメ	ffffa500	90	`easy`3`false`かんたん/ロードムービー|`normal`4`false`ふつう/ロードムービー|`hard`4`false`むずかしい/ロードムービー|`oni`5`false`おに/ロードムービー|
+ロックン・ハート！	「たまごっち！ゆめキラドリーム」より	アニメ	ffffa500	177	`easy`2`false`かんたん/ロックン・ハート！|`normal`5`false`ふつう/ロックン・ハート！|`hard`5`false`むずかしい/ロックン・ハート！|`oni`5`false`おに/ロックン・ハート！|
+ワイワイワールド		アニメ	ffffa500	132	`easy`3`false`かんたん/ワイワイワールド|`normal`4`false`ふつう/ワイワイワールド|`hard`5`true`むずかしい/ワイワイワールド|`oni`7`false`おに/ワイワイワールド|
+Winding Road	「ゴールデンカムイ」より	アニメ	ffffa500	132	`easy`3`false`かんたん/Winding Road|`normal`4`false`ふつう/Winding Road|`hard`5`false`むずかしい/Winding Road|`oni`7`false`おに/Winding Road|
+我ら思う、故に我ら在り	「仮面ライダーゴースト」より	アニメ	ffffa500	187	`easy`3`false`かんたん/我ら思う、故に我ら在り|`normal`4`false`ふつう/我ら思う、故に我ら在り|`hard`5`false`むずかしい/我ら思う、故に我ら在り|`oni`7`false`おに/我ら思う、故に我ら在り|
+One day		アニメ	ffffa500	89	`easy`2`false`かんたん/One day|`normal`3`false`ふつう/One day|`hard`5`false`むずかしい/One day|`oni`6`false`おに/One day|
+アスノヨゾラ哨戒班	Orangestar	ボーカロイド™曲	ffc0c0c0	185	`easy`4`false`かんたん/アスノヨゾラ哨戒班|`normal`6`false`ふつう/アスノヨゾラ哨戒班|`hard`7`false`むずかしい/アスノヨゾラ哨戒班|`oni`9`false`おに/アスノヨゾラ哨戒班|
+雨とペトラ	バルーン feat.flower	ボーカロイド™曲	ffc0c0c0	195	`easy`3`false`かんたん/雨とペトラ|`normal`4`false`ふつう/雨とペトラ|`hard`5`false`むずかしい/雨とペトラ|`oni`6`false`おに/雨とペトラ|`uraOni`8`false`おに/雨とペトラ(裏譜面)
+アルカリレットウセイ	かいりきベア feat.初音ミク 「戦闘摂理解析システム#コンパス」より	ボーカロイド™曲	ffc0c0c0	158	`easy`3`false`かんたん/アルカリレットウセイ|`normal`4`false`ふつう/アルカリレットウセイ|`hard`5`false`むずかしい/アルカリレットウセイ|`oni`7`false`おに/アルカリレットウセイ|
+いーあるふぁんくらぶ	みきとP	ボーカロイド™曲	ffc0c0c0	145-147.43	`easy`3`false`かんたん/いーあるふぁんくらぶ|`normal`4`false`ふつう/いーあるふぁんくらぶ|`hard`6`false`むずかしい/いーあるふぁんくらぶ|`oni`8`false`おに/いーあるふぁんくらぶ|
+EDY -エレクトリカルダンシングヨガ-	feat.鏡音リン・鏡音レン	ボーカロイド™曲	ffc0c0c0	132	`easy`4`false`かんたん/EDY -エレクトリカルダンシングヨガ-|`normal`6`false`ふつう/EDY -エレクトリカルダンシングヨガ-|`hard`7`false`むずかしい/EDY -エレクトリカルダンシングヨガ-|`oni`9`false`おに/EDY -エレクトリカルダンシングヨガ-|
+IMITATION BLACK	SCL Project(natsuP) feat. VanaN'Ice	ボーカロイド™曲	ffc0c0c0	230※	`easy`3`false`かんたん/IMITATION BLACK|`normal`3`false`ふつう/IMITATION BLACK|`hard`5`false`むずかしい/IMITATION BLACK|`oni`7`false`おに/IMITATION BLACK|`uraOni`9`false`おに/IMITATION BLACK(裏譜面)
+有頂天ビバーチェ	Last Note. feat.GUMI	ボーカロイド™曲	ffc0c0c0	133-266	`easy`4`false`かんたん/有頂天ビバーチェ|`normal`6`false`ふつう/有頂天ビバーチェ|`hard`7`false`むずかしい/有頂天ビバーチェ|`oni`8`false`おに/有頂天ビバーチェ|
+エイリアンエイリアン	ナユタン星人 feat.初音ミク	ボーカロイド™曲	ffc0c0c0	152	`easy`3`false`かんたん/エイリアンエイリアン|`normal`5`false`ふつう/エイリアンエイリアン|`hard`6`false`むずかしい/エイリアンエイリアン|`oni`9`false`おに/エイリアンエイリアン|
+Eternal bond	リューイッティ	ボーカロイド™曲	ffc0c0c0	170	`easy`5`false`かんたん/Eternal bond|`normal`6`false`ふつう/Eternal bond|`hard`8`false`むずかしい/Eternal bond|`oni`8`false`おに/Eternal bond|
+M.S.S.Planet	M.S.S Project	ボーカロイド™曲	ffc0c0c0	145	`easy`3`false`かんたん/M.S.S.Planet|`normal`5`false`ふつう/M.S.S.Planet|`hard`7`false`むずかしい/M.S.S.Planet|`oni`8`false`おに/M.S.S.Planet|
+乙女解剖	DECO*27 feat.初音ミク	ボーカロイド™曲	ffc0c0c0	134	`easy`2`false`かんたん/乙女解剖|`normal`3`false`ふつう/乙女解剖|`hard`4`false`むずかしい/乙女解剖|`oni`6`false`おに/乙女解剖|`uraOni`8`false`おに/乙女解剖(裏譜面)
+おにぎりはどこかしら♪	よみぃ feat.初音ミク	ボーカロイド™曲	ffc0c0c0	176	`easy`5`false`かんたん/おにぎりはどこかしら♪|`normal`7`false`ふつう/おにぎりはどこかしら♪|`hard`8`false`むずかしい/おにぎりはどこかしら♪|`oni`9`false`おに/おにぎりはどこかしら♪|
+怪獣少女は火を吹かない	粗品 feat.初音ミク	ボーカロイド™曲	ffc0c0c0	50-200	`easy`3`false`かんたん/怪獣少女は火を吹かない|`normal`5`false`ふつう/怪獣少女は火を吹かない|`hard`6`false`むずかしい/怪獣少女は火を吹かない|`oni`8`false`おに/怪獣少女は火を吹かない|`uraOni`9`false`おに/怪獣少女は火を吹かない(裏譜面)
+カゲロウデイズ	じん	ボーカロイド™曲	ffc0c0c0	200※	`easy`3`false`かんたん/カゲロウデイズ|`normal`5`false`ふつう/カゲロウデイズ|`hard`5`false`むずかしい/カゲロウデイズ|`oni`7`false`おに/カゲロウデイズ|`uraOni`8`false`おに/カゲロウデイズ(裏譜面)
+からくりピエロ	40mP	ボーカロイド™曲	ffc0c0c0	102	`easy`4`false`かんたん/からくりピエロ|`normal`6`false`ふつう/からくりピエロ|`hard`7`false`むずかしい/からくりピエロ|`oni`8`false`おに/からくりピエロ|
+カラフルボイス	cosMo@暴走P feat.初音ミク・GUMI	ボーカロイド™曲	ffc0c0c0	240	`easy`5`false`かんたん/カラフルボイス|`normal`7`false`ふつう/カラフルボイス|`hard`7`false`むずかしい/カラフルボイス|`oni`9`false`おに/カラフルボイス|`uraOni`10`false`おに/カラフルボイス(裏譜面)
+カラ鞠の花	はるなば feat.結月ゆかり	ボーカロイド™曲	ffc0c0c0	148	`easy`4`false`かんたん/カラ鞠の花|`normal`7`false`ふつう/カラ鞠の花|`hard`7`false`むずかしい/カラ鞠の花|`oni`10`false`おに/カラ鞠の花|
+カンタービレ×パッシオーネ	OSTER project feat.初音ミク 「戦闘摂理解析システム#コンパス」より	ボーカロイド™曲	ffc0c0c0	160	`easy`2`false`かんたん/カンタービレ×パッシオーネ|`normal`3`false`ふつう/カンタービレ×パッシオーネ|`hard`4`false`むずかしい/カンタービレ×パッシオーネ|`oni`7`false`おに/カンタービレ×パッシオーネ|`uraOni`9`false`おに/カンタービレ×パッシオーネ(裏譜面)
+ギガンティックO.T.N	ギガれをる feat.鏡音レン	ボーカロイド™曲	ffc0c0c0	190	`easy`3`false`かんたん/ギガンティックO. T. N|`normal`6`false`ふつう/ギガンティックO. T. N|`hard`7`false`むずかしい/ギガンティックO. T. N|`oni`9`false`おに/ギガンティックO. T. N|`uraOni`10`false`おに/ギガンティックO. T. N(裏譜面)
+KING	Kanaria	ボーカロイド™曲	ffc0c0c0	166	`easy`2`false`かんたん/KING|`normal`5`false`ふつう/KING|`hard`6`false`むずかしい/KING|`oni`8`false`おに/KING|
+グッバイ宣言	Chinozo feat. flower	ボーカロイド™曲	ffc0c0c0	170	`easy`3`false`かんたん/グッバイ宣言|`normal`5`false`ふつう/グッバイ宣言|`hard`6`false`むずかしい/グッバイ宣言|`oni`8`false`おに/グッバイ宣言|
+ゴーストルール	DECO*27 feat.初音ミク	ボーカロイド™曲	ffc0c0c0	105-210	`easy`4`false`かんたん/ゴーストルール|`normal`5`false`ふつう/ゴーストルール|`hard`7`false`むずかしい/ゴーストルール|`oni`8`false`おに/ゴーストルール|`uraOni`9`false`おに/ゴーストルール(裏譜面)
+珈琲の味と	はるなば	ボーカロイド™曲	ffc0c0c0	185	`easy`4`false`かんたん/珈琲の味と|`normal`5`false`ふつう/珈琲の味と|`hard`6`false`むずかしい/珈琲の味と|`oni`9`false`おに/珈琲の味と|
+残響	164 feat.GUMI 「戦闘摂理解析システム#コンパス」より	ボーカロイド™曲	ffc0c0c0	140-280	`easy`2`false`かんたん/残響|`normal`4`false`ふつう/残響|`hard`5`false`むずかしい/残響|`oni`6`false`おに/残響|`uraOni`9`false`おに/残響(裏譜面)
+シャルル	バルーン feat.flower	ボーカロイド™曲	ffc0c0c0	145※	`easy`4`false`かんたん/シャルル|`normal`5`false`ふつう/シャルル|`hard`6`false`むずかしい/シャルル|`oni`8`false`おに/シャルル|
+重金属フューギティブ	リューイッティ	ボーカロイド™曲	ffc0c0c0	140-260※	`easy`4`false`かんたん/重金属フューギティブ|`normal`6`false`ふつう/重金属フューギティブ|`hard`7`false`むずかしい/重金属フューギティブ|`oni`10`false`おに/重金属フューギティブ|
+十面相 colorful ver.	YM	ボーカロイド™曲	ffc0c0c0	144-173	`easy`3`false`かんたん/十面相 colorful ver.|`normal`5`false`ふつう/十面相 colorful ver.|`hard`3`false`むずかしい/十面相 colorful ver.|`oni`6`false`おに/十面相 colorful ver.|`uraOni`8`false`おに/十面相 colorful ver.(裏譜面)
+人生リセットボタン	kemu	ボーカロイド™曲	ffc0c0c0	200※	`easy`3`false`かんたん/人生リセットボタン|`normal`5`false`ふつう/人生リセットボタン|`hard`6`false`むずかしい/人生リセットボタン|`oni`9`false`おに/人生リセットボタン|
+SstTAarR*	M-O-T-U feat.初音ミク	ボーカロイド™曲	ffc0c0c0	200	`easy`5`false`かんたん/SstTAarR*|`normal`7`false`ふつう/SstTAarR*|`hard`8`false`むずかしい/SstTAarR*|`oni`10`false`おに/SstTAarR*|
+セツナトリップ	Last Note.	ボーカロイド™曲	ffc0c0c0	145-290	`easy`3`false`かんたん/セツナトリップ|`normal`4`false`ふつう/セツナトリップ|`hard`7`false`むずかしい/セツナトリップ|`oni`8`false`おに/セツナトリップ|`uraOni`9`false`おに/セツナトリップ(裏譜面)
+千本桜	黒うさP feat.初音ミク	ボーカロイド™曲	ffc0c0c0	154	`easy`3`false`かんたん/千本桜|`normal`5`false`ふつう/千本桜|`hard`6`false`むずかしい/千本桜|`oni`7`false`おに/千本桜|`uraOni`8`false`おに/千本桜(裏譜面)
+撥条少女時計	Drop＆葉月ゆら feat. 初音ミク	ボーカロイド™曲	ffc0c0c0	88-134	`easy`2`false`かんたん/撥条少女時計|`normal`3`false`ふつう/撥条少女時計|`hard`4`false`むずかしい/撥条少女時計|`oni`8`false`おに/撥条少女時計|
+太陽系デスコ	ナユタン星人 feat.初音ミク	ボーカロイド™曲	ffc0c0c0	150※	`easy`3`false`かんたん/太陽系デスコ|`normal`4`false`ふつう/太陽系デスコ|`hard`5`false`むずかしい/太陽系デスコ|`oni`8`false`おに/太陽系デスコ|
+だれかの心臓になれたなら	ユリイ・カノン	ボーカロイド™曲	ffc0c0c0	145	`easy`3`false`かんたん/だれかの心臓になれたなら|`normal`4`false`ふつう/だれかの心臓になれたなら|`hard`6`false`むずかしい/だれかの心臓になれたなら|`oni`8`false`おに/だれかの心臓になれたなら|
+ダンスロボットダンス	ナユタン星人 feat.初音ミク 「戦闘摂理解析システム#コンパス」より	ボーカロイド™曲	ffc0c0c0	190※	`easy`3`false`かんたん/ダンスロボットダンス|`normal`4`false`ふつう/ダンスロボットダンス|`hard`4`false`むずかしい/ダンスロボットダンス|`oni`9`false`おに/ダンスロボットダンス|
+テオ	Omoi feat.初音ミク	ボーカロイド™曲	ffc0c0c0	185	`easy`2`false`かんたん/テオ|`normal`5`false`ふつう/テオ|`hard`6`false`むずかしい/テオ|`oni`8`false`おに/テオ|
+テルミービート	キノシタ feat. 鏡音リン	ボーカロイド™曲	ffc0c0c0	197	`easy`3`false`かんたん/テルミービート|`normal`5`false`ふつう/テルミービート|`hard`6`false`むずかしい/テルミービート|`oni`8`false`おに/テルミービート|
+Tell Your World	原曲:livetune feat.初音ミク	ボーカロイド™曲	ffc0c0c0	150※	`easy`3`false`かんたん/Tell Your World|`normal`2`false`ふつう/Tell Your World|`hard`5`false`むずかしい/Tell Your World|`oni`6`false`おに/Tell Your World|
+トオリヨ	テヅカ	ボーカロイド™曲	ffc0c0c0	184	`easy`3`false`かんたん/トオリヨ|`normal`5`false`ふつう/トオリヨ|`hard`6`false`むずかしい/トオリヨ|`oni`8`false`おに/トオリヨ|
+脳漿炸裂ガール	れるりり	ボーカロイド™曲	ffc0c0c0	155	`easy`4`false`かんたん/脳漿炸裂ガール|`normal`5`false`ふつう/脳漿炸裂ガール|`hard`6`false`おに/脳漿炸裂ガール|`oni`8`false`おに/脳漿炸裂ガール|`uraOni`9`false`おに/脳漿炸裂ガール(裏譜面)
+バイオレンストリガー	八王子P feat.初音ミク 「戦闘摂理解析システム#コンパス」より	ボーカロイド™曲	ffc0c0c0	196	`easy`3`false`かんたん/バイオレンストリガー|`normal`4`false`ふつう/バイオレンストリガー|`hard`6`false`むずかしい/バイオレンストリガー|`oni`9`false`おに/バイオレンストリガー|
+拝啓ドッペルゲンガー	kemu	ボーカロイド™曲	ffc0c0c0	181	`easy`3`false`かんたん/拝啓ドッペルゲンガー|`normal`5`false`ふつう/拝啓ドッペルゲンガー|`hard`7`false`むずかしい/拝啓ドッペルゲンガー|`oni`10`false`おに/拝啓ドッペルゲンガー|
+ハイスペックニート	40mP feat.初音ミク 「戦闘摂理解析システム#コンパス」より	ボーカロイド™曲	ffc0c0c0	220※	`easy`3`false`かんたん/ハイスペックニート|`normal`4`false`ふつう/ハイスペックニート|`hard`6`false`むずかしい/ハイスペックニート|`oni`8`false`おに/ハイスペックニート|
+初音ミクの激唱	「初音ミク -Project DIVA- 2nd」より	ボーカロイド™曲	ffc0c0c0	200※	`easy`4`false`かんたん/初音ミクの激唱|`normal`6`false`ふつう/初音ミクの激唱|`hard`6`false`むずかしい/初音ミクの激唱|`oni`10`false`おに/初音ミクの激唱|`uraOni`10`false`おに/初音ミクの激唱(裏譜面)
+初音ミクの消失-劇場版-		ボーカロイド™曲	ffc0c0c0	100-240	`easy`5`false`かんたん/初音ミクの消失‐劇場版‐|`normal`7`false`ふつう/初音ミクの消失‐劇場版‐|`hard`8`true`むずかしい/初音ミクの消失‐劇場版‐|`oni`9`false`おに/初音ミクの消失‐劇場版‐|`uraOni`10`false`おに/初音ミクの消失‐劇場版‐(裏譜面)
+花オト裏拍子	はるなば feat.初音ミク	ボーカロイド™曲	ffc0c0c0	115-145	`easy`3`false`かんたん/花オト裏拍子|`normal`5`false`ふつう/花オト裏拍子|`hard`6`false`むずかしい/花オト裏拍子|`oni`9`false`おに/花オト裏拍子|
+ヒバナ	DECO*27	ボーカロイド™曲	ffc0c0c0	200	`easy`4`false`かんたん/ヒバナ|`normal`5`false`ふつう/ヒバナ|`hard`6`false`むずかしい/ヒバナ|`oni`8`false`おに/ヒバナ|`uraOni`10`false`おに/ヒバナ(裏譜面)
+ブラック★ロックシューター		ボーカロイド™曲	ffc0c0c0	70※-165	`easy`4`false`かんたん/ブラック★ロックシューター|`normal`4`false`ふつう/ブラック★ロックシューター|`hard`6`false`むずかしい/ブラック★ロックシューター|`oni`8`false`おに/ブラック★ロックシューター|
+放課後ストライド	Last Note.	ボーカロイド™曲	ffc0c0c0	225	`easy`3`false`かんたん/放課後ストライド|`normal`5`false`ふつう/放課後ストライド|`hard`6`false`むずかしい/放課後ストライド|`oni`5`false`おに/放課後ストライド|
+マトリョシカ	ハチ	ボーカロイド™曲	ffc0c0c0	205-288※	`easy`4`false`かんたん/マトリョシカ|`normal`6`false`ふつう/マトリョシカ|`hard`5`false`むずかしい/マトリョシカ|`oni`7`false`おに/マトリョシカ|`uraOni`9`false`おに/マトリョシカ(裏譜面)
+みくみくにしてあげる♪【してやんよ】	ika feat.初音ミク	ボーカロイド™曲	ffc0c0c0	160	`easy`1`false`かんたん/みくみくにしてあげる♪【してやんよ】|`normal`5`false`ふつう/みくみくにしてあげる♪【してやんよ】|`hard`5`false`むずかしい/みくみくにしてあげる♪【してやんよ】|`oni`6`false`おに/みくみくにしてあげる♪【してやんよ】|
+メルト	原曲:supercll feat.初音ミク	ボーカロイド™曲	ffc0c0c0	170	`easy`3`false`かんたん/メルト|`normal`3`false`ふつう/メルト|`hard`5`false`むずかしい/メルト|`oni`8`false`おに/メルト|
+モザイクロール	DECO*27 feat. GUMI	ボーカロイド™曲	ffc0c0c0	145	`easy`3`false`かんたん/モザイクロール|`normal`5`false`ふつう/モザイクロール|`hard`5`false`むずかしい/モザイクロール|`oni`8`false`おに/モザイクロール|
+モノクロボイス	cosMo@暴走P feat.初音ミク・GUMI	ボーカロイド™曲	ffc0c0c0	240	`easy`4`false`かんたん/モノクロボイス|`normal`6`false`ふつう/モノクロボイス|`hard`7`false`むずかしい/モノクロボイス|`oni`10`false`おに/モノクロボイス|`uraOni`10`false`おに/モノクロボイス(裏譜面)
+4+1のそれぞれの未来	太鼓 de タイムトラベル00's / cosMo@暴走P feat.初音ミク	ボーカロイド™曲	ffc0c0c0	255	`easy`5`false`かんたん/4+1のそれぞれの未来|`normal`7`false`ふつう/4+1のそれぞれの未来|`hard`8`false`むずかしい/4+1のそれぞれの未来|`oni`10`false`おに/4+1のそれぞれの未来|
+愛×愛ホイッスル（カレーメシ公式曲）	PolyphonicBranch	ボーカロイド™曲	ffc0c0c0	160-240	`easy`4`false`かんたん/愛×愛ホイッスル（カレーメシ公式曲）|`normal`6`false`ふつう/愛×愛ホイッスル（カレーメシ公式曲）|`hard`8`false`むずかしい/愛×愛ホイッスル（カレーメシ公式曲）|`oni`9`false`おに/愛×愛ホイッスル（カレーメシ公式曲）|
+恋愛裁判	40mP feat. 初音ミク	ボーカロイド™曲	ffc0c0c0	134※	`easy`4`false`かんたん/恋愛裁判|`normal`5`false`ふつう/恋愛裁判|`hard`6`false`むずかしい/恋愛裁判|`oni`7`false`おに/恋愛裁判|
+六兆年と一夜物語	kemu	ボーカロイド™曲	ffc0c0c0	53.35-186※	`easy`3`false`かんたん/六兆年と一夜物語|`normal`5`false`ふつう/六兆年と一夜物語|`hard`7`false`むずかしい/六兆年と一夜物語|`oni`9`false`おに/六兆年と一夜物語|`uraOni`9`false`おに/六兆年と一夜物語(裏譜面)
+ロストワンの号哭	Neru	ボーカロイド™曲	ffc0c0c0	162	`easy`3`false`かんたん/ロストワンの号哭|`normal`4`false`ふつう/ロストワンの号哭|`hard`7`false`むずかしい/ロストワンの号哭|`oni`8`false`おに/ロストワンの号哭|
+ワールドイズマイン	原曲：supercell feat.初音ミク	ボーカロイド™曲	ffc0c0c0	113-165※	`easy`4`false`かんたん/ワールドイズマイン|`normal`5`false`ふつう/ワールドイズマイン|`hard`6`false`むずかしい/ワールドイズマイン|`oni`8`false`おに/ワールドイズマイン|
+いぬのおまわりさん		どうよう	ffff00ff	112	`easy`1`false`かんたん/いぬのおまわりさん|`normal`2`false`ふつう/いぬのおまわりさん|`hard`4`false`むずかしい/いぬのおまわりさん|`oni`7`false`おに/いぬのおまわりさん|
+おおブレネリ		どうよう	ffff00ff	120-130※	`easy`3`false`かんたん/おおブレネリ|`normal`3`false`ふつう/おおブレネリ|`hard`5`false`むずかしい/おおブレネリ|`oni`6`false`おに/おおブレネリ|
+おもちゃのチャチャチャ		どうよう	ffff00ff	120	`easy`2`false`かんたん/おもちゃのチャチャチャ|`normal`3`false`ふつう/おもちゃのチャチャチャ|`hard`3`false`むずかしい/おもちゃのチャチャチャ|`oni`6`false`おに/おもちゃのチャチャチャ|
+線路は続くよどこまでも		どうよう	ffff00ff	120	`easy`2`false`かんたん/線路は続くよどこまでも|`normal`1`false`ふつう/線路は続くよどこまでも|`hard`5`true`むずかしい/線路は続くよどこまでも|`oni`6`false`おに/線路は続くよどこまでも|
+手のひらを太陽に		どうよう	ffff00ff	130	`easy`2`false`かんたん/手のひらを太陽に|`normal`2`false`ふつう/手のひらを太陽に|`hard`3`false`むずかしい/手のひらを太陽に|`oni`7`false`おに/手のひらを太陽に|
+もりのくまさん		どうよう	ffff00ff	120	`easy`1`false`かんたん/もりのくまさん|`normal`1`false`ふつう/もりのくまさん|`hard`1`false`おに/もりのくまさん|`oni`1`false`おに/もりのくまさん|`uraOni`9`false`おに/もりのくまさん(裏譜面)
+ロシア民謡メドレー		どうよう	ffff00ff	100-146※	`easy`4`false`かんたん/ロシア民謡メドレー|`normal`4`false`ふつう/ロシア民謡メドレー|`hard`7`false`むずかしい/ロシア民謡メドレー|`oni`7`false`おに/ロシア民謡メドレー|
+IAM (feat. Shogo, Tsubasa)	港白金女学院電音部 「電音部」より	バラエティ	ff00ff00	138	`easy`3`false`かんたん/IAM (feat. Shogo, Tsubasa)|`normal`5`false`ふつう/IAM (feat. Shogo, Tsubasa)|`hard`5`false`むずかしい/IAM (feat. Shogo, Tsubasa)|`oni`7`false`おに/IAM (feat. Shogo, Tsubasa)|
+アイドル狂戦士(feat.佐藤貴文)	茅野ふたば(CV:堀越せな) 「電音部」より	バラエティ	ff00ff00	195	`easy`3`false`かんたん/アイドル狂戦士(feat.佐藤貴文)|`normal`4`false`ふつう/アイドル狂戦士(feat.佐藤貴文)|`hard`5`false`むずかしい/アイドル狂戦士(feat.佐藤貴文)|`oni`7`false`おに/アイドル狂戦士(feat.佐藤貴文)|`uraOni`9`false`おに/アイドル狂戦士(feat.佐藤貴文)(裏譜面)
+アキバ20XX	外神田文芸高校電音部 「電音部」より	バラエティ	ff00ff00	210	`easy`5`false`かんたん/アキバ20XX|`normal`7`false`ふつう/アキバ20XX|`hard`8`false`むずかしい/アキバ20XX|`oni`10`false`おに/アキバ20XX|
+明星ロケット	東方Projectアレンジ 岸田教団&THE明星ロケッツ	バラエティ	ff00ff00	168※	`easy`3`false`かんたん/明星ロケット|`normal`5`false`ふつう/明星ロケット|`hard`6`false`むずかしい/明星ロケット|`oni`8`false`おに/明星ロケット|
+あたりまえ体操		バラエティ	ff00ff00	87-125	`easy`2`false`かんたん/あたりまえ体操|`normal`3`false`ふつう/あたりまえ体操|`hard`1`false`むずかしい/あたりまえ体操|`oni`5`false`おに/あたりまえ体操|
+あったかいんだからぁ♪		バラエティ	ff00ff00	100-150	`easy`3`false`かんたん/あったかいんだからぁ♪|`normal`5`false`ふつう/あったかいんだからぁ♪|`hard`4`false`むずかしい/あったかいんだからぁ♪|`oni`7`false`おに/あったかいんだからぁ♪|
+あまちゃん オープニングテーマ		バラエティ	ff00ff00	144	`easy`3`false`かんたん/あまちゃん|`normal`5`false`ふつう/あまちゃん|`hard`6`false`むずかしい/あまちゃん|`oni`7`false`おに/あまちゃん|
+Altale	削除	バラエティ	ff00ff00	83※-180	`easy`4`false`かんたん/Altale|`normal`4`false`ふつう/Altale|`hard`6`false`むずかしい/Altale|`oni`8`false`おに/Altale|`uraOni`10`false`おに/Altale(裏譜面)
+いただきバベル (Prod. ケンモチヒデフミ)	黒鉄たま(CV:秋奈) 「電音部」より	バラエティ	ff00ff00	142	`easy`2`false`かんたん/いただきバベル (Prod. ケンモチヒデフミ)|`normal`3`false`ふつう/いただきバベル (Prod. ケンモチヒデフミ)|`hard`5`false`むずかしい/いただきバベル (Prod. ケンモチヒデフミ)|`oni`8`false`おに/いただきバベル (Prod. ケンモチヒデフミ)|
+色は匂へど散りぬるを	東方Projectアレンジ 幽閉サテライト	バラエティ	ff00ff00	138※	`easy`2`false`かんたん/色は匂へど 散りぬるを|`normal`4`false`ふつう/色は匂へど 散りぬるを|`hard`5`false`むずかしい/色は匂へど 散りぬるを|`oni`8`false`おに/色は匂へど 散りぬるを|
+INSPION	サウンド制作スタジオ「INSPION」社歌	バラエティ	ff00ff00	296	`easy`5`false`かんたん/INSPION|`normal`6`false`ふつう/INSPION|`hard`8`false`むずかしい/INSPION|`oni`10`false`おに/INSPION|
+郢曲／暁闇	東方Project×NAMCO SOUNDS LindaAI-CUE	バラエティ	ff00ff00	140	`easy`3`false`かんたん/郢曲／暁闇|`normal`5`false`ふつう/郢曲／暁闇|`hard`8`false`むずかしい/郢曲／暁闇|`oni`10`false`おに/郢曲／暁闇|
+Endless Seeker	東方Projectアレンジ A-One	バラエティ	ff00ff00	163※	`easy`3`false`かんたん/Endless Seeker|`normal`5`false`ふつう/Endless Seeker|`hard`6`false`むずかしい/Endless Seeker|`oni`8`false`おに/Endless Seeker|
+オオカミ少年ケンのテーマ	(ブラバン！甲子園)	バラエティ	ff00ff00	146※	`easy`3`false`かんたん/オオカミ少年ケンのテーマ|`normal`6`false`ふつう/オオカミ少年ケンのテーマ|`hard`6`false`むずかしい/オオカミ少年ケンのテーマ|`oni`7`false`おに/オオカミ少年ケンのテーマ|
+おさかな毎日！さかなクン	さかなクン	バラエティ	ff00ff00	123	`easy`2`false`かんたん/おさかな毎日！さかなクン|`normal`4`false`ふつう/おさかな毎日！さかなクン|`hard`4`false`むずかしい/おさかな毎日！さかなクン|`oni`7`false`おに/おさかな毎日！さかなクン|
+買ってロック	「グルト！」CMソング	バラエティ	ff00ff00	184	`easy`3`false`かんたん/買ってロック|`normal`3`false`ふつう/買ってロック|`hard`5`false`むずかしい/買ってロック|`oni`7`false`おに/買ってロック|
+GAT-TAI	映画「ニンジャバットマン」より	バラエティ	ff00ff00	120-128	`easy`4`false`かんたん/GAT-TAI|`normal`5`false`ふつう/GAT-TAI|`hard`6`false`むずかしい/GAT-TAI|`oni`7`false`おに/GAT-TAI|
+Calamity Fortune	東方Projectアレンジ LeaF	バラエティ	ff00ff00	200	`easy`4`false`かんたん/Calamity Fortune|`normal`6`false`ふつう/Calamity Fortune|`hard`7`false`むずかしい/Calamity Fortune|`oni`10`false`おに/Calamity Fortune|`uraOni`10`false`おに/Calamity Fortune(裏譜面)
+元祖！天才チルノちゃん☆	東方Projectアレンジ コバヤシユウヤ(IOSYS) feat.miko	バラエティ	ff00ff00	185	`easy`4`false`かんたん/元祖！天才チルノちゃん☆|`normal`6`false`ふつう/元祖！天才チルノちゃん☆|`hard`6`false`むずかしい/元祖！天才チルノちゃん☆|`oni`9`false`おに/元祖！天才チルノちゃん☆|
+good night baby (feat. Moe Shop)	犬吠埼紫杏(CV:長谷川玲奈) 「電音部」より	バラエティ	ff00ff00	125	`easy`3`false`かんたん/good night baby (feat. Moe Shop)|`normal`3`false`ふつう/good night baby (feat. Moe Shop)|`hard`5`false`むずかしい/good night baby (feat. Moe Shop)|`oni`7`false`おに/good night baby (feat. Moe Shop)|
+くまもとサプライズ！	くまモン体操	バラエティ	ff00ff00	150	`easy`2`false`かんたん/くまもとサプライズ！|`normal`3`false`ふつう/くまもとサプライズ！|`hard`4`false`むずかしい/くまもとサプライズ！|`oni`6`false`おに/くまもとサプライズ！|
+Crush (Prod. SHOW)	真新宿GR学園電音部 「電音部」より	バラエティ	ff00ff00	130	`easy`3`false`かんたん/Crush (Prod. SHOW)|`normal`4`false`ふつう/Crush (Prod. SHOW)|`hard`5`false`むずかしい/Crush (Prod. SHOW)|`oni`7`false`おに/Crush (Prod. SHOW)|
+Grip & Break down !!-達人Edit.-	東方Projectアレンジ SOUND HOLIC feat.Nana Takahashi	バラエティ	ff00ff00	160	`easy`4`false`かんたん/Grip ＆ Break down !! -達人Edit.-|`normal`5`false`ふつう/Grip ＆ Break down !! -達人Edit.-|`hard`6`false`むずかしい/Grip ＆ Break down !! -達人Edit.-|`oni`7`false`おに/Grip ＆ Break down !! -達人Edit.-|`uraOni`9`false`おに/Grip ＆ Break down !! -達人Edit.-(裏譜面)
+ケラケラじゃんけん		バラエティ	ff00ff00	163	`easy`2`false`かんたん/ケラケラじゃんけん|`normal`2`false`ふつう/ケラケラじゃんけん|`hard`5`false`むずかしい/ケラケラじゃんけん|`oni`7`false`おに/ケラケラじゃんけん|
+ケロ⑨destiny	東方Projectアレンジ Silver Forest	バラエティ	ff00ff00	172	`easy`4`false`かんたん/ケロ9destiny|`normal`6`false`ふつう/ケロ9destiny|`hard`6`false`むずかしい/ケロ9destiny|`oni`9`false`おに/ケロ9destiny|
+幻想のサテライト	東方Projectアレンジ 豚乙女	バラエティ	ff00ff00	230	`easy`4`false`かんたん/幻想のサテライト|`normal`6`false`ふつう/幻想のサテライト|`hard`7`false`むずかしい/幻想のサテライト|`oni`9`false`おに/幻想のサテライト|
+conflict	siromaru + cranky	バラエティ	ff00ff00	160	`easy`4`false`かんたん/conflict|`normal`5`false`ふつう/conflict|`hard`7`false`むずかしい/conflict|`oni`9`false`おに/conflict|
+最終鬼畜妹フランドール・S	東方Projectアレンジ ビートまりお	バラエティ	ff00ff00	200※	`easy`4`false`かんたん/最終鬼畜妹フランドール・S|`normal`6`false`ふつう/最終鬼畜妹フランドール・S|`hard`7`false`むずかしい/最終鬼畜妹フランドール・S|`oni`10`false`おに/最終鬼畜妹フランドール・S|
+信濃の国	アルクマ・ダンス・バージョン	バラエティ	ff00ff00	140	`easy`3`false`かんたん/信濃の国|`normal`2`false`ふつう/信濃の国|`hard`4`false`むずかしい/信濃の国|`oni`8`false`おに/信濃の国|
+Shining Lights (feat. PSYQUI)	鳳凰火凛(CV:健屋花那) 「電音部」より	バラエティ	ff00ff00	169	`easy`2`false`かんたん/Shining Lights (feat. PSYQUI)|`normal`2`false`ふつう/Shining Lights (feat. PSYQUI)|`hard`6`false`むずかしい/Shining Lights (feat. PSYQUI)|`oni`9`false`おに/Shining Lights (feat. PSYQUI)|
+情熱大陸		バラエティ	ff00ff00	134	`easy`4`false`かんたん/情熱大陸|`normal`4`false`ふつう/情熱大陸|`hard`6`false`むずかしい/情熱大陸|`oni`7`false`おに/情熱大陸|
+ジングルベル第765番		バラエティ	ff00ff00	140	`easy`2`false`かんたん/ジングルベル第765番|`normal`3`false`ふつう/ジングルベル第765番|`hard`4`false`むずかしい/ジングルベル第765番|`oni`8`false`おに/ジングルベル第765番|
+Scream out!-達人Edit.-	東方Projectアレンジ A-One	バラエティ	ff00ff00	165	`easy`3`false`かんたん/Scream out! -達人Edit.-|`normal`5`false`ふつう/Scream out! -達人Edit.-|`hard`6`false`むずかしい/Scream out! -達人Edit.-|`oni`8`false`おに/Scream out! -達人Edit.-|`uraOni`9`false`おに/Scream out! -達人Edit.-(裏譜面)
+西部警察PARTII	(ブラバン！甲子園)	バラエティ	ff00ff00	145※	`easy`3`false`かんたん/西部警察PARTII|`normal`5`false`ふつう/西部警察PARTII|`hard`5`false`むずかしい/西部警察PARTII|`oni`8`false`おに/西部警察PARTII|
+仙酌絶唱のファンタジア	東方Projectアレンジ 博麗神社例大祭コラボユニット	バラエティ	ff00ff00	81.73-160	`easy`3`false`かんたん/仙酌絶唱のファンタジア|`normal`5`false`ふつう/仙酌絶唱のファンタジア|`hard`5`false`むずかしい/仙酌絶唱のファンタジア|`oni`9`false`おに/仙酌絶唱のファンタジア|
+大改造!!劇的ビフォーアフターメドレー	「Inscrutable Battle」「TAKUMI/匠」	バラエティ	ff00ff00	141	`easy`4`false`かんたん/大改造！！劇的ビフォーアフターメドレー|`normal`5`false`ふつう/大改造！！劇的ビフォーアフターメドレー|`hard`7`false`むずかしい/大改造！！劇的ビフォーアフターメドレー|`oni`9`false`おに/大改造！！劇的ビフォーアフターメドレー|
+タキオのソーラン節		バラエティ	ff00ff00	147※	`easy`3`false`かんたん/TAKIO'S SOHRAN 2|`normal`4`false`ふつう/TAKIO'S SOHRAN 2|`hard`7`false`むずかしい/TAKIO'S SOHRAN 2|`oni`8`false`おに/TAKIO'S SOHRAN 2|
+たらこ・たらこ・たらこ	キユーピー あえるパスタソースたらこ CMソング	バラエティ	ff00ff00	156	`easy`2`false`かんたん/たらこ・たらこ・たらこ|`normal`1`false`ふつう/たらこ・たらこ・たらこ|`hard`4`true`むずかしい/たらこ・たらこ・たらこ|`oni`7`false`おに/たらこ・たらこ・たらこ|
+チルノのパーフェクトさんすう教室	東方Projectアレンジ ARM+夕野ヨシミ(IOSYS) feat.miko	バラエティ	ff00ff00	43.75-175	`easy`4`false`かんたん/チルノのパーフェクトさんすう教室|`normal`5`false`ふつう/チルノのパーフェクトさんすう教室|`hard`7`false`むずかしい/チルノのパーフェクトさんすう教室|`oni`8`false`おに/チルノのパーフェクトさんすう教室|`uraOni`10`false`おに/チルノのパーフェクトさんすう教室(裏譜面)
+月に叢雲華に風	東方Projectアレンジ 幽閉サテライト	バラエティ	ff00ff00	160※	`easy`4`false`かんたん/月に叢雲華に風|`normal`5`false`ふつう/月に叢雲華に風|`hard`6`false`むずかしい/月に叢雲華に風|`oni`8`false`おに/月に叢雲華に風|
+テーマ・オブ・半沢直樹 ～Main Title～	TBS系日曜劇場「半沢直樹」より	バラエティ	ff00ff00	119	`easy`1`false`かんたん/テーマ・オブ・半沢直樹 ～Main Title～|`normal`2`false`ふつう/テーマ・オブ・半沢直樹 ～Main Title～|`hard`2`false`むずかしい/テーマ・オブ・半沢直樹 ～Main Title～|`oni`8`false`おに/テーマ・オブ・半沢直樹 ～Main Title～|
+どかーん	(ブラバン！甲子園)	バラエティ	ff00ff00	170※	`easy`3`false`かんたん/どかーん|`normal`4`false`ふつう/どかーん|`hard`5`false`むずかしい/どかーん|`oni`6`false`おに/どかーん|
+ドクターXのテーマ	ドラマ「ドクターX～外科医・大門未知子～」より	バラエティ	ff00ff00	104	`easy`3`false`かんたん/ドクターXのテーマ|`normal`5`false`ふつう/ドクターXのテーマ|`hard`6`false`むずかしい/ドクターXのテーマ|`oni`8`false`おに/ドクターXのテーマ|
+Dreadnought	Mastermind(xi+nora2r)	バラエティ	ff00ff00	96-384	`easy`4`false`かんたん/Dreadnought|`normal`6`false`ふつう/Dreadnought|`hard`6`false`むずかしい/Dreadnought|`oni`9`false`おに/Dreadnought|`uraOni`10`false`おに/Dreadnought(裏譜面)
+ナイト・オブ・ナイツ	東方Projectアレンジ ビートまりお	バラエティ	ff00ff00	180	`easy`4`true`かんたん/ナイト・オブ・ナイツ|`normal`6`true`ふつう/ナイト・オブ・ナイツ|`hard`7`true`むずかしい/ナイト・オブ・ナイツ|`oni`9`true`おに/ナイト・オブ・ナイツ|
+Ninja Batman	映画「ニンジャバットマン」より	バラエティ	ff00ff00	140	`easy`4`false`かんたん/Ninja Batman|`normal`4`false`ふつう/Ninja Batman|`hard`5`false`むずかしい/Ninja Batman|`oni`6`false`おに/Ninja Batman|
+ネクロファンタジア ～ Arr.Demetori	東方Projectアレンジ Demetori	バラエティ	ff00ff00	180	`easy`5`false`かんたん/ネクロファンタジア ～ Arr.Demetori|`normal`7`false`ふつう/ネクロファンタジア ～ Arr.Demetori|`hard`8`false`むずかしい/ネクロファンタジア ～ Arr.Demetori|`oni`10`false`おに/ネクロファンタジア ～ Arr.Demetori|
+狙いうち	(ブラバン！甲子園)	バラエティ	ff00ff00	159※	`easy`4`false`かんたん/狙いうち|`normal`5`false`ふつう/狙いうち|`hard`6`false`むずかしい/狙いうち|`oni`8`false`おに/狙いうち|
+PERFECT HUMAN		バラエティ	ff00ff00	128	`easy`2`false`かんたん/PERFECT HUMAN|`normal`3`false`ふつう/PERFECT HUMAN|`hard`4`false`むずかしい/PERFECT HUMAN|`oni`8`false`おに/PERFECT HUMAN|
+Hyper Bass (feat. Yunomi)	神宮前参道學園電音部 「電音部」より	バラエティ	ff00ff00	180	`easy`2`false`かんたん/Hyper Bass (feat. Yunomi)|`normal`2`false`ふつう/Hyper Bass (feat. Yunomi)|`hard`5`false`むずかしい/Hyper Bass (feat. Yunomi)|`oni`9`false`おに/Hyper Bass (feat. Yunomi)|
+爆裂タウマゼイン (Prod. チバニャン)	帝音国際学院電音部 「電音部」より	バラエティ	ff00ff00	180	`easy`3`false`かんたん/爆裂タウマゼイン (Prod. チバニャン)|`normal`6`false`ふつう/爆裂タウマゼイン (Prod. チバニャン)|`hard`6`false`むずかしい/爆裂タウマゼイン (Prod. チバニャン)|`oni`8`false`おに/爆裂タウマゼイン (Prod. チバニャン)|
+Bad Apple!! feat.nomico	東方Projectアレンジ Alstroemeria Records	バラエティ	ff00ff00	138※	`easy`3`false`かんたん/Bad Apple!! feat.nomico|`normal`5`false`ふつう/Bad Apple!! feat.nomico|`hard`6`false`むずかしい/Bad Apple!! feat.nomico|`oni`8`false`おに/Bad Apple!! feat.nomico|
+パパマママック	マクドナルドコラボ曲	バラエティ	ff00ff00	112	`easy`3`false`かんたん/パパマママック限定バージョン|`normal`4`false`ふつう/パパマママック限定バージョン|`hard`5`false`むずかしい/パパマママック限定バージョン|`oni`6`false`おに/パパマママック限定バージョン|
+Hand Over (Prod. TEMPLIME)	外神田文芸高校電音部 「電音部」より	バラエティ	ff00ff00	140	`easy`3`false`かんたん/Hand Over (Prod. TEMPLIME)|`normal`4`false`ふつう/Hand Over (Prod. TEMPLIME)|`hard`4`false`むずかしい/Hand Over (Prod. TEMPLIME)|`oni`9`false`おに/Hand Over (Prod. TEMPLIME)|
+Favorite Days	日高零奈(CV:蔀 祐佳) 「電音部」より	バラエティ	ff00ff00	140	`easy`2`false`かんたん/Favorite Days|`normal`3`false`ふつう/Favorite Days|`hard`7`false`むずかしい/Favorite Days|`oni`8`false`おに/Favorite Days|
+ふな ふな ふなっしー♪	～ふなっしー公式テーマソング～	バラエティ	ff00ff00	152	`easy`3`false`かんたん/ふな ふな ふなっしー♪|`normal`4`false`ふつう/ふな ふな ふなっしー♪|`hard`5`false`むずかしい/ふな ふな ふなっしー♪|`oni`8`false`おに/ふな ふな ふなっしー♪|
+FREEDOM DiVE↓	xi	バラエティ	ff00ff00	222.22	`easy`4`false`かんたん/FREEDOM DiVE↓|`normal`6`false`ふつう/FREEDOM DiVE↓|`hard`7`false`むずかしい/FREEDOM DiVE↓|`oni`10`false`おに/FREEDOM DiVE↓|
+Help me, ERINNNNNN!!	東方Projectアレンジ ビートまりお	バラエティ	ff00ff00	183※	`easy`3`false`かんたん/Help me, ERINNNNNN!!|`normal`4`false`ふつう/Help me, ERINNNNNN!!|`hard`7`false`むずかしい/Help me, ERINNNNNN!!|`oni`8`false`おに/Help me, ERINNNNNN!!|
+ペンパイナッポーアッポーペン(PPAP)	ピコ太郎	バラエティ	ff00ff00	136※	`easy`2`false`かんたん/ペンパイナッポーアッポーペン(PPAP)|`normal`4`false`ふつう/ペンパイナッポーアッポーペン(PPAP)|`hard`4`false`むずかしい/ペンパイナッポーアッポーペン(PPAP)|`oni`7`false`おに/ペンパイナッポーアッポーペン(PPAP)|
+マツケンサンバⅡ		バラエティ	ff00ff00	127.15	`easy`5`false`かんたん/マツケンサンバII|`normal`5`false`ふつう/マツケンサンバII|`hard`6`false`むずかしい/マツケンサンバII|`oni`8`false`おに/マツケンサンバII|
+Mani Mani(Prod.TAKU INOUE)	東雲和音(CV:天音みほ) 「電音部」より	バラエティ	ff00ff00	134	`easy`2`false`かんたん/Mani Mani(Prod. TAKU INOUE)|`normal`4`false`ふつう/Mani Mani(Prod. TAKU INOUE)|`hard`6`false`むずかしい/Mani Mani(Prod. TAKU INOUE)|`oni`8`false`おに/Mani Mani(Prod. TAKU INOUE)|
+魔理沙は大変なものを盗んでいきました	東方Projectアレンジ ARM+夕野ヨシミ(IOSYS) feat.藤咲かりん	バラエティ	ff00ff00	170	`easy`4`false`かんたん/魔理沙は大変なものを盗んでいきました|`normal`5`false`ふつう/魔理沙は大変なものを盗んでいきました|`hard`6`false`むずかしい/魔理沙は大変なものを盗んでいきました|`oni`9`false`おに/魔理沙は大変なものを盗んでいきました|
+マル・マル・モリ・モリ！		バラエティ	ff00ff00	125	`easy`2`false`かんたん/マル・マル・モリ・モリ!|`normal`3`false`ふつう/マル・マル・モリ・モリ!|`hard`3`false`むずかしい/マル・マル・モリ・モリ!|`oni`5`false`おに/マル・マル・モリ・モリ!|
+もぺもぺ	Leaf	バラエティ	ff00ff00	6.25-300	`easy`4`false`かんたん/もぺもぺ|`normal`5`false`ふつう/もぺもぺ|`hard`7`false`むずかしい/もぺもぺ|`oni`10`false`おに/もぺもぺ|
+やわらか戦車		バラエティ	ff00ff00	150※	`easy`3`false`かんたん/やわらか戦車|`normal`5`false`ふつう/やわらか戦車|`hard`6`false`むずかしい/やわらか戦車|`oni`6`false`おに/やわらか戦車|`uraOni`9`false`おに/やわらか戦車(裏譜面)
+YouTubeテーマソング	HIKAKIN & SEIKIN	バラエティ	ff00ff00	128	`easy`3`false`かんたん/YouTubeテーマソング|`normal`4`false`ふつう/YouTubeテーマソング|`hard`5`false`むずかしい/YouTubeテーマソング|`oni`7`false`おに/YouTubeテーマソング|
+ライコタイコディスコ	東方Project×NAMCO SOUNDS 渡辺量	バラエティ	ff00ff00	144	`easy`3`false`かんたん/ライコタイコディスコ|`normal`5`false`ふつう/ライコタイコディスコ|`hard`5`false`むずかしい/ライコタイコディスコ|`oni`8`false`おに/ライコタイコディスコ|
+LOVE&ENERGY	新日本プロレス 棚橋弘至入場テーマ	バラエティ	ff00ff00	180	`easy`2`false`かんたん/LOVE＆ENERGY|`normal`2`false`ふつう/LOVE＆ENERGY|`hard`5`false`むずかしい/LOVE＆ENERGY|`oni`7`false`おに/LOVE＆ENERGY|
+ルパン三世	(ブラバン！甲子園)	バラエティ	ff00ff00	143※	`easy`4`false`かんたん/ルパン三世|`normal`5`false`ふつう/ルパン三世|`hard`7`false`むずかしい/ルパン三世|`oni`9`false`おに/ルパン三世|
+RAINMAKER	新日本プロレス オカダ・カズチカ入場テーマ	バラエティ	ff00ff00	165	`easy`3`false`かんたん/RAINMAKER|`normal`4`false`ふつう/RAINMAKER|`hard`5`false`むずかしい/RAINMAKER|`oni`8`false`おに/RAINMAKER|
+Ladystar Wandering	東方Project×NAMCO SOUNDS 中鶴潤一	バラエティ	ff00ff00	130	`easy`4`false`かんたん/Ladystar Wandering|`normal`6`false`ふつう/Ladystar Wandering|`hard`7`false`むずかしい/Ladystar Wandering|`oni`8`false`おに/Ladystar Wandering|
+ウィリアム・テル序曲	ロッシーニ	クラシック	ffffd700	152※	`easy`4`false`かんたん/ウィリアム・テル序曲|`normal`5`false`ふつう/ウィリアム・テル序曲|`hard`6`true`むずかしい/ウィリアム・テル序曲|`oni`7`false`おに/ウィリアム・テル序曲|
+美しく忙しきドナウ		クラシック	ffffd700	134-240※	`easy`4`false`かんたん/美しく忙しきドナウ|`normal`4`false`ふつう/美しく忙しきドナウ|`hard`6`false`むずかしい/美しく忙しきドナウ|`oni`8`false`おに/美しく忙しきドナウ|`uraOni`10`false`おに/美しく忙しきドナウ(裏譜面)
+エンターテイナー	ジョップリン	クラシック	ffffd700	104※	`easy`4`false`かんたん/エンターテイナー|`normal`5`false`ふつう/エンターテイナー|`hard`7`false`むずかしい/エンターテイナー|`oni`8`false`おに/エンターテイナー|
+火星	ホルスト	クラシック	ffffd700	60-160※	`easy`4`false`かんたん/火星|`normal`5`false`ふつう/火星|`hard`6`false`むずかしい/火星|`oni`7`false`おに/火星|
+カルメン組曲一番終曲	ビゼー	クラシック	ffffd700	120※	`easy`3`false`かんたん/カルメン組曲一番終曲|`normal`5`false`ふつう/カルメン組曲一番終曲|`hard`5`false`むずかしい/カルメン組曲一番終曲|`oni`7`false`おに/カルメン組曲一番終曲|
+カレ・カノ・カノン		クラシック	ffffd700	180	`easy`3`false`かんたん/カレ・カノ・カノン|`normal`4`false`ふつう/カレ・カノ・カノン|`hard`5`true`むずかしい/カレ・カノ・カノン|`oni`8`false`おに/カレ・カノ・カノン|
+クープランの墓		クラシック	ffffd700	140	`easy`4`false`かんたん/クープランの墓|`normal`7`false`ふつう/クープランの墓|`hard`8`false`むずかしい/クープランの墓|`oni`8`false`おに/クープランの墓|
+熊蜂の飛行	リムスキー＝コルサコフ	クラシック	ffffd700	116-150※	`easy`3`false`かんたん/熊蜂の飛行|`normal`4`false`ふつう/熊蜂の飛行|`hard`7`false`むずかしい/熊蜂の飛行|`oni`9`false`おに/熊蜂の飛行|
+クラシックメドレー(ロック編)		クラシック	ffffd700	145※	`easy`4`false`かんたん/クラシックメドレー(ロック編)|`normal`5`false`ふつう/クラシックメドレー(ロック編)|`hard`8`false`むずかしい/クラシックメドレー(ロック編)|`oni`10`false`おに/クラシックメドレー(ロック編)|
+幻想即興曲		クラシック	ffffd700	114-228※	`easy`5`false`かんたん/幻想即興曲|`normal`7`false`ふつう/幻想即興曲|`hard`8`false`むずかしい/幻想即興曲|`oni`9`false`おに/幻想即興曲|
+交響曲第五番「運命」	ベートーヴェン	クラシック	ffffd700	190※	`easy`4`false`かんたん/交響曲第五番「運命」|`normal`5`false`ふつう/交響曲第五番「運命」|`hard`5`true`むずかしい/交響曲第五番「運命」|`oni`6`false`おに/交響曲第五番「運命」|
+交響曲第7番から	ベートーヴェン	クラシック	ffffd700	120-162※	`easy`3`false`かんたん/交響曲第7番から|`normal`4`false`ふつう/交響曲第7番から|`hard`6`false`むずかしい/交響曲第7番から|`oni`7`false`おに/交響曲第7番から|
+行進曲「くるみ割り人形」から	チャイコフスキー	クラシック	ffffd700	160※	`easy`3`false`かんたん/行進曲「くるみ割り人形」から|`normal`5`false`ふつう/行進曲「くるみ割り人形」から|`hard`6`true`むずかしい/行進曲「くるみ割り人形」から|`oni`7`false`おに/行進曲「くるみ割り人形」から|
+新世界より	ドヴォルザーク	クラシック	ffffd700	152-172※	`easy`4`false`かんたん/新世界より|`normal`5`false`ふつう/新世界より|`hard`6`true`むずかしい/新世界より|`oni`7`false`おに/新世界より|
+シンフォニックメドレー第1番		クラシック	ffffd700	63-110※	`easy`3`false`かんたん/シンフォニックメドレー第1番|`normal`5`false`ふつう/シンフォニックメドレー第1番|`hard`7`false`むずかしい/シンフォニックメドレー第1番|`oni`8`false`おに/シンフォニックメドレー第1番|
+第九交響曲	ベートーヴェン	クラシック	ffffd700	89-179※	`easy`3`false`かんたん/第九交響曲|`normal`3`false`ふつう/第九交響曲|`hard`3`false`むずかしい/第九交響曲|`oni`6`false`おに/第九交響曲|
+チャーリー ダッシュ！		クラシック	ffffd700	49-320	`easy`4`false`かんたん/チャーリー ダッシュ！|`normal`7`false`ふつう/チャーリー ダッシュ！|`hard`8`false`むずかしい/チャーリー ダッシュ！|`oni`10`false`おに/チャーリー ダッシュ！|
+天国と地獄 序曲	オッフェンバック	クラシック	ffffd700	160※	`easy`4`false`かんたん/天国と地獄 序曲|`normal`4`false`ふつう/天国と地獄 序曲|`hard`5`false`むずかしい/天国と地獄 序曲|`oni`7`true`おに/天国と地獄 序曲|
+道化師の朝の歌		クラシック	ffffd700	150-158	`easy`5`false`かんたん/道化師の朝の歌|`normal`7`false`ふつう/道化師の朝の歌|`hard`7`false`むずかしい/道化師の朝の歌|`oni`8`false`おに/道化師の朝の歌|
+弩蚊怒夏		クラシック	ffffd700	50-220※	`easy`5`false`かんたん/弩蚊怒夏|`normal`7`false`ふつう/弩蚊怒夏|`hard`8`false`むずかしい/弩蚊怒夏|`oni`10`false`おに/弩蚊怒夏|
+トッカータとフーガとロック		クラシック	ffffd700	143	`easy`5`false`かんたん/トッカータとフーガとロック|`normal`7`false`ふつう/トッカータとフーガとロック|`hard`8`false`むずかしい/トッカータとフーガとロック|`oni`9`false`おに/トッカータとフーガとロック|
+トルコ行進曲	モーツァルト	クラシック	ffffd700	113-144※	`easy`4`false`かんたん/トルコ行進曲(モーツァルト)|`normal`5`false`ふつう/トルコ行進曲(モーツァルト)|`hard`6`false`むずかしい/トルコ行進曲(モーツァルト)|`oni`7`false`おに/トルコ行進曲(モーツァルト)|
+亡き王女のためのパヴァーヌ	～きみのこどう～	クラシック	ffffd700	136※	`easy`3`false`かんたん/亡き王女のためのパヴァーヌ|`normal`5`false`ふつう/亡き王女のためのパヴァーヌ|`hard`5`false`むずかしい/亡き王女のためのパヴァーヌ|`oni`6`false`おに/亡き王女のためのパヴァーヌ|`uraOni`8`false`おに/亡き王女のためのパヴァーヌ(裏譜面)
+パリのアメリカ人	ガーシュウィン	クラシック	ffffd700	63-112※	`easy`3`false`かんたん/パリのアメリカ人|`normal`4`false`ふつう/パリのアメリカ人|`hard`6`false`むずかしい/パリのアメリカ人|`oni`8`false`おに/パリのアメリカ人|
+ハンガリー舞曲第5番	ブラームス	クラシック	ffffd700	65-166※	`easy`5`false`かんたん/ハンガリー舞曲第５番|`normal`5`false`ふつう/ハンガリー舞曲第５番|`hard`6`false`むずかしい/ハンガリー舞曲第５番|`oni`7`false`おに/ハンガリー舞曲第５番|
+へ調の協奏曲 第3楽章	ガーシュウィン	クラシック	ffffd700	70-157※	`easy`4`false`かんたん/ヘ調の協奏曲 第3楽章|`normal`5`false`ふつう/ヘ調の協奏曲 第3楽章|`hard`7`false`むずかしい/ヘ調の協奏曲 第3楽章|`oni`9`false`おに/ヘ調の協奏曲 第3楽章|
+ボレロ	ラヴェル	クラシック	ffffd700	65※-82	`easy`2`false`かんたん/ボレロ|`normal`5`false`ふつう/ボレロ|`hard`4`false`むずかしい/ボレロ|`oni`7`false`おに/ボレロ|
+まおぅ	feat.結羽(プラムソニック)	クラシック	ffffd700	140	`easy`3`false`かんたん/まおぅ|`normal`5`false`ふつう/まおぅ|`hard`7`false`むずかしい/まおぅ|`oni`8`false`おに/まおぅ|
+ます	シューベルト	クラシック	ffffd700	120-160※	`easy`3`false`かんたん/ます|`normal`3`false`ふつう/ます|`hard`4`false`むずかしい/ます|`oni`7`false`おに/ます|
+夜想曲Op.9-2		クラシック	ffffd700	192	`easy`4`false`かんたん/夜想曲Op.9-2|`normal`6`false`ふつう/夜想曲Op.9-2|`hard`7`false`むずかしい/夜想曲Op.9-2|`oni`8`false`おに/夜想曲Op.9-2|
+ラ・カンパネラ	リスト	クラシック	ffffd700	78-117※	`easy`4`false`かんたん/ラ・カンパネラ|`normal`6`false`ふつう/ラ・カンパネラ|`hard`7`false`むずかしい/ラ・カンパネラ|`oni`6`false`おに/ラ・カンパネラ|
+リパブリック産科		クラシック	ffffd700	138	`easy`3`false`かんたん/リパブリック産科|`normal`3`false`ふつう/リパブリック産科|`hard`6`false`むずかしい/リパブリック産科|`oni`7`false`おに/リパブリック産科|
+「ルスランとリュドミラ」序曲	グリンカ)	クラシック	ffffd700	160-180※	`easy`3`false`かんたん/「ルスランとリュドミラ」序曲|`normal`5`false`ふつう/「ルスランとリュドミラ」序曲|`hard`7`false`むずかしい/「ルスランとリュドミラ」序曲|`oni`8`false`おに/「ルスランとリュドミラ」序曲|
+練習曲Op.10-4		クラシック	ffffd700	125-177	`easy`3`false`かんたん/練習曲Op.10-4|`normal`4`false`ふつう/練習曲Op.10-4|`hard`8`false`むずかしい/練習曲Op.10-4|`oni`9`false`おに/練習曲Op.10-4|`uraOni`10`false`おに/練習曲Op.10-4(裏譜面)
+ロシアの踊り「トレパーク」	チャイコフスキー	クラシック	ffffd700	165※-181	`easy`3`false`かんたん/ロシアの踊り「トレパーク」|`normal`5`false`ふつう/ロシアの踊り「トレパーク」|`hard`7`false`むずかしい/ロシアの踊り「トレパーク」|`oni`7`false`おに/ロシアの踊り「トレパーク」|
+THE IDOLM@STER	「アイドルマスター」より	ゲームミュージック	ff9932cc	165	`easy`3`false`かんたん/THE IDOLM@STER|`normal`4`false`ふつう/THE IDOLM@STER|`hard`4`false`むずかしい/THE IDOLM@STER|`oni`8`true`おに/THE IDOLM@STER|`uraOni`8`true`おに/THE IDOLM@STER(裏譜面)
+明日への鼓動	「英雄伝説 閃の軌跡」より	ゲームミュージック	ff9932cc	173	`easy`3`false`かんたん/明日への鼓動|`normal`5`false`ふつう/明日への鼓動|`hard`6`false`むずかしい/明日への鼓動|`oni`6`false`おに/明日への鼓動|
+ANiMA	xi 「DEEMO」より	ゲームミュージック	ff9932cc	183.5	`easy`5`false`かんたん/ANiMA|`normal`6`false`ふつう/ANiMA|`hard`7`false`むずかしい/ANiMA|`oni`10`false`おに/ANiMA|
+A New Journey	「パズル&ドラゴンズ」より	ゲームミュージック	ff9932cc	137	`easy`3`false`かんたん/A New Journey|`normal`5`false`ふつう/A New Journey|`hard`5`false`むずかしい/A New Journey|`oni`7`false`おに/A New Journey|
+Wish upon a shooting star	SUi 「DEEMO」より	ゲームミュージック	ff9932cc	128	`easy`4`false`かんたん/Wish upon a shooting star|`normal`5`false`ふつう/Wish upon a shooting star|`hard`6`false`むずかしい/Wish upon a shooting star|`oni`9`false`おに/Wish upon a shooting star|
+Wings of Tomorrow(Tatsujin Mix)	「GOD EATER 2」より	ゲームミュージック	ff9932cc	160※	`easy`4`false`かんたん/Wings of Tomorrow (Tatsujin Mix)|`normal`6`false`ふつう/Wings of Tomorrow (Tatsujin Mix)|`hard`6`false`むずかしい/Wings of Tomorrow (Tatsujin Mix)|`oni`9`false`おに/Wings of Tomorrow (Tatsujin Mix)|
+Venomous	「リッジレーサー3D」より	ゲームミュージック	ff9932cc	224※	`easy`5`false`かんたん/Venomous|`normal`6`false`ふつう/Venomous|`hard`7`false`むずかしい/Venomous|`oni`9`false`おに/Venomous|`uraOni`10`false`おに/Venomous(裏譜面)
+Walking Through The Towers	「パズル&ドラゴンズ」より	ゲームミュージック	ff9932cc	150	`easy`3`false`かんたん/Walking Through The Towers|`normal`4`false`ふつう/Walking Through The Towers|`hard`5`false`むずかしい/Walking Through The Towers|`oni`7`false`おに/Walking Through The Towers|
+L・O・B・M	「アイドルマスター」より	ゲームミュージック	ff9932cc	170	`easy`4`false`かんたん/L・O・B・M|`normal`5`false`ふつう/L・O・B・M|`hard`6`false`むずかしい/L・O・B・M|`oni`8`false`おに/L・O・B・M|
+オーバーマスター	「アイドルマスター」より	ゲームミュージック	ff9932cc	178	`easy`5`false`かんたん/オーバーマスター|`normal`5`false`ふつう/オーバーマスター|`hard`7`false`むずかしい/オーバーマスター|`oni`8`false`おに/オーバーマスター|
+おしえて くまとも	「クマ・トモ」テーマ曲	ゲームミュージック	ff9932cc	136	`easy`2`false`かんたん/おしえて くまとも|`normal`3`false`ふつう/おしえて くまとも|`hard`5`false`むずかしい/おしえて くまとも|`oni`8`false`おに/おしえて くまとも|
+KAGEKIYO	源平討魔伝メドレー	ゲームミュージック	ff9932cc	130※	`easy`4`false`かんたん/KAGEKIYO 源平討魔伝メドレー|`normal`5`false`ふつう/KAGEKIYO 源平討魔伝メドレー|`hard`7`false`むずかしい/KAGEKIYO 源平討魔伝メドレー|`oni`8`false`おに/KAGEKIYO 源平討魔伝メドレー|`uraOni`10`true`おに/KAGEKIYO 源平討魔伝メドレー(裏譜面)
+CHAOS RINGS		ゲームミュージック	ff9932cc	108-143※	`easy`4`false`かんたん/CHAOS RINGS|`normal`4`false`ふつう/CHAOS RINGS|`hard`6`false`むずかしい/CHAOS RINGS|`oni`7`false`おに/CHAOS RINGS|
+檄！帝国華撃団	「サクラ大戦」より	ゲームミュージック	ff9932cc	143※	`easy`2`false`かんたん/檄！帝国華撃団|`normal`3`false`ふつう/檄！帝国華撃団|`hard`5`false`むずかしい/檄！帝国華撃団|`oni`7`false`おに/檄！帝国華撃団|
+決戦!!	「パズドラZ」より	ゲームミュージック	ff9932cc	154	`easy`3`false`かんたん/決戦!!|`normal`5`false`ふつう/決戦!!|`hard`6`false`むずかしい/決戦!!|`oni`8`false`おに/決戦!!|
+GO MY WAY!!	「アイドルマスター」より	ゲームミュージック	ff9932cc	180※	`easy`4`false`かんたん/GO MY WAY!!|`normal`5`false`ふつう/GO MY WAY!!|`hard`6`false`むずかしい/GO MY WAY!!|`oni`7`false`おに/GO MY WAY!!|
+GO ON YA WAY(feat. 超学生)	「グーニャモンスター」より	ゲームミュージック	ff9932cc	150	`easy`2`false`かんたん/GO ON YA WAY(feat. 超学生)|`normal`5`false`ふつう/GO ON YA WAY(feat. 超学生)|`hard`6`false`むずかしい/GO ON YA WAY(feat. 超学生)|`oni`8`false`おに/GO ON YA WAY(feat. 超学生)|
+Saika	「DEEMO」より	ゲームミュージック	ff9932cc	128	`easy`3`false`かんたん/Saika|`normal`4`false`ふつう/Saika|`hard`6`false`むずかしい/Saika|`oni`8`false`おに/Saika|
+Thank You!【踊り子あり】	「アイドルマスター ミリオンライブ！」より	ゲームミュージック	ff9932cc	177	`easy`3`false`かんたん/Thank You!|`normal`4`false`ふつう/Thank You!|`hard`5`false`むずかしい/Thank You!|`oni`8`false`おに/Thank You!|
+The Orb Festival	「パズル&ドラゴンズ」より	ゲームミュージック	ff9932cc	163	`easy`4`false`かんたん/The Orb Festival|`normal`6`false`ふつう/The Orb Festival|`hard`6`false`むずかしい/The Orb Festival|`oni`8`false`おに/The Orb Festival|
+JOIN THE PAC -太鼓の達人 Ver.-	パックマン40周年公式テーマ楽曲	ゲームミュージック	ff9932cc	114-205※	`easy`3`false`かんたん/JOIN THE PAC -太鼓の達人 Ver.-|`normal`3`false`ふつう/JOIN THE PAC -太鼓の達人 Ver.-|`hard`6`false`むずかしい/JOIN THE PAC -太鼓の達人 Ver.-|`oni`9`false`おに/JOIN THE PAC -太鼓の達人 Ver.-|
+序曲 ドラゴンクエストⅩより		ゲームミュージック	ff9932cc	50-154※	`easy`3`false`かんたん/序曲 ドラゴンクエストXより|`normal`4`false`ふつう/序曲 ドラゴンクエストXより|`hard`4`false`むずかしい/序曲 ドラゴンクエストXより|`oni`5`false`おに/序曲 ドラゴンクエストXより|
+シンフォニック モトス		ゲームミュージック	ff9932cc	63-160※	`easy`3`false`かんたん/シンフォニック モトス|`normal`5`false`ふつう/シンフォニック モトス|`hard`6`false`むずかしい/シンフォニック モトス|`oni`7`false`おに/シンフォニック モトス|
+スペランカー		ゲームミュージック	ff9932cc	150.25	`easy`4`false`かんたん/スペランカー|`normal`5`false`ふつう/スペランカー|`hard`7`false`むずかしい/スペランカー|`oni`8`false`おに/スペランカー|
+ゼビウス体操		ゲームミュージック	ff9932cc	130.01※	`easy`4`false`かんたん/ゼビウス体操|`normal`5`false`ふつう/ゼビウス体操|`hard`6`false`むずかしい/ゼビウス体操|`oni`7`false`おに/ゼビウス体操|`uraOni`9`false`おに/ゼビウス体操(裏譜面)
+ソウルキャリバーⅡ	Brave Sword, Braver Soul	ゲームミュージック	ff9932cc	150※	`easy`3`false`かんたん/ソウルキャリバーII|`normal`5`false`ふつう/ソウルキャリバーII|`hard`5`false`むずかしい/ソウルキャリバーII|`oni`7`false`おに/ソウルキャリバーII|
+ソニック4 エピソードⅠ メドレー		ゲームミュージック	ff9932cc	108-220	`easy`4`false`かんたん/ソニック4 エピソードI メドレー|`normal`6`false`ふつう/ソニック4 エピソードI メドレー|`hard`7`false`むずかしい/ソニック4 エピソードI メドレー|`oni`8`false`おに/ソニック4 エピソードI メドレー|
+太鼓のマーチ		ゲームミュージック	ff9932cc	145※	`easy`5`false`かんたん/太鼓のマーチ|`normal`6`false`ふつう/太鼓のマーチ|`hard`6`false`むずかしい/太鼓のマーチ|`oni`7`false`おに/太鼓のマーチ|
+チェインクロニクル 最終決戦メドレー		ゲームミュージック	ff9932cc	136-172	`easy`4`false`かんたん/チェインクロニクル 最終決戦メドレー|`normal`6`false`ふつう/チェインクロニクル 最終決戦メドレー|`hard`6`false`むずかしい/チェインクロニクル 最終決戦メドレー|`oni`8`false`おに/チェインクロニクル 最終決戦メドレー|`uraOni`9`false`おに/チェインクロニクル 最終決戦メドレー(裏譜面)
+チェインクロニクル 総力戦メドレー		ゲームミュージック	ff9932cc	120-159	`easy`3`false`かんたん/チェインクロニクル 総力戦メドレー|`normal`4`false`ふつう/チェインクロニクル 総力戦メドレー|`hard`5`false`むずかしい/チェインクロニクル 総力戦メドレー|`oni`7`false`おに/チェインクロニクル 総力戦メドレー|`uraOni`9`false`おに/チェインクロニクル 総力戦メドレー(裏譜面)
+チェインクロニクル 通常バトルメドレー		ゲームミュージック	ff9932cc	136-165	`easy`3`false`かんたん/チェインクロニクル 通常バトルメドレー|`normal`5`false`ふつう/チェインクロニクル 通常バトルメドレー|`hard`6`false`むずかしい/チェインクロニクル 通常バトルメドレー|`oni`8`false`おに/チェインクロニクル 通常バトルメドレー|`uraOni`9`false`おに/チェインクロニクル 通常バトルメドレー(裏譜面)
+テイルズ オブ エクシリア メドレー		ゲームミュージック	ff9932cc	129-247※	`easy`3`false`かんたん/テイルズ オブ エクシリア メドレー|`normal`5`false`ふつう/テイルズ オブ エクシリア メドレー|`hard`7`false`むずかしい/テイルズ オブ エクシリア メドレー|`oni`8`false`おに/テイルズ オブ エクシリア メドレー|
+テイルズ オブ ジ アビス	The arrow was shot	ゲームミュージック	ff9932cc	130-180※	`easy`5`false`かんたん/テイルズ オブ ジ アビス|`normal`6`false`ふつう/テイルズ オブ ジ アビス|`hard`7`false`むずかしい/テイルズ オブ ジ アビス|`oni`8`false`おに/テイルズ オブ ジ アビス|
+テイルズ オブ ゼスティリア メドレー		ゲームミュージック	ff9932cc	131-158※	`easy`2`false`かんたん/テイルズ オブ ゼスティリア メドレー|`normal`4`false`ふつう/テイルズ オブ ゼスティリア メドレー|`hard`6`false`むずかしい/テイルズ オブ ゼスティリア メドレー|`oni`8`false`おに/テイルズ オブ ゼスティリア メドレー|
+Doom Noiz	「ギャラガレギオンズ」より	ゲームミュージック	ff9932cc	160※	`easy`5`false`かんたん/Doom Noiz|`normal`6`false`ふつう/Doom Noiz|`hard`8`false`むずかしい/Doom Noiz|`oni`10`false`おに/Doom Noiz|
+TO MAKE THE END OF BATTLE	「イースⅠ&Ⅱクロニクルズ」より	ゲームミュージック	ff9932cc	232.4	`easy`4`false`かんたん/TO MAKE THE END OF BATTLE|`normal`5`false`ふつう/TO MAKE THE END OF BATTLE|`hard`7`false`むずかしい/TO MAKE THE END OF BATTLE|`oni`7`false`おに/TO MAKE THE END OF BATTLE|
+Do-Dai	「アイドルマスター」より	ゲームミュージック	ff9932cc	173	`easy`4`false`かんたん/Do-Dai|`normal`5`false`ふつう/Do-Dai|`hard`6`false`むずかしい/Do-Dai|`oni`8`false`おに/Do-Dai|
+ドラゴンスピリットメドレー		ゲームミュージック	ff9932cc	175	`easy`4`false`かんたん/ドラゴンスピリットメドレー|`normal`6`false`ふつう/ドラゴンスピリットメドレー|`hard`8`false`おに/ドラゴンスピリットメドレー|`oni`7`false`おに/ドラゴンスピリットメドレー|
+ドルアーガの塔メドレー		ゲームミュージック	ff9932cc	188	`easy`4`false`かんたん/ドルアーガの塔メドレー|`normal`5`false`ふつう/ドルアーガの塔メドレー|`hard`7`false`むずかしい/ドルアーガの塔メドレー|`oni`8`false`おに/ドルアーガの塔メドレー|
+ナムコットメドレー		ゲームミュージック	ff9932cc	95-151※	`easy`3`false`かんたん/ナムコットメドレー|`normal`4`false`ふつう/ナムコットメドレー|`hard`5`false`むずかしい/ナムコットメドレー|`oni`7`false`おに/ナムコットメドレー|
+にひきはネコトモ！	「ネコ・トモ」エンディング曲	ゲームミュージック	ff9932cc	170	`easy`2`false`かんたん/にひきはネコトモ！|`normal`3`false`ふつう/にひきはネコトモ！|`hard`3`false`むずかしい/にひきはネコトモ！|`oni`6`false`おに/にひきはネコトモ！|
+Naked Glow	「R4-RIDGE RACER TYPE4-」より	ゲームミュージック	ff9932cc	133.05	`easy`4`false`かんたん/Naked Glow|`normal`6`false`ふつう/Naked Glow|`hard`7`false`むずかしい/Naked Glow|`oni`9`false`おに/Naked Glow|
+No Way Back	「GOD EATER」より	ゲームミュージック	ff9932cc	158※	`easy`4`false`かんたん/No Way Back|`normal`6`false`ふつう/No Way Back|`hard`7`false`むずかしい/No Way Back|`oni`8`false`おに/No Way Back|`uraOni`9`false`おに/No Way Back(裏譜面)
+PAC-MAN CHAMPIONSHIP EDITION 2	PAC TOY-BOX	ゲームミュージック	ff9932cc	150	`easy`4`false`かんたん/PAC‐MAN CHAMPIONSHIP EDITION 2|`normal`6`false`ふつう/PAC‐MAN CHAMPIONSHIP EDITION 2|`hard`7`false`むずかしい/PAC‐MAN CHAMPIONSHIP EDITION 2|`oni`9`false`おに/PAC‐MAN CHAMPIONSHIP EDITION 2|
+バンビーニ	「もじぴったん大辞典」より	ゲームミュージック	ff9932cc	166※	`easy`4`false`かんたん/バンビーニ|`normal`4`false`ふつう/バンビーニ|`hard`6`false`むずかしい/バンビーニ|`oni`8`false`おに/バンビーニ|
+光る闇	テイルズ オブ ザ ワールド レーヴ ユナイティア	ゲームミュージック	ff9932cc	160※	`easy`3`false`かんたん/光る闇|`normal`5`false`ふつう/光る闇|`hard`5`false`むずかしい/光る闇|`oni`8`false`おに/光る闇|
+ヒミツキチューバー	「ニンジャボックス」より	ゲームミュージック	ff9932cc	140	`easy`3`false`かんたん/ヒミツキチューバー|`normal`4`false`ふつう/ヒミツキチューバー|`hard`6`false`むずかしい/ヒミツキチューバー|`oni`8`false`おに/ヒミツキチューバー|
+Fight the Fanatics	「パズル&ドラゴンズ」より	ゲームミュージック	ff9932cc	156	`easy`4`false`かんたん/Fight the Fanatics|`normal`5`false`ふつう/Fight the Fanatics|`hard`7`false`むずかしい/Fight the Fanatics|`oni`8`false`おに/Fight the Fanatics|
+Holding Hands	「パズル&ドラゴンズ」より	ゲームミュージック	ff9932cc	146	`easy`3`false`かんたん/Holding Hands|`normal`5`false`ふつう/Holding Hands|`hard`6`false`むずかしい/Holding Hands|`oni`7`false`おに/Holding Hands|
+BORN ON DREAM! ～HANABI☆NIGHT～	「アイドルマスター ミリオンライブ！ シアターデイズ」より	ゲームミュージック	ff9932cc	152	`easy`3`false`かんたん/BORN ON DREAM! ～HANABI☆NIGHT～|`normal`3`false`ふつう/BORN ON DREAM! ～HANABI☆NIGHT～|`hard`5`false`むずかしい/BORN ON DREAM! ～HANABI☆NIGHT～|`oni`8`false`おに/BORN ON DREAM! ～HANABI☆NIGHT～|
+ほんわか家族～ネコトモのうた～	「ネコ・トモ」テーマ曲	ゲームミュージック	ff9932cc	139	`easy`2`false`かんたん/ほんわか家族～ネコトモのうた～|`normal`2`false`ふつう/ほんわか家族～ネコトモのうた～|`hard`2`false`むずかしい/ほんわか家族～ネコトモのうた～|`oni`2`false`おに/ほんわか家族～ネコトモのうた～|
+マキシフュージョン	「ドラゴンボールフュージョンズ」より	ゲームミュージック	ff9932cc	135-138※	`easy`2`false`かんたん/マキシフュージョン|`normal`4`false`ふつう/マキシフュージョン|`hard`5`false`むずかしい/マキシフュージョン|`oni`7`false`おに/マキシフュージョン|
+MagiCatz	Sakuzyo 「DEEMO」より	ゲームミュージック	ff9932cc	134.4-232.65※	`easy`2`false`かんたん/MagiCatz|`normal`3`false`ふつう/MagiCatz|`hard`6`false`むずかしい/MagiCatz|`oni`10`false`おに/MagiCatz|
+マッピーメドレー		ゲームミュージック	ff9932cc	112.5-180	`easy`5`false`かんたん/マッピーメドレー|`normal`6`false`ふつう/マッピーメドレー|`hard`7`false`むずかしい/マッピーメドレー|`oni`8`false`おに/マッピーメドレー|
+ミュージック・リボルバー	「ミュージックガンガン！2」より	ゲームミュージック	ff9932cc	168	`easy`3`false`かんたん/ミュージック・リボルバー|`normal`3`false`ふつう/ミュージック・リボルバー|`hard`3`false`むずかしい/ミュージック・リボルバー|`oni`4`false`おに/ミュージック・リボルバー|`uraOni`10`false`おに/ミュージック・リボルバー(裏譜面)
+もじぴったんメドレー		ゲームミュージック	ff9932cc	168	`easy`4`false`かんたん/もじぴったんメドレー|`normal`4`false`ふつう/もじぴったんメドレー|`hard`3`false`むずかしい/もじぴったんメドレー|`oni`7`true`おに/もじぴったんメドレー|
+モンスターハンターメドレー		ゲームミュージック	ff9932cc	106-147※	`easy`4`false`かんたん/モンスターハンターメドレー|`normal`5`false`ふつう/モンスターハンターメドレー|`hard`6`false`むずかしい/モンスターハンターメドレー|`oni`7`false`おに/モンスターハンターメドレー|
+Unite The Force	「パズル&ドラゴンズ」より	ゲームミュージック	ff9932cc	156	`easy`2`false`かんたん/Unite The Force|`normal`4`false`ふつう/Unite The Force|`hard`7`false`むずかしい/Unite The Force|`oni`8`false`おに/Unite The Force|
+指先からはじまる物語	郁原ゆう 「しんぐんデストロ～イ！」より	ゲームミュージック	ff9932cc	127-190※	`easy`3`false`かんたん/指先からはじまる物語|`normal`3`false`ふつう/指先からはじまる物語|`hard`4`false`むずかしい/指先からはじまる物語|`oni`8`false`おに/指先からはじまる物語|
+Lightning Dance	「湾岸ミッドナイト マキシマムチューン」より	ゲームミュージック	ff9932cc	153	`easy`4`false`かんたん/Lightning Dance|`normal`5`false`ふつう/Lightning Dance|`hard`7`false`むずかしい/Lightning Dance|`oni`8`false`おに/Lightning Dance|
+Leviathan	NeLiME 「DEEMO」より	ゲームミュージック	ff9932cc	110-185	`easy`4`false`かんたん/Leviathan|`normal`7`false`ふつう/Leviathan|`hard`7`false`むずかしい/Leviathan|`oni`9`false`おに/Leviathan|
+relations	「アイドルマスター」より	ゲームミュージック	ff9932cc	142	`easy`4`false`かんたん/relations|`normal`5`false`ふつう/relations|`hard`6`false`むずかしい/relations|`oni`8`false`おに/relations|
+Wasabi Body Blow	「鉄拳 3D プライムエディション」より	ゲームミュージック	ff9932cc	180	`easy`3`false`かんたん/Wasabi Body Blow|`normal`4`false`ふつう/Wasabi Body Blow|`hard`6`false`むずかしい/Wasabi Body Blow|`oni`9`false`おに/Wasabi Body Blow|
+R.I.	大和×黒沢ダイスケ	ナムコオリジナル	ffff4500	190	`easy`5`false`かんたん/R.I.|`normal`7`false`ふつう/R.I.|`hard`8`false`むずかしい/R.I.|`oni`10`false`おに/R.I.|
+哀 want U	かねこちはる	ナムコオリジナル	ffff4500	43.5-174	`easy`5`false`かんたん/哀 want U|`normal`6`false`ふつう/哀 want U|`hard`8`false`むずかしい/哀 want U|`oni`10`false`おに/哀 want U|
+愛想笑い	かねこちはる	ナムコオリジナル	ffff4500	173※	`easy`5`false`かんたん/愛想笑い|`normal`6`false`ふつう/愛想笑い|`hard`7`false`むずかしい/愛想笑い|`oni`8`false`おに/愛想笑い|
+愛と浄罪の森		ナムコオリジナル	ffff4500	138-219※	`easy`5`false`かんたん/愛と浄罪の森|`normal`7`false`ふつう/愛と浄罪の森|`hard`8`false`むずかしい/愛と浄罪の森|`oni`10`false`おに/愛と浄罪の森|
+蒼の旋律		ナムコオリジナル	ffff4500	196	`easy`4`false`かんたん/蒼の旋律|`normal`6`false`ふつう/蒼の旋律|`hard`7`false`むずかしい/蒼の旋律|`oni`9`false`おに/蒼の旋律|`uraOni`10`false`おに/蒼の旋律(裏譜面)
+赤と白薔薇の魔女	Dokuwaki	ナムコオリジナル	ffff4500	54-220※	`easy`5`false`かんたん/赤と白薔薇の魔女|`normal`7`false`ふつう/赤と白薔薇の魔女|`hard`8`false`むずかしい/赤と白薔薇の魔女|`oni`10`false`おに/赤と白薔薇の魔女|
+朱の旋律		ナムコオリジナル	ffff4500	190	`easy`4`false`かんたん/朱の旋律|`normal`7`false`ふつう/朱の旋律|`hard`8`false`むずかしい/朱の旋律|`oni`10`false`おに/朱の旋律|
+亜空間遊泳ac12.5		ナムコオリジナル	ffff4500	153	`easy`5`false`かんたん/亜空間遊泳ac12.5|`normal`7`false`ふつう/亜空間遊泳ac12.5|`hard`8`false`むずかしい/亜空間遊泳ac12.5|`oni`9`false`おに/亜空間遊泳ac12.5|
+アサガオ	BTB	ナムコオリジナル	ffff4500	220	`easy`4`false`かんたん/アサガオ|`normal`5`false`ふつう/アサガオ|`hard`7`false`むずかしい/アサガオ|`oni`10`false`おに/アサガオ|
+あたしイカサマ恋はイカサマ		ナムコオリジナル	ffff4500	157	`easy`4`false`かんたん/あたしイカサマ恋はイカサマ|`normal`5`false`ふつう/あたしイカサマ恋はイカサマ|`hard`6`false`むずかしい/あたしイカサマ恋はイカサマ|`oni`7`false`おに/あたしイカサマ恋はイカサマ|
+あの日出会えたキセキ	溝口ゆうま feat.大瀬良あい miko	ナムコオリジナル	ffff4500	181-191	`easy`4`false`かんたん/あの日出会えたキセキ|`normal`6`false`ふつう/あの日出会えたキセキ|`hard`7`false`むずかしい/あの日出会えたキセキ|`oni`10`false`おに/あの日出会えたキセキ|
+天照	Tatsh a.k.a 世阿弥	ナムコオリジナル	ffff4500	125-200	`easy`4`false`かんたん/天照|`normal`7`false`ふつう/天照|`hard`8`false`むずかしい/天照|`oni`10`false`おに/天照|
+Amanda		ナムコオリジナル	ffff4500	123	`easy`3`false`かんたん/Amanda|`normal`4`false`ふつう/Amanda|`hard`5`false`むずかしい/Amanda|`oni`8`false`おに/Amanda|
+或ル不和	aran	ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/或ル不和|`normal`7`false`ふつう/或ル不和|`hard`8`false`むずかしい/或ル不和|`oni`10`false`おに/或ル不和|
+アルムジカac14.0V		ナムコオリジナル	ffff4500	140※	`easy`4`false`かんたん/アルムジカac14.0V|`normal`7`false`ふつう/アルムジカac14.0V|`hard`7`false`むずかしい/アルムジカac14.0V|`oni`9`false`おに/アルムジカac14.0V|
+アレキサンダーのテーマ		ナムコオリジナル	ffff4500	90-120	`easy`4`false`かんたん/アレキサンダーのテーマ|`normal`5`false`ふつう/アレキサンダーのテーマ|`hard`8`false`むずかしい/アレキサンダーのテーマ|`oni`8`false`おに/アレキサンダーのテーマ|
+UNDEAD HEART(怒りのWarriors)	坂本英三×高濱祐輔	ナムコオリジナル	ffff4500	210	`easy`5`false`かんたん/UNDEAD HEART(怒りのWarriors)|`normal`7`false`ふつう/UNDEAD HEART(怒りのWarriors)|`hard`8`false`むずかしい/UNDEAD HEART(怒りのWarriors)|`oni`10`true`おに/UNDEAD HEART(怒りのWarriors)|
+イオシス秋の肉食祭2014	D.watt(IOSYS)feat.Np犬田彦＆はかせ	ナムコオリジナル	ffff4500	132-180	`easy`3`false`かんたん/イオシス秋の肉食祭2014|`normal`6`false`ふつう/イオシス秋の肉食祭2014|`hard`7`false`むずかしい/イオシス秋の肉食祭2014|`oni`9`false`おに/イオシス秋の肉食祭2014|
+Xa	Tatsh	ナムコオリジナル	ffff4500	290	`easy`5`false`かんたん/Xa|`normal`6`false`ふつう/Xa|`hard`7`false`むずかしい/Xa|`oni`9`false`おに/Xa|`uraOni`10`false`おに/Xa(裏譜面)
+意識のワーゼ		ナムコオリジナル	ffff4500	88-132	`easy`5`false`かんたん/意識のワーゼ|`normal`6`false`ふつう/意識のワーゼ|`hard`7`false`むずかしい/意識のワーゼ|`oni`9`false`おに/意識のワーゼ|
+頂	CHUBAY	ナムコオリジナル	ffff4500	202	`easy`5`false`かんたん/頂|`normal`7`false`ふつう/頂|`hard`8`false`むずかしい/頂|`oni`10`false`おに/頂|
+一世風靡	太鼓 de タイムトラベル江戸 / 西込加久見	ナムコオリジナル	ffff4500	137-210	`easy`4`false`かんたん/一世風靡|`normal`5`false`ふつう/一世風靡|`hard`6`false`むずかしい/一世風靡|`oni`9`true`おに/一世風靡|
+いっそこのままで	ミフメイ(BNSI) feat. 相沢	ナムコオリジナル	ffff4500	190	`easy`4`false`かんたん/いっそこのままで|`normal`6`false`ふつう/いっそこのままで|`hard`7`false`むずかしい/いっそこのままで|`oni`9`false`おに/いっそこのままで|
+うさぎのしっぽ		ナムコオリジナル	ffff4500	170	`easy`3`false`かんたん/うさぎのしっぽ|`normal`4`false`ふつう/うさぎのしっぽ|`hard`5`false`むずかしい/うさぎのしっぽ|`oni`7`false`おに/うさぎのしっぽ|
+宇宙SAMURAI		ナムコオリジナル	ffff4500	140	`easy`4`false`かんたん/宇宙SAMURAI|`normal`6`false`ふつう/宇宙SAMURAI|`hard`7`false`むずかしい/宇宙SAMURAI|`oni`8`false`おに/宇宙SAMURAI|
+うちゅうひこうし冒険譚	しょご/野村渉悟	ナムコオリジナル	ffff4500	208	`easy`4`false`かんたん/うちゅうひこうし冒険譚|`normal`7`false`ふつう/うちゅうひこうし冒険譚|`hard`8`false`むずかしい/うちゅうひこうし冒険譚|`oni`10`false`おに/うちゅうひこうし冒険譚|
+うなぎのたましいロック		ナムコオリジナル	ffff4500	195	`easy`4`false`かんたん/うなぎのたましいロック|`normal`5`false`ふつう/うなぎのたましいロック|`hard`4`false`むずかしい/うなぎのたましいロック|`oni`5`false`おに/うなぎのたましいロック|
+Agent Hustle & Dr. Hassle	Cory Tarrow(BNSI)	ナムコオリジナル	ffff4500	240	`easy`4`false`かんたん/Agent Hustle ＆ Dr. Hassle|`normal`5`false`ふつう/Agent Hustle ＆ Dr. Hassle|`hard`6`false`むずかしい/Agent Hustle ＆ Dr. Hassle|`oni`10`false`おに/Agent Hustle ＆ Dr. Hassle|`uraOni`9`false`おに/Agent Hustle ＆ Dr. Hassle(裏譜面)
+EkiBEN2000		ナムコオリジナル	ffff4500	194	`easy`5`false`かんたん/EkiBEN2000|`normal`7`false`ふつう/EkiBEN2000|`hard`8`false`むずかしい/EkiBEN2000|`oni`10`false`おに/EkiBEN2000|
+EterNal Ring	museo	ナムコオリジナル	ffff4500	224	`easy`4`false`かんたん/EterNal Ring|`normal`6`false`ふつう/EterNal Ring|`hard`7`false`むずかしい/EterNal Ring|`oni`10`false`おに/EterNal Ring|
+X-DAY2000		ナムコオリジナル	ffff4500	190	`easy`5`false`かんたん/X-DAY2000|`normal`7`false`ふつう/X-DAY2000|`hard`8`false`むずかしい/X-DAY2000|`oni`10`false`おに/X-DAY2000|
+Evidence of evil	AJURIKA	ナムコオリジナル	ffff4500	180	`easy`5`false`かんたん/Evidence of evil|`normal`7`false`ふつう/Evidence of evil|`hard`8`false`むずかしい/Evidence of evil|`oni`10`false`おに/Evidence of evil|
+エレクトリック・ポストマン		ナムコオリジナル	ffff4500	158	`easy`3`false`かんたん/エレクトリック・ポストマン|`normal`5`false`ふつう/エレクトリック・ポストマン|`hard`6`false`むずかしい/エレクトリック・ポストマン|`oni`8`false`おに/エレクトリック・ポストマン|
+エンジェル ドリーム		ナムコオリジナル	ffff4500	180	`easy`3`false`かんたん/エンジェル ドリーム|`normal`6`false`ふつう/エンジェル ドリーム|`hard`7`false`むずかしい/エンジェル ドリーム|`oni`8`false`おに/エンジェル ドリーム|`uraOni`9`true`おに/エンジェル ドリーム(裏譜面)
+桜花爛漫		ナムコオリジナル	ffff4500	170	`easy`4`false`かんたん/桜花爛漫|`normal`6`false`ふつう/桜花爛漫|`hard`7`false`むずかしい/桜花爛漫|`oni`8`true`おに/桜花爛漫|
+OK I'm blue rat	E.G.G.	ナムコオリジナル	ffff4500	128※	`easy`4`false`かんたん/OK I’m blue rat|`normal`6`false`ふつう/OK I’m blue rat|`hard`8`false`むずかしい/OK I’m blue rat|`oni`10`false`おに/OK I’m blue rat|
+大空と太鼓の踊り	paraμ	ナムコオリジナル	ffff4500	148-163	`easy`4`false`かんたん/大空と太鼓の踊り|`normal`6`false`ふつう/大空と太鼓の踊り|`hard`8`false`むずかしい/大空と太鼓の踊り|`oni`9`false`おに/大空と太鼓の踊り|
+オーディオ de カッ！	音響サスペンスドラマ「オーディオ刑事」より	ナムコオリジナル	ffff4500	128-220※	`easy`4`false`かんたん/オーディオ de カッ！|`normal`4`false`ふつう/オーディオ de カッ！|`hard`6`false`むずかしい/オーディオ de カッ！|`oni`9`false`おに/オーディオ de カッ！|
+オール・イン・マイハート	ソメイヨシノ feat. 高木美佑 (Wake Up, Girls!)	ナムコオリジナル	ffff4500	190	`easy`5`false`かんたん/オール・イン・マイハート|`normal`7`false`ふつう/オール・イン・マイハート|`hard`8`false`むずかしい/オール・イン・マイハート|`oni`9`false`おに/オール・イン・マイハート|
+オールナイトdeインデナイ		ナムコオリジナル	ffff4500	110※	`easy`3`false`かんたん/オールナイトdeインデナイ|`normal`4`false`ふつう/オールナイトdeインデナイ|`hard`6`false`むずかしい/オールナイトdeインデナイ|`oni`7`false`おに/オールナイトdeインデナイ|
+音虫をつかまえろ！	KiWi	ナムコオリジナル	ffff4500	150※	`easy`3`false`かんたん/音虫をつかまえろ！|`normal`5`false`ふつう/音虫をつかまえろ！|`hard`6`false`むずかしい/音虫をつかまえろ！|`oni`9`false`おに/音虫をつかまえろ！|
+おばけのお仕事		ナムコオリジナル	ffff4500	150	`easy`4`false`かんたん/おばけのお仕事|`normal`5`false`ふつう/おばけのお仕事|`hard`4`false`むずかしい/おばけのお仕事|`oni`6`false`おに/おばけのお仕事|
+おはよう！太鼓サマー	「太鼓の達人 あつまれ！祭りだ!!四代目」テーマソング	ナムコオリジナル	ffff4500	122※	`easy`4`false`かんたん/おはよう！太鼓サマー|`normal`4`false`ふつう/おはよう！太鼓サマー|`hard`5`false`むずかしい/おはよう！太鼓サマー|`oni`6`false`おに/おはよう！太鼓サマー|
+オフ♨ロック		ナムコオリジナル	ffff4500	200※	`easy`4`false`かんたん/オフ・ロック|`normal`6`false`ふつう/オフ・ロック|`hard`6`true`むずかしい/オフ・ロック|`oni`7`false`おに/オフ・ロック|
+想いを手に願いを込めて		ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/想いを手に願いを込めて|`normal`5`false`ふつう/想いを手に願いを込めて|`hard`5`false`むずかしい/想いを手に願いを込めて|`oni`7`false`おに/想いを手に願いを込めて|
+オレサマパイレーツ		ナムコオリジナル	ffff4500	148	`easy`3`false`かんたん/オレサマパイレーツ|`normal`5`false`ふつう/オレサマパイレーツ|`hard`6`false`むずかしい/オレサマパイレーツ|`oni`8`false`おに/オレサマパイレーツ|
+χ談	かねこちはる	ナムコオリジナル	ffff4500	145-270	`easy`5`false`かんたん/χ談|`normal`7`false`ふつう/χ談|`hard`8`false`むずかしい/χ談|`oni`10`false`おに/χ談|
+The Carnivorous Carnival		ナムコオリジナル	ffff4500	168	`easy`4`false`かんたん/The Carnivorous Carnival|`normal`6`false`ふつう/The Carnivorous Carnival|`hard`7`false`むずかしい/The Carnivorous Carnival|`oni`9`false`おに/The Carnivorous Carnival|
+懐中庭園を持つ少女	はるなば feat.石黒千尋	ナムコオリジナル	ffff4500	154-308	`easy`5`false`かんたん/懐中庭園を持つ少女|`normal`7`false`ふつう/懐中庭園を持つ少女|`hard`8`false`むずかしい/懐中庭園を持つ少女|`oni`10`false`おに/懐中庭園を持つ少女|
+!!!カオスタイム!!!	t+pazolite	ナムコオリジナル	ffff4500	140-290	`easy`5`false`かんたん/!!!カオスタイム!!!|`normal`7`false`ふつう/!!!カオスタイム!!!|`hard`8`false`むずかしい/!!!カオスタイム!!!|`oni`10`false`おに/!!!カオスタイム!!!|
+鏡の国のアリス	伊東歌詞太郎	ナムコオリジナル	ffff4500	160	`easy`3`false`かんたん/鏡の国のアリス|`normal`4`false`ふつう/鏡の国のアリス|`hard`5`false`むずかしい/鏡の国のアリス|`oni`6`false`おに/鏡の国のアリス|
+輝きを求めて	Versus	ナムコオリジナル	ffff4500	80-200	`easy`5`false`かんたん/輝きを求めて|`normal`6`false`ふつう/輝きを求めて|`hard`6`false`むずかしい/輝きを求めて|`oni`8`false`おに/輝きを求めて|
+カグツチ	Massive New Krew	ナムコオリジナル	ffff4500	155	`easy`4`false`かんたん/カグツチ|`normal`6`false`ふつう/カグツチ|`hard`7`false`むずかしい/カグツチ|`oni`9`false`おに/カグツチ|
+がしゃどくろ		ナムコオリジナル	ffff4500	236	`easy`5`false`かんたん/がしゃどくろ|`normal`6`false`ふつう/がしゃどくろ|`hard`7`false`むずかしい/がしゃどくろ|`oni`8`false`おに/がしゃどくろ|
+風の国の龍と騎士		ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/風の国の龍と騎士|`normal`5`false`ふつう/風の国の龍と騎士|`hard`7`false`むずかしい/風の国の龍と騎士|`oni`8`false`おに/風の国の龍と騎士|
+風のファンタジー		ナムコオリジナル	ffff4500	182	`easy`4`false`かんたん/風のファンタジー|`normal`6`false`ふつう/風のファンタジー|`hard`6`false`むずかしい/風のファンタジー|`oni`8`false`おに/風のファンタジー|
+仮想現実のテレスコープ	deli.	ナムコオリジナル	ffff4500	250	`easy`4`false`かんたん/仮想現実のテレスコープ|`normal`5`false`ふつう/仮想現実のテレスコープ|`hard`7`false`むずかしい/仮想現実のテレスコープ|`oni`9`false`おに/仮想現実のテレスコープ|
+カッティアワールの宝剣		ナムコオリジナル	ffff4500	120.5	`easy`4`false`かんたん/カッティアワールの宝剣|`normal`5`false`ふつう/カッティアワールの宝剣|`hard`7`false`むずかしい/カッティアワールの宝剣|`oni`8`false`おに/カッティアワールの宝剣|
+カナデア		ナムコオリジナル	ffff4500	132	`easy`5`false`かんたん/カナデア|`normal`7`false`ふつう/カナデア|`hard`8`false`むずかしい/カナデア|`oni`8`false`おに/カナデア|
+彼は誰時の誘惑	t+pazolite	ナムコオリジナル	ffff4500	216	`easy`2`false`かんたん/彼は誰時の誘惑|`normal`3`false`ふつう/彼は誰時の誘惑|`hard`6`false`むずかしい/彼は誰時の誘惑|`oni`9`false`おに/彼は誰時の誘惑|`uraOni`10`false`おに/彼は誰時の誘惑(裏譜面)
+花漾	～Flourishing Blossoms～	ナムコオリジナル	ffff4500	140	`easy`3`false`かんたん/花漾 ～Flourishing Blossoms～|`normal`4`false`ふつう/花漾 ～Flourishing Blossoms～|`hard`5`false`むずかしい/花漾 ～Flourishing Blossoms～|`oni`7`false`おに/花漾 ～Flourishing Blossoms～|`uraOni`9`false`おに/花漾 ～Flourishing Blossoms～(裏譜面)
+絡繰廻廊	はるなば	ナムコオリジナル	ffff4500	140-280	`easy`4`false`かんたん/絡繰廻廊|`normal`6`false`ふつう/絡繰廻廊|`hard`8`true`むずかしい/絡繰廻廊|`oni`10`false`おに/絡繰廻廊|
+カラフル	しょご/野村渉悟	ナムコオリジナル	ffff4500	204	`easy`4`false`かんたん/カラフル|`normal`7`false`ふつう/カラフル|`hard`8`false`むずかしい/カラフル|`oni`10`false`おに/カラフル|
+カラメルタイム☆	たんきゅん	ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/カラメルタイム☆|`normal`4`false`ふつう/カラメルタイム☆|`hard`6`false`むずかしい/カラメルタイム☆|`oni`8`false`おに/カラメルタイム☆|
+Calculator	M-O-T-U	ナムコオリジナル	ffff4500	150-300	`easy`4`false`かんたん/Calculator|`normal`7`false`ふつう/Calculator|`hard`8`false`むずかしい/Calculator|`oni`10`false`おに/Calculator|
+夏竜 ～Karyu～		ナムコオリジナル	ffff4500	136	`easy`4`false`かんたん/夏竜 ～Karyu～|`normal`6`false`ふつう/夏竜 ～Karyu～|`hard`7`false`むずかしい/夏竜 ～Karyu～|`oni`8`false`おに/夏竜 ～Karyu～|
+画竜点睛		ナムコオリジナル	ffff4500	134	`easy`5`false`かんたん/画竜点睛|`normal`6`false`ふつう/画竜点睛|`hard`6`false`むずかしい/画竜点睛|`oni`9`true`おに/画竜点睛|
+ガンスリンガーシンデレラ		ナムコオリジナル	ffff4500	167	`easy`5`false`かんたん/ガンスリンガーシンデレラ|`normal`6`false`ふつう/ガンスリンガーシンデレラ|`hard`7`false`むずかしい/ガンスリンガーシンデレラ|`oni`9`false`おに/ガンスリンガーシンデレラ|
+気焔万丈神楽	ぺのれり	ナムコオリジナル	ffff4500	200	`easy`5`false`かんたん/気焔万丈神楽|`normal`7`false`ふつう/気焔万丈神楽|`hard`8`false`むずかしい/気焔万丈神楽|`oni`10`false`おに/気焔万丈神楽|
+季曲	～Seasons of Asia～	ナムコオリジナル	ffff4500	150	`easy`3`false`かんたん/季曲 ～Seasons of Asia～|`normal`5`false`ふつう/季曲 ～Seasons of Asia～|`hard`5`false`むずかしい/季曲 ～Seasons of Asia～|`oni`7`false`おに/季曲 ～Seasons of Asia～|`uraOni`8`false`おに/季曲 ～Seasons of Asia～(裏譜面)
+きたさいたま2000		ナムコオリジナル	ffff4500	222	`easy`5`false`かんたん/きたさいたま2000|`normal`7`false`ふつう/きたさいたま2000|`hard`8`false`むずかしい/きたさいたま2000|`oni`10`false`おに/きたさいたま2000|
+きたさいたま200		ナムコオリジナル	ffff4500	177.6	`easy`5`false`かんたん/きたさいたま200|`normal`7`false`ふつう/きたさいたま200|`hard`8`false`むずかしい/きたさいたま200|`oni`9`false`おに/きたさいたま200|
+喫茶レイン		ナムコオリジナル	ffff4500	108	`easy`3`false`かんたん/喫茶レイン|`normal`4`false`ふつう/喫茶レイン|`hard`5`false`むずかしい/喫茶レイン|`oni`6`false`おに/喫茶レイン|`uraOni`8`false`おに/喫茶レイン(裏譜面)
+君に、ロマンティック。		ナムコオリジナル	ffff4500	130	`easy`3`false`かんたん/君に、ロマンティック。|`normal`5`false`ふつう/君に、ロマンティック。|`hard`7`false`むずかしい/君に、ロマンティック。|`oni`6`false`おに/君に、ロマンティック。|
+きみのあかり		ナムコオリジナル	ffff4500	129	`easy`4`false`かんたん/きみのあかり|`normal`4`false`ふつう/きみのあかり|`hard`5`false`むずかしい/きみのあかり|`oni`5`false`おに/きみのあかり|`uraOni`8`false`おに/きみのあかり(裏譜面)
+君のプラネット		ナムコオリジナル	ffff4500	96-105※	`easy`3`false`かんたん/君のプラネット|`normal`5`false`ふつう/君のプラネット|`hard`6`false`むずかしい/君のプラネット|`oni`8`false`おに/君のプラネット|
+キューティー☆デモニック☆魔人エモ!!	溝口ゆうま feat.大瀬良あい	ナムコオリジナル	ffff4500	190	`easy`5`false`かんたん/キューティー☆デモニック☆魔人エモ!!|`normal`7`false`ふつう/キューティー☆デモニック☆魔人エモ!!|`hard`8`false`むずかしい/キューティー☆デモニック☆魔人エモ!!|`oni`10`false`おに/キューティー☆デモニック☆魔人エモ!!|
+久遠の夜		ナムコオリジナル	ffff4500	185	`easy`4`false`かんたん/久遠の夜|`normal`4`false`ふつう/久遠の夜|`hard`6`false`むずかしい/久遠の夜|`oni`8`false`おに/久遠の夜|
+KUSANAGI	aran	ナムコオリジナル	ffff4500	180	`easy`5`false`かんたん/KUSANAGI|`normal`6`false`ふつう/KUSANAGI|`hard`7`false`むずかしい/KUSANAGI|`oni`9`false`おに/KUSANAGI|
+食らいむ！まうんとぱふぇ	unatra	ナムコオリジナル	ffff4500	186	`easy`3`false`かんたん/食らいむ！まうんとぱふぇ|`normal`6`false`ふつう/食らいむ！まうんとぱふぇ|`hard`8`false`むずかしい/食らいむ！まうんとぱふぇ|`oni`9`false`おに/食らいむ！まうんとぱふぇ|
+クルクルクロックル		ナムコオリジナル	ffff4500	130※	`easy`3`false`かんたん/クルクルクロックル|`normal`4`false`ふつう/クルクルクロックル|`hard`5`false`むずかしい/クルクルクロックル|`oni`8`false`おに/クルクルクロックル|
+クレーンシティ		ナムコオリジナル	ffff4500	148	`easy`5`false`かんたん/クレーンシティ|`normal`7`false`ふつう/クレーンシティ|`hard`8`false`むずかしい/クレーンシティ|`oni`9`false`おに/クレーンシティ|
+Growing Up		ナムコオリジナル	ffff4500	190	`easy`3`false`かんたん/Growing Up|`normal`5`false`ふつう/Growing Up|`hard`5`false`むずかしい/Growing Up|`oni`6`false`おに/Growing Up|
+クロス・ブルー		ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/クロス・ブルー|`normal`6`false`ふつう/クロス・ブルー|`hard`7`false`むずかしい/クロス・ブルー|`oni`9`false`おに/クロス・ブルー|
+黒船来航		ナムコオリジナル	ffff4500	136	`easy`4`false`かんたん/黒船来航|`normal`5`false`ふつう/黒船来航|`hard`6`false`むずかしい/黒船来航|`oni`8`true`おに/黒船来航|
+Gloria	K.key	ナムコオリジナル	ffff4500	222	`easy`5`false`かんたん/Gloria|`normal`7`false`ふつう/Gloria|`hard`7`false`むずかしい/Gloria|`oni`10`false`おに/Gloria|
+激運！七福ハッピークルー	コバヤシユウヤ(IOSYS) feat.山本椛 (monotone)	ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/激運！七福ハッピークルー|`normal`5`false`ふつう/激運！七福ハッピークルー|`hard`7`false`むずかしい/激運！七福ハッピークルー|`oni`9`false`おに/激運！七福ハッピークルー|
+月下美人		ナムコオリジナル	ffff4500	150	`easy`4`false`かんたん/月下美人|`normal`6`false`ふつう/月下美人|`hard`7`false`むずかしい/月下美人|`oni`9`true`おに/月下美人|
+ケチャドン2000		ナムコオリジナル	ffff4500	110-426	`easy`5`false`かんたん/ケチャドン2000|`normal`6`false`ふつう/ケチャドン2000|`hard`8`false`むずかしい/ケチャドン2000|`oni`9`true`おに/ケチャドン2000|
+恋の処方箋		ナムコオリジナル	ffff4500	185	`easy`3`false`かんたん/恋の処方箋|`normal`5`false`ふつう/恋の処方箋|`hard`5`false`むずかしい/恋の処方箋|`oni`7`false`おに/恋の処方箋|
+恋はドント・ダウト	太鼓 de タイムトラベル70's / Kawagen Kollagen with yuzuki	ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/恋はドント・ダウト|`normal`5`false`ふつう/恋はドント・ダウト|`hard`6`false`むずかしい/恋はドント・ダウト|`oni`8`false`おに/恋はドント・ダウト|
+GO ON ～未来へ～	太鼓 de タイムトラベル2022 / steμ respecting タイムトラベラーズ	ナムコオリジナル	ffff4500	133-266	`easy`2`false`かんたん/GO ON ～未来へ～|`normal`3`false`ふつう/GO ON ～未来へ～|`hard`5`false`むずかしい/GO ON ～未来へ～|`oni`8`false`おに/GO ON ～未来へ～|
+ゴーゴー・キッチン		ナムコオリジナル	ffff4500	206	`easy`5`false`かんたん/ゴーゴー・キッチン|`normal`5`false`ふつう/ゴーゴー・キッチン|`hard`7`true`むずかしい/ゴーゴー・キッチン|`oni`7`false`おに/ゴーゴー・キッチン|`uraOni`10`false`おに/ゴーゴー・キッチン(裏譜面)
+氷竜 ～Kooryu～	あず♪	ナムコオリジナル	ffff4500	194-273	`easy`5`false`かんたん/氷竜 ～Kooryu～|`normal`7`false`ふつう/氷竜 ～Kooryu～|`hard`8`false`むずかしい/氷竜 ～Kooryu～|`oni`9`false`おに/氷竜 ～Kooryu～|`uraOni`10`false`おに/氷竜 ～Kooryu～(裏譜面)
+こ・き・く・くる・くる・くれ・こ！	諸星なな・加藤はるか	ナムコオリジナル	ffff4500	200	`easy`3`false`かんたん/こ・き・く・くる・くる・くれ・こ！|`normal`4`false`ふつう/こ・き・く・くる・くる・くれ・こ！|`hard`6`false`むずかしい/こ・き・く・くる・くる・くれ・こ！|`oni`8`false`おに/こ・き・く・くる・くる・くれ・こ！|
+黒神クロニクル		ナムコオリジナル	ffff4500	124	`easy`3`false`かんたん/黒神クロニクル|`normal`4`false`ふつう/黒神クロニクル|`hard`6`false`むずかしい/黒神クロニクル|`oni`7`false`おに/黒神クロニクル|
+Coquette	Jun Kuroda	ナムコオリジナル	ffff4500	200	`easy`5`false`かんたん/Coquette|`normal`7`false`ふつう/Coquette|`hard`8`false`むずかしい/Coquette|`oni`10`false`おに/Coquette|
+ココロボ	Ujico*	ナムコオリジナル	ffff4500	360	`easy`3`false`かんたん/ココロボ|`normal`4`false`ふつう/ココロボ|`hard`6`false`むずかしい/ココロボ|`oni`10`false`おに/ココロボ|
+コナモノ☆	郷 拓郎	ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/コナモノ☆|`normal`5`false`ふつう/コナモノ☆|`hard`6`false`むずかしい/コナモノ☆|`oni`8`false`おに/コナモノ☆|
+コネクトカラーズ	Ponchi♪ feat.はぁち	ナムコオリジナル	ffff4500	45-280	`easy`4`false`かんたん/コネクトカラーズ|`normal`6`false`ふつう/コネクトカラーズ|`hard`7`false`むずかしい/コネクトカラーズ|`oni`10`false`おに/コネクトカラーズ|
+鼓舞曲「閻魔」	山本真央樹	ナムコオリジナル	ffff4500	185-200	`easy`5`false`かんたん/鼓舞曲「閻魔」|`normal`7`false`ふつう/鼓舞曲「閻魔」|`hard`8`false`むずかしい/鼓舞曲「閻魔」|`oni`10`false`おに/鼓舞曲「閻魔」|
+サイクル・オブ・リバース		ナムコオリジナル	ffff4500	96※-161	`easy`4`false`かんたん/サイクル・オブ・リバース|`normal`6`false`ふつう/サイクル・オブ・リバース|`hard`7`false`むずかしい/サイクル・オブ・リバース|`oni`9`false`おに/サイクル・オブ・リバース|
+さいたま2000		ナムコオリジナル	ffff4500	200	`easy`5`false`かんたん/さいたま2000|`normal`7`false`ふつう/さいたま2000|`hard`7`false`むずかしい/さいたま2000|`oni`9`true`おに/さいたま2000|
+ザストゥールの魔導書		ナムコオリジナル	ffff4500	140	`easy`3`false`かんたん/ザストゥールの魔導書|`normal`5`false`ふつう/ザストゥールの魔導書|`hard`6`false`むずかしい/ザストゥールの魔導書|`oni`8`false`おに/ザストゥールの魔導書|
+サタデー太鼓フィーバー		ナムコオリジナル	ffff4500	130	`easy`4`false`かんたん/サタデー太鼓フィーバー|`normal`6`false`ふつう/サタデー太鼓フィーバー|`hard`8`false`むずかしい/サタデー太鼓フィーバー|`oni`7`false`おに/サタデー太鼓フィーバー|`uraOni`8`false`おに/サタデー太鼓フィーバー(裏譜面)
+The Future of the 太鼓ドラム	太鼓 de タイムトラベル2765 / かめりあ	ナムコオリジナル	ffff4500	79.4-350	`easy`5`false`かんたん/The Future of the 太鼓ドラム|`normal`7`false`ふつう/The Future of the 太鼓ドラム|`hard`8`false`むずかしい/The Future of the 太鼓ドラム|`oni`10`false`おに/The Future of the 太鼓ドラム|`uraOni`10`false`おに/The Future of the 太鼓ドラム(裏譜面)
+さよならワーリャ	未来古代楽団 feat.霜月はるか	ナムコオリジナル	ffff4500	60-240	`easy`4`false`かんたん/さよならワーリャ|`normal`5`false`ふつう/さよならワーリャ|`hard`7`false`むずかしい/さよならワーリャ|`oni`9`false`おに/さよならワーリャ|
+3Q-4U-AC00		ナムコオリジナル	ffff4500	168	`easy`3`false`かんたん/3Q-4U-AC00|`normal`6`false`ふつう/3Q-4U-AC00|`hard`4`false`むずかしい/3Q-4U-AC00|`oni`7`false`おに/3Q-4U-AC00|
+サンバ アレグリーア	日替り無料	ナムコオリジナル	ffff4500	138	`easy`4`false`かんたん/サンバ アレグリーア|`normal`6`false`ふつう/サンバ アレグリーア|`hard`6`false`むずかしい/サンバ アレグリーア|`oni`7`false`おに/サンバ アレグリーア|`uraOni`9`false`おに/サンバ アレグリーア(裏譜面)
+秋竜 ～Shiuryu～		ナムコオリジナル	ffff4500	121.71-194	`easy`4`false`かんたん/秋竜 ～Shiuryu～|`normal`6`false`ふつう/秋竜 ～Shiuryu～|`hard`7`false`むずかしい/秋竜 ～Shiuryu～|`oni`9`false`おに/秋竜 ～Shiuryu～|`uraOni`10`false`おに/秋竜 ～Shiuryu～(裏譜面)
+時空庁時空1課	feat.unmo	ナムコオリジナル	ffff4500	180※	`easy`4`false`かんたん/時空庁時空1課|`normal`6`false`ふつう/時空庁時空1課|`hard`8`false`むずかしい/時空庁時空1課|`oni`9`false`おに/時空庁時空1課|
+時空庁捜査2課	feat.沙知(ハリネコ)	ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/時空庁捜査2課|`normal`6`false`ふつう/時空庁捜査2課|`hard`7`false`むずかしい/時空庁捜査2課|`oni`8`false`おに/時空庁捜査2課|
+地獄の大王		ナムコオリジナル	ffff4500	75-150	`easy`4`false`かんたん/地獄の大王|`normal`6`false`ふつう/地獄の大王|`hard`7`false`むずかしい/地獄の大王|`oni`9`false`おに/地獄の大王|
+シシハゲマイ		ナムコオリジナル	ffff4500	94-157※	`easy`4`false`かんたん/シシハゲマイ|`normal`5`false`ふつう/シシハゲマイ|`hard`5`false`むずかしい/シシハゲマイ|`oni`6`false`おに/シシハゲマイ|
+疾風怒濤	xi	ナムコオリジナル	ffff4500	67.99-272	`easy`5`false`かんたん/疾風怒濤|`normal`7`false`ふつう/疾風怒濤|`hard`8`false`むずかしい/疾風怒濤|`oni`10`false`おに/疾風怒濤|`uraOni`10`false`おに/疾風怒濤(裏譜面)
+GERMINATION		ナムコオリジナル	ffff4500	160-192※	`easy`5`false`かんたん/GERMINATION|`normal`6`false`ふつう/GERMINATION|`hard`7`false`むずかしい/GERMINATION|`oni`7`false`おに/GERMINATION|
+Shiny Kung-fu Revival	t+pazolite	ナムコオリジナル	ffff4500	222.2	`easy`4`false`かんたん/Shiny Kung-fu Revival|`normal`6`false`ふつう/Shiny Kung-fu Revival|`hard`7`false`むずかしい/Shiny Kung-fu Revival|`oni`9`false`おに/Shiny Kung-fu Revival|
+シャイニング☆アブラカタブラ	～阿羅仁＆マジカルランプ姫～	ナムコオリジナル	ffff4500	149	`easy`3`false`かんたん/シャイニング☆アブラカタブラ|`normal`4`false`ふつう/シャイニング☆アブラカタブラ|`hard`6`false`むずかしい/シャイニング☆アブラカタブラ|`oni`9`false`おに/シャイニング☆アブラカタブラ|
+シャイニング65		ナムコオリジナル	ffff4500	202※	`easy`4`false`かんたん/シャイニング65|`normal`5`false`ふつう/シャイニング65|`hard`6`false`むずかしい/シャイニング65|`oni`7`false`おに/シャイニング65|
+junction		ナムコオリジナル	ffff4500	135	`easy`4`false`かんたん/junction|`normal`5`false`ふつう/junction|`hard`6`false`むずかしい/junction|`oni`9`false`おに/junction|
+春遊	～happy excursion～	ナムコオリジナル	ffff4500	140	`easy`4`false`かんたん/春遊 ～happy excursion～|`normal`5`false`ふつう/春遊 ～happy excursion～|`hard`6`false`むずかしい/春遊 ～happy excursion～|`oni`7`false`おに/春遊 ～happy excursion～|`uraOni`8`false`おに/春遊 ～happy excursion～(裏譜面)
+聖徳たいこの「日いずるまで飛鳥」	コバヤシユウヤ(IOSYS) feat.miko	ナムコオリジナル	ffff4500	100-200	`easy`4`false`かんたん/聖徳たいこの「日いずるまで飛鳥」|`normal`6`false`ふつう/聖徳たいこの「日いずるまで飛鳥」|`hard`7`false`むずかしい/聖徳たいこの「日いずるまで飛鳥」|`oni`9`false`おに/聖徳たいこの「日いずるまで飛鳥」|
+承認欲Q	かねこちはる feat.はぁち	ナムコオリジナル	ffff4500	226※	`easy`4`false`かんたん/承認欲Q|`normal`6`false`ふつう/承認欲Q|`hard`7`false`むずかしい/承認欲Q|`oni`10`false`おに/承認欲Q|
+万戈イム－一ノ十		ナムコオリジナル	ffff4500	220	`easy`5`false`かんたん/万戈イム－一ノ十|`normal`7`false`ふつう/万戈イム－一ノ十|`hard`8`false`むずかしい/万戈イム－一ノ十|`oni`10`true`おに/万戈イム－一ノ十|
+曙光	～Dawn～	ナムコオリジナル	ffff4500	130	`easy`4`false`かんたん/曙光 ～Dawn～|`normal`5`false`ふつう/曙光 ～Dawn～|`hard`7`false`むずかしい/曙光 ～Dawn～|`oni`7`false`おに/曙光 ～Dawn～|`uraOni`8`false`おに/曙光 ～Dawn～(裏譜面)
+私立高天原学園高校・校歌	D.watt(IOSYS) feat. Np 犬田彦 ＆ 山本椛	ナムコオリジナル	ffff4500	188	`easy`4`false`かんたん/私立高天原学園高校・校歌|`normal`6`false`ふつう/私立高天原学園高校・校歌|`hard`7`false`むずかしい/私立高天原学園高校・校歌|`oni`9`false`おに/私立高天原学園高校・校歌|
+真・画竜点睛		ナムコオリジナル	ffff4500	106-135※	`easy`4`false`かんたん/真・画竜点睛|`normal`5`false`ふつう/真・画竜点睛|`hard`6`false`むずかしい/真・画竜点睛|`oni`9`true`おに/真・画竜点睛|`uraOni`9`true`おに/真・画竜点睛
+迅風丸		ナムコオリジナル	ffff4500	150※	`easy`3`false`かんたん/迅風丸|`normal`4`false`ふつう/迅風丸|`hard`6`false`むずかしい/迅風丸|`oni`8`false`おに/迅風丸|`uraOni`9`false`おに/迅風丸(裏譜面)
+森羅万象	削除	ナムコオリジナル	ffff4500	290※	`easy`5`false`かんたん/森羅万象|`normal`7`false`ふつう/森羅万象|`hard`8`false`むずかしい/森羅万象|`oni`10`true`おに/森羅万象|
+Sweet Sweet Magic		ナムコオリジナル	ffff4500	179	`easy`4`false`かんたん/Sweet Sweet Magic|`normal`5`false`ふつう/Sweet Sweet Magic|`hard`5`false`むずかしい/Sweet Sweet Magic|`oni`7`false`おに/Sweet Sweet Magic|
+Sweet Lay		ナムコオリジナル	ffff4500	140	`easy`4`false`かんたん/Sweet Lay|`normal`4`false`ふつう/Sweet Lay|`hard`6`false`むずかしい/Sweet Lay|`oni`8`false`おに/Sweet Lay|
+super star shooter	blue marble	ナムコオリジナル	ffff4500	170	`easy`4`false`かんたん/super star shooter|`normal`6`false`ふつう/super star shooter|`hard`7`false`むずかしい/super star shooter|`oni`8`false`おに/super star shooter|
+スーハー2000		ナムコオリジナル	ffff4500	140-280	`easy`5`false`かんたん/スーハー2000|`normal`7`false`ふつう/スーハー2000|`hard`8`false`むずかしい/スーハー2000|`oni`10`false`おに/スーハー2000|
+スキに理由はいらないじゃん！	オミコシスターズ feat. Ponchi♪ / WADIVE RECORD	ナムコオリジナル	ffff4500	165	`easy`3`false`かんたん/スキに理由はいらないじゃん！|`normal`6`false`ふつう/スキに理由はいらないじゃん！|`hard`6`false`むずかしい/スキに理由はいらないじゃん！|`oni`8`false`おに/スキに理由はいらないじゃん！|
+須佐之男	Tatsh a.k.a 世阿弥	ナムコオリジナル	ffff4500	90-220	`easy`5`false`かんたん/須佐之男|`normal`7`false`ふつう/須佐之男|`hard`8`false`むずかしい/須佐之男|`oni`10`false`おに/須佐之男|
+Stick Trick ShowTime!!	みそみぃる	ナムコオリジナル	ffff4500	173	`easy`5`false`かんたん/Stick Trick ShowTime!!|`normal`6`false`ふつう/Stick Trick ShowTime!!|`hard`8`false`むずかしい/Stick Trick ShowTime!!|`oni`10`false`おに/Stick Trick ShowTime!!|
+Spectral Rider	濱本理央(BNSI)	ナムコオリジナル	ffff4500	172-258	`easy`5`false`かんたん/Spectral Rider|`normal`6`false`ふつう/Spectral Rider|`hard`7`false`むずかしい/Spectral Rider|`oni`10`false`おに/Spectral Rider|
+スポーツダイジェスドン	～Fill in The Sky～	ナムコオリジナル	ffff4500	130	`easy`4`false`かんたん/スポーツダイジェスドン|`normal`5`false`ふつう/スポーツダイジェスドン|`hard`6`false`むずかしい/スポーツダイジェスドン|`oni`7`false`おに/スポーツダイジェスドン|`uraOni`9`false`おに/スポーツダイジェスドン(裏譜面)
+3piece-JazzParty!		ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/3piece-JazzParty!|`normal`5`false`ふつう/3piece-JazzParty!|`hard`7`false`むずかしい/3piece-JazzParty!|`oni`9`false`おに/3piece-JazzParty!|
+星河一天	打打だいず	ナムコオリジナル	ffff4500	214	`easy`4`false`かんたん/星河一天|`normal`6`false`ふつう/星河一天|`hard`8`false`むずかしい/星河一天|`oni`10`false`おに/星河一天|
+セイクリッド ルイン		ナムコオリジナル	ffff4500	186	`easy`5`false`かんたん/セイクリッド ルイン|`normal`6`false`ふつう/セイクリッド ルイン|`hard`7`false`むずかしい/セイクリッド ルイン|`oni`9`false`おに/セイクリッド ルイン|`uraOni`10`false`おに/セイクリッド ルイン(裏譜面)
+青天の黎明	steμ feat.siroa	ナムコオリジナル	ffff4500	166.5-222	`easy`3`false`かんたん/青天の黎明|`normal`6`false`ふつう/青天の黎明|`hard`7`false`むずかしい/青天の黎明|`oni`10`false`おに/青天の黎明|
+蛻変	～transformation～	ナムコオリジナル	ffff4500	120	`easy`3`false`かんたん/蛻変 ～transformation～|`normal`5`false`ふつう/蛻変 ～transformation～|`hard`6`false`むずかしい/蛻変 ～transformation～|`oni`7`false`おに/蛻変 ～transformation～|`uraOni`8`false`おに/蛻変 ～transformation～(裏譜面)
+世界はいつでもミステリー	「太鼓の達人 ドコドン！ミステリーアドベンチャー」テーマソング	ナムコオリジナル	ffff4500	140	`easy`4`false`かんたん/世界はいつでもミステリー|`normal`4`false`ふつう/世界はいつでもミステリー|`hard`5`false`むずかしい/世界はいつでもミステリー|`oni`7`false`おに/世界はいつでもミステリー|
+絶望へのトッカータ		ナムコオリジナル	ffff4500	140	`easy`4`false`かんたん/絶望へのトッカータ|`normal`6`false`ふつう/絶望へのトッカータ|`hard`7`false`むずかしい/絶望へのトッカータ|`oni`9`false`おに/絶望へのトッカータ|
+零の夜想曲		ナムコオリジナル	ffff4500	150※	`easy`4`false`かんたん/零の夜想曲|`normal`6`false`ふつう/零の夜想曲|`hard`6`false`むずかしい/零の夜想曲|`oni`8`false`おに/零の夜想曲|`uraOni`9`false`おに/零の夜想曲(裏譜面)
+零の狂詩曲		ナムコオリジナル	ffff4500	183	`easy`4`false`かんたん/零の狂詩曲|`normal`6`false`ふつう/零の狂詩曲|`hard`7`false`むずかしい/零の狂詩曲|`oni`9`false`おに/零の狂詩曲|
+閃光ヴァルキュリア	清風明月(Drop×葉月ゆら)	ナムコオリジナル	ffff4500	180-188	`easy`4`false`かんたん/閃光ヴァルキュリア|`normal`6`false`ふつう/閃光ヴァルキュリア|`hard`7`false`むずかしい/閃光ヴァルキュリア|`oni`8`false`おに/閃光ヴァルキュリア|
+戦国三弦		ナムコオリジナル	ffff4500	144	`easy`4`false`かんたん/戦国三弦|`normal`5`false`ふつう/戦国三弦|`hard`6`false`むずかしい/戦国三弦|`oni`9`true`おに/戦国三弦|
+Central Dogma Pt.2	黒沢ダイスケ	ナムコオリジナル	ffff4500	189-284	`easy`5`false`かんたん/Central Dogma Pt.2|`normal`6`false`ふつう/Central Dogma Pt.2|`hard`8`false`むずかしい/Central Dogma Pt.2|`oni`10`false`おに/Central Dogma Pt.2|
+Central Dogma Pt.1	黒沢ダイスケ	ナムコオリジナル	ffff4500	189-284	`easy`5`false`かんたん/Central Dogma Pt.1|`normal`7`false`ふつう/Central Dogma Pt.1|`hard`8`false`むずかしい/Central Dogma Pt.1|`oni`10`false`おに/Central Dogma Pt.1|`uraOni`10`false`おに/Central Dogma Pt.1(裏譜面)
+旋風ノ舞【地】		ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/旋風ノ舞【地】|`normal`6`false`ふつう/旋風ノ舞【地】|`hard`7`false`むずかしい/旋風ノ舞【地】|`oni`9`false`おに/旋風ノ舞【地】|
+旋風ノ舞【天】		ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/旋風ノ舞【天】|`normal`5`false`ふつう/旋風ノ舞【天】|`hard`8`false`むずかしい/旋風ノ舞【天】|`oni`10`false`おに/旋風ノ舞【天】|
+ソードバトラーズ		ナムコオリジナル	ffff4500	150	`easy`4`false`かんたん/ソードバトラーズ|`normal`6`false`ふつう/ソードバトラーズ|`hard`6`false`むずかしい/ソードバトラーズ|`oni`7`false`おに/ソードバトラーズ|`uraOni`9`false`おに/ソードバトラーズ(裏譜面)
+そつおめしき	feat. unmo	ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/そつおめしき|`normal`6`false`ふつう/そつおめしき|`hard`7`false`むずかしい/そつおめしき|`oni`10`false`おに/そつおめしき|
+そつおめしき2ばん	feat. unmo	ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/そつおめしき2ばん|`normal`6`false`ふつう/そつおめしき2ばん|`hard`7`false`むずかしい/そつおめしき2ばん|`oni`10`false`おに/そつおめしき2ばん|
+SORA-Ⅱ グリーゼ581		ナムコオリジナル	ffff4500	144	`easy`3`false`かんたん/SORA-II グリーゼ581|`normal`3`false`ふつう/SORA-II グリーゼ581|`hard`7`false`むずかしい/SORA-II グリーゼ581|`oni`7`false`おに/SORA-II グリーゼ581|
+SORA-Ⅰ アースライズ		ナムコオリジナル	ffff4500	134	`easy`3`false`かんたん/SORA-I アースライズ|`normal`5`false`ふつう/SORA-I アースライズ|`hard`7`false`むずかしい/SORA-I アースライズ|`oni`8`false`おに/SORA-I アースライズ|
+十露盤2000		ナムコオリジナル	ffff4500	170-240	`easy`4`true`かんたん/十露盤2000|`normal`6`true`ふつう/十露盤2000|`hard`8`true`むずかしい/十露盤2000|`oni`10`true`おに/十露盤2000|
+Turquoise Tachometer	AJURIKA	ナムコオリジナル	ffff4500	164	`easy`4`false`かんたん/Turquoise Tachometer|`normal`6`false`ふつう/Turquoise Tachometer|`hard`8`false`むずかしい/Turquoise Tachometer|`oni`9`false`おに/Turquoise Tachometer|
+ダイエットファイター		ナムコオリジナル	ffff4500	195	`easy`3`false`かんたん/ダイエットファイター|`normal`4`false`ふつう/ダイエットファイター|`hard`7`false`むずかしい/ダイエットファイター|`oni`8`false`おに/ダイエットファイター|
+太鼓侍		ナムコオリジナル	ffff4500	135※	`easy`5`false`かんたん/太鼓侍|`normal`7`false`ふつう/太鼓侍|`hard`8`false`むずかしい/太鼓侍|`oni`8`false`おに/太鼓侍|`uraOni`8`false`おに/太鼓侍(裏譜面)
+タイコタイム		ナムコオリジナル	ffff4500	170※	`easy`5`false`かんたん/タイコタイム|`normal`7`false`ふつう/タイコタイム|`hard`8`true`むずかしい/タイコタイム|`oni`10`true`おに/タイコタイム|`uraOni`10`false`おに/タイコタイム(裏譜面)
+Taiko Drum Monster	steμ feat.siroa	ナムコオリジナル	ffff4500	199.5-266	`easy`3`false`かんたん/Taiko Drum Monster|`normal`5`false`ふつう/Taiko Drum Monster|`hard`7`false`むずかしい/Taiko Drum Monster|`oni`10`false`おに/Taiko Drum Monster|
+たいこの2000	太鼓 de タイムトラベル紀元前 / LindaAI-CUE	ナムコオリジナル	ffff4500	56-224	`easy`5`false`かんたん/たいこの2000|`normal`7`false`ふつう/たいこの2000|`hard`8`false`むずかしい/たいこの2000|`oni`10`false`おに/たいこの2000|
+タイコロール	steμ(BNSI) feat.siroa	ナムコオリジナル	ffff4500	87.6-187.6	`easy`5`false`かんたん/タイコロール|`normal`6`false`ふつう/タイコロール|`hard`7`false`むずかしい/タイコロール|`oni`10`false`おに/タイコロール|
+大好きな太鼓の音	太鼓の達人20周年記念ソング / 粗品 feat. どんちゃん	ナムコオリジナル	ffff4500	5.68-190	`easy`3`false`かんたん/大好きな太鼓の音|`normal`6`false`ふつう/大好きな太鼓の音|`hard`7`false`むずかしい/大好きな太鼓の音|`oni`8`false`おに/大好きな太鼓の音|`uraOni`9`false`おに/大好きな太鼓の音(裏譜面)
+大冒険タツドン	太鼓 de タイムトラベル60's / 田島勝朗 feat.シックスティーズ・クワイヤーズ	ナムコオリジナル	ffff4500	67.5-438.75	`easy`2`false`かんたん/大冒険タツドン|`normal`4`false`ふつう/大冒険タツドン|`hard`6`false`むずかしい/大冒険タツドン|`oni`8`false`おに/大冒険タツドン|
+Time to dine		ナムコオリジナル	ffff4500	145	`easy`5`false`かんたん/Time to dine|`normal`6`false`ふつう/Time to dine|`hard`7`false`むずかしい/Time to dine|`oni`9`false`おに/Time to dine|
+タイムトラベラー	伊東歌詞太郎	ナムコオリジナル	ffff4500	182※	`easy`2`false`かんたん/タイムトラベラー|`normal`3`false`ふつう/タイムトラベラー|`hard`4`false`むずかしい/タイムトラベラー|`oni`6`false`おに/タイムトラベラー|
+太陽もヤッパッパー		ナムコオリジナル	ffff4500	146	`easy`4`false`かんたん/太陽もヤッパッパー|`normal`5`false`ふつう/太陽もヤッパッパー|`hard`5`false`むずかしい/太陽もヤッパッパー|`oni`4`true`おに/太陽もヤッパッパー|`uraOni`8`false`おに/太陽もヤッパッパー(裏譜面)
+第六天魔王	黒沢ダイスケ × Masahiro "Godspeed" Aoki	ナムコオリジナル	ffff4500	75-300	`easy`5`false`かんたん/第六天魔王|`normal`7`false`ふつう/第六天魔王|`hard`8`false`むずかしい/第六天魔王|`oni`10`false`おに/第六天魔王|
+宝の丘		ナムコオリジナル	ffff4500	206※	`easy`4`false`かんたん/宝の丘|`normal`4`false`ふつう/宝の丘|`hard`5`false`むずかしい/宝の丘|`oni`7`false`おに/宝の丘|
+ダジャレdeオシャレ		ナムコオリジナル	ffff4500	162※	`easy`5`false`かんたん/ダジャレdeオシャレ|`normal`5`false`ふつう/ダジャレdeオシャレ|`hard`3`false`むずかしい/ダジャレdeオシャレ|`oni`2`false`おに/ダジャレdeオシャレ|`uraOni`8`false`おに/ダジャレdeオシャレ(裏譜面)
+卓球de脱臼	矢野義人(BNSI) feat. 金太	ナムコオリジナル	ffff4500	120※	`easy`4`false`かんたん/卓球de脱臼|`normal`7`false`ふつう/卓球de脱臼|`hard`8`false`むずかしい/卓球de脱臼|`oni`8`true`おに/卓球de脱臼|
+束ね糸	はるなば feat.石黒千尋	ナムコオリジナル	ffff4500	270	`easy`5`false`かんたん/束ね糸|`normal`7`false`ふつう/束ね糸|`hard`8`false`むずかしい/束ね糸|`oni`10`false`おに/束ね糸|
+タベテモタベテモ	☆しょーじ☆ feat.ほのか♡えりか	ナムコオリジナル	ffff4500	180	`easy`3`false`かんたん/タベテモタベテモ|`normal`6`false`ふつう/タベテモタベテモ|`hard`7`false`むずかしい/タベテモタベテモ|`oni`8`false`おに/タベテモタベテモ|
+タベルナ2000		ナムコオリジナル	ffff4500	170※	`easy`5`false`かんたん/タベルナ2000|`normal`7`false`ふつう/タベルナ2000|`hard`8`false`むずかしい/タベルナ2000|`oni`10`false`おに/タベルナ2000|
+ダンガンノーツ	cosMo@暴走P	ナムコオリジナル	ffff4500	105-210	`easy`5`false`かんたん/ダンガンノーツ|`normal`7`false`ふつう/ダンガンノーツ|`hard`8`false`むずかしい/ダンガンノーツ|`oni`10`false`おに/ダンガンノーツ|`uraOni`10`false`おに/ダンガンノーツ(裏譜面)
+dance storm		ナムコオリジナル	ffff4500	190	`easy`4`false`かんたん/dance storm|`normal`6`false`ふつう/dance storm|`hard`6`false`むずかしい/dance storm|`oni`7`false`おに/dance storm|`uraOni`9`false`おに/dance storm(裏譜面)
+綻放	～Blooming～	ナムコオリジナル	ffff4500	172※	`easy`3`false`かんたん/綻放 ～Blooming～|`normal`5`false`ふつう/綻放 ～Blooming～|`hard`6`false`むずかしい/綻放 ～Blooming～|`oni`7`false`おに/綻放 ～Blooming～|`uraOni`8`false`おに/綻放 ～Blooming～(裏譜面)
+蓄勢	～GEAR UP～	ナムコオリジナル	ffff4500	146	`easy`3`false`かんたん/蓄勢 ～GEAR UP～|`normal`5`false`ふつう/蓄勢 ～GEAR UP～|`hard`6`false`むずかしい/蓄勢 ～GEAR UP～|`oni`7`false`おに/蓄勢 ～GEAR UP～|`uraOni`8`false`おに/蓄勢 ～GEAR UP～(裏譜面)
+地平線のエオリア		ナムコオリジナル	ffff4500	158	`easy`4`false`かんたん/地平線のエオリア|`normal`6`false`ふつう/地平線のエオリア|`hard`7`false`むずかしい/地平線のエオリア|`oni`7`false`おに/地平線のエオリア|
+魑魅魍魎	Laur	ナムコオリジナル	ffff4500	200-260	`easy`4`false`かんたん/魑魅魍魎|`normal`6`false`ふつう/魑魅魍魎|`hard`7`false`むずかしい/魑魅魍魎|`oni`10`false`おに/魑魅魍魎|
+超時空アドベンチャー	「太鼓の達人 どんとかつの時空大冒険」テーマソング	ナムコオリジナル	ffff4500	150	`easy`4`false`かんたん/超時空アドベンチャー|`normal`5`false`ふつう/超時空アドベンチャー|`hard`5`false`むずかしい/超時空アドベンチャー|`oni`6`false`おに/超時空アドベンチャー|
+超絶技巧系少女	ねこかぶりサイクロン(xi+ねこみりん)	ナムコオリジナル	ffff4500	200	`easy`5`false`かんたん/超絶技巧系少女|`normal`6`false`ふつう/超絶技巧系少女|`hard`7`false`むずかしい/超絶技巧系少女|`oni`10`false`おに/超絶技巧系少女|
+蝶戀	～Obsession～	ナムコオリジナル	ffff4500	116	`easy`3`false`かんたん/蝶戀 ～Obsession～|`normal`4`false`ふつう/蝶戀 ～Obsession～|`hard`4`false`むずかしい/蝶戀 ～Obsession～|`oni`7`false`おに/蝶戀 ～Obsession～|`uraOni`8`false`おに/蝶戀 ～Obsession～(裏譜面)
+Choco Chiptune.	Ancraft	ナムコオリジナル	ffff4500	210	`easy`4`false`かんたん/Choco Chiptune.|`normal`6`false`ふつう/Choco Chiptune.|`hard`7`false`むずかしい/Choco Chiptune.|`oni`8`false`おに/Choco Chiptune.|
+散りゆく蘭の綴る詩		ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/散りゆく蘭の綴る詩|`normal`6`false`ふつう/散りゆく蘭の綴る詩|`hard`6`true`むずかしい/散りゆく蘭の綴る詩|`oni`9`false`おに/散りゆく蘭の綴る詩|
+月影SASURAI		ナムコオリジナル	ffff4500	137※	`easy`5`false`かんたん/月影SASURAI|`normal`6`false`ふつう/月影SASURAI|`hard`7`false`むずかしい/月影SASURAI|`oni`8`false`おに/月影SASURAI|`uraOni`9`false`おに/月影SASURAI(裏譜面)
+月読命	Tatsh a.k.a 世阿弥	ナムコオリジナル	ffff4500	105-210※	`easy`5`false`かんたん/月読命|`normal`7`false`ふつう/月読命|`hard`8`false`むずかしい/月読命|`oni`10`false`おに/月読命|
+つながれ！ひろがれ！打ち上がれ！	「太鼓の達人 セッションでドドンがドン！」テーマソング	ナムコオリジナル	ffff4500	150	`easy`4`false`かんたん/つながれ！ひろがれ！打ち上がれ！|`normal`5`false`ふつう/つながれ！ひろがれ！打ち上がれ！|`hard`7`false`むずかしい/つながれ！ひろがれ！打ち上がれ！|`oni`9`false`おに/つながれ！ひろがれ！打ち上がれ！|
+ツンデレCafeへようこそ☆	ねこじゃが*	ナムコオリジナル	ffff4500	230	`easy`4`false`かんたん/ツンデレCafeへようこそ☆|`normal`6`false`ふつう/ツンデレCafeへようこそ☆|`hard`7`false`むずかしい/ツンデレCafeへようこそ☆|`oni`9`false`おに/ツンデレCafeへようこそ☆|
+D's Adventure Note	暖@よみぃ	ナムコオリジナル	ffff4500	174※	`easy`5`false`かんたん/D's Adventure Note|`normal`7`false`ふつう/D's Adventure Note|`hard`8`false`むずかしい/D's Adventure Note|`oni`10`false`おに/D's Adventure Note|
+Day by Day!		ナムコオリジナル	ffff4500	161	`easy`3`false`かんたん/Day by Day!|`normal`5`false`ふつう/Day by Day!|`hard`7`false`むずかしい/Day by Day!|`oni`8`false`おに/Day by Day!|
+デザート de 焼肉(サハラ編)		ナムコオリジナル	ffff4500	125	`easy`4`false`かんたん/デザート de 焼肉(サハラ編)|`normal`6`false`ふつう/デザート de 焼肉(サハラ編)|`hard`7`false`むずかしい/デザート de 焼肉(サハラ編)|`oni`9`false`おに/デザート de 焼肉(サハラ編)|
+デッド・オア・ダイ	REDALiCE	ナムコオリジナル	ffff4500	120-240	`easy`5`false`かんたん/デッド・オア・ダイ|`normal`7`false`ふつう/デッド・オア・ダイ|`hard`8`false`むずかしい/デッド・オア・ダイ|`oni`10`false`おに/デッド・オア・ダイ|
+テトラリュトモスフォビア	北谷光浩(BNSI) feat. ルシュカ	ナムコオリジナル	ffff4500	150	`easy`4`false`かんたん/テトラリュトモスフォビア|`normal`5`false`ふつう/テトラリュトモスフォビア|`hard`7`false`むずかしい/テトラリュトモスフォビア|`oni`10`false`おに/テトラリュトモスフォビア|
+≠MM		ナムコオリジナル	ffff4500	92-252	`easy`5`false`かんたん/≠MM|`normal`7`false`ふつう/≠MM|`hard`8`false`むずかしい/≠MM|`oni`10`false`おに/≠MM|
+DEBSTEP!	やじゅ	ナムコオリジナル	ffff4500	130※	`easy`5`false`かんたん/DEBSTEP!|`normal`7`false`ふつう/DEBSTEP!|`hard`8`false`むずかしい/DEBSTEP!|`oni`10`false`おに/DEBSTEP!|
+天泣の律	Capchii	ナムコオリジナル	ffff4500	100-200	`easy`4`false`かんたん/天泣の律|`normal`6`false`ふつう/天泣の律|`hard`7`false`むずかしい/天泣の律|`oni`10`false`おに/天泣の律|
+天狗囃子		ナムコオリジナル	ffff4500	92-226	`easy`4`false`かんたん/天狗囃子|`normal`7`false`ふつう/天狗囃子|`hard`7`false`むずかしい/天狗囃子|`oni`9`false`おに/天狗囃子|
+電子ドラムの達人	ふぇのたす	ナムコオリジナル	ffff4500	176	`easy`4`false`かんたん/電子ドラムの達人|`normal`6`false`ふつう/電子ドラムの達人|`hard`7`false`むずかしい/電子ドラムの達人|`oni`9`false`おに/電子ドラムの達人|
+伝説の祭り		ナムコオリジナル	ffff4500	126-136	`easy`3`false`かんたん/伝説の祭り|`normal`4`false`ふつう/伝説の祭り|`hard`6`false`むずかしい/伝説の祭り|`oni`7`false`おに/伝説の祭り|
+てんぢく2000		ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/てんぢく2000|`normal`7`false`ふつう/てんぢく2000|`hard`8`false`むずかしい/てんぢく2000|`oni`10`false`おに/てんぢく2000|
+てんびん座急行 夜を行く		ナムコオリジナル	ffff4500	180	`easy`5`false`かんたん/てんびん座急行 夜を行く|`normal`6`false`ふつう/てんびん座急行 夜を行く|`hard`7`false`むずかしい/てんびん座急行 夜を行く|`oni`8`false`おに/てんびん座急行 夜を行く|
+天妖ノ舞		ナムコオリジナル	ffff4500	174	`easy`3`false`かんたん/天妖ノ舞|`normal`6`false`ふつう/天妖ノ舞|`hard`8`false`むずかしい/天妖ノ舞|`oni`9`false`おに/天妖ノ舞|
+トイマチック☆パレード!!	DJ Genki	ナムコオリジナル	ffff4500	220-280	`easy`5`false`かんたん/トイマチック☆パレード!!|`normal`7`false`ふつう/トイマチック☆パレード!!|`hard`8`false`むずかしい/トイマチック☆パレード!!|`oni`10`false`おに/トイマチック☆パレード!!|
+東京特許キョ許可局局長!!		ナムコオリジナル	ffff4500	150-165	`easy`3`false`かんたん/東京特許キョ許可局局長!!|`normal`4`false`ふつう/東京特許キョ許可局局長!!|`hard`6`false`むずかしい/東京特許キョ許可局局長!!|`oni`8`false`おに/東京特許キョ許可局局長!!|
+冬竜 ～Toryu～		ナムコオリジナル	ffff4500	110	`easy`4`false`かんたん/冬竜 ～Toryu～|`normal`5`false`ふつう/冬竜 ～Toryu～|`hard`7`false`むずかしい/冬竜 ～Toryu～|`oni`8`false`おに/冬竜 ～Toryu～|`uraOni`9`false`おに/冬竜 ～Toryu～(裏譜面)
+ドキドキ胸きゅん おまつりタイム		ナムコオリジナル	ffff4500	106-212	`easy`4`false`かんたん/ドキドキ胸きゅん おまつりタイム|`normal`6`false`ふつう/ドキドキ胸きゅん おまつりタイム|`hard`6`false`むずかしい/ドキドキ胸きゅん おまつりタイム|`oni`9`false`おに/ドキドキ胸きゅん おまつりタイム|
+毒LOＣＡＮdy♡	t+pazolite	ナムコオリジナル	ffff4500	165	`easy`3`false`かんたん/毒LOCANdy|`normal`4`false`ふつう/毒LOCANdy|`hard`6`false`むずかしい/毒LOCANdy|`oni`9`false`おに/毒LOCANdy|
+常闇の森	序章「邪神復活の夜」	ナムコオリジナル	ffff4500	68-135※	`easy`4`false`かんたん/常闇の森 序章「邪神復活の夜」|`normal`4`false`ふつう/常闇の森 序章「邪神復活の夜」|`hard`7`false`むずかしい/常闇の森 序章「邪神復活の夜」|`oni`8`false`おに/常闇の森 序章「邪神復活の夜」|
+ドドドドドンだフル！		ナムコオリジナル	ffff4500	200※	`easy`3`false`かんたん/ドドドドドンだフル!|`normal`5`false`ふつう/ドドドドドンだフル!|`hard`6`false`むずかしい/ドドドドドンだフル!|`oni`5`false`おに/ドドドドドンだフル!|`uraOni`10`false`おに/ドドドドドンだフル!(裏譜面)
+轟け！太鼓の達人	steμ×マスブチ×ササオカ feat. 谷本貴義＆たかはし智秋	ナムコオリジナル	ffff4500	154	`easy`2`false`かんたん/轟け！太鼓の達人|`normal`5`false`ふつう/轟け！太鼓の達人|`hard`7`false`むずかしい/轟け！太鼓の達人|`oni`8`false`おに/轟け！太鼓の達人|
+ドドンガド～ン		ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/ドドンガド～ン|`normal`5`false`ふつう/ドドンガド～ン|`hard`7`false`むずかしい/ドドンガド～ン|`oni`8`false`おに/ドドンガド～ン|`uraOni`10`false`おに/ドドンガド～ン(裏譜面)
+Dragoon	Massive New Krew	ナムコオリジナル	ffff4500	200※	`easy`4`false`かんたん/Dragoon|`normal`6`false`ふつう/Dragoon|`hard`7`false`むずかしい/Dragoon|`oni`9`false`おに/Dragoon|
+トラストゲーム	feat.SaChi(harineko)	ナムコオリジナル	ffff4500	192	`easy`5`false`かんたん/トラストゲーム|`normal`6`false`ふつう/トラストゲーム|`hard`6`false`むずかしい/トラストゲーム|`oni`9`false`おに/トラストゲーム|
+Dream Tide	-夢の潮流-	ナムコオリジナル	ffff4500	141	`easy`3`false`かんたん/Dream Tide|`normal`5`false`ふつう/Dream Tide|`hard`7`false`むずかしい/Dream Tide|`oni`8`false`おに/Dream Tide|
+ドローイン☆ドリーム！	Versus feat.白黒黒白(NoWorld)	ナムコオリジナル	ffff4500	130-260	`easy`4`false`かんたん/ドローイン☆ドリーム！|`normal`6`false`ふつう/ドローイン☆ドリーム！|`hard`7`false`むずかしい/ドローイン☆ドリーム！|`oni`8`false`おに/ドローイン☆ドリーム！|
+ドン・エンガスの笛吹き		ナムコオリジナル	ffff4500	118	`easy`4`false`かんたん/ドン・エンガスの笛吹き|`normal`6`false`ふつう/ドン・エンガスの笛吹き|`hard`7`false`むずかしい/ドン・エンガスの笛吹き|`oni`8`false`おに/ドン・エンガスの笛吹き|
+ドンカマ2000		ナムコオリジナル	ffff4500	5-292.38※	`easy`5`false`かんたん/ドンカマ2000|`normal`7`false`ふつう/ドンカマ2000|`hard`8`false`むずかしい/ドンカマ2000|`oni`10`false`おに/ドンカマ2000|
+Donder Time	太鼓 de タイムトラベル80's / おおがみまさこ feat.団地ノ宮琴子	ナムコオリジナル	ffff4500	120	`easy`4`false`かんたん/Donder Time|`normal`6`false`ふつう/Donder Time|`hard`6`false`むずかしい/Donder Time|`oni`8`false`おに/Donder Time|
+どんちゃん音頭		ナムコオリジナル	ffff4500	120	`easy`2`false`かんたん/どんちゃん音頭|`normal`3`false`ふつう/どんちゃん音頭|`hard`5`false`むずかしい/どんちゃん音頭|`oni`7`false`おに/どんちゃん音頭|
+トンデ・ミテ	横川理彦 feat.団地ノ宮弥子	ナムコオリジナル	ffff4500	132	`easy`4`false`かんたん/トンデ・ミテ|`normal`6`false`ふつう/トンデ・ミテ|`hard`8`false`むずかしい/トンデ・ミテ|`oni`9`false`おに/トンデ・ミテ|
+DON'T CUT		ナムコオリジナル	ffff4500	170	`easy`4`false`かんたん/DON'T CUT|`normal`7`false`ふつう/DON'T CUT|`hard`8`false`むずかしい/DON'T CUT|`oni`8`false`おに/DON'T CUT|`uraOni`9`false`おに/DON'T CUT(裏譜面)
+Don't Stop the Game	DJ Myosuke	ナムコオリジナル	ffff4500	175	`easy`5`false`かんたん/Don't Stop the Game|`normal`7`false`ふつう/Don't Stop the Game|`hard`8`false`むずかしい/Don't Stop the Game|`oni`10`false`おに/Don't Stop the Game|
+ナイトメア・サバイバー		ナムコオリジナル	ffff4500	114-155※	`easy`4`false`かんたん/ナイトメア・サバイバー|`normal`6`false`ふつう/ナイトメア・サバイバー|`hard`7`false`むずかしい/ナイトメア・サバイバー|`oni`8`false`おに/ナイトメア・サバイバー|`uraOni`10`false`おに/ナイトメア・サバイバー(裏譜面)
+渚のアンドロメダ		ナムコオリジナル	ffff4500	154	`easy`4`false`かんたん/渚のアンドロメダ|`normal`4`false`ふつう/渚のアンドロメダ|`hard`5`false`むずかしい/渚のアンドロメダ|`oni`8`false`おに/渚のアンドロメダ|
+ナツモノ☆	たんきゅんデモクラシー	ナムコオリジナル	ffff4500	160	`easy`3`false`かんたん/ナツモノ☆|`normal`4`false`ふつう/ナツモノ☆|`hard`6`false`むずかしい/ナツモノ☆|`oni`6`false`おに/ナツモノ☆|
+七色ハーモニー	「めっちゃ！太鼓の達人DS 7つの島の大冒険」より	ナムコオリジナル	ffff4500	145	`easy`3`false`かんたん/七色ハーモニー|`normal`4`false`ふつう/七色ハーモニー|`hard`5`false`むずかしい/七色ハーモニー|`oni`8`false`おに/七色ハーモニー|
+ナマハゲノウタ	feat. DAIKI	ナムコオリジナル	ffff4500	176	`easy`4`false`かんたん/ナマハゲノウタ|`normal`6`false`ふつう/ナマハゲノウタ|`hard`7`false`むずかしい/ナマハゲノウタ|`oni`9`false`おに/ナマハゲノウタ|
+ニジイロバトン	Ponchi♪ feat.はぁち × Donders	ナムコオリジナル	ffff4500	187.6	`easy`3`false`かんたん/ニジイロバトン|`normal`5`false`ふつう/ニジイロバトン|`hard`6`false`むずかしい/ニジイロバトン|`oni`8`false`おに/ニジイロバトン|
+虹色・夢色・太鼓色		ナムコオリジナル	ffff4500	136※	`easy`3`false`かんたん/虹色・夢色・太鼓色|`normal`5`false`ふつう/虹色・夢色・太鼓色|`hard`4`false`むずかしい/虹色・夢色・太鼓色|`oni`6`false`おに/虹色・夢色・太鼓色|
+にゃーにゃーにゃー	立秋 feat.ちょこ	ナムコオリジナル	ffff4500	222	`easy`4`false`かんたん/にゃーにゃーにゃー|`normal`6`false`ふつう/にゃーにゃーにゃー|`hard`7`false`むずかしい/にゃーにゃーにゃー|`oni`10`false`おに/にゃーにゃーにゃー|
+ヌムジカac.10		ナムコオリジナル	ffff4500	142	`easy`4`false`かんたん/ヌムジカac.10|`normal`5`false`ふつう/ヌムジカac.10|`hard`8`false`むずかしい/ヌムジカac.10|`oni`9`false`おに/ヌムジカac.10|
+ねぇ教えて		ナムコオリジナル	ffff4500	100	`easy`4`false`かんたん/ねぇ教えて|`normal`5`false`ふつう/ねぇ教えて|`hard`6`false`むずかしい/ねぇ教えて|`oni`7`false`おに/ねぇ教えて|
+ねがいごと☆ぱずる		ナムコオリジナル	ffff4500	115-155	`easy`3`false`かんたん/ねがいごと☆ぱずる|`normal`3`false`ふつう/ねがいごと☆ぱずる|`hard`6`false`むずかしい/ねがいごと☆ぱずる|`oni`8`false`おに/ねがいごと☆ぱずる|
+願いはエスペラント		ナムコオリジナル	ffff4500	170	`easy`4`false`かんたん/願いはエスペラント|`normal`6`false`ふつう/願いはエスペラント|`hard`6`false`むずかしい/願いはエスペラント|`oni`7`false`おに/願いはエスペラント|
+ねこくじら		ナムコオリジナル	ffff4500	140※	`easy`4`false`かんたん/ねこくじら|`normal`6`false`ふつう/ねこくじら|`hard`7`false`むずかしい/ねこくじら|`oni`8`false`おに/ねこくじら|`uraOni`9`false`おに/ねこくじら(裏譜面)
+NECOLOGY		ナムコオリジナル	ffff4500	150	`easy`3`false`かんたん/NECOLOGY|`normal`5`false`ふつう/NECOLOGY|`hard`7`false`むずかしい/NECOLOGY|`oni`8`false`おに/NECOLOGY|
+ネテモネテモ	☆しょーじ☆ feat.ほのか♡えりか	ナムコオリジナル	ffff4500	185	`easy`3`false`かんたん/ネテモネテモ|`normal`6`false`ふつう/ネテモネテモ|`hard`6`false`むずかしい/ネテモネテモ|`oni`8`false`おに/ネテモネテモ|
+No Gravity		ナムコオリジナル	ffff4500	142-284	`easy`4`false`かんたん/No Gravity|`normal`6`false`ふつう/No Gravity|`hard`7`false`むずかしい/No Gravity|`oni`10`false`おに/No Gravity|
+ノるどん2000		ナムコオリジナル	ffff4500	140-200	`easy`4`false`かんたん/ノるどん2000|`normal`6`false`ふつう/ノるどん2000|`hard`7`false`むずかしい/ノるどん2000|`oni`10`false`おに/ノるどん2000|
+HARDCOREノ心得	DJ Myosuke	ナムコオリジナル	ffff4500	23.75-380	`easy`5`false`かんたん/HARDCOREノ心得|`normal`7`false`ふつう/HARDCOREノ心得|`hard`8`false`むずかしい/HARDCOREノ心得|`oni`10`false`おに/HARDCOREノ心得|
+Hurtling Boys	さだきち イシカダス	ナムコオリジナル	ffff4500	195	`easy`5`false`かんたん/Hurtling Boys|`normal`7`false`ふつう/Hurtling Boys|`hard`8`false`むずかしい/Hurtling Boys|`oni`10`false`おに/Hurtling Boys|
+Purple Rose Fusion		ナムコオリジナル	ffff4500	185-250	`easy`5`false`かんたん/Purple Rose Fusion|`normal`7`false`ふつう/Purple Rose Fusion|`hard`8`false`むずかしい/Purple Rose Fusion|`oni`10`false`おに/Purple Rose Fusion|
+儚姫は原初に舞う	Se-U-Ra	ナムコオリジナル	ffff4500	224	`easy`4`false`かんたん/儚姫は原初に舞う|`normal`5`false`ふつう/儚姫は原初に舞う|`hard`7`false`むずかしい/儚姫は原初に舞う|`oni`10`false`おに/儚姫は原初に舞う|`uraOni`10`false`おに/儚姫は原初に舞う(裏譜面)
+化物月夜	くにきち	ナムコオリジナル	ffff4500	180	`easy`5`false`かんたん/化物月夜|`normal`6`false`ふつう/化物月夜|`hard`8`false`むずかしい/化物月夜|`oni`8`false`おに/化物月夜|
+パステル ドリーム		ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/パステル ドリーム|`normal`6`false`ふつう/パステル ドリーム|`hard`7`false`むずかしい/パステル ドリーム|`oni`8`false`おに/パステル ドリーム|
+はたラク2000		ナムコオリジナル	ffff4500	107-320※	`easy`5`false`かんたん/はたラク2000|`normal`7`false`ふつう/はたラク2000|`hard`8`false`むずかしい/はたラク2000|`oni`10`false`おに/はたラク2000|
+Happy & Peace		ナムコオリジナル	ffff4500	169	`easy`5`false`かんたん/Happy ＆ Peace|`normal`4`false`ふつう/Happy ＆ Peace|`hard`5`false`むずかしい/Happy ＆ Peace|`oni`7`false`おに/Happy ＆ Peace|
+はやさいたま2000		ナムコオリジナル	ffff4500	250	`easy`5`false`かんたん/はやさいたま2000|`normal`7`false`ふつう/はやさいたま2000|`hard`8`false`むずかしい/はやさいたま2000|`oni`9`false`おに/はやさいたま2000|
+隼		ナムコオリジナル	ffff4500	186※	`easy`5`false`かんたん/隼|`normal`7`false`ふつう/隼|`hard`8`false`むずかしい/隼|`oni`9`false`おに/隼|
+パラレルロリポップ	太鼓 de タイムトラベル10's / Sho Okada	ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/パラレルロリポップ|`normal`6`false`ふつう/パラレルロリポップ|`hard`7`false`むずかしい/パラレルロリポップ|`oni`9`false`おに/パラレルロリポップ|
+春竜 ～Haryu～		ナムコオリジナル	ffff4500	218	`easy`4`false`かんたん/春竜 ～Haryu～|`normal`5`false`ふつう/春竜 ～Haryu～|`hard`7`false`むずかしい/春竜 ～Haryu～|`oni`8`false`おに/春竜 ～Haryu～|`uraOni`9`false`おに/春竜 ～Haryu～(裏譜面)
+ハロー！どんちゃん		ナムコオリジナル	ffff4500	140※	`easy`3`false`かんたん/ハロー！どんちゃん|`normal`4`false`ふつう/ハロー！どんちゃん|`hard`7`false`むずかしい/ハロー！どんちゃん|`oni`7`false`おに/ハロー！どんちゃん|
+ハロー！ ハロウィン		ナムコオリジナル	ffff4500	134-146	`easy`3`false`かんたん/ハロー！ハロウィン|`normal`2`false`ふつう/ハロー！ハロウィン|`hard`6`false`むずかしい/ハロー！ハロウィン|`oni`8`true`おに/ハロー！ハロウィン|
+punk bastards	Sobrem	ナムコオリジナル	ffff4500	160-225	`easy`5`false`かんたん/punk bastards|`normal`6`false`ふつう/punk bastards|`hard`7`false`むずかしい/punk bastards|`oni`9`false`おに/punk bastards|
+パン vs ごはん！ 大決戦！	コバヤシユウヤ(IOSYS) feat.miko ＆ 山本椛	ナムコオリジナル	ffff4500	240-260	`easy`5`false`かんたん/パン vs ごはん！ 大決戦！|`normal`7`false`ふつう/パン vs ごはん！ 大決戦！|`hard`7`false`むずかしい/パン vs ごはん！ 大決戦！|`oni`10`true`おに/パン vs ごはん！ 大決戦！|`uraOni`10`true`おに/パン vs ごはん！ 大決戦！(裏譜面)
+BE THE ACE		ナムコオリジナル	ffff4500	133※	`easy`4`false`かんたん/BE THE ACE|`normal`5`false`ふつう/BE THE ACE|`hard`6`false`むずかしい/BE THE ACE|`oni`6`false`おに/BE THE ACE|`uraOni`9`false`おに/BE THE ACE(裏譜面)
+ヒカリノカナタヘ		ナムコオリジナル	ffff4500	146	`easy`4`false`かんたん/ヒカリノカナタヘ|`normal`5`false`ふつう/ヒカリノカナタヘ|`hard`8`false`むずかしい/ヒカリノカナタヘ|`oni`9`false`おに/ヒカリノカナタヘ|
+ヒカリノカナタヘ -Long Ver.-		ナムコオリジナル	ffff4500	146	`easy`5`false`かんたん/ヒカリノカナタヘ(裏譜面)|`normal`5`false`ふつう/ヒカリノカナタヘ(裏譜面)|`hard`8`false`むずかしい/ヒカリノカナタヘ(裏譜面)|`oni`9`false`おに/ヒカリノカナタヘ(裏譜面)|
+VICTORIA	Cranky	ナムコオリジナル	ffff4500	98-185※	`easy`5`false`かんたん/VICTORIA|`normal`7`false`ふつう/VICTORIA|`hard`8`false`むずかしい/VICTORIA|`oni`10`false`おに/VICTORIA|
+Vixtory	CHUBAY	ナムコオリジナル	ffff4500	243	`easy`5`false`かんたん/Vixtory|`normal`7`false`ふつう/Vixtory|`hard`7`false`むずかしい/Vixtory|`oni`10`false`おに/Vixtory|`uraOni`10`false`おに/Vixtory(裏譜面)
+秘ナルメジェドノ悲ナル憂鬱	コバヤシユウヤ(IOSYS) feat.山本椛 (monotone)	ナムコオリジナル	ffff4500	180-210	`easy`4`false`かんたん/秘ナルメジェドノ悲ナル憂鬱|`normal`5`false`ふつう/秘ナルメジェドノ悲ナル憂鬱|`hard`7`false`むずかしい/秘ナルメジェドノ悲ナル憂鬱|`oni`10`false`おに/秘ナルメジェドノ悲ナル憂鬱|
+百花繚乱		ナムコオリジナル	ffff4500	148	`easy`3`false`かんたん/百花繚乱|`normal`4`false`ふつう/百花繚乱|`hard`4`false`むずかしい/百花繚乱|`oni`9`true`おに/百花繚乱|
+百鬼夜行		ナムコオリジナル	ffff4500	145	`easy`5`false`かんたん/百鬼夜行|`normal`5`false`ふつう/百鬼夜行|`hard`7`false`むずかしい/百鬼夜行|`oni`9`true`おに/百鬼夜行|
+平等院鳳凰ドン vs 鳥獣戯カッ	太鼓 de タイムトラベル平安 / コバヤシユウヤ(IOSYS) feat. miko	ナムコオリジナル	ffff4500	80-200	`easy`3`false`かんたん/平等院鳳凰ドン vs 鳥獣戯カッ|`normal`5`false`ふつう/平等院鳳凰ドン vs 鳥獣戯カッ|`hard`6`false`むずかしい/平等院鳳凰ドン vs 鳥獣戯カッ|`oni`7`false`おに/平等院鳳凰ドン vs 鳥獣戯カッ|
+ひよっこファンタジー	つよみー	ナムコオリジナル	ffff4500	188	`easy`5`false`かんたん/ひよっこファンタジー|`normal`6`false`ふつう/ひよっこファンタジー|`hard`7`false`むずかしい/ひよっこファンタジー|`oni`9`false`おに/ひよっこファンタジー|
+ファミレスウォーズ		ナムコオリジナル	ffff4500	190	`easy`2`false`かんたん/ファミレスウォーズ|`normal`4`false`ふつう/ファミレスウォーズ|`hard`5`false`むずかしい/ファミレスウォーズ|`oni`8`false`おに/ファミレスウォーズ|
+Phantom Rider	濱本理央(BNSI)	ナムコオリジナル	ffff4500	268※	`easy`4`false`かんたん/Phantom Rider|`normal`6`false`ふつう/Phantom Rider|`hard`7`false`むずかしい/Phantom Rider|`oni`8`false`おに/Phantom Rider|`uraOni`9`false`おに/Phantom Rider(裏譜面)
+風雲！バチお先生		ナムコオリジナル	ffff4500	130※	`easy`3`false`かんたん/風雲！バチお先生|`normal`5`false`ふつう/風雲！バチお先生|`hard`6`false`むずかしい/風雲！バチお先生|`oni`7`false`おに/風雲！バチお先生|
+FooFooカセット	はるなば feat.SaChi(harineko)	ナムコオリジナル	ffff4500	175-176	`easy`4`false`かんたん/FooFooカセット|`normal`6`false`ふつう/FooFooカセット|`hard`6`false`むずかしい/FooFooカセット|`oni`9`false`おに/FooFooカセット|
+フューチャー・ラボ		ナムコオリジナル	ffff4500	160※	`easy`3`false`かんたん/フューチャー・ラボ|`normal`4`false`ふつう/フューチャー・ラボ|`hard`7`false`むずかしい/フューチャー・ラボ|`oni`8`false`おに/フューチャー・ラボ|
+Fly away		ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/Fly away|`normal`5`false`ふつう/Fly away|`hard`5`false`むずかしい/Fly away|`oni`7`false`おに/Fly away|
+Black Rose Apostle		ナムコオリジナル	ffff4500	102-204	`easy`5`false`かんたん/Black Rose Apostle|`normal`6`false`ふつう/Black Rose Apostle|`hard`8`false`むずかしい/Black Rose Apostle|`oni`10`false`おに/Black Rose Apostle|`uraOni`10`false`おに/Black Rose Apostle(裏譜面)
+フリフリ♪ノリノリ♪		ナムコオリジナル	ffff4500	190	`easy`3`false`かんたん/フリフリ♪ノリノリ♪|`normal`4`false`ふつう/フリフリ♪ノリノリ♪|`hard`6`false`むずかしい/フリフリ♪ノリノリ♪|`oni`7`false`おに/フリフリ♪ノリノリ♪|`uraOni`9`false`おに/フリフリ♪ノリノリ♪(裏譜面)
+Blue Rose Ruin		ナムコオリジナル	ffff4500	185	`easy`5`false`かんたん/Blue Rose Ruin|`normal`7`false`ふつう/Blue Rose Ruin|`hard`8`false`むずかしい/Blue Rose Ruin|`oni`8`false`おに/Blue Rose Ruin|
+ぷるぷるしんぷる	Her Ghost Friend	ナムコオリジナル	ffff4500	240	`easy`4`false`かんたん/ぷるぷるしんぷる|`normal`5`false`ふつう/ぷるぷるしんぷる|`hard`7`false`むずかしい/ぷるぷるしんぷる|`oni`8`false`おに/ぷるぷるしんぷる|
+ブレイクライン		ナムコオリジナル	ffff4500	178	`easy`3`false`かんたん/ブレイクライン|`normal`5`false`ふつう/ブレイクライン|`hard`7`false`むずかしい/ブレイクライン|`oni`8`false`おに/ブレイクライン|
+Blessed Bouquet Buskers		ナムコオリジナル	ffff4500	188	`easy`4`false`かんたん/Blessed Bouquet Buskers|`normal`5`false`ふつう/Blessed Bouquet Buskers|`hard`6`false`むずかしい/Blessed Bouquet Buskers|`oni`10`false`おに/Blessed Bouquet Buskers|
+平成太鼓街道 ～バチの女～		ナムコオリジナル	ffff4500	105※	`easy`4`false`かんたん/平成太鼓街道～バチの女～|`normal`7`false`ふつう/平成太鼓街道～バチの女～|`hard`7`false`むずかしい/平成太鼓街道～バチの女～|`oni`5`true`おに/平成太鼓街道～バチの女～|
+ペットショップ大戦	chacol feat. Focco	ナムコオリジナル	ffff4500	172	`easy`4`false`かんたん/ペットショップ大戦|`normal`5`false`ふつう/ペットショップ大戦|`hard`7`false`むずかしい/ペットショップ大戦|`oni`10`false`おに/ペットショップ大戦|
+Behemoth	DJ Myosuke	ナムコオリジナル	ffff4500	160-190	`easy`5`false`かんたん/Behemoth|`normal`7`false`ふつう/Behemoth|`hard`8`false`むずかしい/Behemoth|`oni`10`false`おに/Behemoth|
+Heaven's Rider	濱本理央(BNSI)	ナムコオリジナル	ffff4500	150	`easy`5`false`かんたん/Heaven's Rider|`normal`6`false`ふつう/Heaven's Rider|`hard`8`false`むずかしい/Heaven's Rider|`oni`9`false`おに/Heaven's Rider|
+ほうかご☆マジシャン	まりんべーす	ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/ほうかご☆マジシャン|`normal`6`false`ふつう/ほうかご☆マジシャン|`hard`6`false`むずかしい/ほうかご☆マジシャン|`oni`8`false`おに/ほうかご☆マジシャン|
+忘却のティルナノグ		ナムコオリジナル	ffff4500	165	`easy`4`false`かんたん/忘却のティルナノグ|`normal`5`false`ふつう/忘却のティルナノグ|`hard`7`false`むずかしい/忘却のティルナノグ|`oni`9`false`おに/忘却のティルナノグ|
+Hold me tight	太鼓 de タイムトラベル90's / Tatsh&musica with パークマンサー	ナムコオリジナル	ffff4500	155	`easy`4`false`かんたん/Hold me tight|`normal`6`false`ふつう/Hold me tight|`hard`6`false`むずかしい/Hold me tight|`oni`8`false`おに/Hold me tight|
+ボクハシンセ		ナムコオリジナル	ffff4500	110	`easy`3`false`かんたん/ボクハシンセ|`normal`3`false`ふつう/ボクハシンセ|`hard`4`false`むずかしい/ボクハシンセ|`oni`8`false`おに/ボクハシンセ|
+星屑ストラック	t+pazolite	ナムコオリジナル	ffff4500	220	`easy`5`false`かんたん/星屑ストラック|`normal`6`false`ふつう/星屑ストラック|`hard`7`false`むずかしい/星屑ストラック|`oni`10`false`おに/星屑ストラック|`uraOni`10`false`おに/星屑ストラック(裏譜面)
+星屑とリニアと僕	feat.結羽(プラムソニック)	ナムコオリジナル	ffff4500	176※	`easy`4`false`かんたん/星屑とリニアと僕|`normal`5`false`ふつう/星屑とリニアと僕|`hard`5`false`むずかしい/星屑とリニアと僕|`oni`8`false`おに/星屑とリニアと僕|
+poxei♦DOON	かねこちはる	ナムコオリジナル	ffff4500	62.5-310	`easy`5`false`かんたん/poxei◆DOON|`normal`7`false`ふつう/poxei◆DOON|`hard`8`false`むずかしい/poxei◆DOON|`oni`10`false`おに/poxei◆DOON|
+White Rose Insanity		ナムコオリジナル	ffff4500	138	`easy`5`false`かんたん/White Rose Insanity|`normal`5`false`ふつう/White Rose Insanity|`hard`6`false`むずかしい/White Rose Insanity|`oni`7`false`おに/White Rose Insanity|`uraOni`8`false`おに/White Rose Insanity(裏譜面)
+What's in the box?	Ujico*	ナムコオリジナル	ffff4500	138.98-299.19	`easy`3`false`かんたん/What's in the box?|`normal`5`false`ふつう/What's in the box?|`hard`7`false`むずかしい/What's in the box?|`oni`10`false`おに/What's in the box?|
+PONPOKO RHYTHM	Mamyukka	ナムコオリジナル	ffff4500	170	`easy`4`false`かんたん/PONPOKO RHYTHM|`normal`6`false`ふつう/PONPOKO RHYTHM|`hard`6`false`むずかしい/PONPOKO RHYTHM|`oni`7`false`おに/PONPOKO RHYTHM|
+マーブルハート		ナムコオリジナル	ffff4500	166	`easy`3`false`かんたん/マーブルハート|`normal`5`false`ふつう/マーブルハート|`hard`5`false`むずかしい/マーブルハート|`oni`6`false`おに/マーブルハート|
+まいにちがドンダフル	「太鼓の達人 ドンダフルフェスティバル」テーマソング	ナムコオリジナル	ffff4500	138	`easy`2`false`かんたん/まいにちがドンダフル|`normal`4`false`ふつう/まいにちがドンダフル|`hard`5`false`むずかしい/まいにちがドンダフル|`oni`8`false`おに/まいにちがドンダフル|
+My Mine		ナムコオリジナル	ffff4500	177	`easy`4`false`かんたん/My Mine|`normal`5`false`ふつう/My Mine|`hard`4`false`むずかしい/My Mine|`oni`6`false`おに/My Mine|
+マオウのショウタイム		ナムコオリジナル	ffff4500	120-222	`easy`4`false`かんたん/マオウのショウタイム|`normal`6`false`ふつう/マオウのショウタイム|`hard`7`false`むずかしい/マオウのショウタイム|`oni`9`false`おに/マオウのショウタイム|
+マジカル・パフェ		ナムコオリジナル	ffff4500	8.15-237	`easy`4`false`かんたん/マジカル・パフェ|`normal`7`false`ふつう/マジカル・パフェ|`hard`8`false`むずかしい/マジカル・パフェ|`oni`9`false`おに/マジカル・パフェ|
+またさいたま2000		ナムコオリジナル	ffff4500	160-240	`easy`5`false`かんたん/またさいたま2000|`normal`7`false`ふつう/またさいたま2000|`hard`8`false`むずかしい/またさいたま2000|`oni`10`false`おに/またさいたま2000|
+まださいたま2000		ナムコオリジナル	ffff4500	280	`easy`5`true`かんたん/まださいたま2000|`normal`7`true`ふつう/まださいたま2000|`hard`8`true`むずかしい/まださいたま2000|`oni`10`true`おに/まださいたま2000|
+マッピー音頭		ナムコオリジナル	ffff4500	126	`easy`2`false`かんたん/マッピー音頭|`normal`3`false`ふつう/マッピー音頭|`hard`5`false`むずかしい/マッピー音頭|`oni`7`false`おに/マッピー音頭|
+MATSURI D／A		ナムコオリジナル	ffff4500	130	`easy`5`false`かんたん/MATSURI D／A|`normal`7`false`ふつう/MATSURI D／A|`hard`8`false`むずかしい/MATSURI D／A|`oni`8`false`おに/MATSURI D／A|
+魔法の喫茶店		ナムコオリジナル	ffff4500	168	`easy`3`false`かんたん/魔法の喫茶店|`normal`4`false`ふつう/魔法の喫茶店|`hard`5`false`むずかしい/魔法の喫茶店|`oni`8`false`おに/魔法の喫茶店|
+マリオネットピュア		ナムコオリジナル	ffff4500	84.51-132	`easy`4`false`かんたん/マリオネットピュア|`normal`5`false`ふつう/マリオネットピュア|`hard`7`false`むずかしい/マリオネットピュア|`oni`9`false`おに/マリオネットピュア|
+まるくてはやくてすさまじいリズム	立秋 feat.ちょこ	ナムコオリジナル	ffff4500	192-248	`easy`5`false`かんたん/まるくてはやくてすさまじいリズム|`normal`7`false`ふつう/まるくてはやくてすさまじいリズム|`hard`8`false`むずかしい/まるくてはやくてすさまじいリズム|`oni`10`false`おに/まるくてはやくてすさまじいリズム|
+Mulberry		ナムコオリジナル	ffff4500	170	`easy`4`false`かんたん/Mulberry|`normal`6`false`ふつう/Mulberry|`hard`6`false`むずかしい/Mulberry|`oni`7`false`おに/Mulberry|
+ミーナのおやしき		ナムコオリジナル	ffff4500	104-180※	`easy`4`false`かんたん/ミーナのおやしき|`normal`5`false`ふつう/ミーナのおやしき|`hard`7`false`むずかしい/ミーナのおやしき|`oni`9`false`おに/ミーナのおやしき|
+三瀬川乱舞		ナムコオリジナル	ffff4500	242	`easy`4`false`かんたん/三瀬川乱舞|`normal`5`false`ふつう/三瀬川乱舞|`hard`7`false`むずかしい/三瀬川乱舞|`oni`8`false`おに/三瀬川乱舞|`uraOni`10`false`おに/三瀬川乱舞(裏譜面)
+未来への鍵		ナムコオリジナル	ffff4500	105	`easy`4`false`かんたん/未来への鍵|`normal`6`false`ふつう/未来への鍵|`hard`5`false`むずかしい/未来への鍵|`oni`7`false`おに/未来への鍵|
+mint tears		ナムコオリジナル	ffff4500	188	`easy`4`false`かんたん/mint tears|`normal`6`false`ふつう/mint tears|`hard`7`true`むずかしい/mint tears|`oni`10`false`おに/mint tears|
+夢幻の蒼空	Silver Forest feat.SAYA	ナムコオリジナル	ffff4500	180	`easy`3`false`かんたん/夢幻の蒼空|`normal`5`false`ふつう/夢幻の蒼空|`hard`6`false`むずかしい/夢幻の蒼空|`oni`8`false`おに/夢幻の蒼空|
+メカデス。		ナムコオリジナル	ffff4500	160	`easy`4`false`かんたん/メカデス。|`normal`6`false`ふつう/メカデス。|`hard`7`false`むずかしい/メカデス。|`oni`9`false`おに/メカデス。|
+女神な世界 Ⅱ	翡翠＆祇羽 feat. 葉月ゆら	ナムコオリジナル	ffff4500	61-252	`easy`4`false`かんたん/女神な世界II|`normal`6`false`ふつう/女神な世界II|`hard`7`false`むずかしい/女神な世界II|`oni`8`false`おに/女神な世界II|
+女神な世界 Ⅰ	翡翠＆祇羽 feat. 寺井沙織	ナムコオリジナル	ffff4500	168	`easy`4`false`かんたん/女神な世界I|`normal`6`false`ふつう/女神な世界I|`hard`7`false`むずかしい/女神な世界I|`oni`9`false`おに/女神な世界I|
+めたるぽりす		ナムコオリジナル	ffff4500	176	`easy`4`false`かんたん/めたるぽりす|`normal`6`false`ふつう/めたるぽりす|`hard`7`false`むずかしい/めたるぽりす|`oni`9`false`おに/めたるぽりす|`uraOni`9`false`おに/めたるぽりす(裏譜面)
+memoria ficta	Versus	ナムコオリジナル	ffff4500	125-250	`easy`4`false`かんたん/memoria ficta|`normal`6`false`ふつう/memoria ficta|`hard`7`false`むずかしい/memoria ficta|`oni`10`false`おに/memoria ficta|
+燃えよサファイア	庭師	ナムコオリジナル	ffff4500	175	`easy`4`false`かんたん/燃えよサファイア|`normal`6`false`ふつう/燃えよサファイア|`hard`7`false`むずかしい/燃えよサファイア|`oni`9`false`おに/燃えよサファイア|
+8OROCHI	REDALiCE	ナムコオリジナル	ffff4500	200.8	`easy`5`false`かんたん/8OROCHI|`normal`7`false`ふつう/8OROCHI|`hard`8`false`むずかしい/8OROCHI|`oni`10`false`おに/8OROCHI|`uraOni`10`false`おに/8OROCHI(裏譜面)
+闇の魂		ナムコオリジナル	ffff4500	142	`easy`4`false`かんたん/闇の魂|`normal`7`false`ふつう/闇の魂|`hard`7`false`むずかしい/闇の魂|`oni`9`false`おに/闇の魂|
+闇の魔法少女	Silver Forest feat.アキ	ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/闇の魔法少女|`normal`6`false`ふつう/闇の魔法少女|`hard`6`false`むずかしい/闇の魔法少女|`oni`9`false`おに/闇の魔法少女|
+UFO Swingin'	シバガキ feat. A.Dokuga	ナムコオリジナル	ffff4500	62-274	`easy`5`false`かんたん/UFO Swingin'|`normal`7`false`ふつう/UFO Swingin'|`hard`8`false`むずかしい/UFO Swingin'|`oni`10`false`おに/UFO Swingin'|
+ユウガオノキミ		ナムコオリジナル	ffff4500	128	`easy`3`false`かんたん/ユウガオノキミ|`normal`5`false`ふつう/ユウガオノキミ|`hard`6`false`むずかしい/ユウガオノキミ|`oni`7`false`おに/ユウガオノキミ|
+幽玄ノ乱	世阿弥	ナムコオリジナル	ffff4500	160-300	`easy`5`false`かんたん/幽玄ノ乱|`normal`7`false`ふつう/幽玄ノ乱|`hard`8`false`むずかしい/幽玄ノ乱|`oni`10`false`おに/幽玄ノ乱|
+友情ぽっぷ		ナムコオリジナル	ffff4500	174	`easy`4`false`かんたん/友情ぽっぷ|`normal`4`false`ふつう/友情ぽっぷ|`hard`7`false`むずかしい/友情ぽっぷ|`oni`6`false`おに/友情ぽっぷ|
+ユースフルコースター	U-ske feat.かずらなつ	ナムコオリジナル	ffff4500	210	`easy`4`false`かんたん/ユースフルコースター|`normal`6`false`ふつう/ユースフルコースター|`hard`7`false`むずかしい/ユースフルコースター|`oni`9`false`おに/ユースフルコースター|
+夢と現実の境界線		ナムコオリジナル	ffff4500	155	`easy`4`false`かんたん/夢と現実の境界線|`normal`6`false`ふつう/夢と現実の境界線|`hard`7`false`むずかしい/夢と現実の境界線|`oni`9`false`おに/夢と現実の境界線|
+ゆれるプリーツ実行委員	feat. 団地ノ宮弥子	ナムコオリジナル	ffff4500	136	`easy`4`false`かんたん/ゆれるプリーツ実行委員|`normal`6`false`ふつう/ゆれるプリーツ実行委員|`hard`7`false`むずかしい/ゆれるプリーツ実行委員|`oni`8`false`おに/ゆれるプリーツ実行委員|
+よくでる2000		ナムコオリジナル	ffff4500	183-190※	`easy`5`false`かんたん/よくでる2000|`normal`6`false`ふつう/よくでる2000|`hard`7`false`むずかしい/よくでる2000|`oni`9`false`おに/よくでる2000|
+夜桜謝肉祭		ナムコオリジナル	ffff4500	145.3-170	`easy`4`false`かんたん/夜桜謝肉祭|`normal`6`false`ふつう/夜桜謝肉祭|`hard`8`true`むずかしい/夜桜謝肉祭|`oni`9`false`おに/夜桜謝肉祭|`uraOni`10`false`おに/夜桜謝肉祭(裏譜面)
+夜櫻ブレヰダアズ	ぽんきち	ナムコオリジナル	ffff4500	119-167※	`easy`5`false`かんたん/夜櫻ブレヰダアズ|`normal`7`false`ふつう/夜櫻ブレヰダアズ|`hard`8`false`むずかしい/夜櫻ブレヰダアズ|`oni`9`false`おに/夜櫻ブレヰダアズ|
+黄泉のイザナミ		ナムコオリジナル	ffff4500	165-172※	`easy`4`false`かんたん/黄泉のイザナミ|`normal`6`false`ふつう/黄泉のイザナミ|`hard`7`false`むずかしい/黄泉のイザナミ|`oni`8`false`おに/黄泉のイザナミ|
+ラーメン de Yo-Men!!		ナムコオリジナル	ffff4500	118	`easy`4`false`かんたん/ラーメン de Yo-Men!!|`normal`4`false`ふつう/ラーメン de Yo-Men!!|`hard`5`false`むずかしい/ラーメン de Yo-Men!!|`oni`7`false`おに/ラーメン de Yo-Men!!|
+らいとにんぐ ぱっしょん		ナムコオリジナル	ffff4500	166	`easy`4`false`かんたん/らいとにんぐ ぱっしょん|`normal`5`false`ふつう/らいとにんぐ ぱっしょん|`hard`6`false`むずかしい/らいとにんぐ ぱっしょん|`oni`7`false`おに/らいとにんぐ ぱっしょん|`uraOni`9`false`おに/らいとにんぐ ぱっしょん(裏譜面)
+螺旋周回軌道	BrackY feat. Risa Yuzuki	ナムコオリジナル	ffff4500	284	`easy`4`false`かんたん/螺旋周回軌道|`normal`6`false`ふつう/螺旋周回軌道|`hard`7`false`むずかしい/螺旋周回軌道|`oni`9`false`おに/螺旋周回軌道|`uraOni`10`false`おに/螺旋周回軌道(裏譜面)
+LOVE戦!!		ナムコオリジナル	ffff4500	180	`easy`3`false`かんたん/LOVE戦!!|`normal`5`false`ふつう/LOVE戦!!|`hard`7`true`むずかしい/LOVE戦!!|`oni`8`false`おに/LOVE戦!!|
+ラヴ♡スパイス♡ライクユー!!!	DJ Genki feat. ななひら,yukacco,藍月なくる	ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/ラヴ・スパイス・ライクユー!!!|`normal`7`false`ふつう/ラヴ・スパイス・ライクユー!!!|`hard`8`false`むずかしい/ラヴ・スパイス・ライクユー!!!|`oni`10`false`おに/ラヴ・スパイス・ライクユー!!!|
+恋幻想(Love Fantasy)	HONOKA	ナムコオリジナル	ffff4500	183	`easy`4`false`かんたん/恋幻想(Love Fantasy)|`normal`6`false`ふつう/恋幻想(Love Fantasy)|`hard`6`false`むずかしい/恋幻想(Love Fantasy)|`oni`8`false`おに/恋幻想(Love Fantasy)|
+ラブユー☆どんちゃん		ナムコオリジナル	ffff4500	130	`easy`4`false`かんたん/ラブユー☆どんちゃん|`normal`6`false`ふつう/ラブユー☆どんちゃん|`hard`6`false`むずかしい/ラブユー☆どんちゃん|`oni`8`false`おに/ラブユー☆どんちゃん|`uraOni`8`false`おに/ラブユー☆どんちゃん(裏譜面)
+ラブリーX		ナムコオリジナル	ffff4500	134	`easy`4`false`かんたん/ラブリーX|`normal`5`false`ふつう/ラブリーX|`hard`6`false`むずかしい/ラブリーX|`oni`7`false`おに/ラブリーX|`uraOni`8`false`おに/ラブリーX(裏譜面)
+λ7708	Taiji	ナムコオリジナル	ffff4500	33.56-250	`easy`5`false`かんたん/λ7708|`normal`7`false`ふつう/λ7708|`hard`8`false`むずかしい/λ7708|`oni`10`false`おに/λ7708|
+ラ・モレーナ・クモナイ		ナムコオリジナル	ffff4500	200※	`easy`4`false`かんたん/ラ・モレーナ・クモナイ|`normal`5`false`ふつう/ラ・モレーナ・クモナイ|`hard`7`false`むずかしい/ラ・モレーナ・クモナイ|`oni`8`false`おに/ラ・モレーナ・クモナイ|`uraOni`10`false`おに/ラ・モレーナ・クモナイ(裏譜面)
+らんぶる乱舞		ナムコオリジナル	ffff4500	160	`easy`5`false`かんたん/らんぶる乱舞|`normal`7`false`ふつう/らんぶる乱舞|`hard`8`false`むずかしい/らんぶる乱舞|`oni`8`false`おに/らんぶる乱舞|`uraOni`8`false`おに/らんぶる乱舞(裏譜面)
+リバイバー		ナムコオリジナル	ffff4500	158	`easy`3`false`かんたん/リバイバー|`normal`4`false`ふつう/リバイバー|`hard`5`false`むずかしい/リバイバー|`oni`8`false`おに/リバイバー|
+竜と黒炎の姫君		ナムコオリジナル	ffff4500	306	`easy`4`false`かんたん/竜と黒炎の姫君|`normal`6`false`ふつう/竜と黒炎の姫君|`hard`7`false`むずかしい/竜と黒炎の姫君|`oni`8`false`おに/竜と黒炎の姫君|`uraOni`10`false`おに/竜と黒炎の姫君(裏譜面)
+燎原ノ舞		ナムコオリジナル	ffff4500	104-208	`easy`4`false`かんたん/燎原ノ舞|`normal`6`false`ふつう/燎原ノ舞|`hard`7`false`むずかしい/燎原ノ舞|`oni`10`false`おに/燎原ノ舞|
+凛	a_hisa	ナムコオリジナル	ffff4500	89-170※	`easy`3`false`かんたん/凛|`normal`4`false`ふつう/凛|`hard`6`false`むずかしい/凛|`oni`9`false`おに/凛|
+リンダは今日も絶好調		ナムコオリジナル	ffff4500	160※-174	`easy`4`false`かんたん/リンダは今日も絶好調|`normal`6`false`ふつう/リンダは今日も絶好調|`hard`7`false`むずかしい/リンダは今日も絶好調|`oni`8`false`おに/リンダは今日も絶好調|`uraOni`9`false`おに/リンダは今日も絶好調(裏譜面)
+LECIEL GLISSANDO	よみぃ	ナムコオリジナル	ffff4500	250	`easy`5`false`かんたん/LECIEL GLISSANDO|`normal`6`false`ふつう/LECIEL GLISSANDO|`hard`7`false`むずかしい/LECIEL GLISSANDO|`oni`10`false`おに/LECIEL GLISSANDO|
+流浪の琥珀姫		ナムコオリジナル	ffff4500	134.67	`easy`3`false`かんたん/流浪の琥珀姫|`normal`4`false`ふつう/流浪の琥珀姫|`hard`5`false`むずかしい/流浪の琥珀姫|`oni`8`false`おに/流浪の琥珀姫|
+冷凍庫CJ ～嗚呼面太鼓ブラザーズ～	DJKurara	ナムコオリジナル	ffff4500	240	`easy`5`false`かんたん/冷凍庫CJ ～嗚呼面太鼓ブラザーズ～|`normal`7`false`ふつう/冷凍庫CJ ～嗚呼面太鼓ブラザーズ～|`hard`8`false`むずかしい/冷凍庫CJ ～嗚呼面太鼓ブラザーズ～|`oni`10`false`おに/冷凍庫CJ ～嗚呼面太鼓ブラザーズ～|
+Red Rose Evangel		ナムコオリジナル	ffff4500	178	`easy`5`false`かんたん/Red Rose Evangel|`normal`7`false`ふつう/Red Rose Evangel|`hard`7`false`むずかしい/Red Rose Evangel|`oni`9`false`おに/Red Rose Evangel|
+Rotter Tarmination		ナムコオリジナル	ffff4500	200	`easy`4`false`かんたん/Rotter Tarmination|`normal`6`false`ふつう/Rotter Tarmination|`hard`7`false`むずかしい/Rotter Tarmination|`oni`8`false`おに/Rotter Tarmination|`uraOni`10`false`おに/Rotter Tarmination(裏譜面)
+六本の薔薇と采の歌	薔薇☆Dice(鷹嶺ルイ・不知火フレア・白銀ノエル・宝鐘マリン・桃鈴ねね・風真いろは)	ナムコオリジナル	ffff4500	80-205	`easy`2`false`かんたん/六本の薔薇と采の歌|`normal`2`false`ふつう/六本の薔薇と采の歌|`hard`3`false`むずかしい/六本の薔薇と采の歌|`oni`6`false`おに/六本の薔薇と采の歌|`uraOni`10`true`おに/六本の薔薇と采の歌(裏譜面)
+ロボットロケンロー☆		ナムコオリジナル	ffff4500	176	`easy`4`false`かんたん/ロボットロケンロー☆|`normal`4`false`ふつう/ロボットロケンロー☆|`hard`4`false`むずかしい/ロボットロケンロー☆|`oni`6`false`おに/ロボットロケンロー☆|
+わすれなぐさ		ナムコオリジナル	ffff4500	130	`easy`4`false`かんたん/わすれなぐさ|`normal`6`false`ふつう/わすれなぐさ|`hard`7`false`むずかしい/わすれなぐさ|`oni`9`false`おに/わすれなぐさ|
+わら得る2000		ナムコオリジナル	ffff4500	13.5-216	`easy`5`false`かんたん/わら得る2000|`normal`7`false`ふつう/わら得る2000|`hard`8`false`むずかしい/わら得る2000|`oni`10`false`おに/わら得る2000|
+われら無敵のドコン団		ナムコオリジナル	ffff4500	145	`easy`3`false`かんたん/われら無敵のドコン団|`normal`4`false`ふつう/われら無敵のドコン団|`hard`5`false`むずかしい/われら無敵のドコン団|`oni`8`false`おに/われら無敵のドコン団|
+1・2・さんしのでドンドカッカッ！	AIきりたん feat.ユーキヒロセ	ナムコオリジナル	ffff4500	142	`easy`1`false`かんたん/1・2・さんしのでドンドカッカッ！|`normal`1`false`ふつう/1・2・さんしのでドンドカッカッ！|`hard`4`false`むずかしい/1・2・さんしのでドンドカッカッ！|`oni`7`false`おに/1・2・さんしのでドンドカッカッ！|`uraOni`9`false`おに/1・2・さんしのでドンドカッカッ！(裏譜面)

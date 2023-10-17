@@ -32,12 +32,52 @@ class SongItem {
 
   Map<String, dynamic> toJson() => _$SongItemToJson(this);
 
+  factory SongItem.fromLine(String line) {
+    final strList = line.split('\t');
+    return SongItem(
+      strList[0],
+      strList[1],
+      strList[2],
+      categoryColorFromLine(strList[3]),
+      strList[4],
+      difficultyFromLine(strList[0], strList[5]),
+    );
+  }
+
+  static int? categoryColorFromLine(String line) =>
+      line == '' ? null : int.parse(line, radix: 16);
+
+  static Map<DifficultyType, DifficultyItem> difficultyFromLine(
+          String name, String line) =>
+      {
+        for (final item in line
+            .split('|')
+            .where((element) => element.isNotEmpty)
+            .map((e) => e.startsWith('`') ? (name + e) : e)
+            .map((e) => DifficultyItem.fromLine(e)))
+          item.type: item
+      };
+
+  String toLine() => [
+        name,
+        subtitle,
+        category,
+        categoryColor == null ? '' : categoryColor!.toRadixString(16),
+        bpm,
+        difficultyToLine(),
+      ].join('\t');
+
+  String difficultyToLine() => DifficultyType.values
+      .map((e) => difficultyMap[e]?.toLine() ?? '')
+      .map((e) => e.startsWith(name) ? e.replaceFirst(name, '') : e)
+      .join('|');
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-          other is SongItem &&
-              runtimeType == other.runtimeType &&
-              name == other.name;
+      other is SongItem &&
+          runtimeType == other.runtimeType &&
+          name == other.name;
 
   @override
   int get hashCode => name.hashCode;

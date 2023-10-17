@@ -1,9 +1,12 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:taiko_songs/src/util/serialize.dart';
 
 part 'difficulty.g.dart';
 
 @JsonSerializable()
 class DifficultyItem {
+  static const baseUrl =
+      'https://wikiwiki.jp/taiko-fumen/%E5%8F%8E%E9%8C%B2%E6%9B%B2';
   final String name;
   final DifficultyType type;
   final int level;
@@ -26,6 +29,26 @@ class DifficultyItem {
       _$DifficultyItemFromJson(json);
 
   Map<String, dynamic> toJson() => _$DifficultyItemToJson(this);
+
+  static DifficultyItem fromLine(String line) {
+    final strList = line.split('`');
+    return DifficultyItem(
+      strList[0],
+      $enumDecode(_$DifficultyTypeEnumMap, strList[1]),
+      int.parse(strList[2]),
+      bool.parse(strList[3]),
+      BeanSerialize.deserialize(baseUrl, strList[4]),
+    );
+  }
+
+  String toLine() => [
+        name,
+        _$DifficultyTypeEnumMap[type]!,
+        level.toString(),
+        hasBranch.toString(),
+        BeanSerialize.serialize(baseUrl, url),
+      ].join('`');
+
   static final Map<DifficultyType, String> difficultyTypeStringMap = {
     DifficultyType.easy: '梅',
     DifficultyType.normal: '竹',
@@ -55,6 +78,23 @@ class Difficulty {
       _$DifficultyFromJson(json);
 
   Map<String, dynamic> toJson() => _$DifficultyToJson(this);
+
+  static Difficulty fromLine(String line) {
+    final strList = line.split('`');
+    return Difficulty(
+      int.parse(strList[0]),
+      int.parse(strList[1]),
+      strList[2],
+      strList[3],
+    );
+  }
+
+  String toLine() => [
+        level.toString(),
+        maxCombo.toString(),
+        explain,
+        chartImageUrl,
+      ].join('`');
 }
 
 enum DifficultyType {

@@ -5,7 +5,7 @@ import 'package:taiko_songs/src/bean/difficulty.dart';
 import 'package:taiko_songs/src/bean/release.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/cache/html_cache.dart';
-import 'package:taiko_songs/src/cache/json_cache.dart';
+import 'package:taiko_songs/src/cache/line_cache.dart';
 import 'package:taiko_songs/src/db/translated.dart';
 import 'package:taiko_songs/src/irondb/iron.dart';
 import 'package:taiko_songs/src/parser/collection_parser.dart';
@@ -22,9 +22,9 @@ class DataSource {
     return _instance!;
   }
 
-  final jsonDB = Iron.mix([
-    Iron.db.sub('json'),
-    Iron.assetsDB('assets/json'),
+  final lineDB = Iron.mix([
+    Iron.db.sub('line'),
+    Iron.assetsDB('assets/line'),
   ]).sub('taiko');
   final htmlDB = Iron.mix([
     Iron.db.sub('html'),
@@ -32,15 +32,15 @@ class DataSource {
   ]).sub('taiko');
   final translatedSource = TranslatedSource(Iron.assetsDB('assets/translate'));
   final htmlCache = HtmlCache();
-  final jsonCache = JsonCache();
+  final lineCache = LineCache();
   final logger = Logger('DataSource');
 
   Stream<ReleaseItem> getReleaseList(
       {bool refresh = false, bool cacheOnly = false}) async* {
     var collection = CollectionItem();
     if (!refresh) {
-      final cache = await jsonCache.readList(jsonDB.sub('collection'),
-          collection.url, (json) => ReleaseItem.fromJson(json));
+      final cache = await lineCache.readList(lineDB.sub('collection'),
+          collection.url, (line) => ReleaseItem.fromLine(collection.url, line));
       if (cache != null) {
         yield* Stream.fromIterable(cache);
         return;
@@ -56,15 +56,15 @@ class DataSource {
       yield item;
       data.add(item);
     }
-    await jsonCache.writeList(jsonDB.sub('collection'), collection.url, data,
-        (item) => item.toJson());
+    await lineCache.writeList(lineDB.sub('collection'), collection.url, data,
+        (item) => item.toLine(collection.url));
   }
 
   Stream<SongItem> getSongList(ReleaseItem release,
       {bool refresh = false, bool cacheOnly = false}) async* {
     if (!refresh) {
-      final cache = await jsonCache.readList(jsonDB.sub('release'), release.url,
-          (json) => SongItem.fromJson(json));
+      final cache = await lineCache.readList(lineDB.sub('release'), release.url,
+          (line) => SongItem.fromLine(line));
       if (cache != null) {
         yield* Stream.fromIterable(cache);
         return;
@@ -83,15 +83,15 @@ class DataSource {
       yield item;
       data.add(item);
     }
-    await jsonCache.writeList(
-        jsonDB.sub('release'), release.url, data, (item) => item.toJson());
+    await lineCache.writeList(
+        lineDB.sub('release'), release.url, data, (item) => item.toLine());
   }
 
   Future<Difficulty> getDifficulty(DifficultyItem difficultyItem,
       {bool refresh = false, bool cacheOnly = false}) async {
     if (!refresh) {
-      final cache = await jsonCache.read(jsonDB.sub('song'), difficultyItem.url,
-          (json) => Difficulty.fromJson(json));
+      final cache = await lineCache.read(lineDB.sub('song'), difficultyItem.url,
+          (line) => Difficulty.fromLine(line));
       if (cache != null) {
         return cache;
       }
@@ -106,8 +106,8 @@ class DataSource {
             (e) => e.asyncMap((body) =>
                 DifficultyParser().parseData(difficultyItem.url, body)))
         .first;
-    await jsonCache.write(
-        jsonDB.sub('song'), difficultyItem.url, ret, (item) => item.toJson());
+    await lineCache.write(
+        lineDB.sub('song'), difficultyItem.url, ret, (item) => item.toLine());
     return ret;
   }
 

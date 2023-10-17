@@ -1,4 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:taiko_songs/src/util/serialize.dart';
 
 part 'release.g.dart';
 
@@ -19,4 +20,14 @@ class ReleaseItem {
       _$ReleaseItemFromJson(json);
 
   Map<String, dynamic> toJson() => _$ReleaseItemToJson(this);
+
+  factory ReleaseItem.fromLine(String base, String line) {
+    final strList = line.split(',');
+    final name = strList[0];
+    final url = BeanSerialize.deserialize(base, strList[1]);
+    return ReleaseItem(name, url);
+  }
+
+  String toLine(String base) =>
+      [name, BeanSerialize.serialize(base, url)].join(',');
 }
