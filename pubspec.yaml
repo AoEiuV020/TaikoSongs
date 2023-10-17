@@ -16,6 +16,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_easyloading: ^3.0.5
+  flutter_launcher_icons: ^0.13.1
   flutter_localizations:
     sdk: flutter
   html: ^0.15.4
@@ -48,3 +49,18 @@ flutter:
     - assets/images/
     - assets/IronDB/
     - assets/translate/
+
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/launcher/TaikoSongs.png"
+  min_sdk_android: 19
+  adaptive_icon_background: "#ffffff"
+  web:
+    generate: true
+  windows:
+    generate: true
+    icon_size: 256
+  macos:
+    generate: true

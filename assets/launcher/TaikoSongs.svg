@@ -1,0 +1,21 @@
+<svg height="1024" width="1024" xmlns="http://www.w3.org/2000/svg">
+    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+    <g>
+        <title>background</title>
+        <rect fill="none" height="402" id="canvas_background" width="582" x="-1" y="-1" />
+    </g>
+    <g>
+        <title>Layer 1</title>
+        <ellipse cx="511.999953" cy="511.399015" fill="#000000" id="svg_1" rx="512" ry="512"
+            stroke="#000000" stroke-width="1.5" />
+        <ellipse cx="511.999961" cy="512" fill="#f8f0e0" id="svg_3" rx="500" ry="500"
+            stroke="#f8f0e0" stroke-width="1.5" />
+        <ellipse cx="512" cy="512" fill="#f84828" id="svg_4" rx="420" ry="420" stroke="#f84828"
+            stroke-width="1.5" />
+        <text fill="#000000"
+            font-family="Helvetica, Arial, sans-serif"
+            font-size="250" id="svg_5" stroke="#000000"
+            stroke-width="0" text-anchor="start" transform="matrix(2.1815383434295654,0,0,2.1815383434295654,-285.02349915272134,-241.13590137635038) " x="240.34934" y="431.973468" xml:space="preserve">歌</text>
+    </g>
+</svg>
