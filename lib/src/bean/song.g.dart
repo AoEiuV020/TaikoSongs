@@ -18,8 +18,7 @@ SongItem _$SongItemFromJson(Map<String, dynamic> json) => SongItem(
       ),
     );
 
-Map<String, dynamic> _$SongItemToJson(SongItem instance) =>
-    <String, dynamic>{
+Map<String, dynamic> _$SongItemToJson(SongItem instance) => <String, dynamic>{
       'name': instance.name,
       'subtitle': instance.subtitle,
       'category': instance.category,

@@ -42,6 +42,7 @@ class DifficultyItem {
   };
 }
 
+@JsonSerializable()
 class Difficulty {
   final int level;
   final int maxCombo;
@@ -49,6 +50,11 @@ class Difficulty {
   final String chartImageUrl;
 
   Difficulty(this.level, this.maxCombo, this.explain, this.chartImageUrl);
+
+  factory Difficulty.fromJson(Map<String, dynamic> json) =>
+      _$DifficultyFromJson(json);
+
+  Map<String, dynamic> toJson() => _$DifficultyToJson(this);
 }
 
 enum DifficultyType {

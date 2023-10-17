@@ -31,3 +31,18 @@ const _$DifficultyTypeEnumMap = {
   DifficultyType.oni: 'oni',
   DifficultyType.uraOni: 'uraOni',
 };
+
+Difficulty _$DifficultyFromJson(Map<String, dynamic> json) => Difficulty(
+      json['level'] as int,
+      json['maxCombo'] as int,
+      json['explain'] as String,
+      json['chartImageUrl'] as String,
+    );
+
+Map<String, dynamic> _$DifficultyToJson(Difficulty instance) =>
+    <String, dynamic>{
+      'level': instance.level,
+      'maxCombo': instance.maxCombo,
+      'explain': instance.explain,
+      'chartImageUrl': instance.chartImageUrl,
+    };
