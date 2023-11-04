@@ -66,8 +66,8 @@ Candy Pop		ポップス	ff00ffff	174	`easy`1`false`かんたん/Candy Pop|`norma
 粉雪		ポップス	ff00ffff	82※	`easy`3`false`かんたん/粉雪|`normal`4`false`ふつう/粉雪|`hard`6`false`むずかしい/粉雪|`oni`6`false`おに/粉雪|
 ごめんなさいのKissing You		ポップス	ff00ffff	143	`easy`4`false`かんたん/ごめんなさいのKissing You|`normal`5`false`ふつう/ごめんなさいのKissing You|`hard`6`false`むずかしい/ごめんなさいのKissing You|`oni`7`false`おに/ごめんなさいのKissing You|
 サイレントマジョリティー		ポップス	ff00ffff	123	`easy`2`false`かんたん/サイレントマジョリティー|`normal`4`false`ふつう/サイレントマジョリティー|`hard`4`false`むずかしい/サイレントマジョリティー|`oni`6`false`おに/サイレントマジョリティー|
-さくら		ポップス	ff00ffff	120	`easy`3`false`かんたん/さくら(ケツメイシ)|`normal`3`false`ふつう/さくら(ケツメイシ)|`hard`6`false`むずかしい/さくら(ケツメイシ)|`oni`7`true`おに/さくら(ケツメイシ)|
 桜		ポップス	ff00ffff	83.94※	`easy`3`false`かんたん/桜|`normal`3`false`ふつう/桜|`hard`5`false`むずかしい/桜|`oni`6`false`おに/桜|
+さくら		ポップス	ff00ffff	120	`easy`3`false`かんたん/さくら(ケツメイシ)|`normal`3`false`ふつう/さくら(ケツメイシ)|`hard`6`false`むずかしい/さくら(ケツメイシ)|`oni`7`true`おに/さくら(ケツメイシ)|
 さくらんぼ		ポップス	ff00ffff	170	`easy`4`false`かんたん/さくらんぼ|`normal`4`false`ふつう/さくらんぼ|`hard`3`false`むずかしい/さくらんぼ|`oni`8`false`おに/さくらんぼ|
 さちさちにしてあげる♪	小林幸子	ポップス	ff00ffff	160	`easy`3`false`かんたん/さちさちにしてあげる♪|`normal`6`false`ふつう/さちさちにしてあげる♪|`hard`7`false`むずかしい/さちさちにしてあげる♪|`oni`7`false`おに/さちさちにしてあげる♪|`uraOni`10`false`おに/さちさちにしてあげる♪(裏譜面)
 雑草	HIKAKIN & SEIKIN	ポップス	ff00ffff	128	`easy`3`false`かんたん/雑草|`normal`3`false`ふつう/雑草|`hard`5`false`むずかしい/雑草|`oni`6`false`おに/雑草|
@@ -388,7 +388,7 @@ One day		アニメ	ffffa500	89	`easy`2`false`かんたん/One day|`normal`3`fals
 アルカリレットウセイ	かいりきベア feat.初音ミク 「戦闘摂理解析システム#コンパス」より	ボーカロイド™曲	ffc0c0c0	158	`easy`3`false`かんたん/アルカリレットウセイ|`normal`4`false`ふつう/アルカリレットウセイ|`hard`5`false`むずかしい/アルカリレットウセイ|`oni`7`false`おに/アルカリレットウセイ|
 いーあるふぁんくらぶ	みきとP	ボーカロイド™曲	ffc0c0c0	145-147.43	`easy`3`false`かんたん/いーあるふぁんくらぶ|`normal`4`false`ふつう/いーあるふぁんくらぶ|`hard`6`false`むずかしい/いーあるふぁんくらぶ|`oni`8`false`おに/いーあるふぁんくらぶ|
 EDY -エレクトリカルダンシングヨガ-	feat.鏡音リン・鏡音レン	ボーカロイド™曲	ffc0c0c0	132	`easy`4`false`かんたん/EDY -エレクトリカルダンシングヨガ-|`normal`6`false`ふつう/EDY -エレクトリカルダンシングヨガ-|`hard`7`false`むずかしい/EDY -エレクトリカルダンシングヨガ-|`oni`9`false`おに/EDY -エレクトリカルダンシングヨガ-|
-IMITATION BLACK	SCL Project(natsuP) feat. VanaN'Ice	ボーカロイド™曲	ffc0c0c0	230※	`easy`3`false`かんたん/IMITATION BLACK|`normal`3`false`ふつう/IMITATION BLACK|`hard`5`false`むずかしい/IMITATION BLACK|`oni`7`false`おに/IMITATION BLACK|`uraOni`9`false`おに/IMITATION BLACK(裏譜面)
+IMITATION BLACK	SCL Project(natsuP) feat. VanaN'Ice	ボーカロイド™曲	ffc0c0c0	230※	`easy`3`false`かんたん/IMITATION BLACK|`normal`5`false`ふつう/IMITATION BLACK|`hard`5`false`むずかしい/IMITATION BLACK|`oni`7`false`おに/IMITATION BLACK|`uraOni`9`false`おに/IMITATION BLACK(裏譜面)
 有頂天ビバーチェ	Last Note. feat.GUMI	ボーカロイド™曲	ffc0c0c0	133-266	`easy`4`false`かんたん/有頂天ビバーチェ|`normal`6`false`ふつう/有頂天ビバーチェ|`hard`7`false`むずかしい/有頂天ビバーチェ|`oni`8`false`おに/有頂天ビバーチェ|
 エイリアンエイリアン	ナユタン星人 feat.初音ミク	ボーカロイド™曲	ffc0c0c0	152	`easy`3`false`かんたん/エイリアンエイリアン|`normal`5`false`ふつう/エイリアンエイリアン|`hard`6`false`むずかしい/エイリアンエイリアン|`oni`9`false`おに/エイリアンエイリアン|
 Eternal bond	リューイッティ	ボーカロイド™曲	ffc0c0c0	170	`easy`5`false`かんたん/Eternal bond|`normal`6`false`ふつう/Eternal bond|`hard`8`false`むずかしい/Eternal bond|`oni`8`false`おに/Eternal bond|
