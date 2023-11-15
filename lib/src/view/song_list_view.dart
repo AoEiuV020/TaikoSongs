@@ -1,5 +1,11 @@
+import 'dart:io';
+
 import 'package:collection/collection.dart';
+import 'package:device_info_plus/device_info_plus.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
 import 'package:taiko_songs/src/bean/difficulty.dart';
@@ -9,6 +15,7 @@ import 'package:taiko_songs/src/calc/song_calculator.dart';
 import 'package:taiko_songs/src/compare/then_compare.dart';
 import 'package:taiko_songs/src/db/data.dart';
 import 'package:url_launcher/url_launcher_string.dart';
+import 'package:widget_screenshot/widget_screenshot.dart';
 
 import '../settings/settings_controller.dart';
 import '../settings/settings_view.dart';
@@ -69,10 +76,12 @@ class _SongListViewState extends State<SongListView> {
   final logger = Logger('SongListView');
 
   final ScrollController _scrollController = ScrollController();
+  final GlobalKey _shotKey = GlobalKey();
 
   List<SongItem>? _data;
   List<SongItem>? _showingData;
   String keyword = '';
+  bool isScreenshotEnabled = false;
 
   Future<List<SongItem>> initDataCache() async {
     var data = _data;
@@ -149,6 +158,44 @@ class _SongListViewState extends State<SongListView> {
     super.initState();
     keyword = widget.keyword;
     initDataCache();
+    initScreenshot();
+  }
+
+  void onScreenshot() async {
+    WidgetShotRenderRepaintBoundary repaintBoundary = _shotKey.currentContext!
+        .findRenderObject() as WidgetShotRenderRepaintBoundary;
+    var pngBytes = await repaintBoundary.screenshot(
+      scrollController: _scrollController,
+      pixelRatio: 1,
+      backgroundColor:
+          Theme.of(context).colorScheme.brightness == Brightness.light
+              ? Colors.white
+              : Theme.of(context).colorScheme.background,
+    );
+    final result =
+        await ImageGallerySaver.saveImage(pngBytes!, name: widget.title) as Map;
+    logger.info(result);
+    EasyLoading.showToast(
+      result['isSuccess'] as bool ? '保存成功' : '保存失败',
+      duration: const Duration(milliseconds: 500),
+    );
+  }
+
+  void initScreenshot() async {
+    if (kIsWeb) {
+      return;
+    }
+    if (!Platform.isAndroid) {
+      return;
+    }
+    final androidInfo = await DeviceInfoPlugin().androidInfo;
+    final sdkInt = androidInfo.version.sdkInt;
+    if (sdkInt < 29) {
+      return;
+    }
+    setState(() {
+      isScreenshotEnabled = true;
+    });
   }
 
   @override
@@ -220,6 +267,15 @@ class _SongListViewState extends State<SongListView> {
             onPressed: () {
               Navigator.restorablePushNamed(context, SettingsView.routeName);
             },
+          ),
+          Visibility(
+            visible: isScreenshotEnabled,
+            child: IconButton(
+              icon: const Icon(Icons.save),
+              onPressed: () {
+                onScreenshot();
+              },
+            ),
           ),
         ],
       ),
@@ -349,104 +405,111 @@ class _SongListViewState extends State<SongListView> {
                             child: Scrollbar(
                               controller: _scrollController,
                               interactive: true,
-                              child: ListView.builder(
-                                restorationId: 'songList',
-                                controller: _scrollController,
-                                itemCount: items.length,
-                                itemBuilder: (BuildContext context, int index) {
-                                  final item = items[index];
+                              child: WidgetShot(
+                                key: _shotKey,
+                                child: ListView.builder(
+                                  restorationId: 'songList',
+                                  controller: _scrollController,
+                                  itemCount: items.length,
+                                  itemBuilder:
+                                      (BuildContext context, int index) {
+                                    final item = items[index];
 
-                                  final Widget difficultyGroup = Row(
-                                    children: DifficultyType.values.indexed
-                                        .where((event) {
-                                          final (int i, _) = event;
-                                          return settings.visibleColumnList
-                                              .get()[i + 2];
-                                        })
-                                        .map((e) => e.$2)
-                                        .map((e) => InkWell(
-                                              onTap: item.difficultyMap
-                                                      .containsKey(e)
-                                                  ? () {
-                                                      Navigator
-                                                          .restorablePushNamed(
-                                                        context,
-                                                        DifficultyDetailView
-                                                            .routeName,
-                                                        arguments: item
-                                                            .difficultyMap[e]!
-                                                            .toJson(),
-                                                      );
-                                                    }
-                                                  : null,
-                                              child: SizedBox(
-                                                width: 32,
-                                                height: 32,
-                                                child: Container(
-                                                  color: Color(0x88000000 |
-                                                      DifficultyItem
-                                                              .difficultyTypeColorMap[
-                                                          e]!),
-                                                  child: Center(
-                                                    child: Text(
-                                                      getDifficultyString(item
-                                                          .getLevelTypeDifficulty(
-                                                              e)),
-                                                      textAlign:
-                                                          TextAlign.center,
+                                    final Widget difficultyGroup = Row(
+                                      children: DifficultyType.values.indexed
+                                          .where((event) {
+                                            final (int i, _) = event;
+                                            return settings.visibleColumnList
+                                                .get()[i + 2];
+                                          })
+                                          .map((e) => e.$2)
+                                          .map((e) => InkWell(
+                                                onTap: item.difficultyMap
+                                                        .containsKey(e)
+                                                    ? () {
+                                                        Navigator
+                                                            .restorablePushNamed(
+                                                          context,
+                                                          DifficultyDetailView
+                                                              .routeName,
+                                                          arguments: item
+                                                              .difficultyMap[e]!
+                                                              .toJson(),
+                                                        );
+                                                      }
+                                                    : null,
+                                                child: SizedBox(
+                                                  width: 32,
+                                                  height: 32,
+                                                  child: Container(
+                                                    color: Color(0x88000000 |
+                                                        DifficultyItem
+                                                                .difficultyTypeColorMap[
+                                                            e]!),
+                                                    child: Center(
+                                                      child: Text(
+                                                        getDifficultyString(item
+                                                            .getLevelTypeDifficulty(
+                                                                e)),
+                                                        textAlign:
+                                                            TextAlign.center,
+                                                      ),
                                                     ),
                                                   ),
                                                 ),
+                                              ))
+                                          .toList(),
+                                    );
+                                    return InkWell(
+                                      child: Container(
+                                        color: item.categoryColor == null
+                                            ? null
+                                            : Color(0x22ffffff &
+                                                item.categoryColor!),
+                                        padding: const EdgeInsets.all(8),
+                                        child: Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
+                                          children: [
+                                            Expanded(
+                                              child: Column(
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  TranslatedText(item.name),
+                                                  Visibility(
+                                                    visible: item.subtitle
+                                                            .isNotEmpty &&
+                                                        settings
+                                                            .visibleColumnList
+                                                            .get()[0],
+                                                    child: TranslatedText(
+                                                      item.subtitle,
+                                                      style: TextStyle(
+                                                        color: Colors.grey[500],
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
                                               ),
-                                            ))
-                                        .toList(),
-                                  );
-                                  return InkWell(
-                                    child: Container(
-                                      color: item.categoryColor == null
-                                          ? null
-                                          : Color(
-                                              0x22ffffff & item.categoryColor!),
-                                      padding: const EdgeInsets.all(8),
-                                      child: Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: [
-                                          Expanded(
-                                            child: Column(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                TranslatedText(item.name),
-                                                Visibility(
-                                                  visible: item.subtitle
-                                                          .isNotEmpty &&
-                                                      settings.visibleColumnList
-                                                          .get()[0],
-                                                  child: TranslatedText(
-                                                    item.subtitle,
-                                                    style: TextStyle(
-                                                      color: Colors.grey[500],
-                                                    ),
-                                                  ),
-                                                ),
-                                              ],
                                             ),
-                                          ),
-                                          Visibility(
-                                            visible: settings.visibleColumnList
-                                                .get()[1],
-                                            child: Container(
-                                              padding: const EdgeInsets.all(8),
-                                              child: Text(item.bpm),
+                                            Visibility(
+                                              visible: settings
+                                                  .visibleColumnList
+                                                  .get()[1],
+                                              child: Container(
+                                                padding:
+                                                    const EdgeInsets.all(8),
+                                                child: Text(item.bpm),
+                                              ),
                                             ),
-                                          ),
-                                          difficultyGroup,
-                                        ],
+                                            difficultyGroup,
+                                          ],
+                                        ),
                                       ),
-                                    ),
-                                  );
-                                },
+                                    );
+                                  },
+                                ),
                               ),
                             ),
                           );
