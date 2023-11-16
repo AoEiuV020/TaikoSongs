@@ -1,5 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:taiko_songs/src/util/serialize.dart';
+
+import '../util/serialize.dart';
 
 part 'difficulty.g.dart';
 

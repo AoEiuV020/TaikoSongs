@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-import 'package:taiko_songs/src/db/data.dart';
-import 'package:taiko_songs/src/view/calculator_view.dart';
-import 'package:taiko_songs/src/view/search_release_list_view.dart';
 
+import '../db/data.dart';
 import '../settings/settings_view.dart';
+import 'calculator_view.dart';
+import 'search_release_list_view.dart';
 import 'song_list_view.dart';
 import 'translated_text_view.dart';
 

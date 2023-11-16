@@ -1,7 +1,8 @@
 import 'dart:convert';
 
 import 'package:logging/logging.dart';
-import 'package:taiko_songs/src/irondb/database.dart';
+
+import '../irondb/database.dart';
 
 class JsonCache {
   final logger = Logger('JsonCache');

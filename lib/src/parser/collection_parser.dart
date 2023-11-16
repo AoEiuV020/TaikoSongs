@@ -1,6 +1,7 @@
 import 'package:html/parser.dart';
-import 'package:taiko_songs/src/bean/release.dart';
-import 'package:taiko_songs/src/parser/base.dart';
+
+import '../bean/release.dart';
+import 'base.dart';
 
 class CollectionParser extends Parser {
   Stream<ReleaseItem> parseList(String baseUrl, String doc) {

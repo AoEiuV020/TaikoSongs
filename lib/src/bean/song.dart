@@ -1,7 +1,7 @@
 import 'package:collection/collection.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:taiko_songs/src/compare/then_compare.dart';
 
+import '../compare/then_compare.dart';
 import 'difficulty.dart';
 
 part 'song.g.dart';

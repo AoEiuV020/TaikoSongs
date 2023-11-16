@@ -1,5 +1,6 @@
 import 'package:html/dom.dart';
-import 'package:taiko_songs/src/parser/table.dart';
+
+import 'table.dart';
 
 abstract class Parser {
   String getHref(Element e) {

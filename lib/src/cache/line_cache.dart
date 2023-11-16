@@ -1,5 +1,6 @@
 import 'package:logging/logging.dart';
-import 'package:taiko_songs/src/irondb/database.dart';
+
+import '../irondb/database.dart';
 
 class LineCache {
   final logger = Logger('LineCache');

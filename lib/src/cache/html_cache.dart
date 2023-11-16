@@ -2,7 +2,8 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:logging/logging.dart';
-import 'package:taiko_songs/src/irondb/database.dart';
+
+import '../irondb/database.dart';
 
 class HtmlCache {
   final logger = Logger('HtmlCache');

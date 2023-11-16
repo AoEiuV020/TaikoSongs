@@ -1,16 +1,17 @@
 import 'package:logging/logging.dart';
-import 'package:taiko_songs/src/async/isolate_transformer.dart';
-import 'package:taiko_songs/src/bean/collection.dart';
-import 'package:taiko_songs/src/bean/difficulty.dart';
-import 'package:taiko_songs/src/bean/release.dart';
-import 'package:taiko_songs/src/bean/song.dart';
-import 'package:taiko_songs/src/cache/html_cache.dart';
-import 'package:taiko_songs/src/cache/line_cache.dart';
-import 'package:taiko_songs/src/db/translated.dart';
-import 'package:taiko_songs/src/irondb/iron.dart';
-import 'package:taiko_songs/src/parser/collection_parser.dart';
-import 'package:taiko_songs/src/parser/difficulty_parser.dart';
-import 'package:taiko_songs/src/parser/song_parser.dart';
+
+import '../async/isolate_transformer.dart';
+import '../bean/collection.dart';
+import '../bean/difficulty.dart';
+import '../bean/release.dart';
+import '../bean/song.dart';
+import '../cache/html_cache.dart';
+import '../cache/line_cache.dart';
+import '../irondb/iron.dart';
+import '../parser/collection_parser.dart';
+import '../parser/difficulty_parser.dart';
+import '../parser/song_parser.dart';
+import 'translated.dart';
 
 class DataSource {
   static DataSource? _instance;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-import 'package:taiko_songs/src/calc/calculator.dart';
-import 'package:taiko_songs/src/view/song_list_view.dart';
 
 import '../bean/release.dart';
+import '../calc/calculator.dart';
 import '../calc/song_calculator.dart';
 import '../db/data.dart';
+import 'song_list_view.dart';
 import 'translated_text_view.dart';
 
 class CalculatorView extends StatefulWidget {

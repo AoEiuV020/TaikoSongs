@@ -1,10 +1,11 @@
 import 'dart:math';
 
 import 'package:html/parser.dart';
-import 'package:taiko_songs/src/bean/difficulty.dart';
-import 'package:taiko_songs/src/bean/song.dart';
-import 'package:taiko_songs/src/parser/base.dart';
-import 'package:taiko_songs/src/parser/table.dart';
+
+import '../bean/difficulty.dart';
+import '../bean/song.dart';
+import 'base.dart';
+import 'table.dart';
 
 class SongParser extends Parser {
   Stream<SongItem> parseList(String baseUrl, String doc) async* {

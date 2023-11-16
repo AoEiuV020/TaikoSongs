@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:path/path.dart' as path;
-import 'package:taiko_songs/src/irondb/database.dart';
-import 'package:taiko_songs/src/irondb/impl/database_assets_io.dart';
 
+import '../database.dart';
 import '../serialize.dart';
+import 'database_assets_io.dart';
 import 'database_impl.dart';
 
 // linux: /tmp

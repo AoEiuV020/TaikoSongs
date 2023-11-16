@@ -2,10 +2,10 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-import 'package:taiko_songs/src/bean/difficulty.dart';
-import 'package:taiko_songs/src/db/data.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
+import '../bean/difficulty.dart';
+import '../db/data.dart';
 import 'web_cors_error_tip.dart';
 
 class DifficultyDetailView extends StatelessWidget {

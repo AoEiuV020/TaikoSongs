@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:taiko_songs/src/view/translated_text_view.dart';
+
+import 'translated_text_view.dart';
 
 class MissTranslatedTextView extends StatelessWidget {
   const MissTranslatedTextView({super.key});

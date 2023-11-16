@@ -3,13 +3,13 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
-import 'package:taiko_songs/src/bean/difficulty.dart';
-import 'package:taiko_songs/src/bean/release.dart';
-import 'package:taiko_songs/src/calc/song_calculator.dart';
-import 'package:taiko_songs/src/view/calculator_view.dart';
 
+import 'bean/difficulty.dart';
+import 'bean/release.dart';
+import 'calc/song_calculator.dart';
 import 'settings/settings_controller.dart';
 import 'settings/settings_view.dart';
+import 'view/calculator_view.dart';
 import 'view/difficulty_detail_view.dart';
 import 'view/miss_translated_text_view.dart';
 import 'view/release_list_view.dart';

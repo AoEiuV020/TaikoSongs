@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:taiko_songs/src/async/isolate_transformer.dart';
-import 'package:taiko_songs/src/irondb/database.dart';
+import '../async/isolate_transformer.dart';
+import '../irondb/database.dart';
 
 class TranslatedSource {
   final Database _db;

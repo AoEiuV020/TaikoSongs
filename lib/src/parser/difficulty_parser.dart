@@ -1,6 +1,7 @@
 import 'package:html/parser.dart';
-import 'package:taiko_songs/src/bean/difficulty.dart';
-import 'package:taiko_songs/src/parser/base.dart';
+
+import '../bean/difficulty.dart';
+import 'base.dart';
 
 class DifficultyParser extends Parser {
   Future<Difficulty> parseData(String baseUrl, String doc) async {

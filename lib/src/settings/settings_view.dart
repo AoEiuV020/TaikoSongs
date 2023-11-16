@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
-import 'package:taiko_songs/src/bean/difficulty.dart';
-import 'package:taiko_songs/src/view/miss_translated_text_view.dart';
 
+import '../bean/difficulty.dart';
+import '../view/miss_translated_text_view.dart';
 import 'settings_controller.dart';
 
 /// Displays the various settings that can be customized by the user.
