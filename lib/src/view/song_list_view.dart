@@ -1,11 +1,10 @@
 import 'dart:io';
 
 import 'package:collection/collection.dart';
-import 'package:device_info_plus/device_info_plus.dart';
+import 'package:document_file_save_plus/document_file_save_plus.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -172,11 +171,15 @@ class _SongListViewState extends State<SongListView> {
               ? Colors.white
               : Theme.of(context).colorScheme.background,
     );
-    final result =
-        await ImageGallerySaver.saveImage(pngBytes!, name: widget.title) as Map;
-    logger.info(result);
+    String tip = '保存成功';
+    try {
+      DocumentFileSavePlus()
+          .saveFile(pngBytes!, "${widget.title}.png", "image/png");
+    } on Exception {
+      tip = '保存失败';
+    }
     EasyLoading.showToast(
-      result['isSuccess'] as bool ? '保存成功' : '保存失败',
+      tip,
       duration: const Duration(milliseconds: 500),
     );
   }
@@ -185,12 +188,7 @@ class _SongListViewState extends State<SongListView> {
     if (kIsWeb) {
       return;
     }
-    if (!Platform.isAndroid) {
-      return;
-    }
-    final androidInfo = await DeviceInfoPlugin().androidInfo;
-    final sdkInt = androidInfo.version.sdkInt;
-    if (sdkInt < 29) {
+    if (!Platform.isAndroid && !Platform.isIOS) {
       return;
     }
     setState(() {
