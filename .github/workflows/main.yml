@@ -47,6 +47,10 @@ jobs:
               num=${GITHUB_REF#refs/pull/}
               num=${num%/merge}
               BUILD_VERSION=pr-${num}-"$(date +'%Y%m%d%H%M%S')"
+          elif [[ ${GITHUB_EVENT_NAME} == workflow_dispatch ]]
+          then
+              CREATE_RELEASE="false"
+              BUILD_VERSION="$(date +'%Y%m%d%H%M%S')"
           elif [[ ${GITHUB_REF} == refs/heads* ]]
           then
               CREATE_RELEASE="false"
