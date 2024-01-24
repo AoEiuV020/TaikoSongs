@@ -80,6 +80,7 @@ jobs:
             echo "${{ secrets.KEY_PROPERTIES }}" > signing.properties
             if test -n "${{ secrets.SIGNING_KEY }}"
             then
+                echo "${{ secrets.SIGNING_KEY }}" > signing.jks.txt
                 echo ANDROID_SIGN="true" >> .custom_env
             fi
             cat signing.properties >> .custom_env
@@ -91,6 +92,11 @@ jobs:
         with:
           name: custom_env
           path: ./.custom_env
+      - name: Setup tmate session
+        env:   
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: mxschmitt/action-tmate@v3
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
       - name: clean custom env
         run: rm .custom_env
   build_app:
