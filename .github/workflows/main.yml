@@ -87,13 +87,13 @@ jobs:
           fi
           if test -n "${{ secrets.KEY_PROPERTIES }}"
           then
-            echo "${{ secrets.KEY_PROPERTIES }}" > signing.properties
-            if test -n "${{ secrets.SIGNING_KEY }}"
+            echo "${{ secrets.KEY_PROPERTIES }}" > android/key.properties
+            cat android/key.properties >> .custom_env
+            source android/key.properties
+            if [[ -n "$storeFile" && -n "${{ secrets.SIGNING_KEY }}" ]]
             then
-                echo "${{ secrets.SIGNING_KEY }}" > signing.jks.txt
-                echo ANDROID_SIGN="true" >> .custom_env
+                echo "${{ secrets.SIGNING_KEY }}" > android/$storeFile.jks.txt
             fi
-            cat signing.properties >> .custom_env
           fi
           cat .custom_env
           cat .custom_env >> $GITHUB_ENV
@@ -115,7 +115,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        name: [ android, web, linux, windows, ios, macos ]
+        name: [ android, android-aab, web, linux, windows, ios, macos ]
         include:
           - name: android
             config: apk
@@ -124,6 +124,13 @@ jobs:
             BUILD_ARGS: "--target-platform android-arm64"
             RELEASE_PATH: '*.apk'
             RELEASE_DIRECTORY: build/app/outputs/apk/release
+          - name: android-aab
+            config: appbundle
+            os: ubuntu-latest
+            FILE_TYPE: aab
+            BUILD_ARGS: ""
+            RELEASE_PATH: '*.aab'
+            RELEASE_DIRECTORY: build/app/outputs/bundle/release
           - name: web
             config: web
             os: ubuntu-latest
@@ -231,17 +238,8 @@ jobs:
           sed "s/###PATH###/$(echo $appPath | sed 's_/_\\/_g')/g" |
           tee ./appdmg.json
           appdmg ./appdmg.json build/${{ env.BUILD_NAME_WITH_VERSION }}-${{ matrix.name }}.${{ matrix.FILE_TYPE }}
-      - uses: AoEiuV020/sign-android-release@v2
-        name: Sign release APK
-        if: ${{ matrix.FILE_TYPE == 'apk' && env.ANDROID_SIGN == 'true' }}
-        with:
-          releaseDirectory: ${{ matrix.RELEASE_DIRECTORY }}
-          signingKeyBase64: ${{ secrets.SIGNING_KEY }}
-          alias: ${{ env.keyAlias }}
-          keyStorePassword: ${{ env.storePassword }}
-          keyPassword: ${{ env.keyPassword }}
       - name: copy file
-        if: "${{ matrix.FILE_TYPE == 'apk' }}"
+        if: "${{ matrix.FILE_TYPE == 'apk' && matrix.FILE_TYPE == 'aab' }}"
         run: cp ${{ matrix.RELEASE_DIRECTORY }}/${{ matrix.RELEASE_PATH }} build/${{ env.BUILD_NAME_WITH_VERSION }}-${{ matrix.name }}.${{ matrix.FILE_TYPE }}
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v4
@@ -297,10 +295,12 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        name: [ android, web, linux, windows, ios, macos ]
+        name: [ android, android-aab, web, linux, windows, ios, macos ]
         include:
           - name: android
             FILE_TYPE: apk
+          - name: android-aab
+            FILE_TYPE: aab
           - name: web
             FILE_TYPE: zip
           - name: linux
