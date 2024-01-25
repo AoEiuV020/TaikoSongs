@@ -239,7 +239,7 @@ jobs:
           tee ./appdmg.json
           appdmg ./appdmg.json build/${{ env.BUILD_NAME_WITH_VERSION }}-${{ matrix.name }}.${{ matrix.FILE_TYPE }}
       - name: copy file
-        if: "${{ matrix.FILE_TYPE == 'apk' && matrix.FILE_TYPE == 'aab' }}"
+        if: "${{ matrix.FILE_TYPE == 'apk' || matrix.FILE_TYPE == 'aab' }}"
         run: cp ${{ matrix.RELEASE_DIRECTORY }}/${{ matrix.RELEASE_PATH }} build/${{ env.BUILD_NAME_WITH_VERSION }}-${{ matrix.name }}.${{ matrix.FILE_TYPE }}
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v4
