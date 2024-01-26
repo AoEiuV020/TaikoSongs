@@ -85,16 +85,6 @@ jobs:
           then
               echo SEND_TELEGRAM="true" >> .custom_env
           fi
-          if test -n "${{ secrets.KEY_PROPERTIES }}"
-          then
-            echo "${{ secrets.KEY_PROPERTIES }}" > android/key.properties
-            cat android/key.properties >> .custom_env
-            source android/key.properties
-            if [[ -n "$storeFile" && -n "${{ secrets.SIGNING_KEY }}" ]]
-            then
-                echo "${{ secrets.SIGNING_KEY }}" > android/$storeFile.jks.txt
-            fi
-          fi
           cat .custom_env
           cat .custom_env >> $GITHUB_ENV
       - name: upload .custom_env
@@ -196,6 +186,17 @@ jobs:
       - name: enable config (${{ matrix.config }})
         if: "${{ matrix.ENABLE_CONFIG != '' }}"
         run: flutter config --enable-${{ matrix.ENABLE_CONFIG }}
+      - name: prepare android signing key
+        env:
+          SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
+        if: "${{ ( matrix.FILE_TYPE == 'apk' || matrix.FILE_TYPE == 'aab' ) && env.SIGNING_KEY != '' }}"
+        run: |
+          cd android
+          echo "${{ secrets.SIGNING_KEY }}" |base64 -d > ci.jks
+          echo storeFile=ci.jks > key.properties
+          echo storePassword=${{ secrets.KEY_STORE_PASSWORD }} >> key.properties
+          echo keyAlias=${{ secrets.ALIAS }} >> key.properties
+          echo keyPassword=${{ secrets.KEY_PASSWORD }} >> key.properties
       - name: build
         run: |
           flutter pub get
