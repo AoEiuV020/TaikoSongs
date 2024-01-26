@@ -1,0 +1,16 @@
+		Pop	ff00ffff	189	`easy`2`false`かんたん/ABC|`normal`2`false`ふつう/ABC|`hard`2`false`おに/ABC|`oni`2`false`おに/ABC|
+ABCの歌		Children's Song	ffff00ff	129	`easy`1`false`かんたん/ABCの歌|`normal`1`false`ふつう/ABCの歌|`hard`1`false`むずかしい/ABCの歌|`oni`8`false`おに/ABCの歌|
+交響曲第五番「運命」		Classical	ffffd700	189※	`easy`3`false`かんたん/交響曲第五番「運命」|`normal`4`false`ふつう/交響曲第五番「運命」|`hard`5`false`むずかしい/交響曲第五番「運命」|`oni`5`false`おに/交響曲第五番「運命」|
+カルメン組曲一番終曲		Classical	ffffd700	120※	`easy`4`false`かんたん/カルメン組曲一番終曲|`normal`2`false`ふつう/カルメン組曲一番終曲|`hard`4`false`むずかしい/カルメン組曲一番終曲|`oni`8`false`おに/カルメン組曲一番終曲|
+クラシックメドレー ホームパーティー編		Classical	ffffd700	102-110	`easy`1`false`かんたん/クラシックメドレー(ホームパーティ編)|`normal`3`false`ふつう/クラシックメドレー(ホームパーティ編)|`hard`2`false`おに/クラシックメドレー(ホームパーティ編)|`oni`2`false`おに/クラシックメドレー(ホームパーティ編)|
+ハンガリー舞曲第5番		Classical	ffffd700	69-160※	`easy`2`false`かんたん/ハンガリー舞曲第５番|`normal`4`false`ふつう/ハンガリー舞曲第５番|`hard`3`false`むずかしい/ハンガリー舞曲第５番|`oni`8`false`おに/ハンガリー舞曲第５番|
+交響曲第25番ト短調第一楽章		Classical	ffffd700	175	`easy`3`false`かんたん/交響曲第25番ト短調第一楽章|`normal`4`false`ふつう/交響曲第25番ト短調第一楽章|`hard`5`false`むずかしい/交響曲第25番ト短調第一楽章|`oni`5`false`おに/交響曲第25番ト短調第一楽章|
+ウィリアム・テル序曲		Classical	ffffd700	152※	`easy`3`false`かんたん/ウィリアム・テル序曲|`normal`4`false`ふつう/ウィリアム・テル序曲|`hard`4`false`むずかしい/ウィリアム・テル序曲|`oni`4`false`おに/ウィリアム・テル序曲|
+もじぴったんメドレー		Namco Original	ffff4500	168	`easy`4`false`かんたん/もじぴったんメドレー|`normal`4`false`ふつう/もじぴったんメドレー|`hard`3`false`むずかしい/もじぴったんメドレー|`oni`6`false`おに/もじぴったんメドレー|
+和太鼓戦隊ドンレンジャー		Namco Original	ffff4500	160	`easy`3`false`かんたん/和太鼓戦隊ドンレンジャー|`normal`4`false`ふつう/和太鼓戦隊ドンレンジャー|`hard`5`false`むずかしい/和太鼓戦隊ドンレンジャー|`oni`5`false`おに/和太鼓戦隊ドンレンジャー|
+ドラゴンスピリットメドレー		Namco Original	ffff4500	175	`easy`4`false`かんたん/ドラゴンスピリットメドレー|`normal`5`false`ふつう/ドラゴンスピリットメドレー|`hard`7`false`おに/ドラゴンスピリットメドレー|`oni`8`false`おに/ドラゴンスピリットメドレー|
+		Namco Original	ffff4500	140※	`easy`5`false`かんたん/Ridge Racer|`normal`5`false`ふつう/Ridge Racer|`hard`8`false`おに/Ridge Racer|`oni`9`false`おに/Ridge Racer|
+ソウルキャリバーII		Namco Original	ffff4500	150※	`easy`3`false`かんたん/ソウルキャリバーII|`normal`2`false`ふつう/ソウルキャリバーII|`hard`4`false`むずかしい/ソウルキャリバーII|`oni`9`false`おに/ソウルキャリバーII|
+太鼓のマーチ		Namco Original	ffff4500	145※	`easy`3`false`かんたん/太鼓のマーチ|`normal`5`false`ふつう/太鼓のマーチ|`hard`5`false`むずかしい/太鼓のマーチ|`oni`5`false`おに/太鼓のマーチ|
+KAGEKIYO 源平討魔伝メドレー		Namco Original	ffff4500	130※	`easy`4`false`かんたん/KAGEKIYO 源平討魔伝メドレー|`normal`6`false`ふつう/KAGEKIYO 源平討魔伝メドレー|`hard`7`false`むずかしい/KAGEKIYO 源平討魔伝メドレー|`oni`10`false`おに/KAGEKIYO 源平討魔伝メドレー|
+さいたま2000		Namco Original	ffff4500	200	`easy`5`false`かんたん/さいたま2000|`normal`6`false`ふつう/さいたま2000|`hard`6`false`むずかしい/さいたま2000|`oni`9`false`おに/さいたま2000|
