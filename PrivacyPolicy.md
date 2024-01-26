@@ -1,40 +1,47 @@
 
-**隐私政策**
+<h1 align="center">Privacy Policy</h1>
 
-**生效日期：2024.1.21**
+**Last Modified：2024.1.21**
 
-欢迎使用“太鼓之歌”应用程序！我们非常重视用户的隐私，并致力于保护您的个人信息。请在使用本应用程序之前仔细阅读本隐私政策。
+The Privacy Policy respects and protects the individual privacy of all users of the Privacy Policy
+Web Services. In order to provide you with a more accurate and personalized service, our Privacy
+Policy covers the ways in which we collect, use, disclose, transmit and store your information.
+However, the Privacy Policy will treat this information with a high degree of diligence and duty of
+care. We may update this Privacy Policy from time to time. By agreeing to the Privacy Policy Network
+Services Usage Agreement, you agree to this Privacy Policy in its entirety. This Privacy Policy is
+an integral part of the Privacy Policy Network Service Use Agreement. You do not have to provide us
+with the personal information we request, but in many cases, if you choose not to do so, we will not
+be able to provide you with our products or services or respond to any questions you may have. If
+you have any questions about the data processing practices described in this Privacy Policy, please
+contact us at [aoeiuv020@gmail.com](mailto:aoeiuv020@gmail.com) so that we can address your specific needs. We are
+happy to receive your feedback.
 
-**1. 收集的信息**
+<h3> I. How we collect information</h3>
+We don't actively collect information at all. Even without your information, we're still running just fine. Of course, if it crashes, you have the option of sending us an email with the device model and system version information so that we can locate the problem.
 
-我们的应用程序不会主动收集任何个人信息。我们仅在您明确同意的情况下收集并使用您提供的信息，以提供更好的服务体验。
+<h3> II. How we use the information we collect</h3>
+We don't collect information voluntarily at all. But if, after a crash, you voluntarily send us information about your device, we will use it to locate and resolve your crash, not for any other purpose.
 
-**2. 使用信息的目的**
+<h3> Third, how we share, transfer, and publicly disclose your personal information</h3>
+We don't actively collect information at all. And no personal information about you, so don't worry.
+But if, after a crash, you actively send us information about your device, we'll use it for nothing more than locating and resolving your crash (which may appear in Git commits, logs, or GitHub-related issues).
 
-我们收集的信息仅用于提供应用程序的基本功能，例如展示歌曲信息。我们不会将您的信息用于任何其他目的，也不会与任何第三方共享。
+<h3> 4. How we protect your personal information</h3>
+We don't actively collect information at all. And no personal information about you to worry about. We don't want, need or want to help you protect it.
 
-**3. Cookie和跟踪技术**
+<h3> V. How you manage your personal information</h3>
+We don't actively collect information at all. And no personal information about you that you don't need or want to manage.
 
-我们的应用程序不使用Cookie或任何其他跟踪技术来跟踪您的在线活动。
-
-**4. 安全措施**
-
-我们采取合理的安全措施来保护您提供的信息，以防止未经授权的访问、使用或泄露。
-
-**5. 用户的权利**
-
-您有权访问、更正、删除您提供的个人信息。如果您有任何疑问或需求，请通过应用内的联系方式与我们联系。
-
-**6. 法律依据**
-
-我们收集和处理您的信息是基于您的同意，并为提供应用程序的基本功能而合法进行的。
-
-**7. 变更通知**
-
-如果我们对隐私政策进行任何更改，我们将通过应用程序内的通知或在我们的网站上发布更新的政策来通知您。
-
-**8. 联系我们**
-
-如果您对本隐私政策有任何疑问或意见，请通过应用程序内的联系方式与我们联系。
-
-感谢您选择“太鼓之歌”应用程序！
+<h3> VI. How this policy is updated</h3>
+Our Privacy Policy will be updated from time to time.
+In general, we will not reduce your entitlement under this Privacy Policy.
+Yes Rights. We will post the updated version on this page and
+Notify you of what this policy does by means of a bullet box or in a manner as conspicuous as the bullet box
+Any changes, by your consent, you agree to be bound by this policy as amended
+The constraints.
+<h3>Vii. How to contact us</h3>
+If you have any questions, comments or suggestions regarding this Privacy Policy, you may
+Contact us by email: aoeiuv020@gmail.com If you are not satisfied with our response, especially with our personal information
+You may also be able to address your legal rights by filing a complaint with us.
+Seeking resolution by filing a lawsuit in the people's court of competent jurisdiction
+Program.
