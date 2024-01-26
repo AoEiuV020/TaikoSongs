@@ -1,5 +1,5 @@
 
-<h1 align="center">Privacy Policy</h1>
+<h1 align="center">TaikoSongs Privacy Policy</h1>
 
 **Last Modified：2024.1.21**
 
