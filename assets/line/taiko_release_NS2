@@ -44,7 +44,7 @@ Asteroid	KORG Gadget Kamata デモソング	バラエティ	ff00ff00	144-288	`ea
 スーパーマリオブラザーズ		ゲームミュージック	ff9932cc	100-180※	`easy`4`false`かんたん/スーパーマリオブラザーズ(新)|`normal`5`false`ふつう/スーパーマリオブラザーズ(新)|`hard`7`false`むずかしい/スーパーマリオブラザーズ(新)|`oni`8`false`おに/スーパーマリオブラザーズ(新)|
 ゼルダの伝説 メインテーマ		ゲームミュージック	ff9932cc	63-123※	`easy`2`false`かんたん/ゼルダの伝説 メインテーマ|`normal`2`false`ふつう/ゼルダの伝説 メインテーマ|`hard`5`false`むずかしい/ゼルダの伝説 メインテーマ|`oni`7`false`おに/ゼルダの伝説 メインテーマ|
 星のカービィ　スターアライズ　メドレー		ゲームミュージック	ff9932cc	116-258	`easy`3`false`かんたん/星のカービィ スターアライズ メドレー|`normal`5`false`ふつう/星のカービィ スターアライズ メドレー|`hard`6`false`むずかしい/星のカービィ スターアライズ メドレー|`oni`8`false`おに/星のカービィ スターアライズ メドレー|
-Life Will Change	「ペルソナ5」より	ゲームミュージック	ff9932cc	132	`easy`3`false`かんたん/Life Will Change|`normal`4`false`ふつう/Life Will Change|`hard`6`false`むずかしい/Life Will Change|`oni`8`false`おに/Life Will Change|
+Life Will Change	「ペルソナ５」より	ゲームミュージック	ff9932cc	132	`easy`3`false`かんたん/Life Will Change|`normal`4`false`ふつう/Life Will Change|`hard`6`false`むずかしい/Life Will Change|`oni`8`false`おに/Life Will Change|
 MEGALOVANIA	「UNDERTALE」より	ゲームミュージック	ff9932cc	240	`easy`4`false`かんたん/MEGALOVANIA|`normal`5`false`ふつう/MEGALOVANIA|`hard`7`false`むずかしい/MEGALOVANIA|`oni`9`false`おに/MEGALOVANIA|`uraOni`10`false`おに/MEGALOVANIA(裏譜面)
 JOIN THE PAC -太鼓の達人 Ver.-	パックマン40周年公式テーマ楽曲	ゲームミュージック	ff9932cc	114-205※	`easy`3`false`かんたん/JOIN THE PAC -太鼓の達人 Ver.-|`normal`3`false`ふつう/JOIN THE PAC -太鼓の達人 Ver.-|`hard`6`false`むずかしい/JOIN THE PAC -太鼓の達人 Ver.-|`oni`9`false`おに/JOIN THE PAC -太鼓の達人 Ver.-|
 塊オンザロック～メインテーマ	「塊魂」より	ゲームミュージック	ff9932cc	160	`easy`4`false`かんたん/塊オンザロック|`normal`5`false`ふつう/塊オンザロック|`hard`7`false`むずかしい/塊オンザロック|`oni`8`false`おに/塊オンザロック|
@@ -88,4 +88,5 @@ GO GET'EM!	寺島怜志	ナムコオリジナル	ffff4500	146	`easy`4`false`か�
 隼		ナムコオリジナル	ffff4500	186※	`easy`5`false`かんたん/隼|`normal`7`false`ふつう/隼|`hard`8`false`むずかしい/隼|`oni`9`false`おに/隼|
 東京特許キョ許可局局長!!		ナムコオリジナル	ffff4500	150-165	`easy`3`false`かんたん/東京特許キョ許可局局長!!|`normal`4`false`ふつう/東京特許キョ許可局局長!!|`hard`6`false`むずかしい/東京特許キョ許可局局長!!|`oni`8`false`おに/東京特許キョ許可局局長!!|
 激運！七福ハッピークルー	コバヤシユウヤ(IOSYS) feat. 山本椛 (monotone)	ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/激運！七福ハッピークルー|`normal`5`false`ふつう/激運！七福ハッピークルー|`hard`7`false`むずかしい/激運！七福ハッピークルー|`oni`9`false`おに/激運！七福ハッピークルー|
+超新星少女	Shogo Nomura(BNSI) feat. 巫てんり 「ドンドコフィット」テーマソング	ナムコオリジナル	ffff4500	165	`easy`3`false`かんたん/超新星少女|`normal`5`false`ふつう/超新星少女|`hard`6`false`むずかしい/超新星少女|`oni`8`false`おに/超新星少女|
 太鼓乱舞 皆伝		ナムコオリジナル	ffff4500	130	`easy`4`true`かんたん/太鼓乱舞 皆伝|`normal`5`true`ふつう/太鼓乱舞 皆伝|`hard`7`true`むずかしい/太鼓乱舞 皆伝|`oni`8`true`おに/太鼓乱舞 皆伝|
