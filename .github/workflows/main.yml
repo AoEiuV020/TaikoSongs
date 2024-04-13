@@ -33,13 +33,15 @@ jobs:
           then
               CREATE_RELEASE="true"
               BUILD_VERSION=${GITHUB_REF#refs/tags/}
-              RELEASE_BODY=$(./latest-changelog.sh $BUILD_VERSION |sed '1s/[，,]$//;1s/^\(.*\)$/### \1\n/')
+              if [[ -x ./latest-changelog.sh ]]
+              then
+                  RELEASE_BODY=$(./latest-changelog.sh $BUILD_VERSION |sed '1s/[，,]$//;1s/^\(.*\)$/### \1\n/')
+                  TG_CHANGELOG=$(./latest-changelog.sh $BUILD_VERSION |sed -n '{;=;p}' | sed "N;s/\n/. /g")
+              fi
               if [[ -z "$RELEASE_BODY" ]]
               then
                   RELEASE_BODY='### ${{ github.event.head_commit.message }}'
                   TG_CHANGELOG="$(echo "$RELEASE_BODY"|sed -n "s/### \(.*\)/\1/p" |sed -n '{;=;p}' | sed "N;s/\n/. /g")"
-              else
-                  TG_CHANGELOG=$(./latest-changelog.sh $BUILD_VERSION |sed -n '{;=;p}' | sed "N;s/\n/. /g")
               fi
           elif [[ ${GITHUB_REF} == refs/pull* ]]
           then
@@ -54,7 +56,7 @@ jobs:
           elif [[ ${GITHUB_REF} == refs/heads* ]]
           then
               CREATE_RELEASE="false"
-              BUILD_VERSION="$(date +'%Y%m%d%H%M%S')"
+              BUILD_VERSION="${GITHUB_REF#refs/heads/}-$(date +'%Y%m%d%H%M%S')"
               RELEASE_BODY=$(echo '${{ toJson(github.event.commits) }}' |jq -r 'map("### "+.message)|join("\n\n------\n")')
               TG_CHANGELOG="$(echo "$RELEASE_BODY"|sed -n "s/### \(.*\)/\1/p" |sed -n '{;=;p}' | sed "N;s/\n/. /g")"
               VERSION_PREFIX='内测版-'
@@ -134,7 +136,9 @@ jobs:
             ENABLE_CONFIG: linux-desktop
             RELEASE_PATH: .
             RELEASE_DIRECTORY: build/linux/x64/release/bundle
-            PRE_COMMAND: sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+            PRE_COMMAND: |
+              sudo apt-get -y update
+              sudo apt-get -y install clang cmake git ninja-build pkg-config libgtk-3-dev liblzma-dev libstdc++-12-dev
           - name: windows
             config: windows
             os: windows-latest
