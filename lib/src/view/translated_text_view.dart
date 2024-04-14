@@ -35,7 +35,7 @@ class _TranslatedTextState extends State<TranslatedText> {
 
   void translateText(String textToTranslate) async {
     final result = await ds.getTranslated(textToTranslate);
-    if (result != null) {
+    if (mounted && result != null) {
       setState(() {
         translatedText = result;
       });
