@@ -1,7 +1,6 @@
-import 'dart:io';
+import 'dart:convert';
 
 import 'package:collection/collection.dart';
-import 'package:document_file_save_plus/document_file_save_plus.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -16,6 +15,7 @@ import '../bean/song.dart';
 import '../calc/song_calculator.dart';
 import '../compare/then_compare.dart';
 import '../db/data.dart';
+import '../file/document_saver.dart';
 import '../settings/settings_controller.dart';
 import '../settings/settings_view.dart';
 import 'difficulty_detail_view.dart';
@@ -161,6 +161,7 @@ class _SongListViewState extends State<SongListView> {
   }
 
   void onScreenshot() async {
+    EasyLoading.show(status: '正在创建截图，请勿操作');
     WidgetShotRenderRepaintBoundary repaintBoundary = _shotKey.currentContext!
         .findRenderObject() as WidgetShotRenderRepaintBoundary;
     var pngBytes = await repaintBoundary.screenshot(
@@ -172,26 +173,30 @@ class _SongListViewState extends State<SongListView> {
               ? Colors.white
               : Theme.of(context).colorScheme.background,
     );
-    String tip = '保存成功';
-    try {
-      DocumentFileSavePlus()
-          .saveFile(pngBytes!, "${widget.title}.png", "image/png");
-    } on Exception {
-      tip = '保存失败';
+    if (pngBytes == null) {
+      EasyLoading.dismiss();
+      EasyLoading.showError('生成截图失败');
+      return;
     }
-    EasyLoading.showToast(
-      tip,
-      duration: const Duration(milliseconds: 500),
+    EasyLoading.show(status: '正在保存长截图...');
+    var filename = widget.title;
+    var ext = "png";
+    var mimetype = "image/png";
+    bool success = await DocumentSaver.save(
+      pngBytes,
+      filename,
+      ext,
+      mimetype,
     );
+    EasyLoading.dismiss();
+    if (success) {
+      EasyLoading.showSuccess('保存成功');
+    } else {
+      EasyLoading.showError('保存失败');
+    }
   }
 
   void initScreenshot() async {
-    if (kIsWeb) {
-      return;
-    }
-    if (!Platform.isAndroid && !Platform.isIOS) {
-      return;
-    }
     setState(() {
       isScreenshotEnabled = true;
     });
