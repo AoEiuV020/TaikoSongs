@@ -31,7 +31,9 @@ dependencies:
   shared_preferences: ^2.2.1
   shared_preferences_field_delegate: ^1.0.0
   url_launcher: ^6.1.14
-  widget_screenshot: ^0.0.9
+  widget_screenshot:
+    git:
+     url: https://github.com/AoEiuV020/widget_screenshot
 
 dev_dependencies:
   flutter_test:
