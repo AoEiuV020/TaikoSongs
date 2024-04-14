@@ -919,7 +919,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "3fa3ff0c52b30bd00012df0e83c0f7d403ffb2c2"
+      resolved-ref: "1acf0b25d04bd6ef21f88b235464002818af2527"
       url: "https://github.com/AoEiuV020/widget_screenshot"
     source: git
     version: "0.0.9"

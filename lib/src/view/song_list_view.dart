@@ -166,6 +166,7 @@ class _SongListViewState extends State<SongListView> {
     var pngBytes = await repaintBoundary.screenshot(
       scrollController: _scrollController,
       pixelRatio: 1,
+      quality: 90,
       backgroundColor:
           Theme.of(context).colorScheme.brightness == Brightness.light
               ? Colors.white
