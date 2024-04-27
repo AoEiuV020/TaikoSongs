@@ -44,3 +44,7 @@ app.*.map.json
 
 /pubspec.lock
 /pubspec_overrides.yaml
+
+# dart to js 生成的调试文件，
+*.js.deps
+*.js.map

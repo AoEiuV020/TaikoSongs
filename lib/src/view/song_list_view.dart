@@ -1,10 +1,10 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:listview_screenshot/listview_screenshot.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher_string.dart';
-import 'package:widget_screenshot/widget_screenshot.dart';
 
 import '../bean/difficulty.dart';
 import '../bean/release.dart';
@@ -161,14 +161,13 @@ class _SongListViewState extends State<SongListView> {
     EasyLoading.show(status: '正在创建截图，请勿操作');
     WidgetShotRenderRepaintBoundary repaintBoundary = _shotKey.currentContext!
         .findRenderObject() as WidgetShotRenderRepaintBoundary;
-    var pngBytes = await repaintBoundary.screenshot(
+    var pngBytes = await repaintBoundary.screenshotPng(
       scrollController: _scrollController,
-      pixelRatio: 1,
-      quality: 90,
       backgroundColor:
           Theme.of(context).colorScheme.brightness == Brightness.light
               ? Colors.white
               : Theme.of(context).colorScheme.background,
+      workerName: 'imageMergeTransform',
     );
     if (pngBytes == null) {
       EasyLoading.dismiss();
