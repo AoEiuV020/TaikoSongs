@@ -1,7 +1,8 @@
-import 'package:isolate_transformer/worker_transformer.dart';
-import 'package:listview_screenshot/function.dart';
+// ignore_for_file: file_names
+
+import 'package:listview_screenshot/worker_main.dart';
 
 /// dart compile js imageMergeTransform.dart -o imageMergeTransform.js -O4
-main() {
-  workerMain(imageMergeTransform);
+void main() {
+  imageMergeTransformWorkerMain();
 }
