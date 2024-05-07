@@ -22,7 +22,7 @@ dependencies:
     sdk: flutter
   html: ^0.15.4
   json_annotation: ^4.8.1
-  listview_screenshot: ^2.0.0
+  listview_screenshot: ^3.0.0
   logging: ^1.2.0
   path: ^1.8.3
   path_provider: ^2.1.1

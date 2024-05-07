@@ -167,7 +167,6 @@ class _SongListViewState extends State<SongListView> {
     Uint8List pngBytes;
     try {
       pngBytes = await repaintBoundary.screenshotPng(
-        scrollController: _scrollController,
         backgroundColor:
             Theme.of(context).colorScheme.brightness == Brightness.light
                 ? Colors.white
@@ -419,6 +418,7 @@ class _SongListViewState extends State<SongListView> {
                               interactive: true,
                               child: WidgetShot(
                                 key: _shotKey,
+                                controller: _scrollController,
                                 child: ListView.builder(
                                   restorationId: 'songList',
                                   controller: _scrollController,
