@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:logging/logging.dart';
 
 import '../irondb/database.dart';
@@ -18,8 +20,8 @@ class LineCache {
     String key = getKey(url);
     String? body = await db.read(key);
     if (body == null) return null;
-    return body
-        .split('\n')
+    return Stream.value(body)
+        .transform(const LineSplitter())
         .where((element) => element.isNotEmpty)
         .map((e) => fromLine(e))
         .toList();
