@@ -16,6 +16,8 @@ import 'translated.dart';
 class DataSource {
   static DataSource? _instance;
 
+  static Future<void> init() => Iron.init();
+
   DataSource._internal();
 
   factory DataSource() {

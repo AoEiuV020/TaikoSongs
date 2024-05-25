@@ -1,12 +1,12 @@
 // ignore_for_file: avoid_print
 import 'package:flutter/material.dart';
-import 'package:iron_db/iron_db.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shared_preferences_field_delegate/shared_preferences_field_delegate.dart';
 
 import 'src/app.dart';
+import 'src/db/data.dart';
 import 'src/settings/settings_controller.dart';
 import 'src/settings/settings_service.dart';
 
@@ -18,7 +18,7 @@ void main() async {
   });
   // 确保 Flutter 初始化完成
   WidgetsFlutterBinding.ensureInitialized();
-  await Iron.init();
+  await DataSource.init();
   final sharedPreferences = await SharedPreferences.getInstance();
   final fieldFactory = SharedPreferencesFieldFactory(sharedPreferences);
   final settingsController = SettingsController(SettingsService(fieldFactory));

@@ -1,6 +1,5 @@
 // ignore_for_file: avoid_print, unused_local_variable
 
-import 'package:iron_db/iron_db.dart';
 import 'package:logging/logging.dart';
 import 'package:taiko_songs/src/bean/song.dart';
 import 'package:taiko_songs/src/db/data.dart';
@@ -12,7 +11,7 @@ Future<void> main(List<String> arguments) async {
   Logger.root.onRecord.listen((record) {
     print('${record.level.name}: ${record.time}: ${record.message}');
   });
-  await Iron.init();
+  await DataSource.init();
   var data = DataSource();
   await printSongCount(data);
 }
