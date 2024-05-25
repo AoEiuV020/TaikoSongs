@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
+import 'package:iron_db/iron_db.dart';
 import 'package:logging/logging.dart';
 
-import '../irondb/database.dart';
 
 class HtmlCache {
   final logger = Logger('HtmlCache');

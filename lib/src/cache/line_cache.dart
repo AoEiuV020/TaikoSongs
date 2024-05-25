@@ -1,8 +1,8 @@
 import 'dart:convert';
 
+import 'package:iron_db/iron_db.dart';
 import 'package:logging/logging.dart';
 
-import '../irondb/database.dart';
 
 class LineCache {
   final logger = Logger('LineCache');

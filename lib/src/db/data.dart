@@ -1,3 +1,4 @@
+import 'package:iron_db/iron_db.dart';
 import 'package:logging/logging.dart';
 
 import '../async/isolate_transformer.dart';
@@ -7,7 +8,6 @@ import '../bean/release.dart';
 import '../bean/song.dart';
 import '../cache/html_cache.dart';
 import '../cache/line_cache.dart';
-import '../irondb/iron.dart';
 import '../parser/collection_parser.dart';
 import '../parser/difficulty_parser.dart';
 import '../parser/song_parser.dart';

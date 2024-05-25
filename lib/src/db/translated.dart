@@ -1,7 +1,8 @@
 import 'dart:convert';
 
+import 'package:iron_db/iron_db.dart';
+
 import '../async/isolate_transformer.dart';
-import '../irondb/database.dart';
 
 class TranslatedSource {
   final Database _db;
