@@ -18,6 +18,7 @@ The Power Of Love	「バック・トゥ・ザ・フューチャー」より	ポ�
 RPG		ポップス	ff00ffff	135	`easy`3`false`かんたん/RPG|`normal`3`false`ふつう/RPG|`hard`4`false`むずかしい/RPG|`oni`6`false`おに/RPG|
 シュガーソングとビターステップ		ポップス	ff00ffff	132	`easy`3`false`かんたん/シュガーソングとビターステップ|`normal`4`false`ふつう/シュガーソングとビターステップ|`hard`5`false`むずかしい/シュガーソングとビターステップ|`oni`8`false`おに/シュガーソングとビターステップ|
 ギミチョコ！！		ポップス	ff00ffff	220	`easy`4`false`かんたん/ギミチョコ！！|`normal`6`false`ふつう/ギミチョコ！！|`hard`7`false`むずかしい/ギミチョコ！！|`oni`8`false`おに/ギミチョコ！！|`uraOni`10`false`おに/ギミチョコ！！(裏譜面)
+inner universe	「攻殻機動隊 STAND ALONE COMPLEX」より	アニメ	ffffa500	166-167	`easy`3`false`かんたん/inner universe|`normal`4`false`ふつう/inner universe|`hard`5`false`むずかしい/inner universe|`oni`7`false`おに/inner universe|
 名探偵コナン メイン・テーマ		アニメ	ffffa500	130	`easy`3`false`かんたん/名探偵コナン メイン・テーマ|`normal`1`false`ふつう/名探偵コナン メイン・テーマ|`hard`5`false`むずかしい/名探偵コナン メイン・テーマ|`oni`6`false`おに/名探偵コナン メイン・テーマ|
 めざせポケモンマスター -20th Anniversary-	「劇場版ポケットモンスター キミにきめた！」より	アニメ	ffffa500	120-240	`easy`2`false`かんたん/めざせポケモンマスター -20th Anniversary-|`normal`4`false`ふつう/めざせポケモンマスター -20th Anniversary-|`hard`6`false`むずかしい/めざせポケモンマスター -20th Anniversary-|`oni`8`false`おに/めざせポケモンマスター -20th Anniversary-|`uraOni`8`false`おに/めざせポケモンマスター -20th Anniversary-(裏譜面)
 ゲゲゲの鬼太郎	TVアニメ 第6期 オープニング主題歌	アニメ	ffffa500	116	`easy`1`false`かんたん/ゲゲゲの鬼太郎(氷川きよし)|`normal`1`false`ふつう/ゲゲゲの鬼太郎(氷川きよし)|`hard`1`false`むずかしい/ゲゲゲの鬼太郎(氷川きよし)|`oni`2`false`おに/ゲゲゲの鬼太郎(氷川きよし)|`uraOni`10`false`おに/ゲゲゲの鬼太郎(氷川きよし)(裏譜面)
@@ -72,6 +73,9 @@ Baby Shark	太鼓の達人 Pop Tap Beat feat. ののちゃん	バラエティ	ff
 Star Wars: Main Title	「スター・ウォーズ」より	バラエティ	ff00ff00	56-107※	`easy`3`false`かんたん/Star Wars： Main Title|`normal`4`false`ふつう/Star Wars： Main Title|`hard`6`false`むずかしい/Star Wars： Main Title|`oni`8`false`おに/Star Wars： Main Title|
 He's a Pirate	「パイレーツ・オブ・カリビアン」より	バラエティ	ff00ff00	140	`easy`4`false`かんたん/He's a Pirate|`normal`5`false`ふつう/He's a Pirate|`hard`7`false`むずかしい/He's a Pirate|`oni`7`false`おに/He's a Pirate|
 ABCの歌		バラエティ	ff00ff00	129	`easy`2`false`かんたん/ABCの歌|`normal`2`false`ふつう/ABCの歌|`hard`2`false`むずかしい/ABCの歌|`oni`7`false`おに/ABCの歌|
+アメリカンパトロール	フランク・ホワイト・ミーチャム	クラシック	ffffd700	200	`easy`4`false`かんたん/アメリカンパトロール|`normal`4`false`ふつう/アメリカンパトロール|`hard`6`false`むずかしい/アメリカンパトロール|`oni`7`false`おに/アメリカンパトロール|
+オー・ソレ・ミオ		クラシック	ffffd700	97-148※	`easy`3`false`かんたん/オーソレミオ(私の太陽)|`normal`3`false`ふつう/オーソレミオ(私の太陽)|`hard`7`false`むずかしい/オーソレミオ(私の太陽)|`oni`8`false`おに/オーソレミオ(私の太陽)|
+火星	ホルスト	クラシック	ffffd700	60-160※	`easy`4`false`かんたん/火星|`normal`5`false`ふつう/火星|`hard`6`false`むずかしい/火星|`oni`7`false`おに/火星|
 トッカータとフーガとロック		クラシック	ffffd700	143	`easy`5`false`かんたん/トッカータとフーガとロック|`normal`7`false`ふつう/トッカータとフーガとロック|`hard`8`false`むずかしい/トッカータとフーガとロック|`oni`9`false`おに/トッカータとフーガとロック|
 フニクリ・フニクラ		クラシック	ffffd700	155-162※	`easy`3`false`かんたん/フニクリ・フニクラ|`normal`6`false`ふつう/フニクリ・フニクラ|`hard`6`false`むずかしい/フニクリ・フニクラ|`oni`7`false`おに/フニクリ・フニクラ|`uraOni`9`false`おに/フニクリ・フニクラ(裏譜面)
 交響曲第五番「運命」	ベートーヴェン	クラシック	ffffd700	190※	`easy`4`false`かんたん/交響曲第五番「運命」|`normal`5`false`ふつう/交響曲第五番「運命」|`hard`5`false`むずかしい/交響曲第五番「運命」|`oni`6`false`おに/交響曲第五番「運命」|
@@ -105,6 +109,8 @@ Heat Haze Shadow 2	「鉄拳７」より	ゲームミュージック	ff9932cc	17
 World of GENPEI TOMADEN		ゲームミュージック	ff9932cc	160	`easy`4`false`かんたん/World of GENPEI TOMADEN|`normal`6`false`ふつう/World of GENPEI TOMADEN|`hard`6`false`むずかしい/World of GENPEI TOMADEN|`oni`8`false`おに/World of GENPEI TOMADEN|
 Ridge Racer		ゲームミュージック	ff9932cc	140※	`easy`4`false`かんたん/Ridge Racer|`normal`7`false`ふつう/Ridge Racer|`hard`8`false`おに/Ridge Racer|`oni`8`false`おに/Ridge Racer|`uraOni`9`false`おに/Ridge Racer(裏譜面)
 KAGEKIYO	源平討魔伝メドレー	ゲームミュージック	ff9932cc	130※	`easy`4`false`かんたん/KAGEKIYO 源平討魔伝メドレー|`normal`5`false`ふつう/KAGEKIYO 源平討魔伝メドレー|`hard`7`false`むずかしい/KAGEKIYO 源平討魔伝メドレー|`oni`8`false`おに/KAGEKIYO 源平討魔伝メドレー|`uraOni`10`true`おに/KAGEKIYO 源平討魔伝メドレー(裏譜面)
+ラブリーX		ナムコオリジナル	ffff4500	134	`easy`4`false`かんたん/ラブリーX|`normal`5`false`ふつう/ラブリーX|`hard`6`false`むずかしい/ラブリーX|`oni`7`false`おに/ラブリーX|`uraOni`8`false`おに/ラブリーX(裏譜面)
+パステル ドリーム		ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/パステル ドリーム|`normal`6`false`ふつう/パステル ドリーム|`hard`7`false`むずかしい/パステル ドリーム|`oni`8`false`おに/パステル ドリーム|
 春遊	～happy excursion～	ナムコオリジナル	ffff4500	140	`easy`4`false`かんたん/春遊 ～happy excursion～|`normal`5`false`ふつう/春遊 ～happy excursion～|`hard`6`false`むずかしい/春遊 ～happy excursion～|`oni`7`false`おに/春遊 ～happy excursion～|`uraOni`8`false`おに/春遊 ～happy excursion～(裏譜面)
 サンバ アレグリーア		ナムコオリジナル	ffff4500	138	`easy`4`false`かんたん/サンバ アレグリーア|`normal`6`false`ふつう/サンバ アレグリーア|`hard`6`false`むずかしい/サンバ アレグリーア|`oni`7`false`おに/サンバ アレグリーア|`uraOni`9`false`おに/サンバ アレグリーア(裏譜面)
 狂瀾怒濤	xi	ナムコオリジナル	ffff4500	76.7-302.3※	`easy`4`false`かんたん/狂瀾怒濤|`normal`7`false`ふつう/狂瀾怒濤|`hard`8`false`むずかしい/狂瀾怒濤|`oni`9`false`おに/狂瀾怒濤|`uraOni`10`false`おに/狂瀾怒濤(裏譜面)

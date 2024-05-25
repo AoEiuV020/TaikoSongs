@@ -1,3 +1,6 @@
+レイン		ポップス	ff00ffff	95	`easy`3`false`かんたん/レイン|`normal`4`false`ふつう/レイン|`hard`5`false`むずかしい/レイン|`oni`7`false`おに/レイン|
+アポロ		ポップス	ff00ffff	170-190.1	`easy`2`false`かんたん/アポロ|`normal`4`false`ふつう/アポロ|`hard`4`false`むずかしい/アポロ|`oni`2`false`おに/アポロ|`uraOni`8`false`おに/アポロ(裏譜面)
+紅		ポップス	ff00ffff	156.3	`easy`3`false`かんたん/紅|`normal`4`false`ふつう/紅|`hard`7`true`むずかしい/紅|`oni`8`false`おに/紅|
 真夜中のドア～Stay with me		ポップス	ff00ffff	108	`easy`3`false`かんたん/真夜中のドア～Stay with me|`normal`4`false`ふつう/真夜中のドア～Stay with me|`hard`5`false`むずかしい/真夜中のドア～Stay with me|`oni`8`false`おに/真夜中のドア～Stay with me|
 ちゅ、多様性。	TVアニメ「チェンソーマン」エンディング・テーマ	ポップス	ff00ffff	153	`easy`3`false`かんたん/ちゅ、多様性。|`normal`4`false`ふつう/ちゅ、多様性。|`hard`5`false`むずかしい/ちゅ、多様性。|`oni`8`false`おに/ちゅ、多様性。|
 HOT LIMIT		ポップス	ff00ffff	148	`easy`3`false`かんたん/HOT LIMIT|`normal`4`false`ふつう/HOT LIMIT|`hard`6`false`むずかしい/HOT LIMIT|`oni`7`false`おに/HOT LIMIT|
@@ -79,6 +82,12 @@ Original Color Girls!!!!	えのぐ	ポップス	ff00ffff	130	`easy`3`false`か�
 ギミチョコ！！		ポップス	ff00ffff	220	`easy`4`false`かんたん/ギミチョコ！！|`normal`6`false`ふつう/ギミチョコ！！|`hard`7`false`むずかしい/ギミチョコ！！|`oni`8`false`おに/ギミチョコ！！|`uraOni`10`false`おに/ギミチョコ！！(裏譜面)
 あなたとトゥラッタッタ♪	DREAMS COME TRUE 連続テレビ小説「まんぷく」主題歌	ポップス	ff00ffff	120	`easy`1`false`かんたん/あなたとトゥラッタッタ♪|`normal`1`false`ふつう/あなたとトゥラッタッタ♪|`hard`1`false`むずかしい/あなたとトゥラッタッタ♪|`oni`1`false`おに/あなたとトゥラッタッタ♪|`uraOni`10`false`おに/あなたとトゥラッタッタ♪(裏譜面)
 HIMAWARI HAPPY	HIMAWARIちゃんねる	ポップス	ff00ffff	114-125	`easy`1`false`かんたん/HIMAWARI HAPPY|`normal`1`false`ふつう/HIMAWARI HAPPY|`hard`2`false`むずかしい/HIMAWARI HAPPY|`oni`2`false`おに/HIMAWARI HAPPY|
+嘘	「鋼の錬金術師 FULLMETAL ALCHEMIST」EDテーマ	アニメ	ffffa500	173-180	`easy`3`false`かんたん/嘘|`normal`5`false`ふつう/嘘|`hard`5`false`むずかしい/嘘|`oni`6`false`おに/嘘|
+シュガーソングとビターステップ	「血界戦線」より	アニメ	ffffa500	132	`easy`3`false`かんたん/シュガーソングとビターステップ|`normal`4`false`ふつう/シュガーソングとビターステップ|`hard`5`false`むずかしい/シュガーソングとビターステップ|`oni`8`false`おに/シュガーソングとビターステップ|
+OLA!!	映画「クレヨンしんちゃん オラの引越し物語～サボテン大襲撃～」より	アニメ	ffffa500	115	`easy`4`false`かんたん/OLA!!|`normal`4`false`ふつう/OLA!!|`hard`6`false`むずかしい/OLA!!|`oni`7`false`おに/OLA!!|
+INSIDE IDENTITY	「中二病でも恋がしたい！」より	アニメ	ffffa500	186	`easy`4`false`かんたん/INSIDE IDENTITY|`normal`4`false`ふつう/INSIDE IDENTITY|`hard`5`false`むずかしい/INSIDE IDENTITY|`oni`8`false`おに/INSIDE IDENTITY|
+ジョジョ～その血の運命～	「ジョジョの奇妙な冒険」より	アニメ	ffffa500	146	`easy`3`false`かんたん/ジョジョ ～その血の運命～|`normal`5`false`ふつう/ジョジョ ～その血の運命～|`hard`5`false`むずかしい/ジョジョ ～その血の運命～|`oni`7`false`おに/ジョジョ ～その血の運命～|
+Jungle P	「ワンピース」より	アニメ	ffffa500	145	`easy`2`false`かんたん/Jungle P|`normal`2`false`ふつう/Jungle P|`hard`5`false`むずかしい/Jungle P|`oni`7`false`おに/Jungle P|
 第ゼロ感	Taiko Team cover ver. / 「THE FIRST SLAM DUNK」より	アニメ	ffffa500	150	`easy`3`false`かんたん/第ゼロ感|`normal`5`false`ふつう/第ゼロ感|`hard`5`false`むずかしい/第ゼロ感|`oni`7`false`おに/第ゼロ感|
 ダイヤモンドハッピー	「アイカツ！」より	アニメ	ffffa500	233	`easy`2`false`かんたん/ダイヤモンドハッピー|`normal`3`false`ふつう/ダイヤモンドハッピー|`hard`5`false`むずかしい/ダイヤモンドハッピー|`oni`6`false`おに/ダイヤモンドハッピー|`uraOni`9`false`おに/ダイヤモンドハッピー(裏譜面)
 キルミーのベイベー！	「キルミーベイベー」より	アニメ	ffffa500	200	`easy`4`false`かんたん/キルミーのベイベー！|`normal`5`false`ふつう/キルミーのベイベー！|`hard`8`false`むずかしい/キルミーのベイベー！|`oni`9`false`おに/キルミーのベイベー！|
@@ -148,6 +157,8 @@ THE DAY	「僕のヒーローアカデミア」より	アニメ	ffffa500	186	`ea
 全力バタンキュー	「おそ松さん」より	アニメ	ffffa500	155	`easy`2`false`かんたん/全力バタンキュー|`normal`4`false`ふつう/全力バタンキュー|`hard`6`false`むずかしい/全力バタンキュー|`oni`8`false`おに/全力バタンキュー|
 オリオンをなぞる	「TIGER & BUNNY」より	アニメ	ffffa500	182	`easy`4`false`かんたん/オリオンをなぞる|`normal`4`false`ふつう/オリオンをなぞる|`hard`5`false`むずかしい/オリオンをなぞる|`oni`7`false`おに/オリオンをなぞる|
 My Soul,Your Beats!	「Angel Beats!」より	アニメ	ffffa500	145※	`easy`3`false`かんたん/My Soul,Your Beats!|`normal`4`false`ふつう/My Soul,Your Beats!|`hard`7`false`むずかしい/My Soul,Your Beats!|`oni`8`false`おに/My Soul,Your Beats!|
+IMITATION BLACK	SCL Project(NatsuP) feat.VanaN'Ice	ボーカロイド™曲	ffa9a9a9	230※	`easy`3`false`かんたん/IMITATION BLACK|`normal`5`false`ふつう/IMITATION BLACK|`hard`5`false`むずかしい/IMITATION BLACK|`oni`7`false`おに/IMITATION BLACK|`uraOni`9`false`おに/IMITATION BLACK(裏譜面)
+天ノ弱	１６４	ボーカロイド™曲	ffa9a9a9	200※	`easy`4`false`かんたん/天ノ弱|`normal`5`false`ふつう/天ノ弱|`hard`6`false`むずかしい/天ノ弱|`oni`8`false`おに/天ノ弱|
 セツナトリップ	Last Note.	ボーカロイド™曲	ffa9a9a9	145-290	`easy`3`false`かんたん/セツナトリップ|`normal`4`false`ふつう/セツナトリップ|`hard`7`false`むずかしい/セツナトリップ|`oni`8`false`おに/セツナトリップ|`uraOni`9`false`おに/セツナトリップ(裏譜面)
 Tell Your World	原曲:livetune feat.初音ミク	ボーカロイド™曲	ffa9a9a9	150※	`easy`3`false`かんたん/Tell Your World|`normal`2`false`ふつう/Tell Your World|`hard`5`false`むずかしい/Tell Your World|`oni`6`false`おに/Tell Your World|
 ワールドイズマイン	原曲：supercell feat. 初音ミク	ボーカロイド™曲	ffa9a9a9	170	`easy`4`false`かんたん/ワールドイズマイン|`normal`5`false`ふつう/ワールドイズマイン|`hard`6`false`むずかしい/ワールドイズマイン|`oni`8`false`おに/ワールドイズマイン|
@@ -266,7 +277,7 @@ Eternal bond	リューイッティ	ボーカロイド™曲	ffa9a9a9	170	`easy`5
 おもちゃの兵隊の行進	イェッセル	クラシック	ffffd700	152	`easy`3`false`かんたん/おもちゃの兵隊の行進|`normal`2`false`ふつう/おもちゃの兵隊の行進|`hard`4`false`むずかしい/おもちゃの兵隊の行進|`oni`8`false`おに/おもちゃの兵隊の行進|
 Dreadnought	Mastermind(xi＋nora2r)	バラエティ	ff00ff00	96-384	`easy`4`false`かんたん/Dreadnought|`normal`6`false`ふつう/Dreadnought|`hard`6`false`むずかしい/Dreadnought|`oni`9`false`おに/Dreadnought|`uraOni`10`false`おに/Dreadnought(裏譜面)
 Baby Shark（ベイビー・シャーク）		バラエティ	ff00ff00	111-139	`easy`1`false`かんたん/Baby Shark（ベイビー・シャーク）|`normal`1`false`ふつう/Baby Shark（ベイビー・シャーク）|`hard`3`false`むずかしい/Baby Shark（ベイビー・シャーク）|`oni`4`false`おに/Baby Shark（ベイビー・シャーク）|
-たらこ・たらこ・たらこ	キューピー あえるパスタソースたらこ ＣＭソング	バラエティ	ff00ff00	156	`easy`2`false`かんたん/たらこ・たらこ・たらこ|`normal`1`false`ふつう/たらこ・たらこ・たらこ|`hard`4`true`むずかしい/たらこ・たらこ・たらこ|`oni`7`false`おに/たらこ・たらこ・たらこ|
+たらこ・たらこ・たらこ	キユーピー あえるパスタソースたらこ ＣＭソング	バラエティ	ff00ff00	156	`easy`2`false`かんたん/たらこ・たらこ・たらこ|`normal`1`false`ふつう/たらこ・たらこ・たらこ|`hard`4`true`むずかしい/たらこ・たらこ・たらこ|`oni`7`false`おに/たらこ・たらこ・たらこ|
 good night baby (feat. Moe Shop)	犬吠埼紫杏(CV:長谷川玲奈) 「電音部」より	バラエティ	ff00ff00	125	`easy`3`false`かんたん/good night baby (feat. Moe Shop)|`normal`3`false`ふつう/good night baby (feat. Moe Shop)|`hard`5`false`むずかしい/good night baby (feat. Moe Shop)|`oni`7`false`おに/good night baby (feat. Moe Shop)|
 Crush (Prod. SHOW)	真新宿GR学園電音部 「電音部」より	バラエティ	ff00ff00	130	`easy`3`false`かんたん/Crush (Prod. SHOW)|`normal`4`false`ふつう/Crush (Prod. SHOW)|`hard`5`false`むずかしい/Crush (Prod. SHOW)|`oni`7`false`おに/Crush (Prod. SHOW)|
 IAM (feat. Shogo, Tsubasa)	港白金女学院電音部 「電音部」より	バラエティ	ff00ff00	138	`easy`3`false`かんたん/IAM (feat. Shogo, Tsubasa)|`normal`5`false`ふつう/IAM (feat. Shogo, Tsubasa)|`hard`5`false`むずかしい/IAM (feat. Shogo, Tsubasa)|`oni`7`false`おに/IAM (feat. Shogo, Tsubasa)|
@@ -307,7 +318,7 @@ No Way Back	「GOD EATER」より	ゲームミュージック	ff9932cc	158※	`e
 おしえて　くまとも	「クマ・トモ」テーマ曲	ゲームミュージック	ff9932cc	135	`easy`2`false`かんたん/おしえて くまとも|`normal`3`false`ふつう/おしえて くまとも|`hard`5`false`むずかしい/おしえて くまとも|`oni`8`false`おに/おしえて くまとも|
 バンビーニ	「ことばのパズル もじぴったん」より	ゲームミュージック	ff9932cc	166※	`easy`4`false`かんたん/バンビーニ|`normal`3`false`ふつう/バンビーニ|`hard`6`false`むずかしい/バンビーニ|`oni`8`false`おに/バンビーニ|
 Brave Sword, Braver Soul	「ソウルキャリバーII」より	ゲームミュージック	ff9932cc	150※	`easy`3`false`かんたん/ソウルキャリバーII|`normal`5`false`ふつう/ソウルキャリバーII|`hard`5`false`むずかしい/ソウルキャリバーII|`oni`7`false`おに/ソウルキャリバーII|
-僕の→地球 僕らの地球	「ミスタードリラー ドリルランド」より	ゲームミュージック	ff9932cc	130	`easy`4`false`かんたん/僕の地球 僕らの地球|`normal`4`false`ふつう/僕の地球 僕らの地球|`hard`6`false`むずかしい/僕の地球 僕らの地球|`oni`7`false`おに/僕の地球 僕らの地球|
+僕の→地球 僕らの地球	「ミスタードリラー ドリルランド」より	ゲームミュージック	ff9932cc	130	`easy`4`false`かんたん/僕の→地球 僕らの地球|`normal`4`false`ふつう/僕の→地球 僕らの地球|`hard`6`false`むずかしい/僕の→地球 僕らの地球|`oni`7`false`おに/僕の→地球 僕らの地球|
 DESERT STORM	「F/A」より	ゲームミュージック	ff9932cc	138※	`easy`4`false`かんたん/DESERT STORM|`normal`5`false`ふつう/DESERT STORM|`hard`6`false`むずかしい/DESERT STORM|`oni`8`false`おに/DESERT STORM|
 スタートリゴンのテーマ		ゲームミュージック	ff9932cc	160	`easy`4`false`かんたん/スタートリゴンのテーマ|`normal`5`false`ふつう/スタートリゴンのテーマ|`hard`6`false`むずかしい/スタートリゴンのテーマ|`oni`7`false`おに/スタートリゴンのテーマ|
 塊オンザロック～メインテーマ	「塊魂」より	ゲームミュージック	ff9932cc	160	`easy`4`false`かんたん/塊オンザロック|`normal`5`false`ふつう/塊オンザロック|`hard`7`false`むずかしい/塊オンザロック|`oni`8`false`おに/塊オンザロック|
@@ -737,7 +748,7 @@ SORA‐VII シグナスウォール		ナムコオリジナル	ffff4500	180	`easy
 カナデア		ナムコオリジナル	ffff4500	132	`easy`5`false`かんたん/カナデア|`normal`7`false`ふつう/カナデア|`hard`8`false`むずかしい/カナデア|`oni`8`false`おに/カナデア|
 ダジャレdeオシャレ		ナムコオリジナル	ffff4500	162※	`easy`5`false`かんたん/ダジャレdeオシャレ|`normal`5`false`ふつう/ダジャレdeオシャレ|`hard`3`false`むずかしい/ダジャレdeオシャレ|`oni`2`false`おに/ダジャレdeオシャレ|`uraOni`8`false`おに/ダジャレdeオシャレ(裏譜面)
 卓球de脱臼	矢野義人(BNSI) feat. 金太	ナムコオリジナル	ffff4500	120※	`easy`4`false`かんたん/卓球de脱臼|`normal`7`false`ふつう/卓球de脱臼|`hard`8`false`むずかしい/卓球de脱臼|`oni`8`true`おに/卓球de脱臼|
-デザートde焼肉（サハラ編）		ナムコオリジナル	ffff4500	125	`easy`4`false`かんたん/デザート de 焼肉(サハラ編)|`normal`6`false`ふつう/デザート de 焼肉(サハラ編)|`hard`7`false`むずかしい/デザート de 焼肉(サハラ編)|`oni`9`false`おに/デザート de 焼肉(サハラ編)|
+デザートde焼肉（サハラ編）	山本由貴子(BNSI)	ナムコオリジナル	ffff4500	125	`easy`4`false`かんたん/デザート de 焼肉(サハラ編)|`normal`6`false`ふつう/デザート de 焼肉(サハラ編)|`hard`7`false`むずかしい/デザート de 焼肉(サハラ編)|`oni`9`false`おに/デザート de 焼肉(サハラ編)|
 オールナイトdeインデナイ		ナムコオリジナル	ffff4500	110※	`easy`3`false`かんたん/オールナイトdeインデナイ|`normal`4`false`ふつう/オールナイトdeインデナイ|`hard`6`false`むずかしい/オールナイトdeインデナイ|`oni`7`false`おに/オールナイトdeインデナイ|
 オーディオ de カッ！	音響サスペンスドラマ「オーディオ刑事」より	ナムコオリジナル	ffff4500	128-220※	`easy`4`false`かんたん/オーディオ de カッ！|`normal`4`false`ふつう/オーディオ de カッ！|`hard`6`false`むずかしい/オーディオ de カッ！|`oni`9`false`おに/オーディオ de カッ！|
 ラーメン de Yo‐Men!!		ナムコオリジナル	ffff4500	118	`easy`4`false`かんたん/ラーメン de Yo-Men!!|`normal`4`false`ふつう/ラーメン de Yo-Men!!|`hard`5`false`むずかしい/ラーメン de Yo-Men!!|`oni`7`false`おに/ラーメン de Yo-Men!!|
@@ -759,11 +770,11 @@ Turquoise Tachometer	AJURIKA	ナムコオリジナル	ffff4500	164	`easy`4`false
 エンジェル ドリーム		ナムコオリジナル	ffff4500	180	`easy`3`false`かんたん/エンジェル ドリーム|`normal`6`false`ふつう/エンジェル ドリーム|`hard`7`false`むずかしい/エンジェル ドリーム|`oni`8`false`おに/エンジェル ドリーム|`uraOni`9`true`おに/エンジェル ドリーム(裏譜面)
 風のファンタジー		ナムコオリジナル	ffff4500	182	`easy`4`false`かんたん/風のファンタジー|`normal`6`false`ふつう/風のファンタジー|`hard`6`false`むずかしい/風のファンタジー|`oni`8`false`おに/風のファンタジー|
 パステル ドリーム		ナムコオリジナル	ffff4500	180	`easy`4`false`かんたん/パステル ドリーム|`normal`6`false`ふつう/パステル ドリーム|`hard`7`false`むずかしい/パステル ドリーム|`oni`8`false`おに/パステル ドリーム|
-ドン・エンガスの笛吹き		ナムコオリジナル	ffff4500	118	`easy`4`false`かんたん/ドン・エンガスの笛吹き|`normal`6`false`ふつう/ドン・エンガスの笛吹き|`hard`7`false`むずかしい/ドン・エンガスの笛吹き|`oni`8`false`おに/ドン・エンガスの笛吹き|
-ザストゥールの魔導書		ナムコオリジナル	ffff4500	140	`easy`3`false`かんたん/ザストゥールの魔導書|`normal`5`false`ふつう/ザストゥールの魔導書|`hard`6`false`むずかしい/ザストゥールの魔導書|`oni`8`false`おに/ザストゥールの魔導書|
-リスドンヴァルナの黄昏		ナムコオリジナル	ffff4500	128	`easy`3`false`かんたん/リスドンヴァルナの黄昏|`normal`5`false`ふつう/リスドンヴァルナの黄昏|`hard`6`false`むずかしい/リスドンヴァルナの黄昏|`oni`8`false`おに/リスドンヴァルナの黄昏|
-カッティアワールの宝剣		ナムコオリジナル	ffff4500	120.5	`easy`4`false`かんたん/カッティアワールの宝剣|`normal`5`false`ふつう/カッティアワールの宝剣|`hard`7`false`むずかしい/カッティアワールの宝剣|`oni`8`false`おに/カッティアワールの宝剣|
-忘却のティルナノグ		ナムコオリジナル	ffff4500	165	`easy`4`false`かんたん/忘却のティルナノグ|`normal`5`false`ふつう/忘却のティルナノグ|`hard`7`false`むずかしい/忘却のティルナノグ|`oni`9`false`おに/忘却のティルナノグ|
+ドン・エンガスの笛吹き	山本由貴子(BNSI)	ナムコオリジナル	ffff4500	118	`easy`4`false`かんたん/ドン・エンガスの笛吹き|`normal`6`false`ふつう/ドン・エンガスの笛吹き|`hard`7`false`むずかしい/ドン・エンガスの笛吹き|`oni`8`false`おに/ドン・エンガスの笛吹き|
+ザストゥールの魔導書	山本由貴子(BNSI)	ナムコオリジナル	ffff4500	140	`easy`3`false`かんたん/ザストゥールの魔導書|`normal`5`false`ふつう/ザストゥールの魔導書|`hard`6`false`むずかしい/ザストゥールの魔導書|`oni`8`false`おに/ザストゥールの魔導書|
+リスドンヴァルナの黄昏	山本由貴子(BNSI)	ナムコオリジナル	ffff4500	128	`easy`3`false`かんたん/リスドンヴァルナの黄昏|`normal`5`false`ふつう/リスドンヴァルナの黄昏|`hard`6`false`むずかしい/リスドンヴァルナの黄昏|`oni`8`false`おに/リスドンヴァルナの黄昏|
+カッティアワールの宝剣	山本由貴子	ナムコオリジナル	ffff4500	120.5	`easy`4`false`かんたん/カッティアワールの宝剣|`normal`5`false`ふつう/カッティアワールの宝剣|`hard`7`false`むずかしい/カッティアワールの宝剣|`oni`8`false`おに/カッティアワールの宝剣|
+忘却のティルナノグ	山本由貴子	ナムコオリジナル	ffff4500	165	`easy`4`false`かんたん/忘却のティルナノグ|`normal`5`false`ふつう/忘却のティルナノグ|`hard`7`false`むずかしい/忘却のティルナノグ|`oni`9`false`おに/忘却のティルナノグ|
 宇宙SAMURAI		ナムコオリジナル	ffff4500	140	`easy`4`false`かんたん/宇宙SAMURAI|`normal`6`false`ふつう/宇宙SAMURAI|`hard`7`false`むずかしい/宇宙SAMURAI|`oni`8`false`おに/宇宙SAMURAI|
 月影SASURAI		ナムコオリジナル	ffff4500	137※	`easy`5`false`かんたん/月影SASURAI|`normal`6`false`ふつう/月影SASURAI|`hard`7`false`むずかしい/月影SASURAI|`oni`8`false`おに/月影SASURAI|`uraOni`9`false`おに/月影SASURAI(裏譜面)
 ヌムジカac.10		ナムコオリジナル	ffff4500	142	`easy`3`false`かんたん/ヌムジカac.10|`normal`4`false`ふつう/ヌムジカac.10|`hard`8`false`むずかしい/ヌムジカac.10|`oni`9`false`おに/ヌムジカac.10|
